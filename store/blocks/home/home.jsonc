@@ -1,0 +1,387 @@
+{
+	"store.home": {
+		"blocks": [
+			"prehome",
+			"modal-trigger#home",
+			"flex-layout.row#topbanner",
+			"list-context.image-list#banner-principal",
+			"flex-layout.row#vitrina-basicos",
+			"flex-layout.row#vitrina-swimwear-home",
+			"flex-layout.row#vitrina-newborn"
+		],
+		"title": "Store init"
+	},
+	"flex-layout.row#topbanner": {
+		"children": [
+			"rich-text#topbanner-dark"
+		],
+		"props": {
+			"blockClass": "topbanner__row",
+			"colGap": 3
+		}
+	},
+	"rich-text#topbanner-dark": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "### **FREE SHIPPING ON ALL ORDERS!** Available for limited time. ",
+			"blockClass": "topbanner__dark"
+		}
+	},
+
+	/*-----------------vitrina basicos Home-------------*/
+	"flex-layout.row#vitrina-basicos": {
+		"children": [
+			"flex-layout.col#vitrina-basicos"
+		],"props": {
+			"blockClass": "vitrina1-producto-semana"
+		}
+	},
+	"flex-layout.col#vitrina-basicos": {
+		"children": [
+			"flex-layout.row#richtext-home",
+			"list-context.product-list#vitrina-basicos"
+		]
+	},
+
+	"flex-layout.row#richtext-home":{
+		"children": [
+			"rich-text#vitrina-basicos",
+			"rich-text#see-all"
+		],"props": {
+			"blockClass": "richtext__container"
+		}
+	},
+	"rich-text#vitrina-basicos": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"text": "THERE ARE LOOKS INSPIRED BY EVERYDAY ADVENTURES!",
+			"textColor": "black-90",
+			"font": "t-heading-3",
+			"blockClass": "home-title"
+		}
+	},
+	"rich-text#see-all": {
+		"props": {
+			"textAlignment": "RIGHT",
+			"textPosition": "RIGHT",
+			"text": "[SEE ALL](/262?map=productClusterIds)",
+			"textColor": "black-90",
+			"font": "t-heading-3",
+			"blockClass": "home-title__seeall"
+		}
+	},
+	"list-context.product-list#vitrina-basicos": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#vitrina-home-testab"],
+		"props": {
+			"orderBy": "OrderByPriceDESC",
+			"hideUnavailableItems": true,
+			"collection": "262",
+			"blockClass": "novedades-contet"
+		}
+	},
+
+	"slider-layout#vitrina-home-testab": {
+		"props": {
+			"itemsPerPage": {
+				"desktop": 5,
+				"tablet": 3,
+				"phone": 2
+			},
+			"infinite": true,
+			"fullWidth": false,
+			"blockClass": "shelf",
+			"showPaginationDots": "never"
+		}
+	},
+	/*-----------------vitrina swimwear Home-------------*/
+	"flex-layout.row#vitrina-swimwear-home": {
+		"children": [
+			"flex-layout.col#vitrina-swimwear-home"
+		],"props": {
+			"blockClass": "vitrina1-producto-semana"
+		}
+	},
+	"flex-layout.col#vitrina-swimwear-home": {
+		"children": [
+			"flex-layout.row#richtext-swimwear-home",
+			"list-context.product-list#vitrina-swimwear-home"
+		]
+	},
+
+	"flex-layout.row#richtext-swimwear-home":{
+		"children": [
+			"rich-text#vitrina-swimwear-home",
+			"rich-text#see-all-swimwear-home"
+		],"props": {
+			"blockClass": "richtext__container"
+		}
+	},
+	"rich-text#vitrina-swimwear-home": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"text": "SUMMER IS THE MOST FUN SEASON AND DESERVES A COOL WARDROVE!",
+			"textColor": "black-90",
+			"font": "t-heading-3",
+			"blockClass": "home-title"
+		}
+	},
+	"rich-text#see-all-swimwear-home": {
+		"props": {
+			"textAlignment": "RIGHT",
+			"textPosition": "RIGHT",
+			"text": "[SEE ALL](/266?map=productClusterIds)",
+			"textColor": "black-90",
+			"font": "t-heading-3",
+			"blockClass": "home-title__seeall"
+		}
+	},
+	"list-context.product-list#vitrina-swimwear-home": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#vitrina-home-testab"],
+		"props": {
+			"orderBy": "OrderByPriceDESC",
+			"hideUnavailableItems": true,
+			"collection": "266",
+			"blockClass": "novedades-contet"
+		}
+	},
+
+	/*-----------------vitrina newborn Home-------------*/
+	"flex-layout.row#vitrina-newborn": {
+		"children": [
+			"flex-layout.col#vitrina-newborn"
+		]
+	},
+	"flex-layout.col#vitrina-newborn": {
+		"children": [
+			"flex-layout.row#richtext-home-newborn",
+			"list-context.product-list#vitrina-newborn"
+		]
+	},
+
+	"flex-layout.row#richtext-home-newborn":{
+		"children": [
+			"rich-text#vitrina-newborn",
+			"rich-text#see-all-newborn"
+		],"props": {
+			"blockClass": "richtext__container"
+		}
+	},
+	"rich-text#vitrina-newborn": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"text": "DISCOVER HOW WE ENJOY EVERY STAGE OF LIFE!",
+			"textColor": "black-90",
+			"font": "t-heading-3",
+			"blockClass": "home-title"
+		}
+	},
+	"rich-text#see-all-newborn": {
+		"props": {
+			"textAlignment": "RIGHT",
+			"textPosition": "RIGHT",
+			"text": "[SEE ALL](/261?map=productClusterIds)",
+			"textColor": "black-90",
+			"font": "t-heading-3",
+			"blockClass": "home-title__seeall"
+		}
+	},
+	"list-context.product-list#vitrina-newborn": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#vitrina-home-testab"],
+		"props": {
+			"orderBy": "OrderByPriceDESC",
+			"hideUnavailableItems": true,
+			"collection": "261",
+			"blockClass": "novedades-contet"
+		}
+	},
+
+	/*---------------------- fin vitrinas------------------*/
+	
+	"flex-layout.row#vitrina1-producto-semana": {
+		"children": [
+			"flex-layout.col#vitrina1-producto-semana"
+		],
+		"props": {
+			"blockClass": "vitrina1-producto-semana"
+		}
+	},
+	"flex-layout.col#vitrina1-producto-semana": {
+		"children": [
+			"rich-text#vitrina1-producto-semana-title",
+			"rich-text#vitrina1-producto-semana-subtitle",
+			"list-context.product-list#vitrina1-producto-semana"
+		]
+	},
+	"rich-text#vitrina1-producto-semana-title": {
+		"props": {
+			"textAlignment": "RIGHT",
+			"textPosition": "CENTER",
+			"text": "## The coolest products of the weekkkkkk!",
+			"textColor": "black-90",
+			"font": "t-heading-2",
+			"blockClass": "home-title"
+		}
+	},
+	"rich-text#vitrina1-producto-semana-subtitle": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "Most Popular!",
+			"textColor": "black-90",
+			"font": "t-heading-5",
+			"blockClass": "home-subtitle"
+		}
+	},
+	"flex-layout.row#banner-secundario": {
+		"children": [
+			"flex-layout.col#content-banner-secundario"
+		],
+		"props": {
+			"blockClass": "row-banner-secundario",
+			"marginTop": 6,
+			"fullWidth": true
+		}
+	},
+	"flex-layout.col#content-banner-secundario": {
+		"children": [
+			"info-card#banner-secundario"
+		]
+	},
+	"info-card#banner-secundario": {
+		"props": {
+			"id": "banner-secundario",
+			"isFullModeStyle": false,
+			"textPosition": "center",
+			"imageUrl": "/arquivos/banner-secundario-basicos-20.png",
+			"mobileImageUrl": "/arquivos/banner-secundario-basicos-20.png",
+			"callToActionText": "BUY",
+			"callToActionUrl": "/basicos",
+			"blockClass": "banner-secundario",
+			"textAlignment": "center"
+		}
+	},
+	"flex-layout.row#especiales": {
+		"children": [
+			"flex-layout.col#col-iz-especiales",
+			"flex-layout.col#col-der-especiales"
+		],
+		"props": {
+			"blockClass": "especiales",
+			"marginTop": 6,
+			"rowGap": 5,
+			"colGap": 6
+		}
+	},
+	"flex-layout.col#col-iz-especiales": {
+		"children": [
+			"info-card#especiales-img1",
+			"info-card#especiales-img2"
+		],
+		"props": {
+			"width": "34%",
+			"verticalAlign": "middle"
+		}
+	},
+	"info-card#especiales-img1": {
+		"props": {
+			"id": "especiales-img1",
+			"isFullModeStyle": false,
+			"textPosition": "center",
+			"imageUrl": "/arquivos/banner-especiales-zapatosnino-cyberlunes-offcorss-21.jpg?v=001",
+			"mobileImageUrl": "/arquivos/banner-especiales-zapatosnino-cyberlunes-offcorss-21.jpg?v=001",
+			"callToActionText": "BUY",
+			"callToActionUrl": "/basicos",
+			"blockClass": "especiales-img",
+			"textAlignment": "center",
+			"headline": "GIRLS' SHOES",
+			"subhead": ""
+		}
+	},
+	"info-card#especiales-img2": {
+		"props": {
+			"id": "especiales-img2",
+			"isFullModeStyle": false,
+			"textPosition": "center",
+			"imageUrl": "/arquivos/banner-especiales-zapatosnina-cyberlunes-offcorss-21.jpg?v=001",
+			"mobileImageUrl": "/arquivos/banner-especiales-zapatosnina-cyberlunes-offcorss-21.jpg?v=001",
+			"callToActionText": "BUY",
+			"callToActionUrl": "/basicos",
+			"blockClass": "especiales-img",
+			"textAlignment": "center",
+			"headline": "BABIES' SHOES",
+			"subhead": ""
+		}
+	},
+	"flex-layout.col#col-der-especiales": {
+		"children": [
+			"info-card#especiales-img3"
+		],
+		"props": {
+			"verticalAlign": "middle"
+		}
+	},
+	"info-card#especiales-img3": {
+		"props": {
+			"id": "especiales-img3",
+			"isFullModeStyle": false,
+			"textPosition": "center",
+			"imageUrl": "/arquivos/banner-especiales-zapatosrnnino-cyberlunes-offcorss-21.jpg?v=001",
+			"mobileImageUrl": "/arquivos/banner-especiales-zapatosrnnino-cyberlunes-offcorss-21.jpg?v=001",
+			"callToActionText": "BUY",
+			"callToActionUrl": "/basicos",
+			"blockClass": "especiales-img",
+			"textAlignment": "center",
+			"headline": "BOYS' SHOES",
+			"subhead": ""
+		}
+	},
+	"flex-layout.row#vitrina2-novedades": {
+		"children": [
+			"flex-layout.col#vitrina2-novedades"
+		]
+	},
+	"flex-layout.col#vitrina2-novedades": {
+		"children": [
+			"rich-text#vitrina2-novedades-title",
+			"rich-text#vitrina2-novedades-subtitle",
+			"list-context.product-list#vitrina2-novedades"
+		],
+		"props": {
+			"verticalAlign": "middle"
+		}
+	},
+	"rich-text#vitrina2-novedades-title": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "## New arrivals just for you!",
+			"textColor": "black-90",
+			"font": "t-heading-2",
+			"blockClass": "home-title"
+		}
+	},
+	"rich-text#vitrina2-novedades-subtitle": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "Most Popular!",
+			"textColor": "black-90",
+			"font": "t-heading-5",
+			"blockClass": "home-subtitle"
+		}
+	},
+	"prehome": {
+		"title": "Custom prehome",
+		"props": {
+			"fullScreen": true,
+			"blockClass": "flex__prehome"
+		}
+	}
+}

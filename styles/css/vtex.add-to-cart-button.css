@@ -1,0 +1,25 @@
+.buttonText{
+    display: flex;
+    align-items: center;
+}
+.buttonText::before {
+	background-image: url(/arquivos/icono-cart-21.png);
+	background-repeat: no-repeat;
+	content: '';
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+    vertical-align: middle;
+	margin-right: 8px;
+	background-size: 100%;
+	background-position: center;
+}
+.buttonText:hover::before {
+	background-image: url(/arquivos/icono-cart-hover-21.png);
+}
+@media (max-width: 600px) {
+	.buttonText{
+		font-size: 0.8rem;
+	}
+	
+}

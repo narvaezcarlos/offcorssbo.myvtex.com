@@ -1,0 +1,809 @@
+{
+	"vtex.menu@2.x:submenu#sub.menu-baby": {
+		"children": ["menu-item#baby-girl", "menu-item#baby-boy", "menu-item#baby-unisex"],
+		"props": {
+			"width": "100%",
+			"blockClass": "sub-menu"
+		}
+	},
+	"menu-item#baby-girl": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-girl?map=departamento",
+				"tagTitle": "GIRL",
+				"text": "GIRL"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			},
+			"iconToTheRight": true
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-baby-girl-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-baby-girl-items": {
+		"children": ["flex-layout.row#menu-baby-girl-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-baby-girl-items": {
+		"children": [
+			"flex-layout.col#menu-baby-girl-items-1",
+			"flex-layout.col#menu-baby-girl-items-2",
+			"flex-layout.col#menu-baby-girl-items-3",
+			"flex-layout.col#menu-baby-girl-items-4"
+		],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-baby-girl-items-1": {
+		"children": ["rich-text#menu-baby-girl-items", "vtex.menu@2.x:menu#menu-baby-girl-items"],
+		"props": {
+			"marginLeft": 5,
+			"verticalAlign": "top"
+		}
+	},
+	"rich-text#menu-baby-girl-items": {
+		"props": {
+			"text": "Category",
+			"blockClass": "menu-sub-categorias-content-baby-girl"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-baby-girl-items": {
+		"children": [
+			"menu-item#item-baby-girl-bodysuits",
+			"menu-item#item-baby-girl-dresses",
+			"menu-item#item-baby-girl-footwear",
+			"menu-item#item-baby-girl-hoodies",
+			"menu-item#item-baby-girl-jackets",
+			"menu-item#item-baby-girl-jeans-pants-and-leggigns",
+			"menu-item#item-baby-girl-overalls",
+			"menu-item#item-baby-girl-pajamas",
+			"menu-item#item-baby-girl-rompers",
+			"menu-item#item-baby-girl-sets",
+			"menu-item#item-baby-girl-shirts",
+			"menu-item#item-baby-girl-skirts-and-shorts",
+			"menu-item#item-baby-girl-sweaters-and-pullovers",
+			"menu-item#item-baby-girl-t-shirts-and-polos"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-baby-girl-bodysuits": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-girl/bodysuits",
+				"tagTitle": "Bodysuits",
+				"text": "Bodysuits"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-dresses": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-girl/dresses",
+				"tagTitle": "Dresses",
+				"text": "Dresses"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-footwear": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-girl/footwear",
+				"tagTitle": "Footwear",
+				"text": "Footwear"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-hoodies": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-girl/hoodies",
+				"tagTitle": "Hoodies",
+				"text": "Hoodies"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-jackets": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-girl/jackets",
+				"tagTitle": "Jackets",
+				"text": "Jackets"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-jeans-pants-and-leggigns": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-girl/jeans-pants-and-leggigns",
+				"tagTitle": "Jeans Pants and Leggigns",
+				"text": "Jeans Pants and Leggigns"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-overalls": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-girl/overalls",
+				"tagTitle": "Overalls",
+				"text": "Overalls"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-pajamas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-girl/pajamas",
+				"tagTitle": "Pajamas",
+				"text": "Pajamas"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-rompers": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-girl/rompers",
+				"tagTitle": "Rompers",
+				"text": "Rompers"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-sets": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-girl/sets",
+				"tagTitle": "Sets",
+				"text": "Sets"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-shirts": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-girl/shirts",
+				"tagTitle": "Shirts",
+				"text": "Shirts"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-skirts-and-shorts": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-girl/skirts-and-shorts",
+				"tagTitle": "Skirts and Shorts",
+				"text": "Skirts and Shorts"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-sweaters-and-pullovers": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-girl/sweaters-and-pullovers",
+				"tagTitle": " Sweaters and Pullovers",
+				"text": " Sweaters and Pullovers"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-t-shirts-and-polos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-girl/t-shirts-and-polos",
+				"tagTitle": "T-shirts and Polos",
+				"text": "T-shirts and Polos"
+			}
+		}
+	},
+	"flex-layout.col#menu-baby-girl-items-2": {
+		"children": ["rich-text#menu-baby-girl-items-2", "vtex.menu@2.x:menu#menu-baby-girl-items-2"],
+		"props": {
+			"verticalAlign": "top"
+		}
+	},
+	"rich-text#menu-baby-girl-items-2": {
+		"props": {
+			"text": "Collections",
+			"blockClass": "menu-sub-categorias-content-baby-girl"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-baby-girl-items-2": {
+		"children": [
+			"menu-item#item-baby-girl-specials",
+			"menu-item#item-baby-girl-essentials",
+			"menu-item#item-baby-girl-abc",
+			"menu-item#item-baby-girl-footwear-collection",
+			"menu-item#item-baby-girl-pajamas-collection",
+			"menu-item#item-baby-girl-wintershop",
+			"menu-item#item-baby-girl-sets-collection"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-baby-girl-specials": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/193?map=productClusterIds",
+				"tagTitle": "Special Occasions",
+				"text": "Special Occasions"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-essentials": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/145?map=productClusterIds",
+				"tagTitle": "Essentials ",
+				"text": "Essentials"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-abc": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/155?map=productClusterIds",
+				"tagTitle": "ABC",
+				"text": "ABC"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-footwear-collection": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/157?map=productClusterIds",
+				"tagTitle": "Footwear",
+				"text": "Footwear"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-pajamas-collection": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/163?map=productClusterIds",
+				"tagTitle": "Pajamas",
+				"text": "Pajamas"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-wintershop": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/174?map=productClusterIds",
+				"tagTitle": "Wintershop",
+				"text": "Wintershop"
+			}
+		}
+	},
+	"menu-item#item-baby-girl-sets-collection": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/180?map=productClusterIds",
+				"tagTitle": "Sets",
+				"text": "Sets"
+			}
+		}
+	},
+	"flex-layout.col#menu-baby-girl-items-3": {
+		"children": ["rich-text#menu-baby-girl-items-3", "image#banner-menu-baby-girl-items-3"],
+		"props": {
+			"verticalAlign": "top"
+		}
+	},
+	"rich-text#menu-baby-girl-items-3": {
+		"props": {
+			"text": "Baby Girl",
+			"blockClass": "menu-sub-categorias-content-baby-girl"
+		}
+	},
+	"image#banner-menu-baby-girl-items-3": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/menu-rnnina-modamarzo-20.jpg",
+			"title": "Baby Girl",
+			"link": {
+				"url": "/",
+				"title": "Offcorss International"
+			}
+		}
+	},
+	"flex-layout.col#menu-baby-girl-items-4": {
+		"children": ["rich-text#menu-baby-girl-items-4", "image#banner-menu-baby-girl-items-4"],
+		"props": {
+			"marginLeft": 5,
+			"verticalAlign": "top"
+		}
+	},
+	"rich-text#menu-baby-girl-items-4": {
+		"props": {
+			"text": "Baby Girl",
+			"blockClass": "menu-sub-categorias-content-baby-girl"
+		}
+	},
+	"image#banner-menu-baby-girl-items-4": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/banners-menu-indigo-rnnina.jpg",
+			"title": "Baby Girl",
+			"link": {
+				"url": "/",
+				"title": "Offcorss International"
+			}
+		}
+	},
+
+	"menu-item#baby-boy": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-boy?map=departamento",
+				"tagTitle": "BOY",
+				"text": "BOY"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			},
+			"iconToTheRight": true
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-baby-boy-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-baby-boy-items": {
+		"children": ["flex-layout.row#menu-baby-boy-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-baby-boy-items": {
+		"children": [
+			"flex-layout.col#menu-baby-boy-items-1",
+			"flex-layout.col#menu-baby-boy-items-2",
+			"flex-layout.col#menu-baby-boy-items-3",
+			"flex-layout.col#menu-baby-boy-items-4"
+		],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-baby-boy-items-1": {
+		"children": ["rich-text#menu-baby-boy-items", "vtex.menu@2.x:menu#menu-baby-boy-items"],
+		"props": {
+			"marginLeft": 5,
+			"verticalAlign": "top"
+		}
+	},
+	"rich-text#menu-baby-boy-items": {
+		"props": {
+			"text": "Category",
+			"blockClass": "menu-sub-categorias-content-baby-boy"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-baby-boy-items": {
+		"children": [
+			"menu-item#item-baby-boy-bodysuits",
+			"menu-item#item-baby-boy-footwear",
+			"menu-item#item-baby-boy-hoodies",
+			"menu-item#item-baby-boy-jackets",
+			"menu-item#item-baby-boy-jeans-pants-and-leggigns",
+			"menu-item#item-baby-boy-overalls",
+			"menu-item#item-baby-boy-pajamas",
+			"menu-item#item-baby-boy-sets",
+			"menu-item#item-baby-boy-shirts",
+			"menu-item#item-baby-boy-shorts",
+			"menu-item#item-baby-boy-sweaters-and-pullovers",
+			"menu-item#item-baby-boy-t-shirts-and-polos"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-baby-boy-bodysuits": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-boy/bodysuits",
+				"tagTitle": "Bodysuits",
+				"text": "Bodysuits"
+			}
+		}
+	},
+	"menu-item#item-baby-boy-footwear": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-boy/foowear",
+				"tagTitle": "Footwear",
+				"text": "Footwear"
+			}
+		}
+	},
+	"menu-item#item-baby-boy-hoodies": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-boy/hoodies",
+				"tagTitle": "Hoodies",
+				"text": "Hoodies"
+			}
+		}
+	},
+	"menu-item#item-baby-boy-jackets": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-boy/jackets",
+				"tagTitle": "Jackets",
+				"text": "Jackets"
+			}
+		}
+	},
+	"menu-item#item-baby-boy-jeans-pants-and-leggigns": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-boy/jeans-pants-and-leggigns",
+				"tagTitle": "Jeans Pants and Leggigns",
+				"text": "Jeans Pants and Leggigns"
+			}
+		}
+	},
+	"menu-item#item-baby-boy-overalls": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-boy/overalls",
+				"tagTitle": "Overalls",
+				"text": "Overalls"
+			}
+		}
+	},
+	"menu-item#item-baby-boy-pajamas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-boy/pajamas",
+				"tagTitle": "Pajamas",
+				"text": "Pajamas"
+			}
+		}
+	},
+	"menu-item#item-baby-boy-sets": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-boy/sets",
+				"tagTitle": "Sets",
+				"text": "Sets"
+			}
+		}
+	},
+	"menu-item#item-baby-boy-shirts": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-boy/shirts",
+				"tagTitle": "Shirts",
+				"text": "Shirts"
+			}
+		}
+	},
+	"menu-item#item-baby-boy-shorts": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-boy/shorts",
+				"tagTitle": "Shirts",
+				"text": "Shirts"
+			}
+		}
+	},
+	"menu-item#item-baby-boy-sweaters-and-pullovers": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-boy/sweaters-and-pullovers",
+				"tagTitle": " Sweaters and Pullovers",
+				"text": " Sweaters and Pullovers"
+			}
+		}
+	},
+	"menu-item#item-baby-boy-t-shirts-and-polos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/baby-boy/t-shirts-and-polos",
+				"tagTitle": "T-shirts and Polos",
+				"text": "T-shirts and Polos"
+			}
+		}
+	},
+	"flex-layout.col#menu-baby-boy-items-2": {
+		"children": ["rich-text#menu-baby-boy-items-2", "vtex.menu@2.x:menu#menu-baby-boy-items-2"],
+		"props": {
+			"verticalAlign": "top"
+		}
+	},
+	"rich-text#menu-baby-boy-items-2": {
+		"props": {
+			"text": "Collections",
+			"blockClass": "menu-sub-categorias-content-baby-boy"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-baby-boy-items-2": {
+		"children": [
+			"menu-item#item-baby-boy-specials",
+			"menu-item#item-baby-boy-essentials",
+			"menu-item#item-baby-boy-abc",
+			"menu-item#item-baby-boy-footwear-collection",
+			"menu-item#item-baby-boy-pajamas-collection",
+			"menu-item#item-baby-boy-wintershop",
+			"menu-item#item-baby-boy-sets-collection"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-baby-boy-specials": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/192?map=productClusterIds",
+				"tagTitle": "Special Occasions",
+				"text": "Special Occasions"
+			}
+		}
+	},
+	"menu-item#item-baby-boy-essentials": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/144?map=productClusterIds",
+				"tagTitle": "Essentials ",
+				"text": "Essentials"
+			}
+		}
+	},
+	"menu-item#item-baby-boy-abc": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/154?map=productClusterIds",
+				"tagTitle": "ABC",
+				"text": "ABC"
+			}
+		}
+	},
+	"menu-item#item-baby-boy-footwear-collection": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/156?map=productClusterIds",
+				"tagTitle": "Footwear",
+				"text": "Footwear"
+			}
+		}
+	},
+	"menu-item#item-baby-boy-pajamas-collection": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/162?map=productClusterIds",
+				"tagTitle": "Pajamas",
+				"text": "Pajamas"
+			}
+		}
+	},
+	"menu-item#item-baby-boy-wintershop": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/173?map=productClusterIds",
+				"tagTitle": "Wintershop",
+				"text": "Wintershop"
+			}
+		}
+	},
+	"menu-item#item-baby-boy-sets-collection": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/179?map=productClusterIds",
+				"tagTitle": "Take me home ",
+				"text": "Take me home "
+			}
+		}
+	},
+	"flex-layout.col#menu-baby-boy-items-3": {
+		"children": ["rich-text#menu-baby-boy-items-3", "image#banner-menu-baby-boy-items-3"],
+		"props": {
+			"verticalAlign": "top"
+		}
+	},
+	"rich-text#menu-baby-boy-items-3": {
+		"props": {
+			"text": "Baby Boy",
+			"blockClass": "menu-sub-categorias-content-baby-boy"
+		}
+	},
+	"image#banner-menu-baby-boy-items-3": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/menu-rnnino-modamarzo-20.jpg",
+			"title": "Baby Boy",
+			"link": {
+				"url": "/",
+				"title": "Offcorss International"
+			}
+		}
+	},
+	"flex-layout.col#menu-baby-boy-items-4": {
+		"children": ["rich-text#menu-baby-boy-items-4", "image#banner-menu-baby-boy-items-4"],
+		"props": {
+			"marginLeft": 5,
+			"verticalAlign": "top"
+		}
+	},
+	"rich-text#menu-baby-boy-items-4": {
+		"props": {
+			"text": "Baby Boy",
+			"blockClass": "menu-sub-categorias-content-baby-boy"
+		}
+	},
+	"image#banner-menu-baby-boy-items-4": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/banners-menu-indigo-rnnino.jpg",
+			"title": "Baby Boy",
+			"link": {
+				"url": "/",
+				"title": "Offcorss International"
+			}
+		}
+	},
+	"menu-item#baby-unisex": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/unisex?map=departamento",
+				"tagTitle": "UNISEX",
+				"text": "UNISEX"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			},
+			"iconToTheRight": true
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-baby-unisex-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-baby-unisex-items": {
+		"children": ["menu-item#item-baby-unisex-sets"],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-baby-unisex-sets": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/unisex/sets",
+				"tagTitle": "Sets",
+				"text": "Sets"
+			}
+		}
+	}
+}

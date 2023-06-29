@@ -1,0 +1,6 @@
+.wishlistIconContainer :global(.vtex-button) {
+	background-color: transparent;
+}
+.wishlistIconContainer :global(.vtex-button):hover {
+	background-color: transparent;
+}

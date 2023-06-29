@@ -1,0 +1,13 @@
+{
+	"login": {
+		"props": {
+			"optionsTitle": "Elige un método de ingreso",
+			"accessCodeTitle": "Recibir la clave de acceso rápido por email",
+			"emailAndPasswordTitle": "Ingresar con email y contraseña",
+			"emailPlaceholder": "e-mail",
+			"passwordPlaceholder": "Clave",
+			"showPasswordVerificationIntoTooltip": true,
+			"acessCodePlaceholder": "Clave de acceso"
+		}
+	}
+}

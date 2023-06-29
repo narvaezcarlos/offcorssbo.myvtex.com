@@ -1,0 +1,84 @@
+{
+	"store.custom#abc-learning-2": {
+		"blocks": [
+			"responsive-layout.desktop#desktop-newborn-kids-2",
+			"responsive-layout.mobile#mobile-newborn-kids-2"
+		]
+	},
+	/**------------------------------ Start responsive Desktop--------------------------**/
+	"responsive-layout.desktop#desktop-newborn-kids-2": {
+		"children": [
+			"flex-layout.row#banners-newborn",
+			"flex-layout.row#search-newborn" // la colección se cambia desde el site editor
+		]
+	},
+	"flex-layout.row#banners-newborn": {
+		"children": ["flex-layout.col#banners-newborn"],
+			"props": {
+				"colGap": 0,
+				"rowGap":0
+			}
+	},
+	"flex-layout.col#banners-newborn": {
+		"children": [
+			"image#banner-top-newborn", "image#banner-newborn"
+		],
+			"props": {"blockClass": "banner__content"}
+	},
+	"image#banner-top-newborn": {
+		"props": {
+			"src": "/arquivos/newborn-top-banner-desktop.jpg",
+			"maxWidth": "100%",
+			"blockClass": "banner__desktop__img"
+		}
+	},
+	"image#banner-newborn": {
+		"props": {
+			"src": "/arquivos/newborn-2023.jpg",
+			"maxWidth": "100%",
+			"blockClass": "banner__desktop__img"
+		}
+	},
+	"flex-layout.row#search-newborn":{
+		"children": [
+			"search-result-layout.customQuery"
+		]
+	},
+
+	/**-----------------------------------------------------------End Responsive Desktop--------------------------------------------------------**/
+	/** ----------------------------------------------------------Start Responsive Mobile--------------------------------------------------------**/
+	"responsive-layout.mobile#mobile-newborn-kids-2": {
+		"children": [
+			"flex-layout.row#banners-newborn-mobile",
+			"flex-layout.row#search-newborn"
+		]
+	},
+
+	"flex-layout.row#banners-newborn-mobile": {
+		"children": ["flex-layout.col#banners-newborn-mobile"],
+			"props": {
+				"colGap": 0,
+				"rowGap":0
+			}
+	},
+	"flex-layout.col#banners-newborn-mobile": {
+		"children": [
+			"image#banner-top-newborn-mobile", "image#banner-newborn-mobile"
+		],
+			"props": {"blockClass": "banner__content"}
+	},
+	"image#banner-top-newborn-mobile": {
+		"props": {
+			"src": "/arquivos/newborn-top-banner-mobile.jpg",
+			"maxWidth": "100%",
+			"blockClass": "banner__desktop__img"
+		}
+	},
+	"image#banner-newborn-mobile": {
+		"props": {
+			"src": "/arquivos/newborn-mobile-2023.jpg",
+			"maxWidth": "100%",
+			"blockClass": "banner__desktop__img"
+		}
+	}
+}

@@ -1,0 +1,8 @@
+.element--product-summary-shelf,
+.element {
+	position: relative;
+}
+.containerNormal--product-summary-shelf,
+.containerNormal {
+	border-radius: 0;
+}

@@ -1,0 +1,345 @@
+{
+	"footer": {
+		"blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+	},
+	"footer-layout.desktop": {
+		"children": [
+			"flex-layout.row#deals",
+			"flex-layout.row#newsletter",
+			"flex-layout.row#bloque-links",
+			"flex-layout.row#bloque-medios-pago",
+			"flex-layout.row#bloque-terminos-politicas",
+			"flex-layout.row#bloque-razon",
+			"back-to-top-button"
+		]
+	},
+	"flex-layout.row#newsletter": {
+		"props": {
+			"horizontalAlign": "center",
+			"preventVerticalStretch": false,
+			"fullWidth": true,
+			"paddingTop": 6,
+			"paddingBottom": 6,
+			"blockClass": "row-newsletter"
+		},
+		"children": ["flex-layout.col#content-newsletter"]
+	},
+	"flex-layout.col#content-newsletter": {
+		"children": [
+			"rich-text#newsletter-title",
+			"rich-text#newsletter-subtitle",
+			"newsletter-form",
+			"rich-text#newsletter-message"
+		],
+		"props": {
+			"width": "70%",
+			"horizontalAlign": "center",
+			"paddingLeft": 4,
+			"paddingRight": 4
+		}
+	},
+	"rich-text#newsletter-title": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "## SUBSCRIBE TO THE COOLEST COMMUNITY",
+			"textColor": "c-on-yellow",
+			"blockClass": "newsletter-title"
+		}
+	},
+	"rich-text#newsletter-subtitle": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "Subscribe here to receive the latest fashion news, trends and outfits for babies, kids and teens. Don’t miss out! We would love to have you here at OFFCORSS.",
+			"textColor": "c-on-emphasis",
+			"blockClass": "newsletter-subtitle"
+		}
+	},
+	"newsletter-form": {
+		"children": ["newsletter-input-email", "newsletter-input-name", "newsletter-submit"],
+		"props": {
+			"blockClass": "nenewsletterws-form"
+		}
+	},
+	"rich-text#newsletter-message": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "*By subscribing you accept our data treatment policies.",
+			"textColor": "c-on-emphasis",
+			"font": "t-heading-6",
+			"blockClass": "newsletter-message"
+		}
+	},
+	"flex-layout.row#bloque-links": {
+		"props": {
+			"horizontalAlign": "center",
+			"preventVerticalStretch": false,
+			"fullWidth": true,
+			"paddingTop": 6,
+			"paddingBottom": 6,
+			"blockClass": "row-bloque-links"
+		},
+		"children": ["flex-layout.col#content-bloque-links"]
+	},
+	"flex-layout.col#content-bloque-links": {
+		"props": {
+			"width": "70%"
+		},
+		"children": ["flex-layout.row#content-bloque-links-row"]
+	},
+	"flex-layout.row#content-bloque-links-row": {
+		"children": [
+			"flex-layout.col#bloque-links-col1",
+			"flex-layout.col#bloque-links-col2",
+			"flex-layout.col#bloque-links-col2-1",
+			"flex-layout.col#bloque-links-col3"
+		],
+		"props": {
+			"fullWidth": true
+		}
+	},
+	"flex-layout.col#bloque-links-col1": {
+		"props": {
+			"horizontalAlign": "center",
+			"blockClass": "col-1",
+			"verticalAlign": "middle"
+		},
+		"children": ["rich-text#linea-nacional"]
+	},
+	"rich-text#linea-nacional": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "**Email attention** \n customercare@offcorss.us",
+			"textColor": "black-90",
+			"blockClass": "footer-tel"
+		}
+	},
+	"rich-text#venta-telefonica": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "**Telephone Sales** \n +591 78507077",
+			"textColor": "black-90",
+			"blockClass": "footer-tel2"
+		}
+	},
+	"flex-layout.col#bloque-links-col2": {
+		"children": ["vtex.menu@2.x:menu#menu-footer-col2"],
+		"props": {
+			"horizontalAlign": "center",
+			"blockClass": "col-2",
+			"verticalAlign": "middle"
+		}
+	},
+	"flex-layout.col#bloque-links-col2-1": {
+		"children": ["vtex.menu@2.x:menu#menu-footer-col2-1"],
+		"props": {
+			"horizontalAlign": "center",
+			"blockClass": "col-2",
+			"verticalAlign": "top"
+		}
+	},
+	"flex-layout.col#bloque-links-col3": {
+		"children": ["vtex.menu@2.x:menu#menu-footer-col3-redes"],
+		"props": {
+			"horizontalAlign": "center",
+			"blockClass": "col-3",
+			"verticalAlign": "middle"
+		}
+	},
+	"flex-layout.row#bloque-medios-pago": {
+		"props": {
+			"horizontalAlign": "center",
+			"preventVerticalStretch": false,
+			"fullWidth": true,
+			"marginBottom": 3,
+			"blockClass": "row-bloque-medios-pago",
+			"border": "bottom",
+			"borderColor": "muted-3"
+		},
+		"children": ["flex-layout.col#content-bloque-medios-pago"]
+	},
+	"flex-layout.col#content-bloque-medios-pago": {
+		"props": {
+			"width": "70%",
+			"horizontalAlign": "center"
+		},
+		"children": ["flex-layout.row#content-medios-pago"]
+	},
+	"flex-layout.row#content-medios-pago": {
+		"children": [
+			"flex-layout.col#content-medios-pago-col-1",
+			"flex-layout.col#content-medios-pago-col-2"
+		],
+		"props": {
+			"blockClass": "medios-pago-certificados",
+			"fullWidth": false,
+			"colSizing": "auto",
+			"preventHorizontalStretch": "false",
+			"colGap": "8"
+		}
+	},
+	"flex-layout.col#content-medios-pago-col-1": {
+		"children": ["rich-text#content-medios-pago-col-1-tittle", "flex-layout.row#certificates"],
+		"props": {
+			"blockClass": "certificados-col",
+			"verticalAlign": "middle",
+			"horizontalAlign": "left"
+		}
+	},
+	"rich-text#content-medios-pago-col-1-tittle": {
+		"props": {
+			"text": "**Secure payments**",
+			"textColor": "black-90",
+			"blockClass": "tittle-certificates-item"
+		}
+	},
+	"flex-layout.row#certificates": {
+		"children": ["logo#PciDSS", "logo#digicert"],
+		"props": {
+			"blockClass": "certificates-item",
+			"colSizing": "auto",
+			"colGap": "0"
+		}
+	},
+	"logo#PciDSS": {
+		"props": {
+			"title": "Pci DSS",
+			"url": "/arquivos/logo-DSS-21.png",
+			"blockClass": "logos-footer"
+		}
+	},
+	"logo#digicert": {
+		"props": {
+			"title": "digicert",
+			"url": "/arquivos/logo-digicert-21.png",
+			"blockClass": "logos-footer"
+		}
+	},
+	"flex-layout.col#content-medios-pago-col-2": {
+		"children": ["rich-text#content-medios-pago-col-2-tittle", "flex-layout.row#payments"],
+		"props": {
+			"blockClass": "payments-col",
+			"verticalAlign": "middle",
+			"horizontalAlign": "left"
+		}
+	},
+	"rich-text#content-medios-pago-col-2-tittle": {
+		"props": {
+			"text": "**Payment methods**",
+			"textColor": "black-90",
+			"blockClass": "tittle-certificates-item"
+		}
+	},
+	"flex-layout.row#payments": {
+		"children": ["logo#Multipago"],
+		"props": {
+			"blockClass": "payments-item",
+			"colGap": "0",
+			"preventHorizontalStretch": "false"
+		}
+	},
+	"logo#Multipago": {
+		"props": {
+			"title": "paypal",
+			"url": "/arquivos/logo-stripe.png",
+			"blockClass": "logos-footer"
+		}
+	},
+	"flex-layout.row#bloque-terminos-politicas": {
+		"children": [
+			"flex-layout.col#bloque-terminos-politicas-col1",
+			"flex-layout.col#bloque-terminos-politicas-col2"
+		],
+		"props": {
+			"fullWidth": false,
+			"horizontalAlign": "center",
+			"preventHorizontalStretch": true,
+			"paddingLeft": 4,
+			"paddingRight": 4
+		}
+	},
+	"flex-layout.col#bloque-terminos-politicas-col1": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "middle"
+		},
+		"children": ["vtex.menu@2.x:menu#menu-bloque-terminos-politicas"]
+	},
+	"flex-layout.col#bloque-terminos-politicas-col2": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "middle"
+		},
+		"children": ["rich-text#all-right-reserved"]
+	},
+	"rich-text#all-right-reserved": {
+		"props": {
+			"text": "All Rights Reserved **OFFCORSS.US**",
+			"textColor": "black-90",
+			"blockClass": "links-footer4"
+		}
+	},
+	"flex-layout.row#bloque-razon": {
+		"children": ["flex-layout.col#bloque-razon-col1"//, "flex-layout.col#bloque-razon-col2"
+	],
+		"props": {
+			"fullWidth": false,
+			"horizontalAlign": "center",
+			"preventHorizontalStretch": true,
+			"verticalAlign": "middle",
+			"colGap": "4"
+		}
+	},
+	"flex-layout.col#bloque-razon-col1": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "middle"
+		},
+		"children": ["rich-text#razon-social"]
+	},
+	"flex-layout.col#bloque-razon-col2": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "middle"
+		},
+		"children": ["image#vtex"]
+	},
+	"rich-text#razon-social": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "Business name: C.I HERMECO S.A. NIT: 890924167-6 Dirección: Carrera 50 # 7 – 35 Medellín, Colombia **Email: customercare@offcorss.us**",
+			"textColor": "c-on-disabled",
+			"font": "t-heading-6",
+			"blockClass": "text-fin"
+		}
+	},
+	"image#vtex": {
+		"props": {
+			"maxWidth": 80,
+			"maxHeight": 30,
+			"src": "/arquivos/logo-vtex-20.png",
+			"blockClass": "vtex-logo-footer",
+			"title": "Vtex"
+		}
+	},
+	"back-to-top-button": {
+		"props": {
+			"displayThreshold": 1600,
+			"display": "caret-icon"
+		}
+	},
+	"footer-layout.mobile": {
+		"children": [
+			"flex-layout.row#deals-mobile",
+			"flex-layout.row#newsletter",
+			"flex-layout.row#content-bloque-links-row",
+			"flex-layout.row#bloque-terminos-politicas",
+			"flex-layout.row#bloque-razon"
+		]
+	}
+}

@@ -1,0 +1,9 @@
+.socialNetworkLink:hover {
+	opacity: 0.5;
+}
+.socialNetworksContainer {
+	justify-content: center;
+}
+.footerLayoutSpacer{
+	margin-top: 1.5rem;
+}

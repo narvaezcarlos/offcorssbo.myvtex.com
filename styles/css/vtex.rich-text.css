@@ -1,0 +1,627 @@
+.heading--home-title {
+	margin-bottom: 0;
+	color:#3F3F40
+}
+
+.paragraph--home-subtitle {
+	margin-top   : 0;
+	margin-bottom: 1rem;
+}
+
+.paragraph--shipping-message {
+	margin        : 0;
+	padding-top   : 0;
+	padding-bottom: 0;
+}
+
+.paragraph--shipping-message::before {
+	background-image : url(/arquivos/icono-envioGratis.png);
+	background-repeat: no-repeat;
+	content          : "";
+	width            : 30px;
+	height           : 30px;
+	display          : inline-block;
+	vertical-align   : middle;
+	margin-right     : 5px;
+}
+
+.heading--deals-title1,
+.heading--deals-title2,
+.heading--deals-title3,
+.paragraph--deals-title1-m,
+.paragraph--deals-title2-m,
+.paragraph--deals-title3-m {
+	margin: 0;
+}
+
+.heading--deals-title1::before {
+	background-image : url(/arquivos/icono-EnvioGratis-19.png);
+	background-repeat: no-repeat;
+	content          : "";
+	width            : 44px;
+	height           : 40px;
+	display          : inline-block;
+	vertical-align   : middle;
+	margin-right     : 8px;
+	margin-bottom    : 5px;
+	background-size  : contain;
+}
+
+.paragraph--deals-title1-m::before {
+	background-image : url(/arquivos/icono-EnvioGratis-19.png);
+	background-repeat: no-repeat;
+	content          : "";
+	width            : 30px;
+	height           : 30px;
+	display          : block;
+	margin           : 5px auto;
+	background-size  : contain;
+}
+
+.heading--deals-title2::before {
+	background-image : url(/arquivos/icono-PagoContraEntrega-19.png);
+	background-repeat: no-repeat;
+	content          : "";
+	width            : 44px;
+	height           : 40px;
+	display          : inline-block;
+	vertical-align   : middle;
+	margin-right     : 8px;
+	margin-bottom    : 5px;
+	background-size  : contain;
+}
+
+.paragraph--deals-title2-m::before {
+	background-image : url(/arquivos/icono-PagoContraEntrega-19.png);
+	background-repeat: no-repeat;
+	content          : "";
+	width            : 30px;
+	height           : 30px;
+	display          : block;
+	margin           : 5px auto;
+	background-size  : contain;
+}
+
+.heading--deals-title3::before {
+	background-image : url(/arquivos/icono-DevolucionesGratis-19.png);
+	background-repeat: no-repeat;
+	content          : "";
+	width            : 44px;
+	height           : 40px;
+	display          : inline-block;
+	vertical-align   : middle;
+	margin-right     : 8px;
+	margin-bottom    : 5px;
+	background-size  : contain;
+}
+
+.paragraph--deals-title3-m::before {
+	background-image : url(/arquivos/icono-DevolucionesGratis-19.png);
+	background-repeat: no-repeat;
+	content          : "";
+	width            : 30px;
+	height           : 30px;
+	display          : block;
+	margin           : 5px auto;
+	background-size  : contain;
+}
+
+.paragraph--deals-text {
+	margin   : 0 auto 0;
+	max-width: 32rem;
+}
+
+.headingLevel2--newsletter-title,
+.paragraph--newsletter-subtitle {
+	margin: 0;
+}
+
+.strong--footer-rich-text-tel::before {
+	background-image : url(/arquivos/icono-LineaDeAtencion-19.png);
+	background-repeat: no-repeat;
+	content          : "";
+	width            : 30px;
+	height           : 30px;
+	display          : inline-block;
+	vertical-align   : middle;
+}
+
+.paragraph--tittle-certificates-item {
+	margin: 0;
+}
+
+.paragraph--links-footer4 {
+	margin-top   : 0;
+	margin-bottom: 0;
+	padding      : 5px 0;
+}
+
+.strong--text-fin {
+	cursor: pointer;
+}
+
+.link--text-fin {
+	color: #979899;
+}
+
+.link--text-fin:hover {
+	color: #ff3965;
+}
+
+.headingLevel1--quienes-somos-3-2 {
+	font-size: 4rem;
+	margin   : 0 auto;
+}
+
+.headingLevel1--quienes-somos-3-2,
+.headingLevel2--quienes-somos-3-2,
+.paragraph--quienes-somos-3-2,
+.headingLevel1--text-quienes-somos-7 {
+	color: black;
+}
+
+.paragraph--quienes-somos-3-2 {
+	width : 80%;
+	margin: 25px auto;
+}
+
+.headingLevel1--text-quienes-somos-7 {
+	font-size: 7rem;
+}
+
+.paragraph--menu-sub-categorias-content-baby-girl {
+	margin     : 0;
+	color      : #e70095;
+	font-weight: 500;
+	font-size  : 1rem;
+}
+
+.paragraph--menu-sub-categorias-content-baby-boy {
+	margin     : 0;
+	color      : #9794d2;
+	font-weight: 500;
+	font-size  : 1rem;
+}
+
+.paragraph--menu-sub-categorias-content-kids-girl {
+	margin     : 0;
+	color      : #ee9bac;
+	font-weight: 500;
+	font-size  : 1rem;
+}
+
+.paragraph--menu-sub-categorias-content-kids-boy {
+	margin     : 0;
+	color      : #fd4605;
+	font-weight: 500;
+	font-size  : 1rem;
+}
+
+.paragraph--menu-sub-categorias-content-junior-girl {
+	margin     : 0;
+	color      : #82bc00;
+	font-weight: 500;
+	font-size  : 1rem;
+}
+
+.paragraph--menu-sub-categorias-content-junior-boy {
+	margin     : 0;
+	color      : #0ff;
+	font-weight: 500;
+	font-size  : 1rem;
+}
+
+.wrapper--lapidas-link {
+	display: block;
+	width  : 100%;
+}
+
+.paragraph--lapidas-link {
+	margin: 0;
+}
+
+.link--lapidas-link {
+	background     : #ffffff;
+	border-radius  : 0.5rem;
+	color          : DimGray;
+	border         : 2px solid DimGray;
+	text-decoration: unset;
+	padding        : 12px 10px;
+	display        : block;
+	line-height    : 1rem;
+	font-size      : 1.2rem;
+	margin-top     : 8px;
+}
+
+.link--lapidas-link:hover {
+	background: DimGray;
+	color     : #fff;
+	border    : 1px solid black;
+}
+
+.italic--lapidas-link {
+	font-size: 0.9rem;
+}
+
+.paragraph--sell-with-us-section-4-desciption {
+	color       : #ffffff;
+	font-size   : 1.4rem;
+	padding-left: 5%;
+}
+
+.wrapper--sell-with-us-section-3-2 {
+	padding: 3%;
+}
+
+.paragraph--world-link {
+	margin: 0;
+}
+
+.link--world-link {
+	color          : black;
+	text-decoration: none;
+}
+
+.paragraph--categories-link-1,
+.paragraph--categories-link-2,
+.wrapper--categories-link-1,
+.wrapper--categories-link-2 {
+	margin : 0;
+	width  : 100%;
+	display: block;
+}
+
+.link--categories-link-1 {
+	margin          : 0;
+	padding         : 5px 20px;
+	background-color: #fbd600;
+	color           : #000000;
+	width           : 100%;
+	display         : block;
+	text-decoration : none;
+}
+
+.link--categories-link-1:hover {
+	background-color: #000000;
+	color           : #fbd600;
+}
+
+.link--categories-link-2 {
+	margin          : 0;
+	padding         : 5px 20px;
+	background-color: #000000;
+	color           : #fbd600;
+	width           : 100%;
+	display         : block;
+	text-decoration : none;
+}
+
+.link--categories-link-2:hover {
+	background-color: #fbd600;
+	color           : #000000;
+}
+
+.headingLevel2--suscribe-title,
+.headingLevel2--suscribe-subtitle {
+	color    : #000000;
+	margin   : 0;
+	font-size: 3rem;
+}
+
+.headingLevel2--suscribe-subtitle {
+	color                    : #ffffff;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #000000;
+}
+
+.headingLevel2--inspiration-title {
+	margin   : 0;
+	font-size: 3rem;
+	position : relative;
+	z-index  : 2;
+}
+
+.wrapper--inspiration-title {
+	position: relative;
+}
+
+.wrapper--inspiration-title::before {
+	content         : "";
+	width           : 40%;
+	height          : 40%;
+	position        : absolute;
+	bottom          : 0;
+	right           : -10%;
+	background-color: #ffffff;
+	z-index         : 0;
+}
+
+.paragraph--motivation-desciption {
+	margin      : 0;
+	font-size   : 2rem;
+	line-height : 2rem;
+	padding-left: 20%;
+	width       : 100%;
+	position    : relative;
+	z-index     : 2;
+}
+
+.wrapper--motivation-desciption {
+	position: relative;
+}
+
+.wrapper--motivation-desciption::before {
+	content         : "";
+	width           : 16%;
+	height          : 32%;
+	position        : absolute;
+	top             : -6%;
+	left            : 14%;
+	background-color: #fbd600;
+	z-index         : 0;
+}
+
+.wrapper--motivation-desciption {
+	width: 100%;
+}
+
+.headingLevel2--shopby-title {
+	margin   : 0;
+	font-size: 3rem;
+	position : relative;
+	z-index  : 2;
+}
+
+.paragraph--shopby-desciption {
+	margin     : 0;
+	font-size  : 2rem;
+	line-height: 2rem;
+	width      : 100%;
+}
+
+.wrapper--shopby-title {
+	position: relative;
+}
+
+.wrapper--shopby-title::before {
+	content         : "";
+	width           : 40%;
+	height          : 40%;
+	position        : absolute;
+	top             : 0;
+	left            : -10%;
+	background-color: #ffffff;
+	z-index         : 0;
+}
+
+.headingLevel2--shopby-title2 {
+	margin   : 0;
+	font-size: 3rem;
+	position : relative;
+	z-index  : 2;
+}
+
+.wrapper--shopby-title2 {
+	position: relative;
+}
+
+.wrapper--shopby-title2::before {
+	content         : "";
+	width           : 40%;
+	height          : 40%;
+	position        : absolute;
+	top             : 0;
+	left            : -10%;
+	background-color: #fbd600;
+	z-index         : 0;
+}
+
+.headingLevel1--collections-title {
+	position : relative;
+	font-size: 3rem;
+}
+
+.paragraph--suscribe-message {
+	line-height: 1rem;
+}
+
+.headingLevel1--shopby-arrow,
+.headingLevel1--shopby-arrow2 {
+	margin: 0;
+}
+
+@media (max-width: 600px) {
+
+	.headingLevel2--suscribe-title,
+	.headingLevel2--suscribe-subtitle,
+	.headingLevel2--inspiration-title,
+	.headingLevel2--shopby-title,
+	.headingLevel2--shopby-title2,
+	.headingLevel1--collections-title,
+	.paragraph--shopby-desciption {
+		font-size: 1.7rem;
+	}
+
+	.paragraph--motivation-desciption {
+		font-size  : 1.7rem;
+		line-height: 1.7rem;
+	}
+}
+
+.wrapper--returns-and-refunds {
+	line-height: 2rem;
+}
+
+.returns-and-refunds-success {
+	margin     : 50% auto;
+	display    : flex;
+	font-weight: bold;
+}
+
+.paragraph--btn-size-chart {
+	margin         : 0;
+	text-decoration: underline;
+	font-weight    : 800;
+	cursor         : pointer;
+}
+
+.link--shopby-arrow {
+	color          : #ffffff !important;
+	text-decoration: none !important;
+}
+
+.link--shopby-arrow2 {
+	color          : #fbd600 !important;
+	text-decoration: none !important;
+}
+
+.link--shopby-arrow:hover,
+.link--shopby-arrow2:hover {
+	zoom: 1.5;
+}
+
+.paragraph--search-result-title {
+	margin: auto 2rem;
+}
+
+/* styles Landing custom */
+
+.wrapper--button__link {
+	display         : flex;
+	justify-content : center;
+	background-color: black;
+	padding         : 2px;
+	margin          : 1px;
+	align-items     : center;
+	flex            : 1;
+	border          : 1px white solid;
+	color           : #fff;
+	font-size       : 1.8rem;
+	font-weight     : 500;
+}
+
+.container--button__link {
+	margin    : 5px;
+	padding   : 5px;
+	background: black;
+	width     : 80%;
+}
+
+.wrapper--swimwear__title {
+	margin     : auto;
+	font-size  : 2.5rem;
+	font-weight: 500;
+}
+
+.wrapper--overalls__title {
+	margin     : 0 auto;
+	font-size  : 5rem;
+	font-weight: 500;
+	padding    : 0;
+}
+
+.paragraph--learning__title,
+.paragraph--overalls__title {
+	padding: 0;
+	margin : 0;
+}
+
+.wrapper--learning__title {
+	margin        : 0;
+	font-size     : 3.8rem;
+	font-weight   : 500;
+	padding       : 0;
+	color         : #e3ccaf;
+	letter-spacing: 2px;
+}
+
+.wrapper--learning__title__mobile {
+	margin     : 0;
+	font-size  : 2rem;
+	font-weight: 500;
+	padding    : 0;
+	color      : #e3ccaf;
+}
+
+.paragraph--learning__title__mobile {
+	margin : 0 auto;
+	padding: 0;
+}
+
+/*-------- Estilos 16 mayo overalls-kids -----------*/
+
+.paragraph--paragraph__text__desktop{
+font-weight: 400;
+font-size: 18px;
+color: #00000080;
+}
+
+.paragraph--title__text__desktop{
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: #00000080;
+	margin: 30px;
+}
+.wrapper--paragraph__text__desktop{
+	margin: 0px 110px 0 30px
+  }
+
+@media (max-width: 600px) {
+
+	.wrapper--title__text__desktop{
+		margin: 0 15px;
+
+	}
+
+	.paragraph--title__text__desktop{
+		margin: 30px 15px;
+	}
+
+	.wrapper--paragraph__text__desktop{
+		width: 90%;
+		margin: 0 auto;
+		padding: 0px 15px;
+	}
+}
+
+.paragraph--modal__text{
+	color: #fff;
+	font-size: 1rem;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
+
+/*----------Estilos Test Ab ----------------*/
+.strong--topbanner__dark {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	color: #000000;
+	margin: 0;
+}
+
+.heading--topbanner__dark {
+	color: #000000;
+	font-size: 20px;
+	font-weight: 300;
+}
+.link--home-title__seeall{
+	color: #696969;
+}
+
+@media (max-width: 640px) {
+	.strong--topbanner__dark {
+		font-size: 14px;
+	}
+
+	.heading--topbanner__dark {
+		font-size: 13px;
+	}
+
+	.link--home-title__seeall{
+		display: none;
+	}
+	.paragraph--home-title{
+		font-size: 17px;
+	}
+}

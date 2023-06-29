@@ -1,0 +1,298 @@
+{
+	"flex-layout.row#header-top": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true,
+			"blockClass": "logo-row",
+			"paddingTop": 3,
+			"paddingBottom": 3
+		},
+		"children": ["logo"]
+	},
+	"logo": {
+		"props": {
+			"title": "Offcorss International",
+			"href": "/",
+			"url": "https://offcorssinter.vteximg.com.br/arquivos/logoOffcorssItsCool-h.png"
+		}
+	},
+	"flex-layout.row#header-middle": {
+		"children": ["flex-layout.col#middle-left", "flex-layout.col#middle-right"],
+		"props": {
+			"blockClass": "1-navigation-row",
+			"preventHorizontalStretch": false,
+			"fullWidth": true,
+			"colSizing": "auto"
+		}
+	},
+	"flex-layout.col#middle-left": {
+		"children": ["rich-text#envios"],
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "middle",
+			"paddingLeft": 5,
+			"paddingRight": 5
+		}
+	},
+	"rich-text#envios": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "Free shipping on all orders! Available for limited time!",
+			"blockClass": "shipping-message"
+		}
+	},
+	"flex-layout.col#middle-right": {
+		"children": ["flex-layout.row#middle-right-row"],
+		"props": {
+			"horizontalAlign": "right"
+		}
+	},
+	"flex-layout.row#middle-right-row": {
+		"props": {
+			"horizontalAlign": "right",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": true
+		},
+		"children": [
+			"flex-layout.col#idioma",
+			"flex-layout.col#nav-encuentranos",
+			"flex-layout.col#nav-login"
+		]
+	},
+	"flex-layout.col#idioma": {
+		"children": ["locale-switcher"],
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "middle",
+			"blockClass": "locale"
+		}
+	},
+	"flex-layout.col#nav-encuentranos": {
+		"children": ["vtex.menu@2.x:menu#nav-encuentranos"],
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "middle"
+		}
+	},
+	"flex-layout.col#nav-login": {
+		"children": ["login"],
+		"props": {
+			"horizontalAlign": "center",
+			"blockClass": "login-navigation",
+			"verticalAlign": "middle",
+			"paddingRight": 5
+		}
+	},
+	"flex-layout.row#header-middle-2": {
+		"props": {
+			"fullWidth": true,
+			"blockClass": "row-header-middle-2"
+		},
+		"children": ["flex-layout.col#header-middle-2"]
+	},
+	"flex-layout.col#header-middle-2": {
+		"props": {
+			"marginLeft": 5,
+			"blockClass": "col-header-middle-2"
+		},
+		"children": ["vtex.menu@2.x:menu#pre-menu"]
+	},
+	"vtex.menu@2.x:menu#pre-menu": {
+		"props": {
+			"blockClass": "pre-menu",
+			"items": [
+				{
+					"id": "menu-item-about-us",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/about-us",
+						"noFollow": false,
+						"tagTitle": "About us",
+						"text": "About us"
+					},
+					"iconProps": {
+						"id": "nav-home"
+					}
+				},
+				{
+					"id": "menu-item-social-responsibility",
+					"type": "custom",
+					"highlight": false,
+					"itemProps": {
+						"type": "internal",
+						"href": "/social-responsibility",
+						"noFollow": false,
+						"tagTitle": "Social impact",
+						"text": "Social impact"
+					},
+					"iconProps": {
+						"id": "mpa-heart"
+					}
+				}
+			]
+		}
+	},
+	"flex-layout.row#header-bottom": {
+		"props": {
+			"blockClass": "main-header",
+			"preventHorizontalStretch": false,
+			"fullWidth": true,
+			"colSizing": "auto",
+			"paddingTop": 2,
+			"paddingBottom": 2
+		},
+		"children": ["flex-layout.col#bottom-left", "flex-layout.col#bottom-right"]
+	},
+	"flex-layout.col#bottom-left": {
+		"children": ["vtex.menu@2.x:menu#nav-principal"],
+		"props": {
+			"blockClass": "3-navigation",
+			"verticalAlign": "middle"
+		}
+	},
+	"flex-layout.col#bottom-right": {
+		"props": {
+			"blockClass": "content-search-minicar",
+			"width": "20%",
+			"paddingRight": 5
+		},
+		"children": ["flex-layout.row#content-bottom-right"]
+	},
+	"flex-layout.row#content-bottom-right": {
+		"props": {
+			"blockClass": "search-minicar"
+		},
+		"children": ["flex-layout.col#search", "flex-layout.col#minicar"]
+	},
+	"flex-layout.col#search": {
+		"children": ["search-bar"],
+		"props": {
+			"blockClass": "search-desktop",
+			"verticalAlign": "middle",
+			"width": "90%"
+		}
+	},
+	"flex-layout.col#minicar": {
+		"children": ["minicart.v2"],
+		"props": {
+			"blockClass": "minicart-desktop",
+			"verticalAlign": "middle"
+		}
+	},
+	"flex-layout.row#header-top-mobile": {
+		"children": [
+			"flex-layout.col#top-mobile-left",
+			"flex-layout.col#top-mobile-center",
+			"flex-layout.col#top-mobile-right"
+		],
+		"props": {
+			"blockClass": "main-header-mobile",
+			"preserveLayoutOnMobile": true,
+			"fullWidth": true,
+			"horizontalAlign": "center"
+		}
+	},
+	"flex-layout.col#top-mobile-left": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "middle"
+		},
+		"children": ["drawer"]
+	},
+	"drawer": {
+		"children": ["vtex.menu@2.x:menu#nav-principal-mobile"],
+		"props": {
+			"blockClass": "drawer-menu"
+		}
+	},
+	"flex-layout.col#top-mobile-center": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "middle",
+			"width": "70%"
+		},
+		"children": ["logo#mobile"]
+	},
+	"logo#mobile": {
+		"props": {
+			"title": "Offcorss Internacional",
+			"href": "/",
+			"url": "https://offcorssinter.vteximg.com.br/arquivos/logoOffcorssItsCool-h.png",
+			"blockClass": "logo-mobile"
+		}
+	},
+	"flex-layout.col#top-mobile-right": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "middle"
+		},
+		"children": ["locale-switcher"]
+	},
+	"flex-layout.row#header-bottom-mobile": {
+		"children": [
+			"flex-layout.col#bottom-mobile-left",
+			"flex-layout.col#bottom-mobile-right"
+		],
+		"props": {
+			"blockClass": "search-bar-row",
+			"preserveLayoutOnMobile": true,
+			"paddingTop": 2,
+			"paddingBottom": 2
+		}
+	},
+	"flex-layout.col#bottom-mobile-left": {
+		"children": ["search-bar"],
+		"props": {
+			"blockClass": "search-bar-col",
+			"verticalAlign": "middle",
+			"width": "80%"
+		}
+	},
+	"flex-layout.col#bottom-mobile-right": {
+		"children": ["minicart.v2"],
+		"props": {
+			"blockClass": "minicart-bar-col",
+			"horizontalAlign": "center",
+			"verticalAlign": "middle",
+			"width": "grow"
+		}
+	},
+	/*--------------header hidden Con el carrito ----------*/
+	"flex-layout.row#header-middle-hidden": {
+		"children": [
+			"flex-layout.col#middle-left",
+			"flex-layout.col#middle-right-hidden"
+		],
+		"props": {
+			"blockClass": "1-navigation-row",
+			"preventHorizontalStretch": false,
+			"fullWidth": true,
+			"colSizing": "auto"
+		}
+	},
+	"flex-layout.col#middle-right-hidden": {
+		"children": ["flex-layout.row#middle-right-row-hidden"],
+		"props": {
+			"horizontalAlign": "right"
+		}
+	},
+	"flex-layout.row#middle-right-row-hidden": {
+		"props": {
+			"horizontalAlign": "right",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": true
+		},
+		"children": [
+			"flex-layout.col#idioma",
+			"flex-layout.col#nav-encuentranos",
+			"flex-layout.col#nav-login",
+			"flex-layout.col#minicar"
+		]
+	}
+}

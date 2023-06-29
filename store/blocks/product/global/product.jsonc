@@ -1,0 +1,24 @@
+{
+	"store.product": {
+		"children": [
+			"responsive-layout.desktop#product",
+			"responsive-layout.mobile#product"
+		]
+	},
+
+	"responsive-layout.desktop#product":{
+		"children": [
+			"flex-layout.row#product-breadcrumb",
+			"flex-layout.row#product-main",
+			"shelf.relatedProducts#crossselling"
+		]
+	},
+	"responsive-layout.mobile#product":{
+		"children": [
+			"flex-layout.row#product-breadcrumb",
+			"flex-layout.row#product-main-mobile",
+			"product-reviews",
+			"shelf.relatedProducts#crossselling"
+		]
+	}
+}

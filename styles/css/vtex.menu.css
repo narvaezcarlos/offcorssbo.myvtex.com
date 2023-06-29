@@ -1,0 +1,291 @@
+.styledLinkContent--menu-item-mobile-login {
+	justify-content: unset !important;
+}
+.submenu--sub-menu {
+	text-align: left;
+	justify-content: unset;
+}
+.submenuWrapper--submenu-mobile {
+	position: unset !important;
+}
+.menuContainer .submenuWrapper {
+	box-shadow: 1px 1px 4px gray;
+}
+
+.buttonContainer--newsletter-row .styledLinkContainer {
+	margin: 0;
+	display: inline-block;
+	width: 100%;
+}
+.buttonContainer--newsletter-row .styledLinkContent {
+	float: left;
+}
+
+.styledLinkContainer--link-Encuentranos {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+.styledLinkContainer--link-Encuentranos::after {
+	content: '';
+	height: 20px;
+	width: 1px;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 0 5px 0;
+}
+.styledLink--link-Encuentranos {
+	padding-right: 10px;
+	margin: 0;
+	display: block;
+}
+.styledLink--link-Encuentranos:hover {
+	background-color: #fbd600;
+}
+.styledLink--link-Encuentranos .styledLinkContent--link-Encuentranos {
+	font-size: 0.875rem;
+	font-weight: 300;
+	display: flex;
+	align-items: center;
+	color: black;
+}
+.styledLink--link-Encuentranos .styledLinkContent--link-Encuentranos::before {
+	background-image: url(/arquivos/icono-LocalizaTienda.png);
+	background-repeat: no-repeat;
+	content: '';
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.styledLink--link-Encuentranos
+	.styledLinkContent--link-Encuentranos:hover::before {
+	background-image: url(/arquivos/icono-LocalizaTienda-hover.png);
+}
+.menuContainer--menu-principal {
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+.menuContainer--menu-principal .styledLinkContainer,
+.menuContainer--menu-principal-m .styledLinkContainer {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+@media (min-width: 1026px) {
+	.menuContainer--menu-principal .menuItem .styledLinkContainer::after {
+		content: '';
+		height: 20px;
+		width: 1px;
+		background-color: rgba(0, 0, 0, 0.5);
+		margin: 0 15px;
+	}
+	.menuItem:last-child .styledLinkContainer::after {
+		display: none;
+	}
+	.menuContainer--menu-principal
+		.menuItem
+		.submenuContainer
+		.submenu
+		.menuItem
+		.styledLinkContainer::after {
+		display: none;
+	}
+}
+.menuContainer--menu-principal .styledLink {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+	font-size: 1rem;
+	letter-spacing: 0.1em;
+	display: block;
+	color: black;
+	font-weight: 500;
+}
+.menuContainer--menu-principal .styledLink:hover,
+.menuContainer--menu-principal-m .styledLink:hover {
+	background-color: #fbd600;
+}
+.menuContainer--menu-principal .submenuContainer--sub-menu .styledLink,
+.menuContainer--menu-principal-m .submenuContainer--submenu-mobile .styledLink {
+	font-weight: 400;
+	display: flex;
+}
+
+.menuContainer--menu-principal .submenuContainer--sub-menu .styledLink:hover,
+.menuContainer--menu-principal
+	.submenuContainer--sub-menu-center
+	.styledLink:hover,
+.menuContainer--menu-principal-m
+	.submenuContainer--submenu-mobile
+	.styledLink:hover {
+	background-color: transparent;
+}
+.menuContainer--menu-principal
+	.submenuContainer--sub-menu
+	.styledLink:hover
+	.styledLinkContent,
+.menuContainer--menu-principal
+	.submenuContainer--sub-menu-center
+	.styledLink:hover
+	.styledLinkContent,
+.menuContainer--menu-principal-m
+	.submenuContainer--submenu-mobile
+	.styledLink:hover
+	.styledLinkContent {
+	background-color: #000;
+	color: white;
+}
+.menuContainer--menu-principal
+	.submenuContainer--sub-menu
+	.styledLink
+	.styledLinkContent,
+.menuContainer--menu-principal
+	.submenuContainer--sub-menu-center
+	.styledLink
+	.styledLinkContent,
+.menuContainer--menu-principal-m
+	.submenuContainer--submenu-mobile
+	.styledLink
+	.styledLinkContent {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+.submenu--menu-sub-categorias {
+	-webkit-box-pack: space-between;
+	justify-content: space-between;
+}
+
+.menuContainer--menu-principal
+	.submenuContainer--sub-menu
+	.styledLink--sale-menu-item {
+	color: black;
+	font-weight: 700;
+	width: 100%;
+	display: block;
+}
+.menuContainer--menu-principal
+	.submenuContainer--sub-menu
+	.styledLink--sale-menu-item:hover {
+	background-color: #fbd600;
+	color: black;
+}
+
+.menuContainerNav--menu-principal-m {
+	display: block;
+	width: 100%;
+}
+.menuContainer--menu-principal-m {
+	margin: 0;
+	padding: 0;
+}
+
+.menuContainer--menu-principal-m .styledLink {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	letter-spacing: 0.1em; 
+	display: block;
+	color: black;
+	width: 100%;
+	font-weight: 500;
+}
+
+.menuContainer--menu-principal-m .styledLink .styledLinkContent {
+	justify-content: start;
+}
+.menuContainer--menu-principal-m .submenuContainer--submenu-mobile {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.menuContainer--menu-principal-m
+	.submenuContainer--submenu-mobile
+	.styledLink--sale-menu-item {
+	color: black;
+	font-weight: 700;
+	width: 100%;
+	display: block;
+}
+.menuContainer--menu-principal-m
+	.submenuContainer--submenu-mobile
+	.styledLink--sale-menu-item:hover {
+	background-color: #fbd600;
+	color: black;
+}
+
+.styledLink--link-login-m .styledLinkContent--link-login-m {
+	align-items: center;
+}
+.styledLink--link-login-m .styledLinkContent--link-login-m::before {
+	background-image: url(/arquivos/icono-miCuenta.png);
+	background-repeat: no-repeat;
+	content: '';
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.styledLink--link-login-m .styledLinkContent--link-login-m:hover::before {
+	background-image: url(/arquivos/icono-miCuenta-hover.png);
+}
+.styledLinkContent--links-footer {
+	justify-content: unset !important;
+	padding: 0;
+}
+.styledLink--links-footer {
+	padding: 5px 0;
+	display: block;
+	line-height: 1.5;
+	cursor: pointer;
+}
+
+.styledLinkContainer--links-footer {
+	margin-left: 0;
+	padding: 0;
+}
+.styledLinkContent--links-footer {
+	color: rgba(0, 0, 0, 0.8);
+	font-weight: 700;
+}
+.styledLinkContent--links-footer:hover {
+	color: #ff3965;
+}
+
+.menuContainerNav--menu-terminosypoliticas {
+	align-items: center;
+}
+.styledLinkContainer--pre-menu {
+	margin: 8px 8px 8px 0;
+	padding: unset;
+}
+.styledLinkIcon--pre-menu {
+	display: flex;
+	align-items: center;
+	margin-left: unset;
+}
+@media (max-width: 600px) {
+	.styledLinkContent--links-footer {
+		justify-content: center !important;
+	}
+	.menuContainerNav--menu-terminosypoliticas {
+		display: block;
+		margin: 0 auto;
+	}
+	.menuContainer--menu-terminosypoliticas
+		.menuItem:last-child
+		.styledLinkContainer {
+		margin-right: 0;
+	}
+	.menuContainer--menu-terminosypoliticas {
+		display: block;
+	}
+	.styledLinkContainer--links-footer {
+		margin-right: 0;
+	}
+}

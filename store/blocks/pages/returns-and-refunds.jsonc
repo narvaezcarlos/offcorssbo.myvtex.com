@@ -1,0 +1,202 @@
+{
+	"store.custom#returns-and-refunds": {
+		"blocks": ["flex-layout.row#returns-and-refunds"]
+	},
+	"flex-layout.row#returns-and-refunds": {
+		"children": ["flex-layout.col#returns-and-refunds-1", "flex-layout.col#returns-and-refunds-2"],
+		"props": {
+			"blockClass": "row-returns-and-refunds",
+			"colGap": 6,
+			"horizontalAlign": "center"
+		}
+	},
+	"flex-layout.col#returns-and-refunds-1": {
+		"children": ["rich-text#returns-and-refunds-1"],
+		"props": {
+			"blockClass": "col-returns-and-refunds-1",
+			"width": "60%"
+		}
+	},
+	"rich-text#returns-and-refunds-1": {
+		"props": {
+			"text": "## HOW TO RETURN AN ITEM?\n ### Please enter the following information to get started:\n 1. Name and Last Name – please use the same information you have used before when placing the original order.\n 2.Enter your order number information. You can find this information on the order confirmation emails.\n 3.Please enter the reference information for the items you wish to return: reference number/color/size – again, you can find these information on the order confirmation emails.\n 4.Please choose from the list below the reason why you wish to return the item(s):\n    - Incorrect size.\n    - Incorrect color.\n    - I didn’t like the item.\n    - I received a different item.\n    - Quality issue.\n 5.All set! Within the next 48 business hours, a member from our Customer Care team will contact you to letting you know how to proceed.\n Thank you!\n ### Note:\n Non-returnable items include:\n    -Items 30 days past the delivery date\n    -Gift cards    \n-Items that have been worn, washed, or otherwise fully unpackaged\n    -Items that do not include their attached original tags\n    -Swimwear that has been used or worn or is missing the sanitary liner and/or tags\n    -Underwear and socks.\n-While OFFCORSS.US does not offer traditional exchanges, we are happy to offer free returns on your current item(s).\n    -A full item refund of the original item will be issued to your method of payment once the current item is received in new and unused condition.\n    -Upon receipt, your refund will be processed to your original payment method and can take 7- 10 business days to post depending on the speed of your bank or payment method.\n    -References sold as Sets must be returned completed. Meaning, all pieces of the set must be return together.\n    -Please note: Your refund will only reflect the amount you paid after any promotions or discounts. Shipping fees will not be refunded.",
+			"blockClass": "returns-and-refunds"
+		}
+	},
+	"flex-layout.col#returns-and-refunds-2": {
+		"children": ["form#form-returns-and-refunds"],
+		"props": {
+			"blockClass": "col-returns-and-refunds",
+			"preventVerticalStretch": false
+		}
+	},
+	"form#form-returns-and-refunds": {
+		"props": {
+			"entity": "Returns",
+			"schema": "Formulario"
+		},
+		"children": [
+			"rich-text#returns-and-refunds",
+			"flex-layout.row#form-returns-and-refunds-name",
+			"flex-layout.row#form-returns-and-refunds-email",
+			"flex-layout.row#form-returns-and-refunds-order",
+			"flex-layout.row#form-returns-and-refunds-products",
+			"flex-layout.row#form-returns-and-refunds-reason",
+			"flex-layout.row#form-returns-and-refunds-message",
+			"flex-layout.row#form-returns-and-refunds-footer",
+			"flex-layout.row#form-returns-and-refunds-footer1",
+			"flex-layout.row#form-returns-and-refunds-footer2"
+		],
+		"blocks": ["form-success#form-returns-and-refunds-success"]
+	},
+	"rich-text#returns-and-refunds": {
+		"props": {
+			"text": "## Request for returns and refunds",
+			"blockClass": "returns-and-refunds"
+		}
+	},
+	"flex-layout.row#form-returns-and-refunds-name": {
+		"props": { "marginBottom": 5 },
+		"children": [
+			"flex-layout.col#form-returns-and-refunds-name-col-1",
+			"flex-layout.col#form-returns-and-refunds-name-col-2"
+		]
+	},
+	"flex-layout.col#form-returns-and-refunds-name-col-1": {
+		"children": ["form-input.text#form-returns-and-refunds-firstName"]
+	},
+	"form-input.text#form-returns-and-refunds-firstName": {
+		"props": {
+			"pointer": "#/properties/firstNameCL",
+			"label": "First Name:"
+		}
+	},
+	"flex-layout.col#form-returns-and-refunds-name-col-2": {
+		"children": ["form-input.text#form-returns-and-refunds-lastName"]
+	},
+	"form-input.text#form-returns-and-refunds-lastName": {
+		"props": {
+			"pointer": "#/properties/lastNameCL",
+			"label": "Laste Name:"
+		}
+	},
+	"flex-layout.row#form-returns-and-refunds-email": {
+		"props": { "marginBottom": 5 },
+		"children": [
+			"flex-layout.col#form-returns-and-refunds-email-col-1",
+			"flex-layout.col#form-returns-and-refunds-email-col-2"
+		]
+	},
+	"flex-layout.col#form-returns-and-refunds-email-col-1": {
+		"children": ["form-input.text#form-returns-and-refunds-email"]
+	},
+	"form-input.text#form-returns-and-refunds-email": {
+		"props": {
+			"pointer": "#/properties/emailCL",
+			"label": "Email:"
+		}
+	},
+	"flex-layout.col#form-returns-and-refunds-email-col-2": {
+		"children": ["form-input.text#form-returns-and-refunds-phone"]
+	},
+	"form-input.text#form-returns-and-refunds-phone": {
+		"props": {
+			"pointer": "#/properties/phoneCL",
+			"label": "Phone:"
+		}
+	},
+	"flex-layout.row#form-returns-and-refunds-order": {
+		"props": { "marginBottom": 5 },
+		"children": ["flex-layout.col#form-returns-and-refunds-order-col-1"]
+	},
+	"flex-layout.col#form-returns-and-refunds-order-col-1": {
+		"children": ["form-input.text#form-returns-and-refunds-order"]
+	},
+	"form-input.text#form-returns-and-refunds-order": {
+		"props": {
+			"pointer": "#/properties/orderCL",
+			"label": "Order number:"
+		}
+	},
+	"flex-layout.row#form-returns-and-refunds-products": {
+		"children": ["flex-layout.col#form-returns-and-refunds-products"]
+	},
+	"flex-layout.col#form-returns-and-refunds-products": {
+		"children": ["form-input.textarea#form-returns-and-refunds-products"]
+	},
+	"form-input.textarea#form-returns-and-refunds-products": {
+		"props": {
+			"pointer": "#/properties/itemsCL",
+			"label": "Products to return:"
+		}
+	},
+	"flex-layout.row#form-returns-and-refunds-reason": {
+		"props": { "marginBottom": 5 },
+		"children": ["flex-layout.col#form-returns-and-refunds-reason-col-1"]
+	},
+	"flex-layout.col#form-returns-and-refunds-reason-col-1": {
+		"children": ["form-input.text#form-returns-and-refunds-reason"]
+	},
+	"form-input.text#form-returns-and-refunds-reason": {
+		"props": {
+			"pointer": "#/properties/reasonCL",
+			"label": "Reason:"
+		}
+	},
+	"flex-layout.row#form-returns-and-refunds-message": {
+		"props": { "marginBottom": 5 },
+		"children": ["flex-layout.col#form-returns-and-refunds-message-col-1"]
+	},
+	"flex-layout.col#form-returns-and-refunds-message-col-1": {
+		"children": ["form-input.textarea#form-returns-and-refunds-message"]
+	},
+	"form-input.textarea#form-returns-and-refunds-message": {
+		"props": {
+			"pointer": "#/properties/messageCL",
+			"label": "Message:"
+		}
+	},
+	"flex-layout.row#form-returns-and-refunds-footer": {
+		"props": { "marginBottom": 5 },
+		"children": ["flex-layout.col#form-returns-and-refunds-footer"]
+	},
+	"flex-layout.col#form-returns-and-refunds-footer": {
+		"children": ["form-input.checkbox#agreement-form-returns-and-refunds"]
+	},
+	"form-input.checkbox#agreement-form-returns-and-refunds": {
+		"props": {
+			"pointer": "#/properties/agreement",
+			"label": "Accept terms and conditions"
+		}
+	},
+	"flex-layout.row#form-returns-and-refunds-footer1": {
+		"props": { "marginBottom": 5 },
+		"children": ["flex-layout.col#form-returns-and-refunds-footer1"]
+	},
+	"flex-layout.col#form-returns-and-refunds-footer1": {
+		"children": ["form-submit#form-returns-and-refunds-submit"]
+	},
+	"form-submit#form-returns-and-refunds-submit": {
+		"props": {
+			"label": "Submit"
+		}
+	},
+	"flex-layout.row#form-returns-and-refunds-footer2": {
+		"children": ["flex-layout.col#form-returns-and-refunds-footer2"]
+	},
+	"flex-layout.col#form-returns-and-refunds-footer2": {
+		"children": ["form-success#form-returns-and-refunds-success"],
+		"props": { "verticalAlign": "middle" }
+	},
+	"form-success#form-returns-and-refunds-success": {
+		"children": ["rich-text#form-returns-and-refunds-success-submit"]
+	},
+	"rich-text#form-returns-and-refunds-success-submit": {
+		"props": {
+			"text": "All set! Within the next 48 business hours, a member from our Customer Care team will contact you to letting you know how to proceed.",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"blockClass": "returns-and-refunds-success"
+		}
+	}
+}

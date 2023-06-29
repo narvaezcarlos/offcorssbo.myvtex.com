@@ -1,0 +1,103 @@
+{
+	"vtex.menu@2.x:submenu#sub.menu-mobile-kids": {
+		"children": ["menu-item#kids-girl-mobile", "menu-item#kids-boy-mobile"],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	},
+	"menu-item#kids-girl-mobile": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"tagTitle": "GIRL",
+				"text": "GIRL"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-kids-girl-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-mobile-kids-girl-items": {
+		"children": [
+			"menu-item#menu-mobile-kids-girl-see",
+			"rich-text#menu-kids-girl-items",
+			"vtex.menu@2.x:menu#menu-kids-girl-items",
+			"rich-text#menu-kids-girl-items-2",
+			"vtex.menu@2.x:menu#menu-kids-girl-items-2",
+			"rich-text#menu-kids-girl-items-3",
+			"image#banner-menu-kids-girl-items-3",
+			"rich-text#menu-kids-girl-items-4",
+			"image#banner-menu-kids-girl-items-4"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	},
+	"menu-item#menu-mobile-kids-girl-see": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/kids-girl?map=departamento",
+				"tagTitle": "See all",
+				"text": "See all"
+			}
+		}
+	},
+
+	"menu-item#kids-boy-mobile": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"tagTitle": "BOY",
+				"text": "BOY"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-kids-boy-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-mobile-kids-boy-items": {
+		"children": [
+			"menu-item#menu-mobile-kids-boy-see",
+			"rich-text#menu-kids-boy-items",
+			"vtex.menu@2.x:menu#menu-kids-boy-items",
+			"rich-text#menu-kids-boy-items-2",
+			"vtex.menu@2.x:menu#menu-kids-boy-items-2",
+			"rich-text#menu-kids-boy-items-3",
+			"image#banner-menu-kids-boy-items-3",
+			"rich-text#menu-kids-boy-items-4",
+			"image#banner-menu-kids-boy-items-4"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	},
+	"menu-item#menu-mobile-kids-boy-see": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/kids-boy?map=departamento",
+				"tagTitle": "See all",
+				"text": "See all"
+			}
+		}
+	}
+}

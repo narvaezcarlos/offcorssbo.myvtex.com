@@ -1,0 +1,173 @@
+.dataEntryLabel,
+.newsletterContainerTitle {
+	font-weight: bold;
+}
+
+.profileBoxContainer {
+    border-right: 0.125rem solid #e3e4e6;
+}
+
+/*Estilos globales mi cuenta*/
+/*Botones*/
+:global(.vtex-account) :global(.vtex-button) {
+    background: gold;
+	border: none;
+	color: black;
+}
+:global(.vtex-account) :global(.vtex-button):hover {
+	background: #ff335a;
+	color: white;
+}
+:global(.vtex-account__create-card) :global(.vtex-button) {
+    background: gold;
+	border: none;
+	color: black;
+}
+:global(.vtex-account__create-card) :global(.vtex-button):hover {
+	background: #ff335a;
+	color: white;
+}
+
+/*Links de regreso*/
+:global(.vtex-pageHeader-link__container .vtex-button) {
+    background: transparent;
+    color: black;
+}
+:global(.vtex-pageHeader-link__container .vtex-button):hover {
+    background: transparent;
+    color: #ff335a;
+    cursor: pointer;
+}
+
+/*Formularios*/
+:global(.vtex-account) :global(.vtex-input__label) {
+    font-weight: 700;
+    font-size: 1rem;
+}
+:global(.vtex-account) :global(.vtex-dropdown__label) {
+    font-weight: 700;
+    font-size: 1rem;
+}
+:global(.vtex-account) :global(.vtex-input-prefix__group input) {
+    border: 0.125rem solid #e3e4e6;
+    font-weight: 600;
+}
+:global(.vtex-account) :global(.vtex-dropdown__button) {
+    border: 0.125rem solid #e3e4e6;
+    font-weight: 600;
+}
+
+/*Menu de navegacion*/
+.menuLinks {
+	font-weight: bold;
+	font-size: 1.1rem;
+	color: black;
+}
+.menuLinks .menuLink, :global(.vtex-account_menu-link.b--transparent) {
+    background: #e8e8e8;
+	color: black;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+}
+.menuLinks .menuLink:hover, :global(.vtex-account_menu-link.b--transparent):hover {
+    background: #d7d7d7;
+	color: black;
+}
+.menuLinks :global(.vtex-account_menu-link.b--action-primary) {
+	background: #ff335a;
+	border-color: #ff335a;
+	color: white;
+}
+:global(.vtex-account_menu-link) {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-weight: 600;
+}
+:global(.vtex-account_menu-link.b--action-primary) {
+	font-weight: 700;
+}
+
+/*Incluir campos corporativos*/
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button) {
+    background: #ff335a;
+    color: white;
+    text-transform: uppercase;
+}
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) :global(.vtex-button):hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+/*Lista de direcciones*/
+.addressBox div {
+    border-left: 0.125rem solid #e3e4e6;
+}
+.addressBox div:first-child {
+    border: 0px;
+}
+
+/*Botones ordenes*/
+:global(.vtex-my-orders-app-3-x-reorderBtn), :global(.vtex-my-orders-app-3-x-cancelBtn) {
+    background: gold;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+:global(.vtex-my-orders-app-3-x-reorderBtn):hover, :global(.vtex-my-orders-app-3-x-cancelBtn):hover {
+    background: #ff335a;
+    color: white;
+}
+:global(.vtex-my-orders-app-3-x-reorderBtn) svg, :global(.vtex-my-orders-app-3-x-cancelBtn) svg {
+    fill: black !important;
+}
+:global(.vtex-my-orders-app-3-x-reorderBtn):hover svg, :global(.vtex-my-orders-app-3-x-cancelBtn):hover svg {
+    fill: white !important;
+}
+:global(.vtex-my-orders-app-3-x-detailsBtn) {
+    background: #ff335a;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+:global(.vtex-my-orders-app-3-x-detailsBtn):hover {
+    background: gold;
+    color: black;
+}
+
+:global(.vtex-account__order-details ul a) {
+    display: block;
+    background: gold;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    letter-spacing: .1em;
+}
+:global(.vtex-account__order-details ul a.f6.relative) {
+    padding-top: .85rem;
+    padding-bottom: .85rem;
+}
+:global(.vtex-account__order-details ul a svg) {
+    fill: black;
+    margin-top: 0.75rem;
+}
+:global(.vtex-account__order-details ul a):hover {
+    background: #ff335a;
+    color: white;
+}
+:global(.vtex-account__order-details ul a:hover svg) {
+    fill: white;
+}
+:global(.vtex-account__order-details ul a:hover .c-link) {
+    color: white;
+}

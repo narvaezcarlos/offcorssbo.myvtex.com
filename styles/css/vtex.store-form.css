@@ -1,0 +1,11 @@
+:global(.vtex-textarea__input),
+:global(.vtex-checkbox__box),
+:global(.vtex-dropdown__button) {
+	border: 1px solid #cacbcc;
+}
+
+:global(.vtex-textarea__label) {
+	font-weight: 400;
+	font-size: 0.75rem;
+	color: #3f3f40;
+}

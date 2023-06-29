@@ -1,0 +1,15 @@
+{
+	"urlset": {
+		"url": [
+			{
+				"loc": "https:///quienes-somos"
+			},
+			{
+				"loc": "https:///terminos-y-condiciones"
+			},
+			{
+				"loc": "https:///contacto"
+			}
+		]
+	}
+}

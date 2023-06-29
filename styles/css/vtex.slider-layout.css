@@ -1,0 +1,170 @@
+.imageElement--headstones-carousel {
+	width: 95% !important;
+}
+.slide--shelf {
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+.sliderLayoutContainer--carousel {
+	background-color: #ffffff;
+}
+.sliderTrackContainer--carousel {
+	max-width: 100%;
+}
+.imageElement--carousel {
+	width: 2540px !important;
+}
+.sliderLayoutContainer--headstones-carousel {
+	background-color: #ffffff;
+}
+.sliderLayoutContainer--featured-carousel {
+	background-color: #ffffff;
+	margin-bottom: 2.5%;
+}
+.imageElement--headstones-carousel:hover {
+	opacity: 0.8;
+}
+.imageElementLink--headstones-carousel {
+	text-decoration: none !important;
+	position: relative;
+}
+.imageElementLink--headstones-carousel::after {
+	content: 'VER TODO';
+	color: #fff;
+	background-color: #000;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 10px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1rem;
+}
+
+.imageElementLink--headstones-carousel:hover::after {
+	background-color: #fbd600;
+	color: #000;
+}
+.slideChildrenContainer--tabs-masculino-femenino {
+	position: relative;
+}
+
+.slideChildrenContainer--tabs-masculino-femenino::before {
+	background-color: rgba(0, 0, 0, 0.9);
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	display: block;
+	z-index: 0;
+}
+.slideChildrenContainer--tabs-masculino-femenino:hover::before {
+	-webkit-animation: bg-fade 2s infinite;
+	-moz-animation: bg-fade 2s infinite;
+	animation: bg-fade 2s infinite;
+}
+
+@-webkit-keyframes bg-fade {
+	0% {
+		background: #ffcf03;
+	}
+
+	33% {
+		background: #06ffff;
+	}
+
+	66% {
+		background: #ff0861;
+	}
+
+	100% {
+		background: #9a0bff;
+	}
+}
+
+@-moz-keyframes bg-fade {
+	0% {
+		background: #ffcf03;
+	}
+
+	33% {
+		background: #06ffff;
+	}
+
+	66% {
+		background: #ff0861;
+	}
+
+	100% {
+		background: #9a0bff;
+	}
+}
+
+@keyframes bg-fade {
+	0% {
+		background: #ffcf03;
+	}
+
+	33% {
+		background: #06ffff;
+	}
+
+	66% {
+		background: #ff0861;
+	}
+
+	100% {
+		background: #9a0bff;
+	}
+}
+
+/*---- cambio de content en test ab --------*/
+.imageElementLink--banner-principal::after {
+	content: 'GO BUY';
+	background: #fff;
+	border: 2px solid DimGray;
+	color: DimGray;
+	border-radius: 0.5rem;
+	padding: 5px 10px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	bottom: 1rem;
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+.imageElementLink--banner-principal:hover::after {
+	background: DimGray;
+	color: #fff;
+	border: 1px solid black;
+}
+
+/* styles custom page overalls */
+
+.sliderArrows--slider__customPage__attributes{
+background-color: #D5D1CB!important ;
+border-radius: 50%!important ;
+margin: 5px!important ;
+padding: 5px!important ;
+color: white!important ;
+font-weight: 100!important ; 
+}
+
+/* styles custom page abc */
+
+.sliderArrows--slider__customPage__learning {
+	background-color: #BACBC3!important ;
+	border-radius: 50%!important ;
+	margin: 5px!important ;
+	padding: 5px!important ;
+	color: white!important ;
+	font-weight: 100!important ; 
+}

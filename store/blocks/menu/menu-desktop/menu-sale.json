@@ -1,0 +1,62 @@
+{
+	"vtex.menu@2.x:submenu#sub.menu-sale": {
+		"children": [
+			"menu-item#sale-babies",
+			"menu-item#sale-kids",
+			"menu-item#sale-junior",
+			"menu-item#sale-view-all"
+		],
+		"props": {
+			"width": "100%",
+			"blockClass": "sub-menu"
+		}
+	},
+	"menu-item#sale-babies": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/sale/babies",
+				"tagTitle": "BABY (0-18 Months)",
+				"text": "BABY (0-18 Months)"
+			}
+		}
+	},
+	"menu-item#sale-kids": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/sale/kids",
+				"tagTitle": "KIDS (4-5 Years)",
+				"text": "KIDS (4-5 Years)"
+			}
+		}
+	},
+	"menu-item#sale-junior": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/sale/babies",
+				"tagTitle": "JUNIOR (6-13 Years)",
+				"text": "JUNIOR (6-13 Years)"
+			}
+		}
+	},
+	"menu-item#sale-view-all": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/sale",
+				"tagTitle": "See more",
+				"text": "See more"
+			}
+		}
+	}
+}

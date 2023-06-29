@@ -1,0 +1,15 @@
+.quantitySelectorContainer{
+    width: 100%;
+    margin-bottom: 0;
+    -webkit-box-orient: horizontal;
+    flex-direction: initial;
+    align-items: center;
+}
+.quantitySelectorTitle{
+    color: #000;
+    font-weight: 400;
+	font-size: .75rem;
+	text-transform: uppercase;
+    margin-right: 10px;
+    margin-bottom: 0;
+}

@@ -1,0 +1,899 @@
+{
+    "store.custom#abc-learning": {
+        "blocks": [
+            "responsive-layout.desktop#desktop-learning-kids",
+            "responsive-layout.mobile#mobile-learning-kids"
+        ],
+        "parent": {
+            "header": "header#hidden-custom"
+        }
+    },
+    /**------------------------------ Start responsive Desktop--------------------------**/
+    "responsive-layout.desktop#desktop-learning-kids": {
+        "children": [
+            "flex-layout.row#banner-desktop-learning",
+            "flex-layout.row#content-desktop-learning",
+            "flex-layout.row#text-abc"
+        ]
+    },
+    "flex-layout.row#banner-desktop-learning": {
+        "children": [
+            "image#banner-desktop-learning"
+        ],
+        "props": {
+            "blockClass": "banner__desktop__flex",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#content-desktop-learning": {
+        "children": [
+            "flex-layout.col#content-desktop-learning"
+        ],
+        "props": {
+            "blockClass": "content__desktop__flexRow",
+            "marginTop": 9
+        }
+    },
+    "flex-layout.col#content-desktop-learning": {
+        "children": [
+            "flex-layout.row#buttons__newborn",
+            "rich-text#title-newgirl",
+            "flex-layout.row#newgirl-section-desktop",
+            "rich-text#title-newboy",
+            "flex-layout.row#newboy-section-desktop",
+            "rich-text#title-newunisex",
+            "flex-layout.row#newunisex-section-desktop"
+        ],
+        "props": {
+            "blockClass": "content__desktop__flexCol",
+            "rowGap": 7
+        }
+    },
+    "image#banner-desktop-learning": {
+        "props": {
+            "src": "/arquivos/NB-BANNER-1542X477.jpg",
+            "maxWidth": "100%",
+            "maxHeight": "100%",
+            "blockClass": "banner__desktop__flex__img"
+        }
+    },
+    "flex-layout.row#buttons__newborn": {
+        "children": [
+            "flex-layout.col#buttons-learning-desktop"
+        ],
+        "props": {}
+    },
+    "flex-layout.col#buttons-learning-desktop": {
+        "children": [
+            "flex-layout.row#buttons-learning-desktop"
+        ],
+        "props": {}
+    },
+    "flex-layout.row#buttons-learning-desktop": {
+        "children": [
+            "tab-layout#learning"
+        ],
+        "props": {
+            "blockClass": "buttons__desktop__row"
+        },
+        "title": "Buttons Desktop Learning"
+    },
+    "tab-layout#learning": {
+        "children": [
+            "tab-list#learning",
+            "tab-content#learning-desktop"
+        ],
+        "props": {
+            "blockClass": "tabLayout__content",
+            "defaultActiveTabId": "learning1"
+        }
+    },
+    "tab-list#learning": {
+        "children": [
+            "flex-layout.row#tab-list-learning"
+        ],
+        "props": {
+            "blockClass": "tabList__container"
+        }
+    },
+    "flex-layout.row#tab-list-learning": {
+        "children": [
+            "flex-layout.col#tab-list-learning"
+        ],
+        "props": {
+            "blockClass": "flexLearning__desktopRow",
+            "colGap": 3
+        }
+    },
+    "flex-layout.col#tab-list-learning": {
+        "children": [
+            "flex-layout.row#tab-list-learning-content"
+        ],
+        "props": {}
+    },
+    "flex-layout.row#tab-list-learning-content": {
+        "children": [
+            "flex-layout.col#tablist1",
+            "flex-layout.col#tablist2",
+            "flex-layout.col#tablist3"
+        ],"props": {
+            "blockClass": "flexLearning__desktopRow"}
+        
+    },
+    "flex-layout.col#tablist1": {
+        "children": [
+            "tab-list.item#learning1"
+        ],
+        "props": {
+            "blockClass": "tablisitem__content1"
+        }
+    },
+    "flex-layout.col#tablist2": {
+        "children": [
+            "tab-list.item#learning2"
+        ],
+        "props": {
+            "blockClass": "tablisitem__content2"
+        }
+    },
+    "flex-layout.col#tablist3": {
+        "children": [
+            "tab-list.item#learning3"
+        ],
+        "props": {
+            "blockClass": "tablisitem__content3"
+        }
+    },
+    "tab-list.item#learning1": {
+        "props": {
+            "tabId": "learning1",
+            "label": " ",
+            "defaultActiveTab": true,
+            "blockClass": "tablist__item__learning__one"
+        }
+    },
+    "tab-list.item#learning2": {
+        "props": {
+            "tabId": "learning2",
+            "label": " ",
+            "defaultActiveTab": true,
+            "blockClass": "tablist__item__learning__two"
+        }
+    },
+    "tab-list.item#learning3": {
+        "props": {
+            "tabId": "learning3",
+            "label": " ",
+            "defaultActiveTab": true,
+            "blockClass": "tablist__item__learning__three"
+        }
+    },
+    "tab-content#learning-desktop": {
+        "children": [
+            "tab-content.item#learning1",
+            "tab-content.item#learning2",
+            "tab-content.item#learning3"
+        ]
+    },
+    "tab-content.item#learning1": {
+        "children": [
+            "list-context.product-list#vitrina-learning1"
+        ],
+        "props": {
+            "tabId": "learning1",
+            "blockClass": "listContext_learning__one"
+        }
+    },
+    "tab-content.item#learning2": {
+        "children": [
+            "list-context.product-list#vitrina-learning2"
+        ],
+        "props": {
+            "tabId": "learning2",
+            "blockClass": "listContext_learning__one"
+        }
+    },
+    "tab-content.item#learning3": {
+        "children": [
+            "list-context.product-list#vitrina-learning3"
+        ],
+        "props": {
+            "tabId": "learning3",
+            "blockClass": "listContext_learning__one"
+        }
+    },
+    "list-context.product-list#vitrina-learning1": {
+        "props": {
+            "collection": "255",
+            "blockClass": "vitrina__content"
+        },
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#custom-page-learning"
+        ]
+    },
+    "list-context.product-list#vitrina-learning2": {
+        "props": {
+            "collection": "256",
+            "blockClass": "vitrina__content"
+        },
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#custom-page-learning"
+        ]
+    },
+    "list-context.product-list#vitrina-learning3": {
+        "props": {
+            "collection": "257",
+            "blockClass": "vitrina__content"
+        },
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#custom-page-learning"
+        ]
+    },
+    "slider-layout#custom-page-learning": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 2,
+                "phone": 2
+            },
+            "infinite": true,
+            "fullWidth": true,
+            "blockClass": "slider__customPage__learning",
+            "showPaginationDots": "never"
+        }
+    },
+    "rich-text#title-newgirl": {
+        "props": {
+            "text": "NEW BORN GIRL",
+            "textAlignment": "LEFT",
+            "blockClass": "learning__title"
+        }
+    },
+    "flex-layout.row#newgirl-section-desktop": {
+        "children": [
+            "image#newgirl-section-desktop",
+            "flex-layout.col#newgirl-section-desktop"
+        ],
+        "props": {
+            "blockClass": "newgirl__section__desktopRow"
+        }
+    },
+    "image#newgirl-section-desktop": {
+        "props": {
+            "src": "/arquivos/NB-GIRL-1-665X1062.jpg",
+            "blockClass": "image__newgirl__section",
+            "maxWidth": "100%"
+        }
+    },
+    "flex-layout.col#newgirl-section-desktop": {
+        "children": [
+            "image#newgirl-subsection-desktop",
+            "image#newgirl__infocard-desktop"
+        ],
+        "props": {
+            "blockClass": "newgirl__section__desktopCol"
+        }
+    },
+    "image#newgirl-subsection-desktop": {
+        "props": {
+            "src": "/arquivos/NB-GIRL-2-665X589.jpg",
+            "blockClass": "image__newgirl__desktop",
+            "maxWidth": "100%"
+        }
+    },
+    "image#newgirl__infocard-desktop": {
+        "props": {
+            "src": "/arquivos/newgirl__infocar__desktop_opt.jpg",
+            "blockClass": "image__newgirl__desktop",
+            "maxWidth": "100%",
+            "link": {
+                "url": "https://www.offcorss.us/255?map=productClusterIds",
+                "title": "infocard__newgirl__desktop"
+            }
+        }
+    },
+    "rich-text#title-newboy": {
+        "props": {
+            "text": "NEW BORN BOY",
+            "textAlignment": "LEFT",
+            "blockClass": "learning__title"
+        }
+    },
+    "flex-layout.row#newboy-section-desktop": {
+        "children": [
+            "flex-layout.col#newboy-section-desktop",
+            "image#newboy-section-desktop"
+        ],
+        "props": {
+            "blockClass": "newboy__section__desktopRow"
+        }
+    },
+    "image#newboy-section-desktop": {
+        "props": {
+            "src": "/arquivos/NB-BOY-3-665X1062.jpg",
+            "blockClass": "image__newboy__section",
+            "maxWidth": "100%"
+        }
+    },
+    "flex-layout.col#newboy-section-desktop": {
+        "children": [
+            "image#newboy-subsection-desktop",
+            "image#newboy__infocard-desktop"
+        ],
+        "props": {
+            "blockClass": "newboy__section__desktopRow1"
+        }
+    },
+    "image#newboy-subsection-desktop": {
+        "props": {
+            "src": "/arquivos/NB-BOY-1-665X589.jpg",
+            "blockClass": "image__newboy__desktop",
+            "maxWidth": "100%"
+        }
+    },
+    "image#newboy__infocard-desktop": {
+        "props": {
+            "src": "/arquivos/newboy__infocar__desktop_opt.jpg",
+            "blockClass": "image__newgirl__desktop",
+            "maxWidth": "100%",
+            "link": {
+                "url": "https://www.offcorss.us/256?map=productClusterIds",
+                "title": "infocard__newgirl__desktop"
+            }
+        }
+    },
+    "rich-text#title-newunisex": {
+        "props": {
+            "text": "NEW BORN UNISEX",
+            "textAlignment": "LEFT",
+            "blockClass": "learning__title"
+        }
+    },
+    "flex-layout.row#newunisex-section-desktop": {
+        "children": [
+            "image#newunisex-section-desktop",
+            "flex-layout.col#newunisex-section-desktop"
+        ],
+        "props": {
+            "blockClass": "newunisex__section__desktopRow"
+        }
+    },
+    "image#newunisex-section-desktop": {
+        "props": {
+            "src": "/arquivos/NB-UNISEX-1-665X1062.jpg",
+            "blockClass": "image__newunisex__section",
+            "maxWidth": "100%"
+        }
+    },
+    "flex-layout.col#newunisex-section-desktop": {
+        "children": [
+            "image#newunisex-subsection-desktop",
+            "image#newunisex__infocard-desktop"
+        ],
+        "props": {
+            "blockClass": "newunisex__section__desktopRow"
+        }
+    },
+    "image#newunisex-subsection-desktop": {
+        "props": {
+            "src": "/arquivos/NB-UNISEX-2-665X589.jpg",
+            "blockClass": "image__newunisex__desktop",
+            "maxWidth": "100%"
+        }
+    },
+    "image#newunisex__infocard-desktop": {
+        "props": {
+            "src": "/arquivos/newunisex__infocard__desktop_opt.jpg",
+            "blockClass": "image__newgirl__desktop",
+            "maxWidth": "100%",
+            "link": {
+                "url": "https://www.offcorss.us/257?map=productClusterIds",
+                "title": "infocard__newunisex__desktop"
+            }
+        }
+    },
+    "flex-layout.row#text-abc":{
+		"children": ["flex-layout.col#text-abc"],
+		"props": {
+			"blockClass": "container__row__text__desktop"
+		}
+	},
+	"flex-layout.col#text-abc":{
+		"children": ["rich-text#title-text-abc", "rich-text#paragraph-text-abc"],
+		"props": {
+			"blockClass":"container__col__text__desktop"
+		}
+	},
+	"rich-text#title-text-abc":{
+		"props": {
+			"text": "Early stimulation clothing for babies",
+			"blockClass":"title__text__desktop",
+			"textAlignment": "LEFT"
+		},
+		"title": "Early stimulation clothing for babies | OFFCORSS"
+	},
+	"rich-text#paragraph-text-abc":{
+		"props": {
+			"text": "Early stimulation baby clothes for babies is an essential tool for promoting sensory, cognitive, and motor skill development. At OFFCORSS, we offer a variety of newborn baby clothing that serves as stimulating baby clothes and encourages infant visual stimulation. Our sensory baby clothing is playful and interactive, making clothing a way of fun and learning Our high contrast baby clothes come in bright colors like yellow, orange, red, and green, which can change your baby's mood, making them feel calm or energetic. For moments of tranquility or rest, pastel or neutral shades like white and blue are your best allies. Our infant simulation clothes like bodysuits, jumpsuits, and pajamas for babies have entertaining prints of animals, fruits, and objects, teaching them names, colors, and shapes. These clothes also have details with different textures for a more sensory experience. \n\nOur sensory baby toys such as interactive prints with Velcro that can be stuck and unstuck from the garment promote early stimulation exercises, stimulating the baby's movements by grabbing and releasing objects. Other stimulating baby clothes include pants with fun appliqués that make noise when they sit, awakening their curiosity to know where the sound comes from. Our tummy time toys promote sensory play for babies and encourage their development. \n\nWe take special care with the materials we use, making sure that our garments are gentle on the baby's skin. Our garments are perfect for sensory play for babies and are made of cotton, which provides comfort, and a percentage of elastane for elasticity, allowing the little ones to move freely. All our appliqués, including Velcro, embroideries, and buttons, have been carefully made not to harm or hurt your baby when dressing them. \n\nWith our ABC stimulation garments, we accompany your baby through every stage of their life. Our baby sensory development clothes not only provide comfort but also promote visual stimulation for babies. Let us help your baby discover the world in a creative way from their birth. Discover all the surprises we have in store for you and your baby!",
+			"blockClass":"paragraph__text__desktop",
+			"textAlignment": "LEFT"
+		}
+	},
+    /******************----------responsive mobile----------------------------*****************************/
+    "responsive-layout.mobile#mobile-learning-kids": {
+        "children": [
+            "flex-layout.row#banner-mobile-learning",
+            "flex-layout.row#content-mobile-learning",
+            "flex-layout.row#text-abc"
+        ]
+    },
+    "flex-layout.row#banner-mobile-learning": {
+        "children": [
+            "image#banner-mobile-learning"
+        ],
+        "props": {
+            "blockClass": "banner__mobile__flex",
+            "fullWidth": true
+        }
+    },
+    "flex-layout.row#content-mobile-learning": {
+        "children": [
+            "flex-layout.col#content-mobile-learning"
+        ],
+        "props": {
+            "blockClass": "content__mobile__flexRow",
+            "marginTop": 9
+        }
+    },
+    "flex-layout.col#content-mobile-learning": {
+        "children": [
+            "flex-layout.row#buttons__newborn-mobile",
+            "rich-text#title-newgirl-mobile",
+            "flex-layout.row#newgirl-section-mobile",
+            "rich-text#title-newboy-mobile",
+            "flex-layout.row#newboy-section-mobile",
+            "rich-text#title-newunisex-mobile",
+            "flex-layout.row#newunisex-section-mobile"
+        ],
+        "props": {
+            "blockClass": "content__mobile__flexCol",
+            "rowGap": 7
+        }
+    },
+    "image#banner-mobile-learning": {
+        "props": {
+            "src": "/arquivos/NB-BANNER-750X740.jpg",
+            "maxWidth": "100%",
+            "maxHeight": "100%",
+            "blockClass": "banner__desktop__flex__img"
+        }
+    },
+    "flex-layout.row#buttons__newborn-mobile": {
+        "children": [
+            "flex-layout.col#buttons-learning-mobile"
+        ]
+    },
+    "flex-layout.col#buttons-learning-mobile": {
+        "children": [
+            "flex-layout.row#buttons-learning-mobile"
+        ]
+    },
+    "flex-layout.row#buttons-learning-mobile": {
+        "children": [
+            "tab-layout#learning-mobile"
+        ],
+        "props": {
+            "blockClass": "buttons__mobile__row"
+        },
+        "title": "Buttons mobile Learning"
+    },
+    "tab-layout#learning-mobile": {
+        "children": [
+            "tab-list#learning-mobile",
+            "tab-content#learning-mobile"
+        ],
+        "props": {
+            "blockClass": "tabLayout__container-mobile",
+            "defaultActiveTabId": "learningA"
+        }
+    },
+    "tab-list#learning-mobile": {
+        "children": [
+            "flex-layout.row#tab-list-learning-mobile"
+        ],
+        "props": {
+            "blockClass": "tabList__container-mobile"
+        }
+    },
+    "flex-layout.row#tab-list-learning-mobile": {
+        "children": [
+            "flex-layout.col#tab-list-learning-mobile"
+        ],
+        "props": {
+            "blockClass": "flexLearning__mobileRow"
+        }
+    },
+    "flex-layout.col#tab-list-learning-mobile": {
+        "children": [
+            "flex-layout.row#tab-list-learning-mobile-content"
+        ],
+        "props": {
+            "blockClass": "flexLearning__mobileCol"
+        }
+    },
+    "flex-layout.row#tab-list-learning-mobile-content": {
+        "children": [
+            "flex-layout.col#tablistA",
+            "flex-layout.col#tablistB",
+            "flex-layout.col#tablistC"
+        ],
+        "props": {
+            "blockClass": "flexLearning__mobileContentCol"
+        }
+    },
+    "flex-layout.col#tablistA": {
+        "children": [
+            "tab-list.item#learningA"
+        ],
+        "props": {
+            "blockClass": "tablisitem__contentA"
+        }
+    },
+    "tab-list.item#learningA": {
+        "props": {
+            "tabId": "learningA",
+            "label": " ",
+            "defaultActiveTab": true,
+            "blockClass": "tablist__item__learning__mobile__a"
+        }
+    },
+    "flex-layout.col#tablistB": {
+        "children": [
+            "tab-list.item#learningB"
+        ],
+        "props": {
+            "blockClass": "tablisitem__contentB"
+        }
+    },
+    "tab-list.item#learningB": {
+        "props": {
+            "tabId": "learningB",
+            "label": " ",
+            "blockClass": "tablist__item__learning__mobile__b"
+        }
+    },
+    "flex-layout.col#tablistC": {
+        "children": [
+            "tab-list.item#learningC"
+        ],
+        "props": {
+            "blockClass": "tablisitem__contentC"
+        }
+    },
+    "tab-list.item#learningC": {
+        "props": {
+            "tabId": "learningC",
+            "label": " ",
+            "blockClass": "tablist__item__learning__mobile__c"
+        }
+    },
+    "tab-content#learning-mobile": {
+        "children": [
+            "tab-content.item#learningA",
+            "tab-content.item#learningB",
+            "tab-content.item#learningC"
+        ]
+    },
+    "tab-content.item#learningA": {
+        "children": [
+            "list-context.product-list#vitrina-learningA"
+        ],
+        "props": {
+            "tabId": "learningA",
+            "blockClass": "listContext_learning__one"
+        }
+    },
+    "tab-content.item#learningB": {
+        "children": [
+            "list-context.product-list#vitrina-learningB"
+        ],
+        "props": {
+            "tabId": "learningB",
+            "blockClass": "listContext_learning__one"
+        }
+    },
+    "tab-content.item#learningC": {
+        "children": [
+            "list-context.product-list#vitrina-learningC"
+        ],
+        "props": {
+            "tabId": "learningC",
+            "blockClass": "listContext_learning__one"
+        }
+    },
+    "list-context.product-list#vitrina-learningA": {
+        "props": {
+            "collection": "255",
+            "blockClass": "vitrina__content__mobile"
+        },
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#custom-page-learning"
+        ]
+    },
+    "list-context.product-list#vitrina-learningB": {
+        "props": {
+            "collection": "256",
+            "blockClass": "vitrina__content__mobile"
+        },
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#custom-page-learning"
+        ]
+    },
+    "list-context.product-list#vitrina-learningC": {
+        "props": {
+            "collection": "257",
+            "blockClass": "vitrina__content"
+        },
+        "blocks": [
+            "product-summary.shelf"
+        ],
+        "children": [
+            "slider-layout#custom-page-learning"
+        ]
+    },
+    /* ------------- girl---------------- */
+    "rich-text#title-newgirl-mobile": {
+        "props": {
+            "text": "NEW BORN GIRL",
+            "textAlignment": "LEFT",
+            "blockClass": "learning__title__mobile"
+        }
+    },
+    "flex-layout.row#newgirl-section-mobile": {
+        "children": [
+            "flex-layout.col#newgirl-container-mobile"
+        ],
+        "props": {
+            "blockClass": "newgirl__section__mobileRow",
+            "rowGap": 2
+        }
+    },
+    "flex-layout.col#newgirl-container-mobile": {
+        "children": [
+            "image#newgirl-section-mobile",
+            "flex-layout.row#newgirl-content-mobile"
+        ],
+        "props": {
+            "blockClass": "newgirl__content__mobileCol"
+        }
+    },
+    "image#newgirl-section-mobile": {
+        "props": {
+            "src": "/arquivos/NB-GIRL-1-638X821.jpg",
+            "blockClass": "image__learningBig__mobile",
+            "maxWidth": "100%"
+        }
+    },
+    "flex-layout.row#newgirl-content-mobile": {
+        "children": [
+            "flex-layout.col#newgirl-infocard-mobile",
+            "flex-layout.col#newgirl-subsection-mobile"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "flexContent__image__infocard__mobile__row",
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.col#newgirl-infocard-mobile": {
+        "children": [
+            "image#newgirl-infocard-mobile"
+        ],
+        "props": {
+            "blockClass": "Flexnewfirl__image__infocard__mobile__col",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#newgirl-subsection-mobile": {
+        "children": [
+            "image#newgirl-subsection-mobile"
+        ],
+        "props": {
+            "blockClass": "Flexnewgirl__infocard__mobile__col",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#newgirl-subsection-mobile": {
+        "props": {
+            "src": "/arquivos/NB-GIRL-3-300X320.jpg",
+            "blockClass": "image__learning__mobile",
+            "maxWidth": "93%"
+        }
+    },
+    "image#newgirl-infocard-mobile": {
+        "props": {
+            "src": "/arquivos/newgirl__infocard__mobile_opt.jpg",
+            "blockClass": "image__newgirl__mobile",
+            "maxWidth": "96%",
+            "link": {
+                "url": "https://www.offcorss.us/255?map=productClusterIds",
+                "title": "infocard__newgirl__mobile"
+            }
+        }
+    },
+    /*------------boy--------------------------*/
+    "rich-text#title-newboy-mobile": {
+        "props": {
+            "text": "NEW BORN BOY",
+            "textAlignment": "LEFT",
+            "blockClass": "learning__title__mobile"
+        }
+    },
+    "flex-layout.row#newboy-section-mobile": {
+        "children": [
+            "flex-layout.col#newboy-container-mobile"
+        ],
+        "props": {
+            "blockClass": "newgirl__section__mobileRow",
+            "rowGap": 2
+        }
+    },
+    "flex-layout.col#newboy-container-mobile": {
+        "children": [
+            "image#newboy-section-mobile",
+            "flex-layout.row#newboy-content-mobile"
+        ],
+        "props": {
+            "blockClass": "newgirl__content__mobileCol"
+        }
+    },
+    "image#newboy-section-mobile": {
+        "props": {
+            "src": "/arquivos/NB-BOY-1-638X821.jpg",
+            "blockClass": "image__learningBig__mobile",
+            "maxWidth": "100%"
+        }
+    },
+    "flex-layout.row#newboy-content-mobile": {
+        "children": [
+            "flex-layout.col#newboy-subsection-mobile",
+            "flex-layout.row#newboy-infocard-mobile"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "flexContent__image__infocard__mobile__row",
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.row#newboy-infocard-mobile": {
+        "children": [
+            "image#newboy__infocard-mobile"
+        ],
+        "props": {
+            "blockClass": "Flexnewfirl__image__infocard__mobile__col",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#newboy-subsection-mobile": {
+        "children": [
+            "image#newboy-subsection-mobile"
+        ],
+        "props": {
+            "blockClass": "Flexnewgirl__infocard__mobile__col1",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#newboy-subsection-mobile": {
+        "props": {
+            "src": "/arquivos/NB-BOY-2-300X320.jpg",
+            "blockClass": "image__learning__mobile",
+            "maxWidth": "96%"
+        }
+    },
+    "image#newboy__infocard-mobile": {
+        "props": {
+            "src": "/arquivos/newboy__infocard__mobile_opt.jpg",
+            "blockClass": "image__newgirl__mobile",
+            "maxWidth": "100%",
+            "link": {
+                "url": "https://www.offcorss.us/256?map=productClusterIds",
+                "title": "infocard__newgirl__mobile"
+            }
+        }
+    },
+    /*----------- unisex------------*/
+    "rich-text#title-newunisex-mobile": {
+        "props": {
+            "text": "NEW BORN UNISEX",
+            "textAlignment": "LEFT",
+            "blockClass": "learning__title__mobile"
+        }
+    },
+    "flex-layout.row#newunisex-section-mobile": {
+        "children": [
+            "flex-layout.col#newunisex-container-mobile"
+        ],
+        "props": {
+            "blockClass": "newgirl__section__mobileRow",
+            "rowGap": 2
+        }
+    },
+    "flex-layout.col#newunisex-container-mobile": {
+        "children": [
+            "image#newunisex-section-mobile",
+            "flex-layout.row#newunisex-content-mobile"
+        ],
+        "props": {
+            "blockClass": "newgirl__content__mobileCol"
+        }
+    },
+    "image#newunisex-section-mobile": {
+        "props": {
+            "src": "/arquivos/NB-UNISEX-1-638X821.jpg",
+            "blockClass": "image__learningBig__mobile",
+            "maxWidth": "100%"
+        }
+    },
+    "flex-layout.row#newunisex-content-mobile": {
+        "children": [
+            "flex-layout.col#newunisex-infocard-mobile",
+            "flex-layout.col#newunisex-subsection-mobile"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "blockClass": "flexContent__image__infocard__mobile__row",
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.col#newunisex-infocard-mobile": {
+        "children": [
+            "image#newunisex-infocard-mobile"
+        ],
+        "props": {
+            "blockClass": "Flexnewfirl__image__infocard__mobile__col",
+            "preventVerticalStretch": true
+        }
+    },
+    "flex-layout.col#newunisex-subsection-mobile": {
+        "children": [
+            "image#newunisex-subsection-mobile"
+        ],
+        "props": {
+            "blockClass": "Flexnewgirl__infocard__mobile__col",
+            "preventVerticalStretch": true
+        }
+    },
+    "image#newunisex-subsection-mobile": {
+        "props": {
+            "src": "/arquivos/NB-UNISEX-3-300X320.jpg",
+            "blockClass": "image__learning__mobile",
+            "maxWidth": "93%"
+        }
+    },
+    "image#newunisex-infocard-mobile": {
+        "props": {
+            "src": "/arquivos/newunisex__infocard__mobile_opt.jpg",
+            "blockClass": "image__newgirl__mobile",
+            "maxWidth": "96%",
+            "link": {
+                "url": "https://www.offcorss.us/257?map=productClusterIds",
+                "title": "infocard__newunisex__desktop"
+            }
+        }
+    }
+}

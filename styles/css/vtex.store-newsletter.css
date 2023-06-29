@@ -1,0 +1,38 @@
+.formSubmitContainer{
+	width: 50%;
+}
+.newsletterForm--nenewsletterws-form{
+	display: flex;
+	gap: 30px;
+    margin: 20px 0 0;
+    justify-content: center;
+    align-items: center;
+}
+.formSubmitContainer{
+    width: 100%;
+    border: 1px solid #fff;
+    text-align: center;
+    display: grid;
+}
+.emailInputContainer,
+.nameInputContainer{
+	width: 100%;
+}
+
+@media (max-width: 600px) {
+    .newsletterForm--nenewsletterws-form {
+        display: block;
+        text-align: center;
+    }
+    .emailInputContainer,
+    .nameInputContainer{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .formSubmitContainer{
+        display: inline-block;
+        width: auto;
+        padding:0 0;
+        margin: 0 auto;
+    }
+}

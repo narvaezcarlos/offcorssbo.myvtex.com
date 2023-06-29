@@ -1,0 +1,458 @@
+// CONSULTA TODOS LAS TALLAS
+// {
+//   fieldValues(fieldId: "19") {
+//     fieldValueId
+//     value
+//   }
+// }
+
+// CAMBIAR VALOR DEL ATRIBUTO DE IDIOMA
+
+// QUERY
+// mutation translate($args: FieldValueInputTranslation, $locale: Locale) {
+//   translateFieldValues(fieldValues: $args, locale: $locale)
+// }
+
+// VARIABLES
+{
+	"args": {
+		"fieldId": "19",
+		"fieldValuesNames": [
+			 {
+        "id": "174",
+        "name": "0/0M"
+      },
+      {
+        "id": "175",
+        "name": "0/3M"
+      },
+      {
+        "id": "176",
+        "name": "0/6M"
+      },
+      {
+        "id": "177",
+        "name": "3/6M"
+      },
+      {
+        "id": "178",
+        "name": "4/6M"
+      },
+      {
+        "id": "179",
+        "name": "6/8M"
+      },
+      {
+        "id": "180",
+        "name": "6/9M"
+      },
+      {
+        "id": "181",
+        "name": "6/12M"
+      },
+      {
+        "id": "182",
+        "name": "8/10M"
+      },
+      {
+        "id": "183",
+        "name": "9/11M"
+      },
+      {
+        "id": "184",
+        "name": "9/12M"
+      },
+      {
+        "id": "185",
+        "name": "10/12M"
+      },
+      {
+        "id": "186",
+        "name": "12/18M"
+      },
+      {
+        "id": "187",
+        "name": "12/24M"
+      },
+      {
+        "id": "188",
+        "name": "14/16M"
+      },
+      {
+        "id": "189",
+        "name": "24M"
+      },
+      {
+        "id": "190",
+        "name": "2Y"
+      },
+      {
+        "id": "191",
+        "name": "2Y/3Y"
+      },
+      {
+        "id": "192",
+        "name": "3Y"
+      },
+      {
+        "id": "193",
+        "name": "4Y"
+      },
+      {
+        "id": "194",
+        "name": "4Y/5Y"
+      },
+      {
+        "id": "195",
+        "name": "5Y"
+      },
+      {
+        "id": "196",
+        "name": "4Y"
+      },
+      {
+        "id": "197",
+        "name": "6Y"
+      },
+      {
+        "id": "198",
+        "name": "8Y"
+      },
+      {
+        "id": "199",
+        "name": "10Y"
+      },
+      {
+        "id": "200",
+        "name": "12Y"
+      },
+      {
+        "id": "201",
+        "name": "14Y"
+      },
+      {
+        "id": "202",
+        "name": "16Y"
+      },
+      {
+        "id": "203",
+        "name": "XS"
+      },
+      {
+        "id": "204",
+        "name": "XS/ECH"
+      },
+      {
+        "id": "205",
+        "name": "S"
+      },
+      {
+        "id": "206",
+        "name": "S/CH"
+      },
+      {
+        "id": "207",
+        "name": "S/M"
+      },
+      {
+        "id": "208",
+        "name": "M"
+      },
+      {
+        "id": "209",
+        "name": "M/M"
+      },
+      {
+        "id": "210",
+        "name": "M/L"
+      },
+      {
+        "id": "211",
+        "name": "L"
+      },
+      {
+        "id": "212",
+        "name": "L/G"
+      },
+      {
+        "id": "213",
+        "name": "XL"
+      },
+      {
+        "id": "214",
+        "name": "XXL"
+      },
+      {
+        "id": "215",
+        "name": "U"
+      },
+      {
+        "id": "216",
+        "name": "15"
+      },
+      {
+        "id": "217",
+        "name": "16"
+      },
+      {
+        "id": "218",
+        "name": "17"
+      },
+      {
+        "id": "219",
+        "name": "18"
+      },
+      {
+        "id": "220",
+        "name": "19"
+      },
+      {
+        "id": "221",
+        "name": "20"
+      },
+      {
+        "id": "222",
+        "name": "21"
+      },
+      {
+        "id": "223",
+        "name": "22"
+      },
+      {
+        "id": "224",
+        "name": "23"
+      },
+      {
+        "id": "225",
+        "name": "24"
+      },
+      {
+        "id": "226",
+        "name": "25"
+      },
+      {
+        "id": "227",
+        "name": "26"
+      },
+      {
+        "id": "228",
+        "name": "27"
+      },
+      {
+        "id": "229",
+        "name": "28"
+      },
+      {
+        "id": "230",
+        "name": "29"
+      },
+      {
+        "id": "231",
+        "name": "30"
+      },
+      {
+        "id": "232",
+        "name": "31"
+      },
+      {
+        "id": "233",
+        "name": "32"
+      },
+      {
+        "id": "234",
+        "name": "33"
+      },
+      {
+        "id": "235",
+        "name": "34"
+      },
+      {
+        "id": "236",
+        "name": "35"
+      },
+      {
+        "id": "237",
+        "name": "36"
+      },
+      {
+        "id": "238",
+        "name": "37"
+      },
+      {
+        "id": "239",
+        "name": "38"
+      },
+      {
+        "id": "240",
+        "name": "39"
+      },
+      {
+        "id": "241",
+        "name": "21/22"
+      },
+      {
+        "id": "242",
+        "name": "23/24"
+      },
+      {
+        "id": "243",
+        "name": "25/26"
+      },
+      {
+        "id": "244",
+        "name": "27/28"
+      },
+      {
+        "id": "245",
+        "name": "28/29"
+      },
+      {
+        "id": "246",
+        "name": "29/30"
+      },
+      {
+        "id": "247",
+        "name": "30/31"
+      },
+      {
+        "id": "248",
+        "name": "31/32"
+      },
+      {
+        "id": "249",
+        "name": "32/33"
+      },
+      {
+        "id": "250",
+        "name": "33/34"
+      },
+      {
+        "id": "251",
+        "name": "34/35"
+      },
+      {
+        "id": "252",
+        "name": "35/36"
+      },
+      {
+        "id": "253",
+        "name": "36/37"
+      },
+      {
+        "id": "254",
+        "name": "2M"
+      },
+      {
+        "id": "255",
+        "name": "4M"
+      },
+      {
+        "id": "256",
+        "name": "8M"
+      },
+      {
+        "id": "257",
+        "name": "10M"
+      },
+      {
+        "id": "258",
+        "name": "12M"
+      },
+      {
+        "id": "259",
+        "name": "14M"
+      },
+      {
+        "id": "260",
+        "name": "16M"
+      },
+      {
+        "id": "261",
+        "name": "18M"
+      },
+      {
+        "id": "262",
+        "name": "20M"
+      },
+      {
+        "id": "263",
+        "name": "6M"
+      },
+      {
+        "id": "264",
+        "name": "4/6Y"
+      },
+      {
+        "id": "265",
+        "name": "8/10Y"
+      },
+      {
+        "id": "266",
+        "name": "9/11Y"
+      },
+      {
+        "id": "267",
+        "name": "6/8Y"
+      }
+		]
+	},
+	"locale": "es-CO"
+}
+
+
+
+// TRADUCCION BOTON CARRITO
+// mutation Save($saveArgs: SaveArgsV2!) {
+//   saveV2(args: $saveArgs)
+// }
+
+// VARIABLES
+{
+  "saveArgs": {
+    "to": "es-CL",
+    "messages": [
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/finish-shopping-button-label",
+        "context": "vtex.minicart@2.x",
+        "targetMessage": "Ir al Carrito"
+      }
+    ]
+  }
+},
+{
+  "saveArgs": {
+    "to": "es-CL",
+    "messages": [
+      {
+        "srcLang": "en-DV",
+        "srcMessage": "store/minicart.go-to-checkout",
+        "context": "vtex.minicart@2.x",
+        "targetMessage": "Ir al Carrito"
+      }
+    ]
+  }
+}
+
+// CONULTAR VALOR
+// query GetTranslation($args: TranslateWithDependenciesArgs!) {
+//   translateWithDependencies(args: $args)
+// }
+
+// VARIABLES
+{
+"args": {
+    "indexedByFrom": [
+      {
+        "from": "en-US",
+        "messages": [
+          {
+            "content": "store/minicart.go-to-checkout",
+            "context": "vtex.minicart@2.x"
+          }
+        ]
+      }
+    ],
+    "to": "es-CL",
+    "depTree": "[{\"id\": \"vtex.minicart@2.x\"}]"
+  }

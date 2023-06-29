@@ -1,0 +1,758 @@
+{
+	"store.custom#wholesale": {
+		"blocks": [
+			"flex-layout.row#sell-with-us-section-1",
+			"flex-layout.row#sell-with-us-section-2",
+			"flex-layout.row#sell-with-us-section-3",
+			"flex-layout.row#sell-with-us-section-4",
+			"flex-layout.row#sell-with-us-section-11",
+			"flex-layout.row#sell-with-us-section-5",
+			"flex-layout.row#sell-with-us-section-6",
+			"flex-layout.row#sell-with-us-section-7",
+			"flex-layout.row#sell-with-us-section-8",
+			"flex-layout.row#sell-with-us-section-9",
+			"flex-layout.row#sell-with-us-section-10"
+		]
+	},
+	"flex-layout.row#sell-with-us-section-1": {
+		"children": ["flex-layout.col#sell-with-us-section-1"]
+	},
+	"flex-layout.col#sell-with-us-section-1": {
+		"children": ["info-card#sell-with-us-section-1"]
+	},
+	"info-card#sell-with-us-section-1": {
+		"props": {
+			"isFullModeStyle": true,
+			"textPosition": "center",
+			"imageUrl": "/arquivos/banner-top-expectation-OffcorssInter-22.jpg",
+			"subhead": "It is the leading brand in children's clothing in COLOMBIA, created since 1979 with extensive experience in the textile sector, it has accompanied children from birth to adolescence. A brand of tradition, with its own language that offers new clothing proposals on a monthly basis.",
+			"textAlignment": "center",
+			"blockClass": "quienes-somos-1"
+		}
+	},
+	"flex-layout.row#sell-with-us-section-2": {
+		"children": ["image#sell-with-us-section-2"],
+		"props": {
+			"fullWidth": true
+		}
+	},
+	"image#sell-with-us-section-2": {
+		"props": {
+			"src": "/arquivos/banner-map-expectation-OffcorssInter--22.jpg",
+			"blockClass": "w-100",
+			"alt": "We continue growing - 40 years of experience"
+		}
+	},
+	"flex-layout.row#sell-with-us-section-3": {
+		"props": {
+			"blockClass": "sell-with-us-section-3",
+			"paddingTop": 7,
+			"paddingBottom": 7
+		},
+		"children": [
+			"flex-layout.col#text-sell-with-us-section-3-1",
+			"flex-layout.col#text-sell-with-us-section-3-2",
+			"flex-layout.col#text-sell-with-us-section-3-3"
+		]
+	},
+	"flex-layout.col#text-sell-with-us-section-3-1": {
+		"children": ["image#sell-with-us-section-3-1"]
+	},
+	"image#sell-with-us-section-3-1": {
+		"props": {
+			"src": "/arquivos/foto1-offcorssinter--22.png"
+		}
+	},
+	"flex-layout.col#text-sell-with-us-section-3-2": {
+		"children": ["rich-text#sell-with-us-section-3-2"]
+	},
+	"rich-text#sell-with-us-section-3-2": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "# **In OFFCORSS**\n # **...**\n We are part of the **lifestyle** and **imagination** of children, their growth and their dreams, but most importantly, we are committed to accompanying them every day to ensure that we will be in their hearts for life.",
+			"blockClass": "sell-with-us-section-3-2"
+		}
+	},
+	"flex-layout.col#text-sell-with-us-section-3-3": {
+		"children": ["image#sell-with-us-section-3-3"]
+	},
+	"image#sell-with-us-section-3-3": {
+		"props": {
+			"src": "/arquivos/foto2-offcorssinter-22.png"
+		}
+	},
+	"flex-layout.row#sell-with-us-section-4": {
+		"children": [
+			"flex-layout.col#sell-with-us-section-4-der",
+			"flex-layout.col#sell-with-us-section-4-iz"
+		],
+		"props": {
+			"fullWidth": true,
+			"preserveLayoutOnMobile": false,
+			"colSizing": "equal",
+			"blockClass": "sell-with-us-section-4-content"
+		}
+	},
+	"flex-layout.col#sell-with-us-section-4-iz": {
+		"children": ["flex-layout.row#sell-with-us-section-4-col"],
+		"props": {
+			"verticalAlign": "middle",
+			"blockClass": "sell-with-us-section-4-content-col"
+		}
+	},
+	"flex-layout.row#sell-with-us-section-4-col": {
+		"children": ["flex-layout.col#sell-with-us-section-4-iz-col"],
+		"props": {
+			"fullWidth": true,
+			"preserveLayoutOnMobile": false,
+			"blockClass": "sell-with-us-section-4-content",
+			"preventVerticalStretch": true
+		}
+	},
+	"flex-layout.col#sell-with-us-section-4-iz-col": {
+		"children": ["rich-text#sell-with-us-section-4-desciption"],
+		"props": {
+			"verticalAlign": "middle",
+			"blockClass": "sell-with-us-section-4-col-left",
+			"width": "100%"
+		}
+	},
+	"rich-text#sell-with-us-section-4-desciption": {
+		"props": {
+			"textAlignment": "LEFT",
+			"textPosition": "LEFT",
+			"text": "Leave us your information and one of our advisors will provide you with personalized advice.",
+			"blockClass": "sell-with-us-section-4-desciption",
+			"textColor": "c-on-emphasis",
+			"font": "t-heading-4"
+		}
+	},
+	"flex-layout.col#sell-with-us-section-4-der": {
+		"children": ["image#sell-with-us-section-4-banner"],
+		"props": {
+			"horizontalAlign": "center",
+			"blockClass": "sell-with-us-section-4-image",
+			"width": "40%"
+		}
+	},
+	"image#sell-with-us-section-4-banner": {
+		"props": {
+			"src": "/arquivos/sell-with-us-want-to-sell-with-us-offcorss-22.png",
+			"alt": "WANT TO SELL WITH US"
+		}
+	},
+	"flex-layout.row#sell-with-us-section-11": {
+		"children": ["flex-layout.col#sell-with-us-col"],
+		"props": {
+			"blockClass": "sell-with-us-form",
+			"horizontalAlign": "center",
+			"marginBottom": 6,
+			"marginTop": 6,
+			"fullWidth": false
+		}
+	},
+	"flex-layout.col#sell-with-us-col": {
+		"children": ["rich-text#sell-with-us", "form#sell-with-us"],
+		"props": {
+			"width": "40%"
+		}
+	},
+	"rich-text#sell-with-us": {
+		"props": {
+			"text": "Send us your request!",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	},
+	"form#sell-with-us": {
+		"props": {
+			"entity": "sellwithus",
+			"schema": "sellwithus"
+		},
+		"children": [
+			"flex-layout.row#sell-with-us",
+			"flex-layout.row#sell-with-us-2"
+		],
+		"blocks": ["form-success#sell-with-us"]
+	},
+	"flex-layout.row#sell-with-us": {
+		"props": {
+			"colSizing": "equal",
+			"colGap": 3
+		},
+		"children": [
+			"flex-layout.col#form-col-left-1",
+			"flex-layout.col#form-col-right-2"
+		]
+	},
+	"flex-layout.col#form-col-left-1": {
+		"children": [
+			"form-input.text#firstNameCL-sell-with-us",
+			"form-input.text#lastNameCL-sell-with-us",
+			"form-input.text#emailCL-sell-with-us",
+			"form-input.dropdown#countryCL-sell-with-us"
+		]
+	},
+	"form-input.text#firstNameCL-sell-with-us": {
+		"props": {
+			"pointer": "#/properties/firstNameCL",
+			"label": "Name"
+		}
+	},
+	"form-input.text#lastNameCL-sell-with-us": {
+		"props": {
+			"pointer": "#/properties/lastNameCL",
+			"label": "Last name"
+		}
+	},
+	"form-input.text#emailCL-sell-with-us": {
+		"props": {
+			"pointer": "#/properties/emailCL",
+			"label": "Email"
+		}
+	},
+	"form-input.dropdown#countryCL-sell-with-us": {
+		"props": {
+			"pointer": "#/properties/countryCL",
+			"label": "Country"
+		}
+	},
+	"flex-layout.col#form-col-right-2": {
+		"children": [
+			"form-input.text#phoneCL-sell-with-us",
+			"form-input.textarea#messageCL-sell-with-us",
+			"form-input.textarea#networksCL-sell-with-us"
+		]
+	},
+	"form-input.text#phoneCL-sell-with-us": {
+		"props": {
+			"pointer": "#/properties/phoneCL",
+			"label": "Phone"
+		}
+	},
+	"form-input.textarea#messageCL-sell-with-us": {
+		"props": {
+			"pointer": "#/properties/messageCL",
+			"label": "Information of your brand"
+		}
+	},
+	"form-input.textarea#networksCL-sell-with-us": {
+		"props": {
+			"pointer": "#/properties/networksCL",
+			"label": "Social Networks"
+		}
+	},
+	"flex-layout.row#sell-with-us-2": {
+		"children": [
+			"form-input.checkbox#agreement-sell-with-us",
+			"form-submit#sell-with-us"
+		]
+	},
+	"form-input.checkbox#agreement-sell-with-us": {
+		"props": {
+			"pointer": "#/properties/agreement",
+			"label": "Accept terms and conditions"
+		}
+	},
+	"form-submit#sell-with-us": {
+		"props": {
+			"label": "Send"
+		}
+	},
+	"form-success#sell-with-us": {
+		"children": ["rich-text#successSubmit-sell-with-us"]
+	},
+	"rich-text#successSubmit-sell-with-us": {
+		"props": {
+			"text": "Sent the data successfully!",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	},
+	"flex-layout.row#sell-with-us-section-5": {
+		"children": [
+			"flex-layout.col#personalized",
+			"flex-layout.col#multiple",
+			"flex-layout.col#delivery",
+			"flex-layout.col#prices"
+		],
+		"props": {
+			"blockClass": "",
+			"horizontalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preserveLayoutOnMobile": false,
+			"colSizing": "equal",
+			"colGap": 6,
+			"marginBottom": 6,
+			"marginTop": 6
+		}
+	},
+	"flex-layout.col#personalized": {
+		"children": ["image#personalized"],
+		"props": {
+			"blockClass": "categories"
+		}
+	},
+	"image#personalized": {
+		"props": {
+			"src": "/arquivos/sell-with-us-section-5-personalized-OffcorssInter-22.jpg",
+			"link": {
+				"url": "/",
+				"title": "Offcorss International"
+			},
+			"alt": "Personalized consulting"
+		}
+	},
+	"flex-layout.col#multiple": {
+		"children": ["image#multiple"],
+		"props": {
+			"blockClass": "categories"
+		}
+	},
+	"image#multiple": {
+		"props": {
+			"src": "/arquivos/sell-with-us-section-5-multiple-OffcorssInter-22.jpg",
+			"link": {
+				"url": "/",
+				"title": "Offcorss International"
+			},
+			"alt": "Multiple means of payment"
+		}
+	},
+	"flex-layout.col#delivery": {
+		"children": ["image#delivery"],
+		"props": {
+			"blockClass": "categories"
+		}
+	},
+	"image#delivery": {
+		"props": {
+			"src": "/arquivos/sell-with-us-section-5-delivery-OffcorssInter-22.jpg",
+			"link": {
+				"url": "/",
+				"title": "Offcorss International"
+			},
+			"alt": "Delivery in the desired destination"
+		}
+	},
+	"flex-layout.col#prices": {
+		"children": ["image#prices"],
+		"props": {
+			"blockClass": "categories"
+		}
+	},
+	"image#prices": {
+		"props": {
+			"src": "/arquivos/sell-with-us-section-5-prices-OffcorssInter-22.jpg",
+			"link": {
+				"url": "/",
+				"title": "Offcorss International"
+			},
+			"alt": "Prices specials"
+		}
+	},
+	"flex-layout.row#sell-with-us-section-6": {
+		"children": [
+			"flex-layout.col#sell-with-us-section-6-iz-our-shops",
+			"flex-layout.col#sell-with-us-section-6-der-our-shops"
+		],
+		"props": {
+			"fullWidth": true,
+			"preserveLayoutOnMobile": false,
+			"colSizing": "equal",
+			"blockClass": "shopby-content"
+		}
+	},
+	"flex-layout.col#sell-with-us-section-6-iz-our-shops": {
+		"children": ["flex-layout.row#sell-with-us-section-6-col"],
+		"props": {
+			"verticalAlign": "middle",
+			"blockClass": "shopby-content-col"
+		}
+	},
+	"flex-layout.row#sell-with-us-section-6-col": {
+		"children": ["flex-layout.col#sell-with-us-section-6-iz-our-shops-col"],
+		"props": {
+			"fullWidth": true,
+			"preserveLayoutOnMobile": false,
+			"blockClass": "shopby-content",
+			"preventVerticalStretch": true
+		}
+	},
+	"flex-layout.col#sell-with-us-section-6-iz-our-shops-col": {
+		"children": ["rich-text#our-shops-title", "rich-text#our-shops-desciption"],
+		"props": {
+			"verticalAlign": "middle",
+			"blockClass": "shopby-content-col-left",
+			"width": "90%"
+		}
+	},
+	"rich-text#our-shops-title": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "## OUR SHOPS ",
+			"blockClass": "shopby-title"
+		}
+	},
+	"rich-text#our-shops-desciption": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "107 stores in Colombia, Peru and Bolivia.",
+			"blockClass": "shopby-desciption"
+		}
+	},
+	"flex-layout.col#sell-with-us-section-6-der-our-shops": {
+		"children": ["image#banner-our-shops"],
+		"props": {
+			"horizontalAlign": "center",
+			"blockClass": "shopby-image"
+		}
+	},
+	"image#banner-our-shops": {
+		"props": {
+			"src": "/arquivos/banner-nuestras-tiendas-OffcorssInter-22.jpg",
+			"alt": "Nuestras tiendas"
+		}
+	},
+	"flex-layout.row#sell-with-us-section-7": {
+		"children": [
+			"flex-layout.col#sell-with-us-section-7-der-big-surface",
+			"flex-layout.col#sell-with-us-section-7-iz-big-surface"
+		],
+		"props": {
+			"fullWidth": true,
+			"preserveLayoutOnMobile": false,
+			"colSizing": "equal",
+			"blockClass": "shopby-content2"
+		}
+	},
+	"flex-layout.col#sell-with-us-section-7-iz-big-surface": {
+		"children": ["flex-layout.row#sell-with-us-section-7-col"],
+		"props": {
+			"verticalAlign": "middle",
+			"blockClass": "shopby-content-col2"
+		}
+	},
+	"flex-layout.row#sell-with-us-section-7-col": {
+		"children": ["flex-layout.col#sell-with-us-section-7-iz-big-surface-col"],
+		"props": {
+			"fullWidth": true,
+			"preserveLayoutOnMobile": false,
+			"blockClass": "shopby-content",
+			"preventVerticalStretch": true
+		}
+	},
+	"flex-layout.col#sell-with-us-section-7-iz-big-surface-col": {
+		"children": [
+			"rich-text#big-surface-title",
+			"rich-text#big-surface-desciption"
+		],
+		"props": {
+			"verticalAlign": "middle",
+			"blockClass": "shopby-content-col-left",
+			"width": "90%"
+		}
+	},
+	"rich-text#big-surface-title": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "## BIG SURFACES",
+			"blockClass": "shopby-title2"
+		}
+	},
+	"rich-text#big-surface-desciption": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "300 points of sale in Colombia, Ecuador and Panama.",
+			"blockClass": "shopby-desciption"
+		}
+	},
+	"flex-layout.col#sell-with-us-section-7-der-big-surface": {
+		"children": ["image#banner-big-surface"],
+		"props": {
+			"horizontalAlign": "center",
+			"blockClass": "shopby-image"
+		}
+	},
+	"image#banner-big-surface": {
+		"props": {
+			"src": "/arquivos/banner-grandes-superficies-OffcorssInter-22.jpg",
+			"alt": "GRANDES SUPERFICIES"
+		}
+	},
+	"flex-layout.row#sell-with-us-section-8": {
+		"children": [
+			"flex-layout.col#sell-with-us-section-8-iz-boutiques",
+			"flex-layout.col#sell-with-us-section-8-der-boutiques"
+		],
+		"props": {
+			"fullWidth": true,
+			"preserveLayoutOnMobile": false,
+			"colSizing": "equal",
+			"blockClass": "shopby-content"
+		}
+	},
+	"flex-layout.col#sell-with-us-section-8-iz-boutiques": {
+		"children": ["flex-layout.row#sell-with-us-section-8-col"],
+		"props": {
+			"verticalAlign": "middle",
+			"blockClass": "shopby-content-col"
+		}
+	},
+	"flex-layout.row#sell-with-us-section-8-col": {
+		"children": ["flex-layout.col#sell-with-us-section-8-iz-boutiques-col"],
+		"props": {
+			"fullWidth": true,
+			"preserveLayoutOnMobile": false,
+			"blockClass": "shopby-content",
+			"preventVerticalStretch": true
+		}
+	},
+	"flex-layout.col#sell-with-us-section-8-iz-boutiques-col": {
+		"children": ["rich-text#boutiques-title", "rich-text#boutiques-desciption"],
+		"props": {
+			"verticalAlign": "middle",
+			"blockClass": "shopby-content-col-left",
+			"width": "90%"
+		}
+	},
+	"rich-text#boutiques-title": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "## BOUTIQUES ",
+			"blockClass": "shopby-title"
+		}
+	},
+	"rich-text#boutiques-desciption": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "More than 600 allies in different countries.",
+			"blockClass": "shopby-desciption"
+		}
+	},
+	"flex-layout.col#sell-with-us-section-8-der-boutiques": {
+		"children": ["image#banner-boutiques"],
+		"props": {
+			"horizontalAlign": "center",
+			"blockClass": "shopby-image"
+		}
+	},
+	"image#banner-boutiques": {
+		"props": {
+			"src": "/arquivos/banner-boutiques-OffcorssInter-22.jpg",
+			"alt": "Boutiques"
+		}
+	},
+	"flex-layout.row#sell-with-us-section-9": {
+		"children": [
+			"flex-layout.col#sell-with-us-section-9-der-catalogue",
+			"flex-layout.col#sell-with-us-section-9-iz-catalogue"
+		],
+		"props": {
+			"fullWidth": true,
+			"preserveLayoutOnMobile": false,
+			"colSizing": "equal",
+			"blockClass": "shopby-content2"
+		}
+	},
+	"flex-layout.col#sell-with-us-section-9-iz-catalogue": {
+		"children": ["flex-layout.row#sell-with-us-section-9-col"],
+		"props": {
+			"verticalAlign": "middle",
+			"blockClass": "shopby-content-col2"
+		}
+	},
+	"flex-layout.row#sell-with-us-section-9-col": {
+		"children": ["flex-layout.col#sell-with-us-section-9-iz-catalogue-col"],
+		"props": {
+			"fullWidth": true,
+			"preserveLayoutOnMobile": false,
+			"blockClass": "shopby-content",
+			"preventVerticalStretch": true
+		}
+	},
+	"flex-layout.col#sell-with-us-section-9-iz-catalogue-col": {
+		"children": ["rich-text#catalogue-title", "rich-text#catalogue-desciption"],
+		"props": {
+			"verticalAlign": "middle",
+			"blockClass": "shopby-content-col-left",
+			"width": "90%"
+		}
+	},
+	"rich-text#catalogue-title": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "## CATALOGUE",
+			"blockClass": "shopby-title2"
+		}
+	},
+	"rich-text#catalogue-desciption": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "Sale by Catalog with more than 23,000 businesswomen in Colombia.",
+			"blockClass": "shopby-desciption"
+		}
+	},
+	"flex-layout.col#sell-with-us-section-9-der-catalogue": {
+		"children": ["image#banner-catalogue"],
+		"props": {
+			"horizontalAlign": "center",
+			"blockClass": "shopby-image"
+		}
+	},
+	"image#banner-catalogue": {
+		"props": {
+			"src": "/arquivos/banner-catalogo-OffcorssInter-22.jpg",
+			"alt": "CATÁLOGO"
+		}
+	},
+	"flex-layout.row#sell-with-us-section-10": {
+		"children": [
+			"flex-layout.col#facebook",
+			"flex-layout.col#instagram",
+			"flex-layout.col#pinterest",
+			"flex-layout.col#twiter",
+			"flex-layout.col#youtube",
+			"flex-layout.col#spotify",
+			"flex-layout.col#tiktok"
+		],
+		"props": {
+			"blockClass": "sell-with-us-section-10",
+			"horizontalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preserveLayoutOnMobile": true,
+			"colSizing": "equal",
+			"colGap": 4,
+			"marginBottom": 4,
+			"marginTop": 6
+		}
+	},
+	"flex-layout.col#facebook": {
+		"children": ["image#facebook"],
+		"props": {
+			"blockClass": ""
+		}
+	},
+	"image#facebook": {
+		"props": {
+			"src": "/arquivos/sell-with-us-facebook-OffcorssInter-22.png",
+			"link": {
+				"url": "https://www.facebook.com/offcorss/",
+				"newTab": "true",
+				"title": "Offcorss International"
+			},
+			"alt": "FACEBOOK"
+		}
+	},
+	"flex-layout.col#instagram": {
+		"children": ["image#instagram"],
+		"props": {
+			"blockClass": ""
+		}
+	},
+	"image#instagram": {
+		"props": {
+			"src": "/arquivos/sell-with-us-instagram-OffcorssInter-22.png",
+			"link": {
+				"url": "https://www.instagram.com/offcorss.us/",
+				"newTab": "true",
+				"title": "Offcorss International"
+			},
+			"alt": "INSTAGRAM"
+		}
+	},
+	"flex-layout.col#pinterest": {
+		"children": ["image#pinterest"],
+		"props": {
+			"blockClass": ""
+		}
+	},
+	"image#pinterest": {
+		"props": {
+			"src": "/arquivos/sell-with-us-pinterest-OffcorssInter-22.png",
+			"link": {
+				"url": "https://www.pinterest.es/offcorss/_created/",
+				"newTab": "true",
+				"title": "Offcorss International"
+			},
+			"alt": "PINTEREST"
+		}
+	},
+	"flex-layout.col#twiter": {
+		"children": ["image#twiter"],
+		"props": {
+			"blockClass": ""
+		}
+	},
+	"image#twiter": {
+		"props": {
+			"src": "/arquivos/sell-with-us-twiter-OffcorssInter-22.png",
+			"link": {
+				"url": "https://twitter.com/OFFCORSS",
+				"newTab": "true",
+				"title": "Offcorss International"
+			},
+			"alt": "TWITER"
+		}
+	},
+	"flex-layout.col#youtube": {
+		"children": ["image#youtube"],
+		"props": {
+			"blockClass": ""
+		}
+	},
+	"image#youtube": {
+		"props": {
+			"src": "/arquivos/sell-with-us-youtube-OffcorssInter-22.png",
+			"link": {
+				"url": "https://www.youtube.com/user/OFFCORSSenLinea",
+				"newTab": "true",
+				"title": "Offcorss International"
+			},
+			"alt": "YOUTUBE"
+		}
+	},
+	"flex-layout.col#spotify": {
+		"children": ["image#spotify"],
+		"props": {
+			"blockClass": ""
+		}
+	},
+	"image#spotify": {
+		"props": {
+			"src": "/arquivos/sell-with-us-spotify-OffcorssInter-22.png",
+			"link": {
+				"url": "https://open.spotify.com/show/77zhYSrFWb7rJfaxWnzlp1?si=ae343142f1464de1",
+				"newTab": "true",
+				"title": "Offcorss International"
+			},
+			"alt": "SPOTIFY"
+		}
+	},
+	"flex-layout.col#tiktok": {
+		"children": ["image#tiktok"],
+		"props": {
+			"blockClass": ""
+		}
+	},
+	"image#tiktok": {
+		"props": {
+			"src": "/arquivos/sell-with-us-tiktok-OffcorssInter-22.png",
+			"link": {
+				"url": "https://www.tiktok.com/@offcorss?is_from_webapp=1&sender_device=pc",
+				"newTab": "true",
+				"title": "Offcorss International"
+			},
+			"alt": "TIKTOK"
+		}
+	}
+}

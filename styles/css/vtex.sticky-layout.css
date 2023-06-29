@@ -1,0 +1,8 @@
+.container--sticky-row-desktop,
+.container--sticky-row-mobile {
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.wrapper--sticky-row--stuck .container--sticky-row {
+    padding-bottom: 0.25rem !important;
+}

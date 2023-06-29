@@ -1,0 +1,89 @@
+{
+	"vtex.menu@2.x:menu#nav-principal": {
+		"children": [
+			//"menu-item#sub.menu-what-is-new",
+			"menu-item#sub.menu-baby",
+			"menu-item#sub.menu-kids",
+			"menu-item#sub.menu-junior"
+		],
+		"props": {
+			"blockClass": "menu-principal"
+		}
+	},
+	"menu-item#sub.menu-what-is-new": {
+		"props": {
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": true,
+				"tagTitle": "WHAT'S NEW?",
+				"text": "WHAT'S NEW?"
+			},
+			"blockClass": "menu-principal-menu-what-is-new"
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-what-is-new"]
+	},
+	"menu-item#sub.menu-baby": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"tagTitle": "BABY (0-18 Months)",
+				"text": "BABY (0-18 Months)"
+			},
+			"blockClass": "menu-principal-baby"
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-baby"]
+	},
+	"menu-item#sub.menu-kids": {
+		"props": {
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": true,
+				"tagTitle": "KIDS (4-5 Years)",
+				"text": "KIDS (4-5 Years)"
+			},
+			"blockClass": "menu-principal-kids"
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-kids"]
+	},
+	"menu-item#sub.menu-junior": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"tagTitle": "JUNIOR (6-13 Years)",
+				"text": "JUNIOR (6-13 Years)"
+			},
+			"blockClass": "menu-principal-junior"
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-junior"]
+	},
+	"menu-item#sub.menu-sale": {
+		"props": {
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/sale",
+				"noFollow": true,
+				"tagTitle": "SALE",
+				"text": "SALE"
+			},
+			"blockClass": "menu-principal-sale"
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-sale"]
+	}
+}

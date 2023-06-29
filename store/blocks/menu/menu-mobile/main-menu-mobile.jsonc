@@ -1,0 +1,123 @@
+{
+	"vtex.menu@2.x:menu#nav-principal-mobile": {
+		"children": [
+			//"menu-item#sub.menu-mobile-what-is-new",
+			"menu-item#sub.menu-mobile-baby",
+			"menu-item#sub.menu-mobile-kids",
+			"menu-item#sub.menu-mobile-junior",
+			//"menu-item#sub.menu-mobile-sale",
+			"menu-item#sub.menu-mobile-login"
+		],
+		"props": {
+			"orientation": "vertical",
+			"blockClass": "menu-principal-m"
+		}
+	},
+	"menu-item#sub.menu-mobile-what-is-new": {
+		"props": {
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": true,
+				"tagTitle": "WHAT'S NEW?",
+				"text": "WHAT'S NEW?"
+			},
+			"blockClass": "menu-principal-what-is-new",
+			"iconProps": {
+				"id": "mpa-angle--down"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-what-is-new"]
+	},
+	"menu-item#sub.menu-mobile-baby": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"tagTitle": "BABY (0-18 Months)",
+				"text": "BABY (0-18 Months)"
+			},
+			"blockClass": "menu-principal-baby",
+			"iconProps": {
+				"id": "mpa-angle--down"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-baby"]
+	},
+	"menu-item#sub.menu-mobile-kids": {
+		"props": {
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": true,
+				"tagTitle": "KIDS (4-5 Years)",
+				"text": "KIDS (4-5 Years)"
+			},
+			"blockClass": "menu-principal-kids",
+			"iconProps": {
+				"id": "mpa-angle--down"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-kids"]
+	},
+	"menu-item#sub.menu-mobile-junior": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"tagTitle": "JUNIOR (6-13 Years)",
+				"text": "JUNIOR (6-13 Years)"
+			},
+			"blockClass": "menu-principal-junior",
+			"iconProps": {
+				"id": "mpa-angle--down"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-junior"]
+	},
+	"menu-item#sub.menu-mobile-sale": {
+		"props": {
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"noFollow": true,
+				"tagTitle": "SALE",
+				"text": "SALE"
+			},
+			"blockClass": "menu-principal-sale",
+			"iconProps": {
+				"id": "mpa-angle--down"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-sale"]
+	},
+	"menu-item#sub.menu-mobile-login": {
+		"props": {
+			"id": "menu-item-mobile-login",
+			"type": "custom",
+			"highlight": false,
+			"iconPosition": "left",
+			"itemProps": {
+				"type": "internal",
+				"href": "/account",
+				"noFollow": false,
+				"tagTitle": "MY ACCOUNT",
+				"text": "MY ACCOUNT"
+			},
+			"blockClass": "link-login-m"
+		}
+	}
+}

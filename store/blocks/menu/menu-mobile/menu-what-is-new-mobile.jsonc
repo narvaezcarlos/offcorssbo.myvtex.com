@@ -1,0 +1,76 @@
+{
+	"vtex.menu@2.x:submenu#sub.menu-mobile-what-is-new": {
+		"children": [
+			"menu-item#news-this-month-mobile",
+			"menu-item#for-babies-mobile",
+			"menu-item#for-kids-mobile",
+			"menu-item#for-junior-mobile",
+			"menu-item#view-all-mobile"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	},
+	"menu-item#news-this-month-mobile": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/",
+				"tagTitle": "New this month",
+				"text": "New this month"
+			}
+		}
+	},
+	"menu-item#for-babies-mobile": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/",
+				"tagTitle": "For Babies",
+				"text": "For Babies"
+			}
+		}
+	},
+	"menu-item#for-kids-mobile": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/",
+				"tagTitle": "For Kids",
+				"text": "For Kids"
+			}
+		}
+	},
+	"menu-item#for-junior-mobile": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/",
+				"tagTitle": "For Junior",
+				"text": "For Junior"
+			}
+		}
+	},
+	"menu-item#view-all-mobile": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/",
+				"tagTitle": "View All",
+				"text": "View All"
+			}
+		}
+	}
+}

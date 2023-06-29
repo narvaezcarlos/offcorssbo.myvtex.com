@@ -1,0 +1,417 @@
+.flexRowContent--logo-row,
+.flexRowContent--main-header-mobile {
+  background-color: black;
+}
+.flexRow--filtrosyvitrina {
+  padding: 0 1.5rem;
+}
+.flexColChild--filterCol {
+  max-width: 300px;
+  width: 100%;
+}
+.flexColChild--content-tabs-masculino-femenino {
+  width: 100%;
+}
+.flexRow--deals {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+  padding: 0 !important;
+}
+.flexCol--deals-col,
+.flexCol--deals-col2-m {
+  padding: 2rem 1rem;
+}
+.flexCol--deals-col2,
+.flexCol--deals-col2-m {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.flexRowContent--row-newsletter {
+  background-color: #000;
+}
+.flexCol--col-2 {
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+.flexRow--quienes-somos-3,
+.flexRow--row-quienes-somos-7 {
+  background-color: #ffc148;
+}
+.flexRow--sell-with-us-section-3 {
+  background-color: #fbd600;
+}
+.flexRow--sell-with-us-section-10 {
+  padding: 4%;
+}
+.flexRow--quienes-somos-5,
+.flexRow--row-quienes-somos-8 {
+  padding: 6%;
+}
+.flexRow--row-quienes-somos-6,
+.flexRow--row-quienes-somos-8 {
+  width: 87.5%;
+  margin: auto;
+}
+.flexRow--content-quickview {
+  padding: 0 1rem 1rem;
+}
+.flexRow--content-quickview,
+.flexCol--Details-quickview {
+  position: relative;
+}
+.flexRowContent--product-main,
+.flexRowContent--contacto-row {
+  margin: 0 auto;
+  width: 90%;
+}
+@media (max-width: 768px) {
+  .flexCol--deals-col,
+  .flexCol--deals-col2-m {
+    padding: 1rem 0.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .flexRowContent--addToCartRow {
+    display: block;
+  }
+}
+@media (max-width: 600px) {
+  .flexRowContent--product-buy-button-row {
+    text-align: center;
+  }
+  .flexRow--row-quienes-somos-6 {
+    width: 100%;
+    margin: auto;
+  }
+}
+.flexRow--row-btn-wishlist-quickview {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  z-index: 1;
+}
+.flexRow--row-banner-secundario {
+  margin-top: 6%;
+  margin-bottom: 4%;
+}
+.flexRow--price-and-savings-quickview {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.flexColChild--world-link {
+  margin: 0;
+  padding: 0;
+}
+.flexColChild--categories {
+  margin: 0;
+  padding: 0;
+  display: inline-grid;
+}
+.flexRow--suscribe-content {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f4f5;
+}
+.flexColChild--inspiration-iz {
+  height: 50% !important;
+  position: relative;
+  align-items: center;
+}
+.flexRow--row-inspiration-iz {
+  background-color: #fbd600;
+  display: flex;
+  align-items: center;
+  height: 100% !important;
+}
+.flexRow--row-motivation-iz {
+  display: flex;
+  align-items: center;
+  height: 100% !important;
+}
+
+.flexRow--sell-with-us-section-4-content {
+  background-color: #000000;
+  padding: 1%;
+}
+.flexCol--shopby-content-col {
+  background-color: #fbd600;
+  display: flex;
+  align-items: center;
+}
+.flexCol--shopby-content-col2 {
+  display: flex;
+  align-items: center;
+}
+.flexColChild--shopby-content-col,
+.flexColChild--shopby-content-col2 {
+  width: 100%;
+}
+/* .flexColChild--shopby-image, */
+.flexColChild--content-expectation-form {
+  display: grid;
+  align-items: center;
+}
+.flexRow--with-us-section-3-content,
+.flexRow--collections-content {
+  background-color: #fbd600;
+}
+.flexRowContent--collections-content {
+  margin-top: 0;
+}
+.flexRow--menu-expectation {
+  position: absolute;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.flexRowContent--price-and-savings {
+  font-size: 1.4rem;
+}
+
+.flexColChild--lapidas-link {
+  padding: 0;
+}
+
+@media (max-width: 600px) {
+  .flexColChild--categories {
+    padding: 0 1.5rem;
+  }
+  .flexColChild--content-expectation-form {
+    display: none;
+  }
+
+  .flexCol--shopby-content-col-left,
+  .flexCol--shopby-content-col-right {
+    padding: 1.5rem;
+  }
+  .flexRowContent--shopby-content2 {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+
+  .flexCol--shopby-content-col-row {
+    display: none;
+  }
+}
+
+.flexRow--row-returns-and-refunds {
+  width: 90%;
+  margin: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fbd600;
+}
+
+.flexRow--sell-with-us-form {
+  padding: 3%;
+}
+
+/* styles Landing swimwear */
+.flexColChild--buttons__mobile__col {
+  display: flex;
+  justify-content: center;
+}
+
+.flexRow--girls__content,
+.flexRow--boys__content {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flexRowContent--content__images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sflexCol--tablist__swimwear {
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 30px auto 50px auto;
+}
+
+.content__desktop__flexCol,
+.flexRow--main__content__row {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flexRowContent--content__boys,
+.flexRowContent--girl__desktop__content {
+  gap: 20px;
+}
+
+.flexCol--images__boys__col,
+.flexCol--content__images__girls__desktop {
+  gap: 15px;
+}
+
+.flexCol--images__boys__col {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.flexColChild--content__images__girls__desktop,
+.flexColChild--images__boys__col {
+  width: 100%;
+}
+/* styles Landing overalls */
+
+.fflexRow--content__mobile__flexRow {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flexRowContent--items__shelfCustom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flexCol--tablist__swimwear__desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* styles landing learning abc */
+.flexColChild--flexLearning__mobileCol {
+  padding: 0;
+}
+
+.flexRow--flexLearning__desktopRow {
+  width: 100%;
+  height: 100px;
+  gap: 20px;
+}
+
+.flexRow--content__mobile__flexRow,
+.flexRow--content__desktop__flexRow {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.flexRowContent--newgirl__section__desktopRow {
+  gap: 20px;
+}
+
+.flexRowContent--newunisex__section__desktopRow,
+.flexRowContent--newboy__section__desktopRow {
+  gap: 30px;
+}
+
+.flexRowContent--content__image__infocard__mobile {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flexRowContent--content__image__infocard__mobile {
+  display: flex;
+  align-items: center;
+}
+
+.flexRow--flexLearning__mobileRow {
+  width: 100%;
+}
+
+.flexCol--tablisitem__content1 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url("https://offcorssinter.vtexassets.com/arquivos/tablist1__desktop.png");
+}
+
+.flexCol--tablisitem__content2 {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("https://offcorssinter.vtexassets.com/arquivos/tablist2__desktop.png");
+}
+
+.flexCol--tablisitem__content3 {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("https://offcorssinter.vtexassets.com/arquivos/tablist3__desktop.png");
+}
+
+.flexRowContent--flexLearning__desktopRow {
+  height: 100px;
+}
+
+.flexCol--newboy__contentSection__mobileRow,
+.flexCol--newgirl__content__mobileCol,
+.flexCol--newunisex__section3__mobileCol {
+  gap: 10px;
+}
+.flexRowContent--flexLearning__mobileContentCol,
+.flexRowContent--flexContent__image__infocard__mobile__row {
+  gap: 10px;
+}
+
+.flexCol--tablisitem__contentA {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-image: url("https://offcorssinter.vtexassets.com/arquivos/tablist1__mobile.png");
+}
+
+.flexCol--tablisitem__contentB {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("https://offcorssinter.vtexassets.com/arquivos/tablist2__mobile.png");
+}
+
+.flexCol--tablisitem__contentC {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url("https://offcorssinter.vtexassets.com/arquivos/tablist3__mobile.png");
+}
+
+.flexColChild--Flexnewgirl__infocard__mobile__col1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flexColChild--Flexnewgirl__infocard__mobile__col {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+/*----------Estilos overall-kids 16 mayo-------*/
+
+.flexRow--container__row__text__desktop{
+background-color: #0000000D;
+margin: 30px auto 0px auto;
+}
+
+/*----------Estilos Test Ab ----------------*/
+
+.flexRow--topbanner__row{
+  background: #FFDA00;
+  max-height: 60px;
+  }
+  .flexRow--richtext__container{
+    width: 90%;
+    margin: 0 auto;
+  }

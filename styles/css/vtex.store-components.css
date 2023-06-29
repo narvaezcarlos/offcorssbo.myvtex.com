@@ -1,0 +1,554 @@
+.infoCardContainer--banner-secundario,
+.infoCardContainer--especiales-img {
+  display: block;
+  position: relative;
+}
+
+.infoCardTextContainer--banner-secundario,
+.infoCardImageContainer--banner-secundario,
+.infoCardTextContainer--especiales-img,
+.infoCardImageContainer--especiales-img {
+  width: 100%;
+}
+
+.infoCardTextContainer--banner-secundario,
+.infoCardTextContainer--especiales-img {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  z-index: 3;
+  display: block;
+}
+
+.infoCardCallActionContainer--banner-secundario,
+.infoCardCallActionContainer--especiales-img {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.infoCardImage--banner-secundario,
+.infoCardImage--especiales-img {
+  width: 100%;
+}
+
+.imageElement--tabs-masculino-femenino {
+  z-index: 2;
+  cursor: pointer;
+}
+
+.infoCardContainer--quienes-somos-1 {
+  min-height: 589px;
+}
+
+.infoCardSubhead--quienes-somos-1 {
+  color: white;
+  background: url("/arquivos/logo-top-inter-offcors-20.png") center top
+    no-repeat;
+  padding-top: 235px;
+  background-size: contain;
+}
+
+.infoCardCallActionContainer--quienes-somos-1,
+.infoCardCallActionContainer--info-card-quienes-somos-5,
+.infoCardCallActionContainer--info-quienes-somos-9 {
+  display: none;
+}
+
+.infoCardTextContainer--info-card-quienes-somos-5 {
+  padding: 5%;
+}
+
+.infoCardHeadline--info-card-quienes-somos-5 {
+  font-size: 5rem;
+  color: black;
+}
+
+.infoCardSubhead--info-card-quienes-somos-5 {
+  color: black;
+}
+
+.infoCardContainer--quienes-somos-6-1,
+.infoCardContainer--quienes-somos-6-2 {
+  min-height: 662px;
+}
+
+.infoCardTextContainer--quienes-somos-6-1,
+.infoCardTextContainer--quienes-somos-6-2 {
+  margin-top: 300px;
+}
+
+.infoCardHeadline--quienes-somos-6-1,
+.infoCardHeadline--quienes-somos-6-2 {
+  text-shadow: 0 0 1px #ffc148, -1px -1px 0 #ffc148, 1px -1px 0 #ffc148,
+    -1px 1px 0 #ffc148, 1px 1px 0 #ffc148;
+  color: black;
+}
+
+.infoCardSubhead--quienes-somos-6-1,
+.infoCardSubhead--quienes-somos-6-2 {
+  color: white;
+  font-weight: 300;
+}
+
+.infoCardTextContainer--quienes-somos-6-1:hover,
+.infoCardTextContainer--quienes-somos-6-2:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.infoCardTextContainer--quienes-somos-6-1,
+.infoCardTextContainer--quienes-somos-6-2 {
+  width: 60%;
+  padding: 0 25px;
+  transition: background-color 0.5s;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.infoCardHeadline--info-card-7 {
+  font-size: 6rem;
+  color: black;
+}
+
+.infoCardSubhead--info-card-7 {
+  color: black;
+}
+
+.infoCardContainer--info-card-7 {
+  background: transparent;
+  color: black;
+  width: 65%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.imageElement--image-quienes-somos-8-1 {
+  margin: auto;
+}
+
+.newsletter--newsletter-quienes-somos {
+  background-color: unset !important;
+}
+
+.container--newsletter-quienes-somos {
+  padding: unset !important;
+}
+
+.label--newsletter-quienes-somos {
+  color: unset !important;
+  font-size: 2.5rem;
+}
+
+.inputGroup--newsletter-quienes-somos {
+  padding-bottom: unset;
+  display: unset;
+  color: unset;
+}
+
+.newsletter--newsletter-modal {
+  background-color: unset !important;
+}
+
+.buttonContainer--newsletter-quienes-somos {
+  background-color: black;
+}
+
+.infoCardTextContainer--info-quienes-somos-9 {
+  min-height: 400px;
+  opacity: 0.7;
+  background-color: black;
+  width: 100%;
+  margin: unset;
+}
+
+.infoCardHeadline--info-quienes-somos-9 {
+  margin: auto;
+  text-shadow: 0 0 1px #ffcf03, -1px -1px 0 #ffcf03, 1px -1px 0 #ffcf03,
+    -1px 1px 0 #ffcf03, 1px 1px 0 #ffcf03;
+  color: black;
+  font-size: 3rem;
+}
+
+.searchBarContainer {
+  padding: 0;
+}
+
+.productNameContainer {
+  font-size: 1.7rem;
+}
+
+.productDescriptionTitle {
+  display: none;
+}
+
+.skuSelectorSubcontainer {
+  margin: 0;
+  display: inline-block;
+}
+
+.skuSelectorNameContainer {
+  display: flex;
+  align-items: center;
+}
+
+.skuSelectorTextContainer {
+  margin: 0;
+}
+
+.skuSelectorName {
+  text-transform: uppercase;
+  font-size: 0.95rem;
+}
+
+.skuSelectorItem--selected {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.shareSocialButton {
+  -webkit-filter: grayscale(100%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.shareSocialButton:hover {
+  -webkit-filter: grayscale(0%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+
+.tabs-quienes-somos-4 {
+  width: 8.33% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.productImage {
+  text-align: center;
+}
+
+.diagonalCross {
+  background-image: linear-gradient(
+    to top right,
+    transparent 44%,
+    rgba(0, 0, 0, 0.3) 48%,
+    currentColor 0,
+    currentColor 52%,
+    transparent 0
+  );
+}
+
+.discountInsideContainer {
+  width: 50px;
+  bottom: 0;
+  right: 40%;
+  left: 40%;
+}
+
+.imageElement--w-100 {
+  width: 100%;
+}
+
+.container {
+  padding: 0;
+}
+
+.skuSelectorItemTextValue {
+  padding: 0.2rem;
+  font-size: 1rem;
+}
+
+.skuSelectorItem {
+  height: unset;
+}
+
+.skuSelectorSubcontainer--color,
+.skuSelectorSubcontainer--colour {
+  display: none !important;
+}
+
+:global(.vtex-address-form-4-x-input) {
+  border: 1px solid lightgray;
+}
+
+.imageElement--lapidas-img,
+.imageElement--content-home-modalimage {
+  display: block;
+}
+
+.imageElement--lapidas-img:hover {
+  opacity: 0.8;
+}
+
+:global(.vtex-reviews-and-ratings-3-x-loginLink) {
+  color: black !important;
+}
+
+.backToTopButtonActive {
+  bottom: 6rem;
+  right: 1.5rem;
+}
+
+.infoCardContainer--banner-secundario:hover .infoCardImage--banner-secundario,
+.infoCardContainer--especiales-img:hover .infoCardImage--especiales-img,
+.imageElement--slider-layout-novedades:hover {
+  transform: scale(1.025);
+}
+
+.infoCardContainer--banner-secundario .infoCardImage--banner-secundario,
+.infoCardContainer--especiales-img .infoCardImage--especiales-img,
+.imageElement--slider-layout-novedades {
+  transition: 0.5s all ease-in-out;
+}
+
+.infoCardCallActionContainer--especiales-img
+
+/*,.infoCardCallActionContainer--banner-secundario */ {
+  opacity: 0;
+}
+
+.infoCardHeadline--especiales-img {
+  color: #ffcf03;
+  border: 3px solid #ffcf03;
+  font-size: 2.5rem;
+  padding: 5px 10px;
+  margin: unset;
+  margin-bottom: 2rem;
+}
+
+.infoCardTextContainer--especiales-img {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.imageElement--shopby-img {
+  display: block;
+}
+
+.infoCardTextContainer--banner-secundario :global(.vtex-button) {
+  background: #ffffff;
+  border-radius: 0.5rem;
+  color: DimGray;
+  border: 2px solid DimGray;
+  display: block;
+}
+
+.infoCardTextContainer--banner-secundario :global(.vtex-button):hover {
+  background: DimGray;
+  color: #fff;
+  border: 1px solid black;
+}
+
+/* swimwear styles */
+
+.infoCardTextContainer--infocard__boy,
+.infoCardTextContainer--infocard__girl {
+  position: absolute;
+  bottom: 6px;
+  width: 100%;
+  display: block;
+  padding: 0;
+}
+
+.infoCardContainer--infocard__boy,
+.infoCardContainer--infocard__girl {
+  position: relative;
+}
+
+.infoCardCallActionContainer--infocard__boy,
+.infoCardCallActionContainer--infocard__girl {
+  margin: 0;
+  display: block;
+  background-color: #000;
+  padding: 5px;
+}
+
+.infoCardCallActionContainer--infocard__boy :global(.vtex-button),
+.infoCardCallActionContainer--infocard__girl :global(.vtex-button) {
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #fff;
+}
+
+.infoCardContainer--infocard__boy-desktop,
+.infoCardContainer--infoCardHeadline {
+  position: relative;
+}
+
+.infoCardTextContainer--infocard__boy-desktop,
+.infoCardTextContainer--infoCardHeadline {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: block;
+  padding: 0;
+}
+
+.infoCardCallActionContainer--infocard__boy-desktop,
+.infoCardCallActionContainer--infoCardHeadline {
+  margin: 0;
+  display: block;
+  background-color: #000;
+  padding: 5px;
+}
+
+.infoCardCallActionContainer--infocard__boy-desktop :global(.vtex-button),
+.infoCardCallActionContainer--infoCardHeadline :global(.vtex-button) {
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #fff;
+}
+
+.imageElement--banner__desktop__img {
+  width: 100%;
+}
+
+.imageElement--image__img__boys:hover,
+.infoCardContainer--infoCardHeadline:hover,
+.infoCardContainer--infocard__boy-desktop:hover {
+  transform: scale(1.025);
+}
+
+.imageElement--image__img__boys,
+.infoCardContainer--infoCardHeadline,
+.infoCardContainer--infocard__boy-desktop {
+  transition: 0.5s all ease-in-out;
+}
+
+.imageElement--image__img__boys {
+  width: 100%;
+}
+
+/* styles Landing overalls */
+.infoCardContainer--infocard__overall-desktop,
+.infoCardContainer--infocard__overall-mobile {
+  position: relative;
+}
+
+.imageElement--image__overall__desktop:hover,
+.infoCardContainer--infocard__overall-desktop:hover {
+  transform: scale(1.025);
+}
+
+.imageElement--image__overall__desktop,
+.infoCardContainer--infocard__overall-desktop {
+  transition: 0.5s all ease-in-out;
+}
+
+.infoCardTextContainer--infocard__overall-desktop,
+.infoCardTextContainer--infocard__overall-mobile {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: block;
+  padding: 0;
+}
+
+.infoCardCallActionContainer--infocard__overall-desktop,
+.infoCardCallActionContainer--infocard__overall-mobile {
+  margin: 0;
+  display: block;
+  background-color: #0c2939;
+  padding: 5px;
+}
+
+.infoCardCallActionContainer--infocard__overall-desktop :global(.vtex-button),
+.infoCardCallActionContainer--infocard__overall-mobile :global(.vtex-button) {
+  width: 100%;
+  display: inline-block;
+  border: 1px solid #fff;
+  background-color: #0c2939;
+}
+
+.infoCardCallActionContainer--infocard__overall-desktop
+  :global(.vtex-button):hover {
+  background-color: #ffcf03;
+}
+
+.imageElement--banner__desktop__flex__img {
+  width: 100%;
+}
+
+.infoCardContainer--infocard__overall-desktop{
+  margin: 0 10px;
+}
+
+/* sytles landing abc learning */
+
+.imageElement--image__newunisex__section,
+.imageElement--image__newboy__section,
+.imageElement--image__newgirl__section {
+  height: 100%;
+}
+
+.imageElement--image__newgirl__desktop,
+.imageElement--image__newgirl__section,
+.imageElement--image__newboy__desktop,
+.imageElement--image__newboy__section,
+.imageElement--image__newunisex__desktop,
+.imageElement--image__newunisex__section {
+  border: solid 5px #e8cbab;
+  border-radius: 30px;
+}
+
+.imageElement--image__learningBig__mobile,
+.imageElement--image__newgirl__desktop,
+.imageElement--image__newboy__desktop,
+.imageElement--image__newunisex__desktop {
+  height: 100%;
+}
+
+.imageElement--image__learningBig__mobile,
+.imageElement--image__newgirl__mobile {
+  border: solid 2px #e8cbab;
+  border-radius: 15px;
+}
+
+.imageElement--image__learningPad__mobile,
+.imageElement--image__learning__mobile_unisex,
+.imageElement--image__learning__mobile {
+  width: 85%;
+  border: solid 2px #e8cbab;
+  border-radius: 15px;
+}
+
+.imageElement--image__newunisex__desktop:hover,
+.imageElement--image__newunisex__section:hover,
+.imageElement--image__newboy__section:hover,
+.imageElement--image__newboy__desktop:hover,
+.imageElement--image__newgirl__desktop:hover,
+.imageElement--image__newgirl__section:hover,
+.imageElement--image__learningBig__mobile:hover {
+  transform: scale(1.015);
+}
+
+.imageElement--image__newgirl__desktop:active {
+  box-shadow: 3px 2px 22px 5px rgba(16, 15, 13, 0.5);
+}
+
+.imageElement--image__newunisex__desktop,
+.imageElement--image__newunisex__section,
+.imageElement--image__newboy__section,
+.imageElement--image__newboy__desktop,
+.imageElement--image__newgirl__desktop,
+.imageElement--image__newgirl__section,
+.imageElement--image__learningBig__mobile {
+  transition: 0.5s all ease-in-out;
+}
+
+.imageElement--image__learningBig__mobile,
+.imageElement--image__learning__mobile {
+  width: 100%;
+}
+
+.imageElement--content-home-modalimage{
+  margin: 0 auto;
+}

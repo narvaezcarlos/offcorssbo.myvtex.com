@@ -1,0 +1,39 @@
+.button {
+    color: #fbd600;
+}
+.container{
+    width: auto;
+    margin: 0 auto;
+}
+.relativeContainer {
+    margin: 0;
+    padding: 5px;
+}
+.button  {
+    margin: 0;
+}
+.container::after {
+    content: '';
+    height: 20px;
+    width: 1px;
+    background-color: rgba(0,0,0,0.5);
+    margin: 0 5px 0;
+}
+.list{
+    margin: 10px auto 0;
+    width: 33px;
+    background-color: rgb(212, 212, 212);
+}
+.localeIdText {
+    color: black;
+}
+
+
+@media (max-width: 600px) {
+    .list{
+        background-color: black;
+    }
+    .localeIdText {
+        color: white;
+    }
+}

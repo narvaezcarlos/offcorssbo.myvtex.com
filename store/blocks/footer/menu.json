@@ -1,0 +1,299 @@
+{
+	"vtex.menu@2.x:menu#menu-footer-col2": {
+		"props": {
+			"orientation": "vertical"
+		},
+		"children": [
+			"flex-layout.row#menufooter1"
+		]
+	},"vtex.menu@2.x:menu#menu-footer-col2-1": {
+		"props": {
+			"orientation": "vertical"
+		},
+		"children": [
+			"flex-layout.row#menufooter2-1"
+		]
+	},
+	"flex-layout.row#menufooter": {
+		"children": [
+			"flex-layout.row#menufooter1"
+		],
+		"props": {
+			"colGap":9
+		}
+	},
+	"flex-layout.row#menufooter2-1": {
+		"children": [
+			"flex-layout.row#menufooter2"
+		],
+		"props": {
+			"colGap":9
+		}
+	},
+	"flex-layout.row#menufooter1": {
+		"children": [
+			"flex-layout.col#menufooter1"
+		],
+		"props": {
+			"colGap":9
+		}
+	},
+	"flex-layout.row#menufooter2": {
+		"children": [
+			"flex-layout.col#menufooter2"
+		],
+		"props": {
+			"colGap":10
+		}
+	},
+	"flex-layout.col#menufooter1": {
+		"children": [
+			"menu-item#offcorss-marca",
+			"menu-item#social-responsibility",
+			"menu-item#returns-and-refunds",
+			"menu-item#terminos-y-condiciones",
+			"menu-item#tu-pedido-paso-a-paso"
+		]
+	},
+	"flex-layout.col#menufooter2": {
+		"children": [
+			"menu-item#encuentranos",
+			"menu-item#wholesale",
+			"menu-item#preguntas-frecuentes"
+		]
+	},
+	"menu-item#encuentranos": {
+		"props": {
+			"id": "menu-item-encuentranos",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"blockClass": "links-footer",
+			"itemProps": {
+				"type": "internal",
+				"href": "/contact-us",
+				"noFollow": false,
+				"tagTitle": "Contact us",
+				"text": "Contact us"
+			},
+			"iconProps": {
+				"id": "hpa-pin"
+			},
+			"iconToTheRight": true
+		}
+	},
+	"menu-item#offcorss-marca": {
+		"props": {
+			"id": "menu-item-offcorss-marca",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"blockClass": "links-footer",
+			"itemProps": {
+				"type": "internal",
+				"href": "/about-us",
+				"noFollow": false,
+				"tagTitle": "About us",
+				"text": "About us"
+			},
+			"iconProps": {
+				"id": "nav-caret--right"
+			},
+			"iconToTheRight": true
+		}
+	},
+	"menu-item#tu-pedido-paso-a-paso": {
+		"props": {
+			"id": "menu-item-tu-pedido-paso-a-paso",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"blockClass": "links-footer",
+			"itemProps": {
+				"type": "internal",
+				"href": "/shopping-guide",
+				"noFollow": false,
+				"tagTitle": "Shopping guide",
+				"text": "Shopping guide"
+			},
+			"iconProps": {
+				"id": "nav-caret--right"
+			},
+			"iconToTheRight": true
+		}
+	},
+	"menu-item#terminos-y-condiciones": {
+		"props": {
+			"id": "menu-item-terminos-condiciones",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"blockClass": "links-footer",
+			"itemProps": {
+				"type": "internal",
+				"href": "/terms-and-conditions",
+				"noFollow": false,
+				"tagTitle": "Terms and conditions",
+				"text": "Terms and conditions"
+			},
+			"iconProps": {
+				"id": "nav-caret--right"
+			},
+			"iconToTheRight": true
+		}
+	},
+	"menu-item#preguntas-frecuentes": {
+		"props": {
+			"id": "menu-item-preguntas-frecuentes",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"blockClass": "links-footer",
+			"itemProps": {
+				"type": "internal",
+				"href": "/faqs",
+				"noFollow": false,
+				"tagTitle": "F.A.Q.s",
+				"text": "F.A.Q.s"
+			},
+			"iconProps": {
+				"id": "nav-caret--right"
+			},
+			"iconToTheRight": true
+		}
+	},
+	"menu-item#returns-and-refunds": {
+		"props": {
+			"id": "menu-item-returns-and-refunds",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"blockClass": "links-footer",
+			"itemProps": {
+				"type": "internal",
+				"href": "/returns-and-refunds",
+				"noFollow": false,
+				"tagTitle": "How to return an item?",
+				"text": "How to return an item?"
+			},
+			"iconProps": {
+				"id": "nav-caret--right"
+			},
+			"iconToTheRight": true
+		}
+	},
+	"menu-item#wholesale": {
+		"props": {
+			"id": "menu-item-wholesale",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"blockClass": "links-footer",
+			"itemProps": {
+				"type": "internal",
+				"href": "/wholesale",
+				"noFollow": false,
+				"tagTitle": "Wholesale",
+				"text": "Wholesale"
+			},
+			"iconProps": {
+				"id": "nav-caret--right"
+			},
+			"iconToTheRight": true
+		}
+	},
+	"menu-item#social-responsibility": {
+		"props": {
+			"id": "menu-item-social-responsibility",
+			"type": "custom",
+			"highlight": false,
+			"blockClass": "links-footer",
+			"itemProps": {
+				"type": "internal",
+				"href": "/social-responsibility",
+				"noFollow": false,
+				"tagTitle": "Social Responsibility",
+				"text": "Social Responsibility",
+				"iconId": null
+			},
+			"iconProps": {
+				"id": "nav-caret--right"
+			},
+			"iconToTheRight": true
+		}
+	},
+	"vtex.menu@2.x:menu#menu-footer-col3-redes": {
+		"props": {
+			"orientation": "vertical"
+		},
+		"children": ["rich-text#social-networks", "social-networks"]
+	},
+	"rich-text#social-networks": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "**Follow us!**",
+			"textColor": "black-90",
+			"blockClass": "footer-redes-titulo"
+		}
+	},
+	"social-networks": {
+		"props": {
+			"socialNetworks": [
+				{ "url": "https://www.facebook.com/offcorss/", "name": "Facebook" },
+				{
+					"url": "https://www.instagram.com/offcorss.us/",
+					"name": "Instagram"
+				},
+				{ "url": "https://www.pinterest.es/offcorss/", "name": "Pinterest" },
+				{ "url": "https://twitter.com/OFFCORSS", "name": "Twitter" },
+				{
+					"url": "https://www.youtube.com/user/OFFCORSSenLinea",
+					"name": "Youtube"
+				}
+			]
+		}
+	},
+	"vtex.menu@2.x:menu#menu-bloque-terminos-politicas": {
+		"props": {
+			"orientation": "horizontal",
+			"blockClass": "menu-terminosypoliticas"
+		},
+		"children": [
+			"menu-item#terminos-y-condiciones-2",
+			"menu-item#politicas-privacidad"
+		]
+	},
+	"menu-item#terminos-y-condiciones-2": {
+		"props": {
+			"id": "menu-item-terminos-y-condiciones",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"blockClass": "links-footer",
+			"itemProps": {
+				"type": "internal",
+				"href": "/terms-and-conditions",
+				"noFollow": false,
+				"tagTitle": "Terms and conditions",
+				"text": "Terms and conditions"
+			}
+		}
+	},
+	"menu-item#politicas-privacidad": {
+		"props": {
+			"id": "menu-item-politicas-privacidad",
+			"type": "custom",
+			"iconId": null,
+			"highlight": false,
+			"blockClass": "links-footer",
+			"itemProps": {
+				"type": "internal",
+				"href": "/data-privacy-policy",
+				"noFollow": false,
+				"tagTitle": "Data privacy policy",
+				"text": "Data privacy policy"
+			}
+		}
+	}
+}

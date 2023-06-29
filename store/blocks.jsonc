@@ -1,0 +1,138 @@
+{
+	"store.orderplaced": {
+		"blocks": ["order-placed"]
+	},
+	"store.account": {
+		"blocks": ["my-account"],
+		"parent": {
+			"challenge": "challenge.profile"
+		}
+	},
+	"store.login": {
+		"blocks": ["login-content#default"]
+	},
+	"login-content#default": {
+		"props": {
+			"isInitialScreenOptionOnly": false,
+			"defaultOption": 1,
+			"showPasswordVerificationIntoTooltip": true
+		}
+	},
+	"product-summary.shelf": {
+		"children": [
+			"flex-layout.row#btn-wishlist-quickview",
+			"stack-layout#prodsum",
+			"product-summary-name",
+			"product-rating-inline",
+			"product-summary-space",
+			"flex-layout.row#price-and-savings",
+			"vtex.product-highlights@2.x:product-highlights",
+			"product-summary-sku-selector",
+			"add-to-cart-button"
+		],
+		"props": {
+			"blockClass": "product-summary-shelf"
+		}
+	},
+	"flex-layout.row#btn-wishlist-quickview": {
+		"children": ["flex-layout.col#btn-wishlist-quickview"],
+		"props": {
+			"blockClass": "row-btn-wishlist-quickview"
+		}
+	},
+	"flex-layout.col#btn-wishlist-quickview": {
+		"children": ["add-to-list-btn"],
+		"props": {
+			"blockClass": "col-btn-wishlist-quickview"
+		}
+	},
+	"stack-layout#prodsum": {
+		"children": ["product-summary-image#shelf", "modal-trigger#quickview"]
+	},
+	"product-summary-image#shelf": {
+		"props": {
+			"showBadge": false,
+			"aspectRatio": "1:1",
+			"maxHeight": 300
+		}
+	},
+	"store.product-review-form": {
+		"blocks": ["product-review-form"]
+	},
+	"breadcrumb": {
+		"props": {
+			"showOnMobile": true,
+			"homeIconSize": 12,
+			"caretIconSize": 8
+		}
+	},
+	"filter-navigator.v3": {
+		"blocks": ["sidebar-close-button"],
+		"props": {
+			"truncateFilters": true,
+			"showClearByFilter": true,
+			"fullWidthOnMobile": true,
+			"navigationTypeOnMobile": "collapsible",
+			"appliedFiltersOverview": "show",
+			"totalProductsOnMobile": "show",
+			"updateOnFilterSelectionOnMobile": true,
+			"priceRangeLayout": "inputAndSlider"
+		}
+	},
+	"search-bar": {
+		"blocks": ["autocomplete-result-list.v2"],
+		"props": {
+			"openAutocompleteOnFocus": true
+		}
+	},
+	"autocomplete-result-list.v2": {
+		"blocks": ["product-summary"]
+	},
+	"flex-layout.row#did-you-mean": {
+		"children": ["did-you-mean"],
+		"props": {
+			"preserveLayoutOnMobile": true,
+			"colSizing": "auto",
+			"colJustify": "around"
+		}
+	},
+	"flex-layout.row#suggestion": {
+		"children": ["search-suggestions"],
+		"props": {
+			"preserveLayoutOnMobile": true,
+			"colSizing": "auto",
+			"colJustify": "around"
+		}
+	},
+	"flex-layout.row#banner-one": {
+		"children": ["search-banner#one"],
+		"props": {
+			"preserveLayoutOnMobile": true,
+			"colSizing": "auto",
+			"colJustify": "around"
+		}
+	},
+	"search-banner#one": {
+		"props": {
+			"area": "one",
+			"blockClass": "myBanner",
+			"horizontalAlignment": "center"
+		}
+	},
+	"vtex.product-highlights@2.x:product-highlights": {
+		"children": ["product-highlight-text"],
+		"props": {
+			"type": "collection",
+			"filter": {
+				"type": "show",
+				"highlightNames": ["BEST SELLER", "ABC-LEARNING"]
+			}
+		}
+	},
+	"product-highlight-text": {
+		"props": {
+			"message": "{highlightName}",
+			"blockClass": "highlight-text"
+		}
+	}
+}

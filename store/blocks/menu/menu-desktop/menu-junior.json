@@ -1,0 +1,878 @@
+{
+	"vtex.menu@2.x:submenu#sub.menu-junior": {
+		"children": ["menu-item#junior-girl", "menu-item#junior-boy"],
+		"props": {
+			"width": "100%",
+			"blockClass": "sub-menu"
+		}
+	},
+	"menu-item#junior-girl": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-girl?map=departamento",
+				"tagTitle": "GIRL",
+				"text": "GIRL"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			},
+			"iconToTheRight": true
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-junior-girl-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-junior-girl-items": {
+		"children": ["flex-layout.row#menu-junior-girl-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-junior-girl-items": {
+		"children": [
+			"flex-layout.col#menu-junior-girl-items-1",
+			"flex-layout.col#menu-junior-girl-items-2",
+			"flex-layout.col#menu-junior-girl-items-3",
+			"flex-layout.col#menu-junior-girl-items-4"
+		],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-junior-girl-items-1": {
+		"children": ["rich-text#menu-junior-girl-items", "vtex.menu@2.x:menu#menu-junior-girl-items"],
+		"props": {
+			"marginLeft": 5,
+			"verticalAlign": "top"
+		}
+	},
+	"rich-text#menu-junior-girl-items": {
+		"props": {
+			"text": "Category",
+			"blockClass": "menu-sub-categorias-content-junior-girl"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-junior-girl-items": {
+		"children": [
+			"menu-item#item-junior-girl-dresses",
+			"menu-item#item-junior-girl-footwear",
+			"menu-item#item-junior-girl-hoodies",
+			"menu-item#item-junior-girl-jackets",
+			"menu-item#item-junior-girl-jeans-and-pants",
+			"menu-item#item-junior-girl-leggings",
+			"menu-item#item-junior-girl-overalls",
+			"menu-item#item-junior-girl-pajamas",
+			"menu-item#item-junior-girl-rompers",
+			"menu-item#item-junior-girl-sets",
+			"menu-item#item-junior-girl-shirts",
+			"menu-item#item-junior-girl-skirts-and-shorts",
+			"menu-item#item-junior-girl-sweaters-and-pullovers",
+			"menu-item#item-junior-girl-tops",
+			"menu-item#item-junior-girl-t-shirts-and-polos",
+			"menu-item#item-junior-girl-swimwear",
+			"menu-item#item-junior-girl-socks"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-junior-girl-dresses": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-girl/dresses",
+				"tagTitle": "Dresses",
+				"text": "Dresses"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-footwear": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-girl/footwear",
+				"tagTitle": "Footwear",
+				"text": "Footwear"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-hoodies": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-girl/hoodies",
+				"tagTitle": "Hoodies",
+				"text": "Hoodies"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-jackets": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-girl/jackets",
+				"tagTitle": "Jackets",
+				"text": "Jackets"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-jeans-and-pants": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-girl/jeans-and-pants",
+				"tagTitle": "Jeans and Pants",
+				"text": "Jeans and Pants"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-leggings": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-girl/leggings",
+				"tagTitle": "Leggings",
+				"text": "Leggings"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-overalls": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-girl/overalls",
+				"tagTitle": "Overalls",
+				"text": "Overalls"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-pajamas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-girl/pajamas",
+				"tagTitle": "Pajamas",
+				"text": "Pajamas"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-rompers": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-girl/rompers",
+				"tagTitle": "Rompers",
+				"text": "Rompers"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-sets": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-girl/sets",
+				"tagTitle": "Sets",
+				"text": "Sets"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-shirts": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-girl/shirts",
+				"tagTitle": "Shirts",
+				"text": "Shirts"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-skirts-and-shorts": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-girl/skirts-and-shorts",
+				"tagTitle": "Skirts and Shorts",
+				"text": "Skirts and Shorts"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-sweaters-and-pullovers": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-girl/sweaters-and-pullovers",
+				"tagTitle": " Sweaters and Pullovers",
+				"text": " Sweaters and Pullovers"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-tops": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-girl/tops",
+				"tagTitle": " Tops",
+				"text": " Tops"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-t-shirts-and-polos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-girl/t-shirts-and-polos",
+				"tagTitle": "T-shirts and Polos",
+				"text": "T-shirts and Polos"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-swimwear": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-girl/swimwear",
+				"tagTitle": "Swimwear",
+				"text": "Swimwear"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-socks": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-girl/socks",
+				"tagTitle": "Socks",
+				"text": "Socks"
+			}
+		}
+	},
+	"flex-layout.col#menu-junior-girl-items-2": {
+		"children": ["rich-text#menu-junior-girl-items-2", "vtex.menu@2.x:menu#menu-junior-girl-items-2"],
+		"props": {
+			"verticalAlign": "top"
+		}
+	},
+	"rich-text#menu-junior-girl-items-2": {
+		"props": {
+			"text": "Collections",
+			"blockClass": "menu-sub-categorias-content-junior-girl"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-junior-girl-items-2": {
+		"children": [
+			"menu-item#item-junior-girl-specials",
+			"menu-item#item-junior-girl-essentials",
+			"menu-item#item-junior-girl-sportwear",
+			"menu-item#item-junior-girl-footwear-collection",
+			"menu-item#item-junior-girl-pajamas-collection",
+			"menu-item#item-junior-girl-underwear",
+			"menu-item#item-junior-girl-wintershop",
+			"menu-item#item-junior-girl-sets-collection",
+			"menu-item#item-junior-girl-swimwear-collection"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-junior-girl-specials": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/197?map=productClusterIds",
+				"tagTitle": "Special Occasions",
+				"text": "Special Occasions"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-essentials": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/147?map=productClusterIds",
+				"tagTitle": "Essentials ",
+				"text": "Essentials"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-sportwear": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/151?map=productClusterIds",
+				"tagTitle": "Sportwear",
+				"text": "Sportwear"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-footwear-collection": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/159?map=productClusterIds",
+				"tagTitle": "Footwear",
+				"text": "Footwear"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-pajamas-collection": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/165?map=productClusterIds",
+				"tagTitle": "Pajamas",
+				"text": "Pajamas"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-swimwear-collection": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/165?map=productClusterIds",
+				"tagTitle": "Swimwear",
+				"text": "Swimwear"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-underwear": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/169?map=productClusterIds",
+				"tagTitle": "Underwear",
+				"text": "Underwear"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-wintershop": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/176?map=productClusterIds",
+				"tagTitle": "Wintershop",
+				"text": "Wintershop"
+			}
+		}
+	},
+	"menu-item#item-junior-girl-sets-collection": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/182?map=productClusterIds",
+				"tagTitle": "Sets",
+				"text": "Sets"
+			}
+		}
+	},
+	"flex-layout.col#menu-junior-girl-items-3": {
+		"children": ["rich-text#menu-junior-girl-items-3", "image#banner-menu-junior-girl-items-3"],
+		"props": {
+			"verticalAlign": "top"
+		}
+	},
+	"rich-text#menu-junior-girl-items-3": {
+		"props": {
+			"text": "Junior Girl",
+			"blockClass": "menu-sub-categorias-content-junior-girl"
+		}
+	},
+	"image#banner-menu-junior-girl-items-3": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/menu-nina-modamarzo-20.jpg",
+			"title": "Junior Girl",
+			"link": {
+				"url": "/",
+				"title": "Offcorss International"
+			}
+		}
+	},
+	"flex-layout.col#menu-junior-girl-items-4": {
+		"children": ["rich-text#menu-junior-girl-items-4", "image#banner-menu-junior-girl-items-4"],
+		"props": {
+			"marginLeft": 5,
+			"verticalAlign": "top"
+		}
+	},
+	"rich-text#menu-junior-girl-items-4": {
+		"props": {
+			"text": "Junior Girl",
+			"blockClass": "menu-sub-categorias-content-junior-girl"
+		}
+	},
+	"image#banner-menu-junior-girl-items-4": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/banners-menu-indigo-nina.jpg",
+			"title": "Junior Girl",
+			"link": {
+				"url": "/",
+				"title": "Offcorss International"
+			}
+		}
+	},
+
+	"menu-item#junior-boy": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-boy?map=departamento",
+				"tagTitle": "BOY",
+				"text": "BOY"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			},
+			"iconToTheRight": true
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-junior-boy-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-junior-boy-items": {
+		"children": ["flex-layout.row#menu-junior-boy-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-junior-boy-items": {
+		"children": [
+			"flex-layout.col#menu-junior-boy-items-1",
+			"flex-layout.col#menu-junior-boy-items-2",
+			"flex-layout.col#menu-junior-boy-items-3",
+			"flex-layout.col#menu-junior-boy-items-4"
+		],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-junior-boy-items-1": {
+		"children": ["rich-text#menu-junior-boy-items", "vtex.menu@2.x:menu#menu-junior-boy-items"],
+		"props": {
+			"marginLeft": 5,
+			"verticalAlign": "top"
+		}
+	},
+	"rich-text#menu-junior-boy-items": {
+		"props": {
+			"text": "Category",
+			"blockClass": "menu-sub-categorias-content-junior-boy"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-junior-boy-items": {
+		"children": [
+			"menu-item#item-junior-boy-footwear",
+			"menu-item#item-junior-boy-hoodies",
+			"menu-item#item-junior-boy-jackets",
+			"menu-item#item-junior-boy-jeans-and-pants",
+			"menu-item#item-junior-boy-overalls",
+			"menu-item#item-junior-boy-pajamas",
+			"menu-item#item-junior-boy-sets",
+			"menu-item#item-junior-boy-shirts",
+			"menu-item#item-junior-boy-shorts",
+			"menu-item#item-junior-boy-sweaters-and-pullovers",
+			"menu-item#item-junior-boy-t-shirts-and-polos",
+			"menu-item#item-junior-boy-swimwear",
+			"menu-item#item-junior-boy-socks"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-junior-boy-footwear": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-boy/footwear",
+				"tagTitle": "Footwear",
+				"text": "Footwear"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-hoodies": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-boy/hoodies",
+				"tagTitle": "Hoodies",
+				"text": "Hoodies"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-jackets": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-boy/jackets",
+				"tagTitle": "Jackets",
+				"text": "Jackets"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-jeans-and-pants": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-boy/jeans-and--pants",
+				"tagTitle": "Jeans and Pants",
+				"text": "Jeans and Pants"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-overalls": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-boy/overalls",
+				"tagTitle": "Overalls",
+				"text": "Overalls"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-pajamas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-boy/pajamas",
+				"tagTitle": "Pajamas",
+				"text": "Pajamas"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-sets": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-boy/sets",
+				"tagTitle": "Sets",
+				"text": "Sets"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-shirts": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-boy/shirts",
+				"tagTitle": "Shirts",
+				"text": "Shirts"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-shorts": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-boy/shorts",
+				"tagTitle": "Shorts",
+				"text": "Shorts"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-sweaters-and-pullovers": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-boy/sweaters-and-pullovers",
+				"tagTitle": " Sweaters and Pullovers",
+				"text": " Sweaters and Pullovers"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-t-shirts-and-polos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-boy/t-shirts-and-polos",
+				"tagTitle": "T-shirts and Polos",
+				"text": "T-shirts and Polos"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-swimwear": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-boy/swimwear",
+				"tagTitle": "Swimwear",
+				"text": "Swimwear"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-socks": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/junior-boy/socks",
+				"tagTitle": "Socks",
+				"text": "Socks"
+			}
+		}
+	},
+	"flex-layout.col#menu-junior-boy-items-2": {
+		"children": ["rich-text#menu-junior-boy-items-2", "vtex.menu@2.x:menu#menu-junior-boy-items-2"],
+		"props": {
+			"verticalAlign": "top"
+		}
+	},
+	"rich-text#menu-junior-boy-items-2": {
+		"props": {
+			"text": "Collections",
+			"blockClass": "menu-sub-categorias-content-junior-boy"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-junior-boy-items-2": {
+		"children": [
+			"menu-item#item-junior-boy-specials",
+			"menu-item#item-junior-boy-essentials",
+			"menu-item#item-junior-boy-sportwear",
+			"menu-item#item-junior-boy-footwear-collection",
+			"menu-item#item-junior-boy-pajamas-collection",
+			"menu-item#item-junior-boy-underwear",
+			"menu-item#item-junior-boy-wintershop",
+			"menu-item#item-junior-boy-sets-collection",
+			"menu-item#item-junior-boy-swimwear-collection"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-junior-boy-specials": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/196?map=productClusterIds",
+				"tagTitle": "Special Occasions",
+				"text": "Special Occasions"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-essentials": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/146?map=productClusterIds",
+				"tagTitle": "Essentials ",
+				"text": "Essentials"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-sportwear": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/150?map=productClusterIds",
+				"tagTitle": "Sportwear",
+				"text": "Sportwear"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-footwear-collection": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/158?map=productClusterIds",
+				"tagTitle": "Footwear",
+				"text": "Footwear"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-pajamas-collection": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/164?map=productClusterIds",
+				"tagTitle": "Pajamas",
+				"text": "Pajamas"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-underwear": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/168?map=productClusterIds",
+				"tagTitle": "Underwear",
+				"text": "Underwear"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-wintershop": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/175?map=productClusterIds",
+				"tagTitle": "Wintershop",
+				"text": "Wintershop"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-sets-collection": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/181?map=productClusterIds",
+				"tagTitle": "Sets",
+				"text": "Sets"
+			}
+		}
+	},
+	"menu-item#item-junior-boy-swimwear-collection": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/181?map=productClusterIds",
+				"tagTitle": "Swimwear",
+				"text": "Swimwear"
+			}
+		}
+	},
+	"flex-layout.col#menu-junior-boy-items-3": {
+		"children": ["rich-text#menu-junior-boy-items-3", "image#banner-menu-junior-boy-items-3"],
+		"props": {
+			"verticalAlign": "top"
+		}
+	},
+	"rich-text#menu-junior-boy-items-3": {
+		"props": {
+			"text": "Junior Boy",
+			"blockClass": "menu-sub-categorias-content-junior-boy"
+		}
+	},
+	"image#banner-menu-junior-boy-items-3": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/menu-nino-modamarzo-20.jpg",
+			"title": "Junior Boy",
+			"link": {
+				"url": "/",
+				"title": "Offcorss International"
+			}
+		}
+	},
+	"flex-layout.col#menu-junior-boy-items-4": {
+		"children": ["rich-text#menu-junior-boy-items-4", "image#banner-menu-junior-boy-items-4"],
+		"props": {
+			"marginLeft": 5,
+			"verticalAlign": "top"
+		}
+	},
+	"rich-text#menu-junior-boy-items-4": {
+		"props": {
+			"text": "Junior Boy",
+			"blockClass": "menu-sub-categorias-content-junior-boy"
+		}
+	},
+	"image#banner-menu-junior-boy-items-4": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/banners-menu-indigo-nino.jpg",
+			"title": "Junior Boy",
+			"link": {
+				"url": "/",
+				"title": "Offcorss International"
+			}
+		}
+	}
+}

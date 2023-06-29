@@ -1,0 +1,142 @@
+{
+	"header-layout.desktop": {
+		"children": ["sticky-layout#desktop"]
+	},
+	"sticky-layout#desktop": {
+		"children": [
+			"flex-layout.row#header-top",
+			"flex-layout.row#header-middle",
+			"flex-layout.row#header-middle-2",
+			"flex-layout.row#header-bottom"
+		],
+		"props": {
+			"blockClass": "sticky-row-desktop"
+		}
+	},
+	"header-layout.mobile": {
+		"children": ["sticky-layout#mobile"]
+	},
+	"sticky-layout#mobile": {
+		"children": [
+			"flex-layout.row#header-top-mobile",
+			"flex-layout.row#header-middle-2",
+			"flex-layout.row#header-bottom-mobile"
+		],
+		"props": {
+			"blockClass": "sticky-row-mobile"
+		}
+	},
+	/*--------- header Hidden --------------*/
+	"header-layout.desktop#hidden": {
+		"children": ["sticky-layout#desktop-hidden"]
+	},
+	"sticky-layout#desktop-hidden": {
+		"children": [
+			"flex-layout.row#header-top",
+			"flex-layout.row#header-middle-hidden"
+		],
+		"props": {
+			"blockClass": "sticky-row-desktop"
+		}
+	},
+	"header-layout.mobile#hidden": {
+		"children": ["sticky-layout#mobile-hidden"]
+	},
+	"sticky-layout#mobile-hidden": {
+		"children": ["flex-layout.row#header-top-mobile-hidden"],
+		"props": {
+			"blockClass": "sticky-row-mobile"
+		}
+	},
+	"flex-layout.row#header-top-mobile-hidden": {
+		"children": [
+			"header-spacer",
+			"flex-layout.col#top-mobile-center",
+			"flex-layout.col#top-mobile-right-hidden"
+		],
+		"props": {
+			"blockClass": "main-header-mobile",
+			"preserveLayoutOnMobile": true,
+			"fullWidth": true,
+			"horizontalAlign": "center"
+		}
+	},
+	"flex-layout.col#top-mobile-right-hidden": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "middle"
+		},
+		"children": ["minicart.v2"]
+	},
+
+	/*--------- header Hidden new logo --------------*/
+	"header-layout.desktop#hidden-new-logo": {
+		"children": ["sticky-layout#desktop-hidden-new-logo"]
+	},
+	"sticky-layout#desktop-hidden-new-logo": {
+		"children": [
+			"flex-layout.row#header-top-new-logo",
+			"flex-layout.row#header-middle-hidden"
+		],
+		"props": {
+			"blockClass": "sticky-row-desktop"
+		}
+	},
+	"flex-layout.row#header-top-new-logo": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "center",
+			"preventHorizontalStretch": true,
+			"preventVerticalStretch": true,
+			"fullWidth": true,
+			"blockClass": "logo-row",
+			"paddingTop": 3,
+			"paddingBottom": 3
+		},
+		"children": ["logo#new-logo"]
+	},
+	"logo#new-logo": {
+		"props": {
+			"title": "Offcorss International",
+			"href": "/",
+			"url": "https://offcorssinter.vteximg.com.br/arquivos/logo-offcorss-02.jpg"
+		}
+	},
+	"header-layout.mobile#hidden-new-logo": {
+		"children": ["sticky-layout#mobile-hidden-new-logo"]
+	},
+	"sticky-layout#mobile-hidden-new-logo": {
+		"children": ["flex-layout.row#header-top-mobile-new-logo"],
+		"props": {
+			"blockClass": "sticky-row-mobile"
+		}
+	},
+	"flex-layout.row#header-top-mobile-new-logo": {
+		"children": [
+			"header-spacer",
+			"flex-layout.col#top-mobile-center-new-logo",
+			"flex-layout.col#top-mobile-right-new-logo"
+		],
+		"props": {
+			"blockClass": "main-header-mobile",
+			"preserveLayoutOnMobile": true,
+			"fullWidth": true,
+			"horizontalAlign": "center"
+		}
+	},
+	"flex-layout.col#top-mobile-center-new-logo": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "middle",
+			"width": "70%"
+		},
+		"children": ["logo#new-logo"]
+	},
+	"flex-layout.col#top-mobile-right-new-logo": {
+		"props": {
+			"horizontalAlign": "center",
+			"verticalAlign": "middle"
+		},
+		"children": ["minicart.v2"]
+	}
+}

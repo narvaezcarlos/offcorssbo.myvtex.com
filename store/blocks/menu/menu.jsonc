@@ -1,0 +1,21 @@
+{
+	"vtex.menu@2.x:menu#nav-encuentranos": {
+		"children": ["menu-item#1"],
+		"props": {
+			"blockClass": "links-navigation"
+		}
+	},
+	"menu-item#1": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "external",
+				"href": "/contact-us",
+				"tagTitle": "Contact us",
+				"text": "Contact us"
+			},
+			"blockClass": "link-Encuentranos"
+		}
+	}
+}

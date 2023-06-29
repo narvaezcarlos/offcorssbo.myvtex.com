@@ -1,0 +1,107 @@
+.listItem--tablist__item__swimwear__one {
+  width: 40vh;
+}
+
+.listItem--tablist__item__swimwear__one :global(.vtex-button) {
+  border: 1px solid #fff;
+  display: block;
+  margin: auto;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+}
+
+.listItem--tablist__item__swimwear__one :global(.vtex-button__label) {
+  border: 1px solid white;
+  padding: 11px !important;
+}
+
+.listItem--tablist__item__swimwear__one :global(.vtex-button):hover {
+  color: #000;
+  background-color: #fbd600;
+}
+
+.listContainer--tabList__container-mobile {
+  width: 100%;
+}
+
+.listItem--tablist__item__learning__three,
+.listItem--tablist__item__learning__two,
+.listItem--tablist__item__learning__one {
+  width: 100%;
+  margin: 0 20px;
+  padding: 0 10px;
+  height: 100%;
+}
+
+.listItem--tablist__item__learning__one:active {
+  transform: scale(1.015);
+  box-shadow: 10px 10px 93px 30px rgba(238, 173, 163, 0.9);
+}
+
+.listItem--tablist__item__learning__two:active {
+  transform: scale(1.015);
+  box-shadow: 10px 10px 93px 30px rgba(238, 228, 184, 1);
+}
+
+.listItem--tablist__item__learning__three:active {
+  transform: scale(1.015);
+  box-shadow: 10px 10px 93px 30px rgba(186, 203, 195, 1);
+}
+
+.listItem--tablist__item__learning__one :global(.vtex-button) {
+  display: block;
+  margin: 0;
+  width: 100%;
+  background-color: transparent;
+  color: #eeada3;
+  height: 100%;
+}
+
+.listItem--tablist__item__learning__one :global(.vtex-button):hover {
+  color: #d07c6f;
+  background-color: transparent;
+}
+
+.listItem--tablist__item__learning__two :global(.vtex-button) {
+  display: block;
+  margin: 0;
+  width: 100%;
+  background-color: transparent;
+  color: #eee4b8;
+  height: 100%;
+}
+
+.listItem--tablist__item__learning__two :global(.vtex-button):hover {
+  color: #c6b569;
+  background-color: transparent;
+}
+
+.listItem--tablist__item__learning__three :global(.vtex-button) {
+  display: block;
+  margin: 0;
+  width: 100%;
+  background-color: transparent;
+  color: #bacbc3;
+  height: 100%;
+}
+.listItem--tablist__item__learning__three :global(.vtex-button):hover {
+  color: #718f81;
+  background-color: transparent;
+}
+
+.contentItem--listContext_learning__one {
+  margin-top: 20px;
+}
+
+.flexCol--newgirl__content__mobileCol {
+  gap: 12px;
+}
+
+.listItem--tablist__item__learning__mobile__a :global(.vtex-button),
+.listItem--tablist__item__learning__mobile__b :global(.vtex-button),
+.listItem--tablist__item__learning__mobile__c :global(.vtex-button) {
+  width: 100%;
+  background-color: transparent;
+}

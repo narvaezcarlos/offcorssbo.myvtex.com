@@ -1,0 +1,15 @@
+.title--shelf-crossselling {
+	font-weight: bold;
+	color: black;
+}
+:global(.vtex-slider-0-x-dotsContainer) {
+	display: none;
+}
+.shelfContentContainer--shelf-crossselling {
+	margin: 0 5rem;
+}
+@media (max-width: 768px) {
+	.shelfContentContainer--shelf-crossselling {
+		margin: unset;
+	}
+}

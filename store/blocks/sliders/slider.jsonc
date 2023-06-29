@@ -1,0 +1,852 @@
+{
+	"list-context.image-list#banner-principal": {
+		"children": ["slider-layout#banner-principal"],
+		"props": {
+			"blockClass": "slider-list-principal",
+			"height": 848,
+			"images": [
+				{
+					"image": "/arquivos/banner-principal-modaseptiembre-20.jpg",
+					"mobileImage": "/arquivos/p-banner-nmobile-modaseptiembre-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"description": "descripcion"
+				},
+				{
+					"image": "/arquivos/banner-principal-prendasconproteccion2-20.jpg",
+					"mobileImage": "/arquivos/p-banner-nmobile-prendasconproteccion2-20.gif",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"description": "descripcion"
+				},
+				{
+					"image": "/arquivos/banner-principal-aprende-ventadirecta-20.jpg",
+					"mobileImage": "/arquivos/p-banner-nmobile-aprende-ventadirecta-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"description": "descripcion"
+				}
+			]
+		}
+	},
+	"slider-layout#banner-principal": {
+		"props": {
+			"itemsPerPage": {
+				"desktop": 1,
+				"tablet": 1,
+				"phone": 1
+			},
+			"infinite": true,
+			"showNavigationArrows": "always",
+			"showPaginationDots": "mobileOnly",
+			"blockClass": "banner-principal",
+			"fullWidth": true,
+			"autoplay": {
+				"timeout": 3000,
+				"stopOnHover": true
+			}
+		}
+	},
+	"list-context.image-list#novedades": {
+		"children": ["slider-layout#novedades"],
+		"props": {
+			"blockClass": "slider-list-novedades",
+			"height": 619,
+			"images": [
+				{
+					"image": "/arquivos/banner-novedades-invernales-20.jpg",
+					"mobileImage": "/arquivos/banner-novedades-invernales-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					}
+				},
+				{
+					"image": "/arquivos/banner-novedades-abc-20.jpg",
+					"mobileImage": "/arquivos/banner-novedades-abc-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					}
+				},
+				{
+					"image": "/arquivos/banner-novedades-hogar-20.jpg",
+					"mobileImage": "/arquivos/banner-novedades-hogar-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					}
+				},
+				{
+					"image": "/arquivos/banner-novedades-newborn-20.jpg",
+					"mobileImage": "/arquivos/banner-novedades-newborn-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					}
+				},
+				{
+					"image": "/arquivos/banner-novedades-disney-20.jpg",
+					"mobileImage": "/arquivos/banner-novedades-disney-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					}
+				},
+				{
+					"image": "/arquivos/banner-novedades-lineadeportiva2-20.jpg",
+					"mobileImage": "/arquivos/banner-novedades-lineadeportiva2-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					}
+				}
+			]
+		}
+	},
+	"slider-layout#novedades": {
+		"props": {
+			"itemsPerPage": {
+				"desktop": 3,
+				"tablet": 1,
+				"phone": 1
+			},
+			"infinite": true,
+			"showNavigationArrows": "always",
+			"showPaginationDots": "never",
+			"centerMode": "center",
+			"centerModeSlidesGap": 25,
+			"blockClass": "slider-layout-novedades"
+		}
+	},
+	"list-context.product-list#vitrina1-producto-semana": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#vitrina1-producto-semana"],
+		"props": {
+			"orderBy": "OrderByPriceDESC",
+			"hideUnavailableItems": true,
+			"category": "8",
+			"blockClass": "novedades-contet"
+		}
+	},
+	"slider-layout#vitrina1-producto-semana": {
+		"props": {
+			"itemsPerPage": {
+				"desktop": 5,
+				"tablet": 3,
+				"phone": 2
+			},
+			"infinite": true,
+			"fullWidth": false,
+			"blockClass": "shelf",
+			"showPaginationDots": "never"
+		}
+	},
+	"list-context.image-list#lapidas-top": {
+		"children": ["slider-layout#lapidas-top-images"],
+		"props": {
+			"height": 585,
+			"images": [
+				{
+					"image": "/arquivos/banner-lapida-nino-modaseptiembre-20.jpg?v=003",
+					"mobileImage": "/arquivos/banner-lapida-nino-modaseptiembre-20.jpg?v=003",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "NIÑO DE 5 A 13 AÑOS"
+				},
+				{
+					"image": "/arquivos/banner-lapida-nina-modaseptiembre-20.jpg?v=003?v=003",
+					"mobileImage": "/arquivos/banner-lapida-nina-modaseptiembre-20.jpg?v=003?v=003",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "NIÑA DE 5 A 13 AÑOS"
+				},
+				{
+					"image": "/arquivos/banner-lapida-bbnino-modaseptiembre-20.jpg?v=003",
+					"mobileImage": "/arquivos/banner-lapida-bbnino-modaseptiembre-20.jpg?v=003",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "BEBÉ NIÑO DE 2 A 5 AÑOS"
+				}
+			]
+		}
+	},
+	"slider-layout#lapidas-top-images": {
+		"props": {
+			"itemsPerPage": {
+				"desktop": 3,
+				"tablet": 2,
+				"phone": 1
+			},
+			"infinite": true,
+			"showNavigationArrows": "always",
+			"showPaginationDots": "never",
+			"blockClass": "headstones-carousel",
+			"usePagination": true,
+			"navigationStep": 1
+		}
+	},
+	"list-context.image-list#lapidas-bottom": {
+		"children": ["slider-layout#lapidas-bottom-images"],
+		"props": {
+			"height": 585,
+			"images": [
+				{
+					"image": "/arquivos/banner-lapida-bbnina-modaseptiembre-20.jpg",
+					"mobileImage": "/arquivos/banner-lapida-bbnina-modaseptiembre-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "BEBÉ NIÑA DE 2 A 5 AÑOS"
+				},
+				{
+					"image": "/arquivos/banner-lapida-rnnino-modaseptiembre-20.jpg",
+					"mobileImage": "/arquivos/banner-lapida-rnnino-modaseptiembre-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "RECIÉN NACIDO DE 0 A 8 MESES"
+				},
+				{
+					"image": "/arquivos/banner-lapida-rnnina-modaseptiembre-20.jpg",
+					"mobileImage": "/arquivos/banner-lapida-rnnina-modaseptiembre-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "RECIÉN NACIDA DE 0 A 8 MESES"
+				}
+			]
+		}
+	},
+	"slider-layout#lapidas-bottom-images": {
+		"props": {
+			"itemsPerPage": {
+				"desktop": 3,
+				"tablet": 2,
+				"phone": 1
+			},
+			"infinite": true,
+			"showNavigationArrows": "always",
+			"showPaginationDots": "never",
+			"blockClass": "headstones-carousel",
+			"usePagination": true,
+			"navigationStep": 1,
+			"fullWidth": true
+		}
+	},
+	"list-context.product-list#vitrina2-novedades": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#vitrina2-novedades"],
+		"props": {
+			"orderBy": "OrderByPriceDESC",
+			"hideUnavailableItems": true,
+			"category": "9"
+		}
+	},
+	"slider-layout#vitrina2-novedades": {
+		"props": {
+			"itemsPerPage": {
+				"desktop": 5,
+				"tablet": 3,
+				"phone": 2
+			},
+			"infinite": true,
+			"fullWidth": false,
+			"blockClass": "shelf",
+			"showPaginationDots": "never"
+		}
+	},
+	"list-context.image-list#tab-content-masculino": {
+		"children": ["slider-layout#tab-content-masculino"],
+		"props": {
+			"height": 210,
+			"images": [
+				{
+					"image": "/arquivos/accesorios-icono-queestasbuscando-19.png",
+					"mobileImage": "/arquivos/accesorios-icono-queestasbuscando-19.png",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "Accesorios"
+				},
+				{
+					"image": "/arquivos/bermudas-icono-queestasbuscando-19.png",
+					"mobileImage": "/arquivos/bermudas-icono-queestasbuscando-19.png",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "Bermudas"
+				},
+				{
+					"image": "/arquivos/bodys-icono-queestasbuscando-19.png",
+					"mobileImage": "/arquivos/bodys-icono-queestasbuscando-19.png",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "Body"
+				},
+				{
+					"image": "/arquivos/buzosychaquetas-icono-queestasbuscando-19.png",
+					"mobileImage": "/arquivos/buzosychaquetas-icono-queestasbuscando-19.png",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "Accesorios"
+				},
+				{
+					"image": "/arquivos/camisas-icono-queestasbuscando-19.png",
+					"mobileImage": "/arquivos/camisas-icono-queestasbuscando-19.png",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "Camisas"
+				},
+				{
+					"image": "/arquivos/camisetas-icono-queestasbuscando-19.png",
+					"mobileImage": "/arquivos/camisetas-icono-queestasbuscando-19.png",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "Camisetas"
+				},
+				{
+					"image": "/arquivos/jeansypantalones-icono-queestasbuscando-19.png",
+					"mobileImage": "/arquivos/jeansypantalones-icono-queestasbuscando-19.png",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "Jeans y pantalones"
+				},
+				{
+					"image": "/arquivos/overalls-icono-queestasbuscando-19.png",
+					"mobileImage": "/arquivos/overalls-icono-queestasbuscando-19.png",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "Overall"
+				},
+				{
+					"image": "/arquivos/zapatos-icono-queestasbuscando-19.png",
+					"mobileImage": "/arquivos/zapatos-icono-queestasbuscando-19.png",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "Zapatos"
+				}
+			]
+		}
+	},
+	"slider-layout#tab-content-masculino": {
+		"props": {
+			"itemsPerPage": {
+				"desktop": 7,
+				"tablet": 5,
+				"phone": 3
+			},
+			"infinite": true,
+			"showNavigationArrows": "always",
+			"showPaginationDots": "always",
+			"blockClass": "tabs-masculino-femenino",
+			"fullWidth": true
+		}
+	},
+	"list-context.image-list#tab-content-femenino": {
+		"children": ["slider-layout#tab-content-femenino"],
+		"props": {
+			"height": 210,
+			"images": [
+				{
+					"image": "/arquivos/accesorios-icono-queestasbuscando-19.png",
+					"mobileImage": "/arquivos/accesorios-icono-queestasbuscando-19.png",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "Accesorios"
+				},
+				{
+					"image": "/arquivos/bodys-icono-queestasbuscando-19.png",
+					"mobileImage": "/arquivos/bodys-icono-queestasbuscando-19.png",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "Body"
+				},
+				{
+					"image": "/arquivos/camisas-fem-icono-queestasbuscando-19.png",
+					"mobileImage": "/arquivos/camisas-fem-icono-queestasbuscando-19.png",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "Camisas"
+				},
+				{
+					"image": "/arquivos/camisetas-icono-queestasbuscando-19.png",
+					"mobileImage": "/arquivos/camisetas-icono-queestasbuscando-19.png",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "Camisetas"
+				},
+				{
+					"image": "/arquivos/faldasyvestidos-icono-queestasbuscando-19.png",
+					"mobileImage": "/arquivos/faldasyvestidos-icono-queestasbuscando-19.png",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "Faldas"
+				},
+				{
+					"image": "/arquivos/jeansypantalones-fem-icono-queestasbuscando-19.png",
+					"mobileImage": "/arquivos/jeansypantalones-fem-icono-queestasbuscando-19.png",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "Jeans y pantalones"
+				},
+				{
+					"image": "/arquivos/vestidos-icono-queestasbuscando-19.png",
+					"mobileImage": "/arquivos/vestidos-icono-queestasbuscando-19.png",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "Vestidos"
+				},
+				{
+					"image": "/arquivos/vestidosdebano-icono-queestasbuscando-19.png",
+					"mobileImage": "/arquivos/vestidosdebano-icono-queestasbuscando-19.png",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "Vestidos de baño"
+				},
+				{
+					"image": "/arquivos/zapatos-icono-queestasbuscando-19.png",
+					"mobileImage": "/arquivos/zapatos-icono-queestasbuscando-19.png",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "Zapatos"
+				}
+			]
+		}
+	},
+	"slider-layout#tab-content-femenino": {
+		"props": {
+			"itemsPerPage": {
+				"desktop": 7,
+				"tablet": 5,
+				"phone": 3
+			},
+			"infinite": true,
+			"showNavigationArrows": "always",
+			"showPaginationDots": "always",
+			"blockClass": "tabs-masculino-femenino",
+			"fullWidth": true
+		}
+	},
+	"list-context.image-list#quienes-somos-4": {
+		"children": ["slider-layout#news-images"],
+		"props": {
+			"height": 619,
+			"images": [
+				{
+					"image": "/arquivos/btn-rnnina-mundo-bolivia-20.jpg",
+					"mobileImage": "/arquivos/btn-rnnina-mundo-bolivia-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					}
+				},
+				{
+					"image": "/arquivos/btn-bbnina-mundo-bolivia-20.jpg",
+					"mobileImage": "/arquivos/btn-bbnina-mundo-bolivia-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					}
+				},
+				{
+					"image": "/arquivos/btn-nina-mundo-bolivia-20.jpg",
+					"mobileImage": "/arquivos/btn-nina-mundo-bolivia-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					}
+				},
+				{
+					"image": "/arquivos/btn-rnnino-mundo-bolivia-20.jpg",
+					"mobileImage": "/arquivos/tn-rnnino-mundo-bolivia-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					}
+				},
+				{
+					"image": "/arquivos/btn-bbnino-mundo-bolivia-20.jpg",
+					"mobileImage": "/arquivos/btn-bbnino-mundo-bolivia-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					}
+				},
+				{
+					"image": "/arquivos/btn-nino-mundo-bolivia-20.jpg",
+					"mobileImage": "/arquivos/btn-nino-mundo-bolivia-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					}
+				}
+			]
+		}
+	},
+	"slider-layout#news-images": {
+		"props": {
+			"itemsPerPage": {
+				"desktop": 3,
+				"tablet": 1,
+				"phone": 1
+			},
+			"infinite": true,
+			"showNavigationArrows": "always",
+			"showPaginationDots": "never"
+		}
+	},
+	"slider-layout#quienes-somos-7": {
+		"props": {
+			"itemsPerPage": {
+				"desktop": 1,
+				"tablet": 1,
+				"phone": 1
+			},
+			"infinite": true,
+			"showNavigationArrows": "always",
+			"showPaginationDots": "always"
+		},
+		"children": [
+			"info-card#7-1",
+			"info-card#7-2",
+			"info-card#7-3",
+			"info-card#7-4",
+			"info-card#7-5"
+		]
+	},
+	"info-card#7-1": {
+		"props": {
+			"id": "info-card-7-1",
+			"isFullModeStyle": false,
+			"textPosition": "right",
+			"imageUrl": "/arquivos/foto-specialocasion-bolivia-20.jpg",
+			"headline": "SPECIAL OCASIONS",
+			"subhead": "In this line, comfort and elegance come together at every step! Children can also be the protagonists in festive occasions such as birthdays, first communions, marriages and other special moments. Garments designed with fabrics full of details, shine and delicate textures that give a magical touch to the days of celebration",
+			"callToActionText": "Find out",
+			"callToActionUrl": "/",
+			"blockClass": "info-card-7",
+			"textAlignment": "center"
+		}
+	},
+	"info-card#7-2": {
+		"props": {
+			"id": "info-card-7-2",
+			"isFullModeStyle": false,
+			"textPosition": "right",
+			"imageUrl": "/arquivos/foto-playa-bolivia-20.jpg",
+			"headline": "Beach",
+			"subhead": "Sun, sand and fun! Our beach sub-line brings perfect garments to enjoy vacations and sunny days. Textured swimsuits, shorts with fun and unique graphics, energetic colors and interactive details add to the fun on summer days. The garments are made with fabrics that contain UV protection, perfect for adventures beyond the waves.",
+			"callToActionText": "Find out",
+			"callToActionUrl": "/",
+			"blockClass": "info-card-7",
+			"textAlignment": "center"
+		}
+	},
+	"info-card#7-3": {
+		"props": {
+			"id": "info-card-7-3",
+			"isFullModeStyle": false,
+			"textPosition": "right",
+			"imageUrl": "/arquivos/foto-ocsport-bolivia-20.jpg",
+			"headline": "OC SPORT",
+			"subhead": "It's time to play until the sun goes down! OC Sports offers comfort and flexibility allowing freedom of movement for children who love to exercise and play sports. Our smart garments have textures and prints with energetic colors, they are perfect to accompany sports moments, making them much more fun.",
+			"callToActionText": "Find out",
+			"callToActionUrl": "/",
+			"blockClass": "info-card-7",
+			"textAlignment": "center"
+		}
+	},
+	"info-card#7-4": {
+		"props": {
+			"id": "info-card-7-4",
+			"isFullModeStyle": false,
+			"textPosition": "right",
+			"imageUrl": "/arquivos/foto-abc-bolivia-20.jpg",
+			"headline": "ABC Early stimulation line",
+			"subhead": "We are present from the first months of children's lives, through unique and comfortable garments that explore different ways of learning, such as: sounds, colors and textures. ABC Early Learning brings easy-to-put garments made with natural fibers like cotton that give babies ease with every movement.",
+			"callToActionText": "Find out",
+			"callToActionUrl": "/",
+			"blockClass": "info-card-7",
+			"textAlignment": "center"
+		}
+	},
+	"info-card#7-5": {
+		"props": {
+			"id": "info-card-7-5",
+			"isFullModeStyle": false,
+			"textPosition": "right",
+			"imageUrl": "/arquivos/btn-nuevacoleccion-bolivia-20.jpg",
+			"headline": "PAJAMAS",
+			"subhead": "We want to dream with them and venture into magical moments where anything can be possible offering them quality, design and comfort. Our pajamas have a high composition of cotton, this allows perspiration during the night. Vibrant colors and fun prints that make every moment or sleepover a very cool moment, since fashion is also present when it comes to resting and dreaming.",
+			"callToActionText": "Find out",
+			"callToActionUrl": "/",
+			"blockClass": "info-card-7",
+			"textAlignment": "center"
+		}
+	},
+	"list-context.image-list#lapidas": {
+		"children": ["slider-layout#lapidas"],
+		"props": {
+			"height": 180,
+			"images": [
+				{
+					"image": "/arquivos/banner-lapida-bbnina-modaseptiembre-20.jpg",
+					"mobileImage": "/arquivos/banner-lapida-bbnina-modaseptiembre-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "BEBÉ NIÑA DE 2 A 5 AÑOS"
+				},
+				{
+					"image": "/arquivos/banner-lapida-rnnino-modaseptiembre-20.jpg",
+					"mobileImage": "/arquivos/banner-lapida-rnnino-modaseptiembre-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "RECIÉN NACIDO DE 0 A 8 MESES"
+				},
+				{
+					"image": "/arquivos/banner-lapida-rnnina-modaseptiembre-20.jpg",
+					"mobileImage": "/arquivos/banner-lapida-rnnina-modaseptiembre-20.jpg",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "RECIÉN NACIDA DE 0 A 8 MESES"
+				},
+				{
+					"image": "/arquivos/banner-lapida-nino-modaseptiembre-20.jpg?v=003",
+					"mobileImage": "/arquivos/banner-lapida-nino-modaseptiembre-20.jpg?v=003",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "NIÑO DE 5 A 13 AÑOS"
+				},
+				{
+					"image": "/arquivos/banner-lapida-nina-modaseptiembre-20.jpg?v=003?v=003",
+					"mobileImage": "/arquivos/banner-lapida-nina-modaseptiembre-20.jpg?v=003?v=003",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "NIÑA DE 5 A 13 AÑOS"
+				},
+				{
+					"image": "/arquivos/banner-lapida-bbnino-modaseptiembre-20.jpg?v=003",
+					"mobileImage": "/arquivos/banner-lapida-bbnino-modaseptiembre-20.jpg?v=003",
+					"link": {
+						"url": "/",
+						"title": "Offcorss International"
+					},
+					"title": "BEBÉ NIÑO DE 2 A 5 AÑOS"
+				}
+			]
+		}
+	},
+	"slider-layout#lapidas": {
+		"props": {
+			"itemsPerPage": {
+				"desktop": 6,
+				"tablet": 3,
+				"phone": 1
+			},
+			"showNavigationArrows": "mobileOnly",
+			"showPaginationDots": "never",
+			"blockClass": "headstones-carousel",
+			"fullWidth": false
+		},
+		"children": [
+			"flex-layout.col#col-lapidas-1",
+			"flex-layout.col#col-lapidas-2",
+			"flex-layout.col#col-lapidas-3",
+			"flex-layout.col#col-lapidas-4",
+			"flex-layout.col#col-lapidas-5",
+			"flex-layout.col#col-lapidas-6"
+		]
+	},
+	"flex-layout.col#col-lapidas-1": {
+		"children": ["image#lapidas-1", "rich-text#lapidas-1"],
+		"props": {
+			"marginLeft": 4,
+			"marginRight": 4,
+			"blockClass": "lapidas-link"
+		}
+	},
+	"image#lapidas-1": {
+		"props": {
+			"src": "/arquivos/banner-lapida-rnnina-modaseptiembre-20.jpg",
+			"blockClass": "lapidas-img"
+		}
+	},
+	"rich-text#lapidas-1": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "[Baby Girl *(0-15 Months)*](#)",
+			"blockClass": "lapidas-link"
+		}
+	},
+	"flex-layout.col#col-lapidas-2": {
+		"children": ["image#lapidas-2", "rich-text#lapidas-2"],
+		"props": {
+			"marginLeft": 4,
+			"marginRight": 4,
+			"blockClass": "lapidas-link"
+		}
+	},
+	"image#lapidas-2": {
+		"props": {
+			"src": "/arquivos/banner-lapida-rnnino-modaseptiembre-20.jpg",
+			"blockClass": "lapidas-img"
+		}
+	},
+	"rich-text#lapidas-2": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "[Baby Boy *(0-15 Months)*](#)",
+			"blockClass": "lapidas-link"
+		}
+	},
+	"flex-layout.col#col-lapidas-3": {
+		"children": ["image#lapidas-3", "rich-text#lapidas-3"],
+		"props": {
+			"marginLeft": 4,
+			"marginRight": 4,
+			"blockClass": "lapidas-link"
+		}
+	},
+	"image#lapidas-3": {
+		"props": {
+			"src": "/arquivos/banner-lapida-bbnina-modaseptiembre-20.jpg",
+			"blockClass": "lapidas-img"
+		}
+	},
+	"rich-text#lapidas-3": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "[Kids Girl *(4-5 Years)*](#)",
+			"blockClass": "lapidas-link"
+		}
+	},
+	"flex-layout.col#col-lapidas-4": {
+		"children": ["image#lapidas-4", "rich-text#lapidas-4"],
+		"props": {
+			"marginLeft": 4,
+			"marginRight": 4,
+			"blockClass": "lapidas-link"
+		}
+	},
+	"image#lapidas-4": {
+		"props": {
+			"src": "/arquivos/banner-lapida-bbnino-modaseptiembre-20.jpg",
+			"blockClass": "lapidas-img"
+		}
+	},
+	"rich-text#lapidas-4": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "[Kids Boy *(4-5 Years)*](#)",
+			"blockClass": "lapidas-link"
+		}
+	},
+	"flex-layout.col#col-lapidas-5": {
+		"children": ["image#lapidas-5", "rich-text#lapidas-5"],
+		"props": {
+			"marginLeft": 4,
+			"marginRight": 4,
+			"blockClass": "lapidas-link"
+		}
+	},
+	"image#lapidas-5": {
+		"props": {
+			"src": "/arquivos/banner-lapida-nina-modaseptiembre-20.jpg",
+			"blockClass": "lapidas-img"
+		}
+	},
+	"rich-text#lapidas-5": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "[Junior Girl *(6-13 Years)*](#)",
+			"blockClass": "lapidas-link"
+		}
+	},
+	"flex-layout.col#col-lapidas-6": {
+		"children": ["image#lapidas-6", "rich-text#lapidas-6"],
+		"props": {
+			"marginLeft": 4,
+			"marginRight": 4,
+			"blockClass": "lapidas-link"
+		}
+	},
+	"image#lapidas-6": {
+		"props": {
+			"src": "/arquivos/banner-lapida-nino-modaseptiembre-20.jpg",
+			"blockClass": "lapidas-img"
+		}
+	},
+	"rich-text#lapidas-6": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "[Junior Boy *(6-13 Years)*](#)",
+			"blockClass": "lapidas-link"
+		}
+	}
+}

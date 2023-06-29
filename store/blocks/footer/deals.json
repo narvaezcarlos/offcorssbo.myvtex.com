@@ -1,0 +1,147 @@
+{
+	"flex-layout.row#deals": {
+		"children": ["flex-layout.col#deals1", "flex-layout.col#deals2", "flex-layout.col#deals3"],
+		"props": {
+			"blockClass": "deals",
+			"fullWidth": true
+		}
+	},
+	"flex-layout.col#deals1": {
+		"children": ["rich-text#deal1-title", "rich-text#deal1"],
+		"props": {
+			"blockClass": "deals-col",
+			"horizontalAlign": "center",
+			"verticalAlign": "middle"
+		}
+	},
+	"rich-text#deal1-title": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "## FREE SHIPPING*",
+			"blockClass": "deals-title1"
+		}
+	},
+	"rich-text#deal1": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "Free shipping on all orders! Available for limited time!",
+			"blockClass": "deals-text"
+		}
+	},
+	"flex-layout.col#deals2": {
+		"children": ["rich-text#deal2-title"],
+		"props": {
+			"blockClass": "deals-col2",
+			"horizontalAlign": "center",
+			"verticalAlign": "middle"
+		}
+	},
+	"rich-text#deal2-title": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "## CREDIT CARD PAYMENTS",
+			"blockClass": "deals-title2"
+		}
+	},
+	"rich-text#deal2": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "El pago contra entrega es aquella modalidad de pago que permite pagar el valor exacto de la compra al momento de la entrega del producto.",
+			"blockClass": "deals-text"
+		}
+	},
+	"flex-layout.col#deals3": {
+		"children": ["rich-text#deal3-title", "rich-text#deal3"],
+		"props": {
+			"blockClass": "deals-col",
+			"horizontalAlign": "center",
+			"verticalAlign": "middle"
+		}
+	},
+	"rich-text#deal3-title": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "## FREE RETURNS",
+			"blockClass": "deals-title3"
+		}
+	},
+	"rich-text#deal3": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "If the order presents any inconvenience you can return it free of charge. For more information, consult our exchange and return policies. - pending to define policy ",
+			"blockClass": "deals-text"
+		}
+	},
+	"flex-layout.row#deals-mobile": {
+		"children": [
+			"flex-layout.col#deals-mobile-col1",
+			"flex-layout.col#deals-mobile-col2",
+			"flex-layout.col#deals-mobile-col3"
+		],
+		"props": {
+			"blockClass": "deals",
+			"fullWidth": true,
+			"preserveLayoutOnMobile": "true"
+		}
+	},
+	"flex-layout.col#deals-mobile-col1": {
+		"children": ["rich-text#deal1-title-m"],
+		"props": {
+			"blockClass": "deals-col",
+			"horizontalAlign": "center",
+			"verticalAlign": "top",
+			"width": "33%"
+		}
+	},
+	"rich-text#deal1-title-m": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "**FREE SHIPPING** on all orders over $100 USD",
+			"blockClass": "deals-title1-m",
+			"font": "t-heading-5"
+		}
+	},
+	"flex-layout.col#deals-mobile-col2": {
+		"children": ["rich-text#deal2-title-m"],
+		"props": {
+			"blockClass": "deals-col2-m",
+			"horizontalAlign": "center",
+			"verticalAlign": "top",
+			"width": "33%"
+		}
+	},
+	"rich-text#deal2-title-m": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "**CREDIT CARD PAYMENTS**",
+			"blockClass": "deals-title2-m",
+			"font": "t-heading-5"
+		}
+	},
+	"flex-layout.col#deals-mobile-col3": {
+		"children": ["rich-text#deal3-title-m"],
+		"props": {
+			"blockClass": "deals-col",
+			"horizontalAlign": "center",
+			"verticalAlign": "top",
+			"width": "33%"
+		}
+	},
+	"rich-text#deal3-title-m": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "**FREE RETURNS**",
+			"blockClass": "deals-title3-m",
+			"font": "t-heading-5"
+		}
+	}
+}

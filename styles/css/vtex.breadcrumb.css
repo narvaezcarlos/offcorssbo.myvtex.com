@@ -1,0 +1,15 @@
+.container,
+.termArrow,
+.arrow   {
+    display: flex;
+    align-items: center;
+}
+.term,
+.link{
+    font-size: 0.8rem;
+}
+.termArrow,
+.arrow   {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}

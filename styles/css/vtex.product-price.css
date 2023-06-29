@@ -1,0 +1,17 @@
+.currencyContainer {
+	font-weight: 500;
+}
+.currencyCode {
+	margin-right: 0.3rem;
+}
+.listPriceValue {
+	font-size: 0.9rem;
+	color: darkgray;
+}
+.savings--price-savings {
+	font-size: 1rem;
+	color: black;
+	background-color: #fbd600;
+	padding: 0.2rem;
+	margin: auto;
+}

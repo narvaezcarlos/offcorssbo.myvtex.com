@@ -1,0 +1,37 @@
+{
+	"flex-layout.row#price-and-savings": {
+		"props": {
+			"colGap": 2,
+			"preserveLayoutOnMobile": true,
+			"preventHorizontalStretch": true,
+			"marginBottom": 4,
+			"horizontalAlign": "center",
+			"blockClass": "price-and-savings"
+		},
+		"children": ["product-list-price", "product-selling-price#summary", "product-price-savings"]
+	},
+	"flex-layout.row#price-and-savings-quickview": {
+		"props": {
+			"colGap": 2,
+			"preserveLayoutOnMobile": true,
+			"preventHorizontalStretch": true,
+			"marginBottom": 4,
+			"horizontalAlign": "left",
+			"blockClass": "price-and-savings-quickview"
+		},
+		"children": ["product-list-price", "product-selling-price#summary", "product-price-savings"]
+	},
+	"product-selling-price#summary": {
+		"props": {
+			"markers": ["highlight"],
+			"blockClass": "selling-price",
+			"message": "{sellingPriceValue}"
+		}
+	},
+	"product-price-savings": {
+		"props": {
+			"blockClass": "price-savings",
+			"message": "DISC. -{savingsPercentage}"
+		}
+	}
+}

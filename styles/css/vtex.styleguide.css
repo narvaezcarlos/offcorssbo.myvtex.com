@@ -1,0 +1,27 @@
+.hideDecorators,
+.checkbox__container {
+	background-color: white !important;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	min-height: 35px;
+	font-size: 1rem;
+	color: rgba(0,0,0,.6) !important;
+	margin-bottom: 5px;
+}
+
+.hideDecorators::placeholder {
+	color: #000 !important;
+	font-family: 'BarlowCondensed', 'HelveticaNeue', Helvetica, Arial, sans-serif !important;
+	font-size: 0.8rem !important;
+
+}
+/* .hideDecorators {
+	margin: 0;
+	border: none !important;
+} */
+.slideChildrenContainer{
+	background-color: rgba(255, 0, 0, 0.31);
+}
+/* .hideDecorators,
+.checkbox__inner-container{
+	border-width: 1px !important;
+} */

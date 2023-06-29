@@ -1,0 +1,11 @@
+.productHighlightText--highlight-text {
+	border: 1px solid #fbd600;
+	color: black;
+	width: 30%;
+	padding: 4px;
+	margin: 16px auto;
+	font-size: 0.9rem;
+	font-weight: 600;
+	display: inline-flex;
+	justify-content: center;
+}
