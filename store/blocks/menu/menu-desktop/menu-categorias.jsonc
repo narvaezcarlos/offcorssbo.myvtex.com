@@ -1,0 +1,384 @@
+{
+	"vtex.menu@2.x:submenu#sub.menu-categorias": {
+		"children": [
+			"menu-item#menu-categorias-mascotas",
+			"menu-item#menu-categorias-accesorios",
+			"menu-item#menu-categorias-zapatos"
+		],
+		"props": {
+			"width": "100%",
+			"blockClass": "sub-menu"
+		}
+	},
+	"menu-item#menu-categorias-mascotas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/mascotas",
+				"tagTitle": "MASCOTAS",
+				"text": "MASCOTAS"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-categorias-mascotas-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-categorias-mascotas-items": {
+		"children": ["flex-layout.row#menu-categorias-mascotas-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-categorias-mascotas-items": {
+		"children": ["flex-layout.col#menu-categorias-mascotas-items-1"],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-categorias-mascotas-items-1": {
+		"children": [
+			"rich-text#menu-categorias-mascotas-items",
+			"vtex.menu@2.x:menu#menu-categorias-mascotas-items"
+		],
+		"props": { "marginLeft": 5 }
+	},
+	"rich-text#menu-categorias-mascotas-items": {
+		"props": {
+			"text": "Categorías",
+			"blockClass": "menu-sub-categorias-content-cat"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-categorias-mascotas-items": {
+		"children": ["menu-item#categorias-mascotas-items-accesorios"],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#categorias-mascotas-items-accesorios": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/mascotas/accesorios",
+				"tagTitle": "Accesorios",
+				"text": "Accesorios"
+			}
+		}
+	},
+
+	"menu-item#menu-categorias-hogar": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/hogar",
+				"tagTitle": "HOGAR",
+				"text": "HOGAR"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-categorias-hogar-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-categorias-hogar-items": {
+		"children": ["flex-layout.row#menu-categorias-hogar-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-categorias-hogar-items": {
+		"children": ["flex-layout.col#menu-categorias-hogar-items-1"],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-categorias-hogar-items-1": {
+		"children": [
+			"rich-text#menu-categorias-hogar-items",
+			"vtex.menu@2.x:menu#menu-categorias-hogar-items"
+		],
+		"props": { "marginLeft": 5 }
+	},
+	"rich-text#menu-categorias-hogar-items": {
+		"props": {
+			"text": "Categorías",
+			"blockClass": "menu-sub-categorias-content-cat"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-categorias-hogar-items": {
+		"children": ["menu-item#categorias-hogar-items-accesorios"],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#categorias-hogar-items-accesorios": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/hogar/accesorios",
+				"tagTitle": "Accesorios",
+				"text": "Accesorios"
+			}
+		}
+	},
+
+	"menu-item#menu-categorias-cuidado-personal": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/cuidado-personal",
+				"tagTitle": "CUIDADO PERSONAL",
+				"text": "CUIDADO PERSONAL"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-categorias-cuidado-personal-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-categorias-cuidado-personal-items": {
+		"children": ["flex-layout.row#menu-categorias-cuidado-personal-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-categorias-cuidado-personal-items": {
+		"children": ["flex-layout.col#menu-categorias-cuidado-personal-items-1"],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-categorias-cuidado-personal-items-1": {
+		"children": [
+			"rich-text#menu-categorias-cuidado-personal-items",
+			"vtex.menu@2.x:menu#menu-categorias-cuidado-personal-items"
+		],
+		"props": { "marginLeft": 5 }
+	},
+	"rich-text#menu-categorias-cuidado-personal-items": {
+		"props": {
+			"text": "Categorías",
+			"blockClass": "menu-sub-categorias-content-cat"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-categorias-cuidado-personal-items": {
+		"children": [
+			"menu-item#categorias-cuidado-personal-items-adultos",
+			"menu-item#categorias-cuidado-personal-items-ninos"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#categorias-cuidado-personal-items-adultos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/cuidado-personal/adultos",
+				"tagTitle": "Adultos",
+				"text": "Adultos"
+			}
+		}
+	},
+	"menu-item#categorias-cuidado-personal-items-ninos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/cuidado-personal/ninos",
+				"tagTitle": "Niños",
+				"text": "Niños"
+			}
+		}
+	},
+
+	"menu-item#menu-categorias-accesorios": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/accesorios",
+				"tagTitle": "ACCESORIOS",
+				"text": "ACCESORIOS"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-categorias-accesorios-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-categorias-accesorios-items": {
+		"children": ["flex-layout.row#menu-categorias-accesorios-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-categorias-accesorios-items": {
+		"children": ["flex-layout.col#menu-categorias-accesorios-items-1"],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-categorias-accesorios-items-1": {
+		"children": [
+			"rich-text#menu-categorias-accesorios-items",
+			"vtex.menu@2.x:menu#menu-categorias-accesorios-items"
+		],
+		"props": { "marginLeft": 5 }
+	},
+	"rich-text#menu-categorias-accesorios-items": {
+		"props": {
+			"text": "Categorías",
+			"blockClass": "menu-sub-categorias-content-cat"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-categorias-accesorios-items": {
+		"children": [
+			"menu-item#categorias-accesorios-items-bisuteria",
+			"menu-item#categorias-accesorios-items-proteccion"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#categorias-accesorios-items-bisuteria": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/accesorios/bisuterias",
+				"tagTitle": "Bisutería",
+				"text": "Bisutería"
+			}
+		}
+	},
+	"menu-item#categorias-accesorios-items-escolar": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/accesorios/escolar",
+				"tagTitle": "Escolar",
+				"text": "Escolar"
+			}
+		}
+	},
+	"menu-item#categorias-accesorios-items-playa": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/accesorios/playa",
+				"tagTitle": "Playa",
+				"text": "Playa"
+			}
+		}
+	},
+	"menu-item#categorias-accesorios-items-proteccion": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/accesorios/proteccion",
+				"tagTitle": "Protección",
+				"text": "Protección"
+			}
+		}
+	},
+
+	"menu-item#menu-categorias-jugueteria": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/jugueteria",
+				"tagTitle": "JUGUETERÍA",
+				"text": "JUGUETERÍA"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-categorias-jugueteria-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-categorias-jugueteria-items": {
+		"children": ["flex-layout.row#menu-categorias-jugueteria-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-categorias-jugueteria-items": {
+		"children": ["flex-layout.col#menu-categorias-jugueteria-items-1"],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-categorias-jugueteria-items-1": {
+		"children": [
+			"rich-text#menu-categorias-jugueteria-items",
+			"vtex.menu@2.x:menu#menu-categorias-jugueteria-items"
+		],
+		"props": { "marginLeft": 5 }
+	},
+	"rich-text#menu-categorias-jugueteria-items": {
+		"props": {
+			"text": "Categorías",
+			"blockClass": "menu-sub-categorias-content-cat"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-categorias-jugueteria-items": {
+		"children": ["menu-item#categorias-jugueteria-items-juguetes"],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#categorias-jugueteria-items-juguetes": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/jugueteria/juguetes",
+				"tagTitle": "Juguetes",
+				"text": "Juguetes"
+			}
+		}
+	},
+
+	"menu-item#menu-categorias-zapatos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/zapatos",
+				"tagTitle": "ZAPATOS",
+				"text": "ZAPATOS"
+			}
+		}
+	}
+}

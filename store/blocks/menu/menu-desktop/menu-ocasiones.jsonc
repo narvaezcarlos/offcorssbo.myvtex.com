@@ -1,0 +1,75 @@
+{
+	"vtex.menu@2.x:submenu#sub.menu-ocasiones": {
+		"children": [
+			"menu-item#menu-ocasiones-item-todas",
+			"menu-item#menu-ocasiones-item-playa",
+			"menu-item#menu-ocasiones-item-deportiva",
+			"menu-item#menu-ocasiones-item-especiales",
+			"menu-item#menu-ocasiones-item-estimulacion"
+		],
+		"props": {
+			"width": "100%",
+			"blockClass": "sub-menu"
+		}
+	},
+	"menu-item#menu-ocasiones-item-todas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/sublineas",
+				"tagTitle": "TODAS LAS OCASIONES DE USO",
+				"text": "TODAS LAS OCASIONES DE USO"
+			}
+		}
+	},
+	"menu-item#menu-ocasiones-item-playa": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/playa",
+				"tagTitle": "PLAYA",
+				"text": "PLAYA"
+			}
+		}
+	},
+	"menu-item#menu-ocasiones-item-deportiva": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/oc-sport",
+				"tagTitle": "DEPORTIVA",
+				"text": "DEPORTIVA"
+			}
+		}
+	},
+	"menu-item#menu-ocasiones-item-especiales": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "ocasiones-especiales",
+				"href": "/ropa-nino",
+				"tagTitle": "OCASIONES ESPECIALES",
+				"text": "OCASIONES ESPECIALES"
+			}
+		}
+	},
+	"menu-item#menu-ocasiones-item-estimulacion": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ajuar-recien-nacidos",
+				"tagTitle": "ESTIMULACIÓN",
+				"text": "ESTIMULACIÓN"
+			}
+		}
+	}
+}

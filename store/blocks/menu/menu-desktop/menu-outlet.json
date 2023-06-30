@@ -1,0 +1,932 @@
+{
+	"vtex.menu@2.x:submenu#sub.menu-outlet": {
+		"children": [
+			"menu-item#outlet-nina",
+			"menu-item#outlet-bebe-nina",
+			"menu-item#outlet-recien-nacida",
+			"menu-item#outlet-nino",
+			"menu-item#outlet-bebe-nino",
+			"menu-item#outlet-recien-nacido"
+		],
+		"props": {
+			"width": "100%",
+			"blockClass": "sub-menu"
+		}
+	},
+	"menu-item#outlet-nina": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-nina",
+				"tagTitle": "NIÑA (5 - 13 Años)",
+				"text": "NIÑA (5-13 Años)"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			},
+			"iconToTheRight": true
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-outlet-nina-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-outlet-nina-items": {
+		"children": ["flex-layout.row#menu-outlet-nina-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-outlet-nina-items": {
+		"children": [
+			"flex-layout.col#menu-outlet-nina-items-1",
+			"flex-layout.col#menu-outlet-nina-items-2"
+		],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-outlet-nina-items-1": {
+		"children": ["vtex.menu@2.x:menu#menu-outlet-nina-items"],
+		"props": {
+			"width": "grow",
+			"marginRight": 5
+		}
+	},
+	"vtex.menu@2.x:menu#menu-outlet-nina-items": {
+		"children": [
+			"menu-item#outlet-superiores",
+			"rich-text#outlet-superiores",
+			"menu-item#outlet-inferiores",
+			"rich-text#outlet-inferiores",
+			"menu-item#outlet-calzado",
+			"rich-text#outlet-calzado",
+			"menu-item#outlet-complementos",
+			"rich-text#outlet-complementos"
+		],
+		"props": {
+			"orientation": "vertical",
+			"blockClass": "menu-sub-categorias-outlet"
+		}
+	},
+	"menu-item#outlet-superiores": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-nina/superior",
+				"tagTitle": "Superior",
+				"text": "Superior"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-superiores": {
+		"props": {
+			"text": "Camisetas, camisas, vestidos y chaquetas.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"menu-item#outlet-inferiores": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-nina/inferior",
+				"tagTitle": "Inferior",
+				"text": "Inferior"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-inferiores": {
+		"props": {
+			"text": "Jeans, pantalones, bermudas y overalls.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"menu-item#outlet-calzado": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-nina/calzado",
+				"tagTitle": "Calzado",
+				"text": "Calzado"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-calzado": {
+		"props": {
+			"text": "Zapatos, tenis, sandalias, baletas y botas.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"menu-item#outlet-complementos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-nina/complementos",
+				"tagTitle": "Complementos",
+				"text": "Complementos"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-complementos": {
+		"props": {
+			"text": "Gorras, corbatas, pañoletas y otros accesorios.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"flex-layout.col#menu-outlet-nina-items-2": {
+		"children": ["image#banner-menu-outlet-nina-items-2"],
+		"props": {
+			"width": "grow",
+			"marginRight": 5
+		}
+	},
+	"image#banner-menu-outlet-nina-items-2": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/img-nina-menutallas-19.jpg",
+			"title": "Descubrir",
+			"link": "#"
+		}
+	},
+
+	"menu-item#outlet-nino": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-nino",
+				"tagTitle": "NIÑO (5 - 13 Años)",
+				"text": "NIÑO (5-13 Años)"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			},
+			"iconToTheRight": true
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-outlet-nino-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-outlet-nino-items": {
+		"children": ["flex-layout.row#menu-outlet-nino-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-outlet-nino-items": {
+		"children": [
+			"flex-layout.col#menu-outlet-nino-items-1",
+			"flex-layout.col#menu-outlet-nino-items-2"
+		],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-outlet-nino-items-1": {
+		"children": ["vtex.menu@2.x:menu#menu-outlet-nino-items"],
+		"props": {
+			"width": "grow",
+			"marginRight": 5
+		}
+	},
+	"vtex.menu@2.x:menu#menu-outlet-nino-items": {
+		"children": [
+			"menu-item#outlet-nino-superiores",
+			"rich-text#outlet-nino-superiores",
+			"menu-item#outlet-nino-inferiores",
+			"rich-text#outlet-nino-inferiores",
+			"menu-item#outlet-nino-calzado",
+			"rich-text#outlet-nino-calzado",
+			"menu-item#outlet-nino-complementos",
+			"rich-text#outlet-nino-complementos"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#outlet-nino-superiores": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-nino/superior",
+				"tagTitle": "Superior",
+				"text": "Superior"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-nino-superiores": {
+		"props": {
+			"text": "Camisetas, camisas, vestidos y chaquetas.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"menu-item#outlet-nino-inferiores": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-nino/inferior",
+				"tagTitle": "Inferior",
+				"text": "Inferior"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-nino-inferiores": {
+		"props": {
+			"text": "Jeans, pantalones, bermudas y overalls.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"menu-item#outlet-nino-calzado": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-nino/calzado",
+				"tagTitle": "Calzado",
+				"text": "Calzado"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-nino-calzado": {
+		"props": {
+			"text": "Zapatos, tenis, sandalias, baletas y botas.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"menu-item#outlet-nino-complementos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-nino/complementos",
+				"tagTitle": "Complementos",
+				"text": "Complementos"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-nino-complementos": {
+		"props": {
+			"text": "Gorras, corbatas, pañoletas y otros accesorios.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"flex-layout.col#menu-outlet-nino-items-2": {
+		"children": ["image#banner-menu-outlet-nino-items-2"],
+		"props": {
+			"width": "grow",
+			"marginRight": 5
+		}
+	},
+	"image#banner-menu-outlet-nino-items-2": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/img-nino-menutallas-19.jpg",
+			"title": "Descubrir",
+			"link": "#"
+		}
+	},
+
+	"menu-item#outlet-bebe-nina": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-bebe-nina",
+				"tagTitle": "BEBÉ NIÑA (2 - 5 Años)",
+				"text": "BEBÉ NIÑA (2-5 Años)"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			},
+			"iconToTheRight": true
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-outlet-bebe-nina-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-outlet-bebe-nina-items": {
+		"children": ["flex-layout.row#menu-outlet-bebe-nina-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-outlet-bebe-nina-items": {
+		"children": [
+			"flex-layout.col#menu-outlet-bebe-nina-items-1",
+			"flex-layout.col#menu-outlet-bebe-nina-items-2"
+		],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-outlet-bebe-nina-items-1": {
+		"children": ["vtex.menu@2.x:menu#menu-outlet-bebe-nina-items"],
+		"props": {
+			"width": "grow",
+			"marginRight": 5
+		}
+	},
+	"vtex.menu@2.x:menu#menu-outlet-bebe-nina-items": {
+		"children": [
+			"menu-item#outlet-bebe-nina-superiores",
+			"rich-text#outlet-bebe-nina-superiores",
+			"menu-item#outlet-bebe-nina-inferiores",
+			"rich-text#outlet-bebe-nina-inferiores",
+			"menu-item#outlet-bebe-nina-calzado",
+			"rich-text#outlet-bebe-nina-calzado",
+			"menu-item#outlet-bebe-nina-complementos",
+			"rich-text#outlet-bebe-nina-complementos"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#outlet-bebe-nina-superiores": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-bebe-nina/superior",
+				"tagTitle": "Superior",
+				"text": "Superior"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-bebe-nina-superiores": {
+		"props": {
+			"text": "Camisetas, camisas, vestidos y chaquetas.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"menu-item#outlet-bebe-nina-inferiores": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-bebe-nina/inferior",
+				"tagTitle": "Inferior",
+				"text": "Inferior"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-bebe-nina-inferiores": {
+		"props": {
+			"text": "Jeans, pantalones, bermudas y overalls.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"menu-item#outlet-bebe-nina-calzado": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-bebe-nina/calzado",
+				"tagTitle": "Calzado",
+				"text": "Calzado"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-bebe-nina-calzado": {
+		"props": {
+			"text": "Zapatos, tenis, sandalias, baletas y botas.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"menu-item#outlet-bebe-nina-complementos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-bebe-nina/complementos",
+				"tagTitle": "Complementos",
+				"text": "Complementos"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-bebe-nina-complementos": {
+		"props": {
+			"text": "Gorras, corbatas, pañoletas y otros accesorios.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"flex-layout.col#menu-outlet-bebe-nina-items-2": {
+		"children": ["image#banner-menu-outlet-bebe-nina-items-2"],
+		"props": {
+			"width": "grow",
+			"marginRight": 5
+		}
+	},
+	"image#banner-menu-outlet-bebe-nina-items-2": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/img-bbnina-menutallas-19.jpg",
+			"title": "Descubrir",
+			"link": "#"
+		}
+	},
+
+	"menu-item#outlet-recien-nacida": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-recien-nacido-nina",
+				"tagTitle": "RECIÉN NACIDA (0 - 18 Meses)",
+				"text": "RECIÉN NACIDA (0-18 Meses)"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			},
+			"iconToTheRight": true
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-outlet-recien-nacida-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-outlet-recien-nacida-items": {
+		"children": ["flex-layout.row#menu-outlet-recien-nacida-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-outlet-recien-nacida-items": {
+		"children": [
+			"flex-layout.col#menu-outlet-recien-nacida-items-1",
+			"flex-layout.col#menu-outlet-recien-nacida-items-2"
+		],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-outlet-recien-nacida-items-1": {
+		"children": ["vtex.menu@2.x:menu#menu-outlet-recien-nacida-items"],
+		"props": {
+			"width": "grow",
+			"marginRight": 5
+		}
+	},
+	"vtex.menu@2.x:menu#menu-outlet-recien-nacida-items": {
+		"children": [
+			"menu-item#outlet-recien-nacida-superiores",
+			"rich-text#outlet-recien-nacida-superiores",
+			"menu-item#outlet-recien-nacida-inferiores",
+			"rich-text#outlet-recien-nacida-inferiores",
+			"menu-item#outlet-recien-nacida-calzado",
+			"rich-text#outlet-recien-nacida-calzado",
+			"menu-item#outlet-recien-nacida-complementos",
+			"rich-text#outlet-recien-nacida-complementos"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#outlet-recien-nacida-superiores": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-recien-nacida/superior",
+				"tagTitle": "Superior",
+				"text": "Superior"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-recien-nacida-superiores": {
+		"props": {
+			"text": "Camisetas, camisas, vestidos y chaquetas.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"menu-item#outlet-recien-nacida-inferiores": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-recien-nacida/inferior",
+				"tagTitle": "Inferior",
+				"text": "Inferior"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-recien-nacida-inferiores": {
+		"props": {
+			"text": "Jeans, pantalones, bermudas y overalls.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"menu-item#outlet-recien-nacida-calzado": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-recien-nacida/calzado",
+				"tagTitle": "Calzado",
+				"text": "Calzado"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-recien-nacida-calzado": {
+		"props": {
+			"text": "Zapatos, tenis, sandalias, baletas y botas.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"menu-item#outlet-recien-nacida-complementos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-recien-nacida/complementos",
+				"tagTitle": "Complementos",
+				"text": "Complementos"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-recien-nacida-complementos": {
+		"props": {
+			"text": "Gorras, corbatas, pañoletas y otros accesorios.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"flex-layout.col#menu-outlet-recien-nacida-items-2": {
+		"children": ["image#banner-menu-outlet-recien-nacida-items-2"],
+		"props": {
+			"width": "grow",
+			"marginRight": 5
+		}
+	},
+	"image#banner-menu-outlet-recien-nacida-items-2": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/img-rnnina-menutallas-19.jpg",
+			"title": "Descubrir",
+			"link": "#"
+		}
+	},
+
+	"menu-item#outlet-bebe-nino": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-bebe-nino",
+				"tagTitle": "BEBÉ NIÑO (2 - 5 Años)",
+				"text": "BEBÉ NIÑO (2-5 Años)"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			},
+			"iconToTheRight": true
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-outlet-bebe-nino-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-outlet-bebe-nino-items": {
+		"children": ["flex-layout.row#menu-outlet-bebe-nino-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-outlet-bebe-nino-items": {
+		"children": [
+			"flex-layout.col#menu-outlet-bebe-nino-items-1",
+			"flex-layout.col#menu-outlet-bebe-nino-items-2"
+		],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-outlet-bebe-nino-items-1": {
+		"children": ["vtex.menu@2.x:menu#menu-outlet-bebe-nino-items"],
+		"props": {
+			"width": "grow",
+			"marginRight": 5
+		}
+	},
+	"vtex.menu@2.x:menu#menu-outlet-bebe-nino-items": {
+		"children": [
+			"menu-item#outlet-bebe-nino-superiores",
+			"rich-text#outlet-bebe-nino-superiores",
+			"menu-item#outlet-bebe-nino-inferiores",
+			"rich-text#outlet-bebe-nino-inferiores",
+			"menu-item#outlet-bebe-nino-calzado",
+			"rich-text#outlet-bebe-nino-calzado",
+			"menu-item#outlet-bebe-nino-complementos",
+			"rich-text#outlet-bebe-nino-complementos"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#outlet-bebe-nino-superiores": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-bebe-nino/superior",
+				"tagTitle": "Superior",
+				"text": "Superior"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-bebe-nino-superiores": {
+		"props": {
+			"text": "Camisetas, camisas, vestidos y chaquetas.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"menu-item#outlet-bebe-nino-inferiores": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-bebe-nino/inferior",
+				"tagTitle": "Inferior",
+				"text": "Inferior"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-bebe-nino-inferiores": {
+		"props": {
+			"text": "Jeans, pantalones, bermudas y overalls.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"menu-item#outlet-bebe-nino-calzado": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-bebe-nino/calzado",
+				"tagTitle": "Calzado",
+				"text": "Calzado"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-bebe-nino-calzado": {
+		"props": {
+			"text": "Zapatos, tenis, sandalias, baletas y botas.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"menu-item#outlet-bebe-nino-complementos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-bebe-nino/complementos",
+				"tagTitle": "Complementos",
+				"text": "Complementos"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-bebe-nino-complementos": {
+		"props": {
+			"text": "Gorras, corbatas, pañoletas y otros accesorios.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"flex-layout.col#menu-outlet-bebe-nino-items-2": {
+		"children": ["image#banner-menu-outlet-bebe-nino-items-2"],
+		"props": {
+			"width": "grow"
+		}
+	},
+	"image#banner-menu-outlet-bebe-nino-items-2": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/img-bbnino-menutallas-19.jpg",
+			"title": "Descubrir",
+			"link": "#"
+		}
+	},
+
+	"menu-item#outlet-recien-nacido": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-recien-nacido",
+				"tagTitle": "RECIÉN NACIDO (0 - 18 Meses)",
+				"text": "RECIÉN NACIDO (0-18 Meses)"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			},
+			"iconToTheRight": true
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-outlet-recien-nacido-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-outlet-recien-nacido-items": {
+		"children": ["flex-layout.row#menu-outlet-recien-nacido-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-outlet-recien-nacido-items": {
+		"children": [
+			"flex-layout.col#menu-outlet-recien-nacido-items-1",
+			"flex-layout.col#menu-outlet-recien-nacido-items-2"
+		],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-outlet-recien-nacido-items-1": {
+		"children": ["vtex.menu@2.x:menu#menu-outlet-recien-nacido-items"],
+		"props": {
+			"width": "grow",
+			"marginRight": 5
+		}
+	},
+	"vtex.menu@2.x:menu#menu-outlet-recien-nacido-items": {
+		"children": [
+			"menu-item#outlet-recien-nacido-superiores",
+			"rich-text#outlet-recien-nacido-superiores",
+			"menu-item#outlet-recien-nacido-inferiores",
+			"rich-text#outlet-recien-nacido-inferiores",
+			"menu-item#outlet-recien-nacido-calzado",
+			"rich-text#outlet-recien-nacido-calzado",
+			"menu-item#outlet-recien-nacido-complementos",
+			"rich-text#outlet-recien-nacido-complementos"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#outlet-recien-nacido-superiores": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-recien-nacido/superior",
+				"tagTitle": "Superior",
+				"text": "Superior"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-recien-nacido-superiores": {
+		"props": {
+			"text": "Camisetas, camisas, vestidos y chaquetas.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"menu-item#outlet-recien-nacido-inferiores": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-recien-nacido/inferior",
+				"tagTitle": "Inferior",
+				"text": "Inferior"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-recien-nacido-inferiores": {
+		"props": {
+			"text": "Jeans, pantalones, bermudas y overalls.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"menu-item#outlet-recien-nacido-calzado": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-recien-nacido/calzado",
+				"tagTitle": "Calzado",
+				"text": "Calzado"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-recien-nacido-calzado": {
+		"props": {
+			"text": "Zapatos, tenis, sandalias, baletas y botas.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"menu-item#outlet-recien-nacido-complementos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet/ropa-recien-nacido/complementos",
+				"tagTitle": "Complementos",
+				"text": "Complementos"
+			},
+			"blockClass": "outlet-menu-item"
+		}
+	},
+	"rich-text#outlet-recien-nacido-complementos": {
+		"props": {
+			"text": "Gorras, corbatas, pañoletas y otros accesorios.",
+			"font": "t-body",
+			"blockClass": "outlet-rich-text"
+		}
+	},
+	"flex-layout.col#menu-outlet-recien-nacido-items-2": {
+		"children": ["image#banner-menu-outlet-recien-nacido-items-2"],
+		"props": {
+			"width": "grow"
+		}
+	},
+	"image#banner-menu-outlet-recien-nacido-items-2": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/img-rnnino-menutallas-19.jpg",
+			"title": "Descubrir",
+			"link": "#"
+		}
+	}
+}

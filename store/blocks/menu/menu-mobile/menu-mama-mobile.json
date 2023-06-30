@@ -1,0 +1,13 @@
+{
+	"vtex.menu@2.x:submenu#sub.menu-mobile-mama": {
+		"children": [
+			"menu-item#menu-ocasiones-item-vhera-lucci",
+			"menu-item#menu-ocasiones-item-espirit"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	}
+}

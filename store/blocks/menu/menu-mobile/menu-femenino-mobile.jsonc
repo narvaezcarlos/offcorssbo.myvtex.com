@@ -1,0 +1,154 @@
+{
+	"vtex.menu@2.x:submenu#sub.menu-mobile-femenino": {
+		"children": [
+			"menu-item#nina-mobile",
+			"menu-item#bebe-nina-mobile",
+			"menu-item#recien-nacida-mobile"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	},
+	"menu-item#nina-mobile": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"tagTitle": "NIÑA (5-13 Años)",
+				"text": "NIÑA (5-13 Años)"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-nina-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-mobile-nina-items": {
+		"children": [
+			"menu-item#menu-mobile-nina-ver",
+			"rich-text#menu-nina-items",
+			"vtex.menu@2.x:menu#menu-nina-items",
+			"rich-text#menu-nina-items-2",
+			"vtex.menu@2.x:menu#menu-nina-items-2",
+			"rich-text#menu-nina-items-3",
+			"image#banner-menu-nina-items-3",
+			"rich-text#menu-nina-items-4",
+			"image#banner-menu-nina-items-4"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	},
+	"menu-item#menu-mobile-nina-ver": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nina?map=departamento",
+				"tagTitle": "Ver todo",
+				"text": "Ver todo"
+			}
+		}
+	},
+
+	"menu-item#bebe-nina-mobile": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"tagTitle": "BEBÉ NIÑA (2-5 Años)",
+				"text": "BEBÉ NIÑA (2-5 Años)"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-bebe-nina-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-mobile-bebe-nina-items": {
+		"children": [
+			"menu-item#menu-mobile-bebe-nina-ver",
+			"rich-text#menu-bebe-nina-items",
+			"vtex.menu@2.x:menu#menu-bebe-nina-items",
+			"rich-text#menu-bebe-nina-items-2",
+			"vtex.menu@2.x:menu#menu-bebe-nina-items-2",
+			"rich-text#menu-bebe-nina-items-3",
+			"image#banner-menu-bebe-nina-items-3",
+			"rich-text#menu-bebe-nina-items-4",
+			"image#banner-menu-bebe-nina-items-4"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	},
+	"menu-item#menu-mobile-bebe-nina-ver": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nina?map=departamento",
+				"tagTitle": "Ver todo",
+				"text": "Ver todo"
+			}
+		}
+	},
+
+	"menu-item#recien-nacida-mobile": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"tagTitle": "RECIÉN NACIDA (0-18 Meses)",
+				"text": "RECIÉN NACIDA (0-18 Meses)"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-recien-nacida-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-mobile-recien-nacida-items": {
+		"children": [
+			"menu-item#menu-mobile-recien-nacido-nina-ver",
+			"rich-text#menu-recien-nacido-nina-items",
+			"vtex.menu@2.x:menu#menu-recien-nacido-nina-items",
+			"rich-text#menu-recien-nacido-nina-items-2",
+			"vtex.menu@2.x:menu#menu-recien-nacido-nina-items-2",
+			"rich-text#menu-recien-nacido-nina-items-3",
+			"image#banner-menu-recien-nacido-nina-items-3",
+			"rich-text#menu-recien-nacido-nina-items-4",
+			"image#banner-menu-recien-nacido-nina-items-4"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	},
+	"menu-item#menu-mobile-recien-nacido-nina-ver": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nina?map=departamento",
+				"tagTitle": "Ver todo",
+				"text": "Ver todo"
+			}
+		}
+	}
+}

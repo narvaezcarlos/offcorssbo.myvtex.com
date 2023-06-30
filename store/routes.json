@@ -1,100 +1,37 @@
 {
-	"store.custom#about-us": {
-		"path": "/about-us",
-		"isSitemapEntry": true,
+	"store.custom#quienes-somos": {
+		"path": "/quienes-somos",
 		"props": {
-			"title": "About us"
+			"title": "¿Quiénes somos?",
+			"isSitemapEntry": true
 		}
 	},
 	"store.custom#contacto": {
-		"path": "/contact-us",
-		"isSitemapEntry": true,
+		"path": "/contacto",
 		"props": {
-			"title": "Contact us"
+			"title": "Contacto",
+			"isSitemapEntry": true
 		}
 	},
 	"store.custom#terminos-y-condiciones": {
-		"path": "/terms-and-conditions",
-		"isSitemapEntry": true,
+		"path": "/terminos-y-condiciones",
 		"props": {
-			"title": "Terms and conditions"
+			"title": "Términos y Condiciones",
+			"isSitemapEntry": true
 		}
 	},
 	"store.custom#tu-pedido-paso-a-paso": {
-		"path": "/shopping-guide",
-		"isSitemapEntry": true,
+		"path": "/tu-pedido-paso-a-paso",
 		"props": {
-			"title": "Shopping guide"
+			"title": "Tu pedido paso a paso",
+			"isSitemapEntry": true
 		}
 	},
 	"store.custom#preguntas-frecuentes": {
-		"path": "/faqs",
-		"isSitemapEntry": true,
+		"path": "/preguntas-frecuentes",
 		"props": {
-			"title": "F.A.Q.s"
-		}
-	},
-	"store.custom#data-privacy-policy": {
-		"path": "/data-privacy-policy",
-		"isSitemapEntry": true,
-		"props": {
-			"title": "Data privacy policy"
-		}
-	},
-	"store.custom#returns-and-refunds": {
-		"path": "/returns-and-refunds",
-		"isSitemapEntry": true,
-		"props": {
-			"title": "Returns and Refunds"
-		}
-	},
-	"store.custom#wholesale": {
-		"path": "/wholesale",
-		"isSitemapEntry": true,
-		"props": {
-			"title": "Wholesale"
-		}
-	},
-	"store.custom#banners-template": {
-		"path": "/banners-template",
-		"isSitemapEntry": true,
-		"props": {
-			"title": "banners-template"
-		}
-	},
-	"store.custom#swimwear-kids": {
-		"path": "/swimwear-kids",
-		"isSitemapEntry": true,
-		"props": {
-			"title": "Swimwear-kids-landing"
-		}
-	},
-	"store.custom#overalls-kids": {
-		"path": "/overalls-kids",
-		"isSitemapEntry": true,
-		"props": {
-			"title": "Overalls-kids-landing"
-		}
-	},
-	"store.custom#abc-learning": {
-		"path": "/abc-learning",
-		"isSitemapEntry": true,
-		"props": {
-			"title": "Abc-kids-landing"
-		}
-	},
-	"store.custom#swimwear-kids-2": {
-		"path": "/swimwear-OC79",
-		"isSitemapEntry": true,
-		"props": {
-			"title": "Swimwear-kids-landing"
-		}
-	},
-	"store.custom#abc-learning-2": {
-		"path": "/newborn-OC79",
-		"isSitemapEntry": true,
-		"props": {
-			"title": "Abc-kids-landing"
+			"title": "Preguntas Frecuentes",
+			"isSitemapEntry": true
 		}
 	}
 }

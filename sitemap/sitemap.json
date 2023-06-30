@@ -2,13 +2,13 @@
 	"urlset": {
 		"url": [
 			{
-				"loc": "https:///quienes-somos"
+				"loc": "https://offcorss.bo/quienes-somos"
 			},
 			{
-				"loc": "https:///terminos-y-condiciones"
+				"loc": "https://offcorss.bo/terminos-y-condiciones"
 			},
 			{
-				"loc": "https:///contacto"
+				"loc": "https://offcorss.bo/contacto"
 			}
 		]
 	}

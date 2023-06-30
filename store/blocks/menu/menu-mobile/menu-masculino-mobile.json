@@ -1,0 +1,154 @@
+{
+	"vtex.menu@2.x:submenu#sub.menu-mobile-masculino": {
+		"children": [
+			"menu-item#nino-mobile",
+			"menu-item#bebe-nino-mobile",
+			"menu-item#recien-nacido-mobile"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	},
+	"menu-item#nino-mobile": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"tagTitle": "NIÑO (5-13 Años)",
+				"text": "NIÑO (5-13 Años)"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-nino-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-mobile-nino-items": {
+		"children": [
+			"menu-item#menu-mobile-nino-ver",
+			"rich-text#menu-nino-items",
+			"vtex.menu@2.x:menu#menu-nino-items",
+			"rich-text#menu-nino-items-2",
+			"vtex.menu@2.x:menu#menu-nino-items-2",
+			"rich-text#menu-nino-items-3",
+			"image#banner-menu-nino-items-3",
+			"rich-text#menu-nino-items-4",
+			"image#banner-menu-nino-items-4"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	},
+	"menu-item#menu-mobile-nino-ver": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nino?map=departamento",
+				"tagTitle": "Ver todo",
+				"text": "Ver todo"
+			}
+		}
+	},
+
+	"menu-item#bebe-nino-mobile": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"tagTitle": "BEBÉ NIÑO (2-5 Años)",
+				"text": "BEBÉ NIÑO (2-5 Años)"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-bebe-nino-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-mobile-bebe-nino-items": {
+		"children": [
+			"menu-item#menu-mobile-bebe-nino-ver",
+			"rich-text#menu-bebe-nino-items",
+			"vtex.menu@2.x:menu#menu-bebe-nino-items",
+			"rich-text#menu-bebe-nino-items-2",
+			"vtex.menu@2.x:menu#menu-bebe-nino-items-2",
+			"rich-text#menu-bebe-nino-items-3",
+			"image#banner-menu-bebe-nino-items-3",
+			"rich-text#menu-bebe-nino-items-4",
+			"image#banner-menu-bebe-nino-items-4"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	},
+	"menu-item#menu-mobile-bebe-nino-ver": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nino?map=departamento",
+				"tagTitle": "Ver todo",
+				"text": "Ver todo"
+			}
+		}
+	},
+
+	"menu-item#recien-nacido-mobile": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"tagTitle": "RECIÉN NACIDO (0-18 Meses)",
+				"text": "RECIÉN NACIDO (0-18 Meses)"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-recien-nacido-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-mobile-recien-nacido-items": {
+		"children": [
+			"menu-item#menu-mobile-recien-nacido-nino-ver",
+			"rich-text#menu-recien-nacido-nino-items",
+			"vtex.menu@2.x:menu#menu-recien-nacido-nino-items",
+			"rich-text#menu-recien-nacido-nino-items-2",
+			"vtex.menu@2.x:menu#menu-recien-nacido-nino-items-2",
+			"rich-text#menu-recien-nacido-nino-items-3",
+			"image#banner-menu-recien-nacido-nino-items-3",
+			"rich-text#menu-recien-nacido-nino-items-4",
+			"image#banner-menu-recien-nacido-nino-items-4"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	},
+	"menu-item#menu-mobile-recien-nacido-nino-ver": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nino?map=departamento",
+				"tagTitle": "Ver todo",
+				"text": "Ver todo"
+			}
+		}
+	}
+}

@@ -1,13 +1,13 @@
 {
 	"store.home": {
 		"blocks": [
-			"prehome",
-			"modal-trigger#home",
-			"flex-layout.row#topbanner",
-			"list-context.image-list#banner-principal",
-			"flex-layout.row#vitrina-basicos",
-			"flex-layout.row#vitrina-swimwear-home",
-			"flex-layout.row#vitrina-newborn"
+			//"modal-trigger#home",
+			//"flex-layout.row#topbanner",
+			//"list-context.image-list#banner-principal",
+			//"flex-layout.row#vitrina-basicos",
+			//"flex-layout.row#vitrina-swimwear-home",
+			//"flex-layout.row#vitrina-newborn",
+			"rich-text#ejemplo"
 		],
 		"title": "Store init"
 	},
@@ -20,6 +20,14 @@
 			"colGap": 3
 		}
 	},
+
+	"rich-text#ejemplo":{
+		"props": {
+			"text": "esto se va a descontrolar"
+		}
+	},
+
+
 	"rich-text#topbanner-dark": {
 		"props": {
 			"textAlignment": "CENTER",
@@ -375,13 +383,6 @@
 			"textColor": "black-90",
 			"font": "t-heading-5",
 			"blockClass": "home-subtitle"
-		}
-	},
-	"prehome": {
-		"title": "Custom prehome",
-		"props": {
-			"fullScreen": true,
-			"blockClass": "flex__prehome"
 		}
 	}
 }

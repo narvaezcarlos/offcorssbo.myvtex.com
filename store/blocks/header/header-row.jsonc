@@ -14,9 +14,9 @@
 	},
 	"logo": {
 		"props": {
-			"title": "Offcorss International",
+			"title": "Offcorss Bolivia",
 			"href": "/",
-			"url": "https://offcorssinter.vteximg.com.br/arquivos/logoOffcorssItsCool-h.png"
+			"url": "https://offcorssbo.vteximg.com.br/arquivos/logoOffcorssItsCool-h.png"
 		}
 	},
 	"flex-layout.row#header-middle": {
@@ -41,7 +41,7 @@
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "Free shipping on all orders! Available for limited time!",
+			"text": "Envíos a todo el país*",
 			"blockClass": "shipping-message"
 		}
 	},
@@ -58,18 +58,9 @@
 			"preventHorizontalStretch": true
 		},
 		"children": [
-			"flex-layout.col#idioma",
 			"flex-layout.col#nav-encuentranos",
 			"flex-layout.col#nav-login"
 		]
-	},
-	"flex-layout.col#idioma": {
-		"children": ["locale-switcher"],
-		"props": {
-			"horizontalAlign": "center",
-			"verticalAlign": "middle",
-			"blockClass": "locale"
-		}
 	},
 	"flex-layout.col#nav-encuentranos": {
 		"children": ["vtex.menu@2.x:menu#nav-encuentranos"],
@@ -147,10 +138,14 @@
 			"paddingTop": 2,
 			"paddingBottom": 2
 		},
-		"children": ["flex-layout.col#bottom-left", "flex-layout.col#bottom-right"]
+		"children": [
+			"flex-layout.col#bottom-left",
+			"flex-layout.col#bottom-right"]
 	},
 	"flex-layout.col#bottom-left": {
-		"children": ["vtex.menu@2.x:menu#nav-principal"],
+		"children": [
+			"vtex.menu@2.x:menu#2-navigation"
+		],
 		"props": {
 			"blockClass": "3-navigation",
 			"verticalAlign": "middle"
@@ -206,7 +201,7 @@
 		"children": ["drawer"]
 	},
 	"drawer": {
-		"children": ["vtex.menu@2.x:menu#nav-principal-mobile"],
+		"children": ["vtex.menu@2.x:menu#2-navigation-mobile"],
 		"props": {
 			"blockClass": "drawer-menu"
 		}
@@ -262,37 +257,5 @@
 			"verticalAlign": "middle",
 			"width": "grow"
 		}
-	},
-	/*--------------header hidden Con el carrito ----------*/
-	"flex-layout.row#header-middle-hidden": {
-		"children": [
-			"flex-layout.col#middle-left",
-			"flex-layout.col#middle-right-hidden"
-		],
-		"props": {
-			"blockClass": "1-navigation-row",
-			"preventHorizontalStretch": false,
-			"fullWidth": true,
-			"colSizing": "auto"
-		}
-	},
-	"flex-layout.col#middle-right-hidden": {
-		"children": ["flex-layout.row#middle-right-row-hidden"],
-		"props": {
-			"horizontalAlign": "right"
-		}
-	},
-	"flex-layout.row#middle-right-row-hidden": {
-		"props": {
-			"horizontalAlign": "right",
-			"verticalAlign": "center",
-			"preventHorizontalStretch": true
-		},
-		"children": [
-			"flex-layout.col#idioma",
-			"flex-layout.col#nav-encuentranos",
-			"flex-layout.col#nav-login",
-			"flex-layout.col#minicar"
-		]
 	}
 }

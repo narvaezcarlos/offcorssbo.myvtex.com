@@ -1,0 +1,203 @@
+{
+	"vtex.menu@2.x:submenu#sub.menu-mobile-categorias": {
+		"children": [
+			"menu-item#menu-mobile-categorias-mascotas",
+			"menu-item#menu-mobile-categorias-accesorios",
+			"menu-item#menu-categorias-zapatos"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	},
+	"menu-item#menu-mobile-categorias-mascotas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"tagTitle": "MASCOTAS",
+				"text": "MASCOTAS"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-mascotas-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-mobile-mascotas-items": {
+		"children": [
+			"menu-item#menu-mobile-mascotas-ver",
+			"rich-text#menu-categorias-mascotas-items",
+			"vtex.menu@2.x:menu#menu-categorias-mascotas-items"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	},
+	"menu-item#menu-mobile-mascotas-ver": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/mascotas",
+				"tagTitle": "Ver todo",
+				"text": "Ver todo"
+			}
+		}
+	},
+
+	"menu-item#menu-mobile-categorias-hogar": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"tagTitle": "HOGAR",
+				"text": "HOGAR"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-hogar-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-mobile-hogar-items": {
+		"children": [
+			"menu-item#menu-mobile-hogar-ver",
+			"rich-text#menu-categorias-hogar-items",
+			"vtex.menu@2.x:menu#menu-categorias-hogar-items"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	},
+	"menu-item#menu-mobile-hogar-ver": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/hogar",
+				"tagTitle": "Ver todo",
+				"text": "Ver todo"
+			}
+		}
+	},
+
+	"menu-item#menu-mobile-categorias-cuidado-personal": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"tagTitle": "CUIDADO PERSONAL",
+				"text": "CUIDADO PERSONAL"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-cuidado-personal-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-mobile-cuidado-personal-items": {
+		"children": [
+			"menu-item#menu-mobile-cuidado-personal-ver",
+			"rich-text#menu-categorias-cuidado-personal-items",
+			"vtex.menu@2.x:menu#menu-categorias-cuidado-personal-items"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	},
+	"menu-item#menu-mobile-cuidado-personal-ver": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/cuidado-personal",
+				"tagTitle": "Ver todo",
+				"text": "Ver todo"
+			}
+		}
+	},
+
+	"menu-item#menu-mobile-categorias-accesorios": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"tagTitle": "ACCESORIOS",
+				"text": "ACCESORIOS"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-accesorios-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-mobile-accesorios-items": {
+		"children": [
+			"menu-item#menu-mobile-accesorios-ver",
+			"rich-text#menu-categorias-accesorios-items",
+			"vtex.menu@2.x:menu#menu-categorias-accesorios-items"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	},
+	"menu-item#menu-mobile-accesorios-ver": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/accesorios",
+				"tagTitle": "Ver todo",
+				"text": "Ver todo"
+			}
+		}
+	},
+
+	"menu-item#menu-mobile-categorias-jugueteria": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "#",
+				"tagTitle": "JUGUETERIA",
+				"text": "JUGUETERIA"
+			}
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-jugueteria-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-mobile-jugueteria-items": {
+		"children": [
+			"menu-item#menu-mobile-jugueteria-ver",
+			"rich-text#menu-categorias-jugueteria-items",
+			"vtex.menu@2.x:menu#menu-categorias-jugueteria-items"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	},
+	"menu-item#menu-mobile-jugueteria-ver": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/jugueteria",
+				"tagTitle": "Ver todo",
+				"text": "Ver todo"
+			}
+		}
+	}
+}

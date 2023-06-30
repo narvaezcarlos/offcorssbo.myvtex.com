@@ -397,21 +397,10 @@
   justify-content: flex-end;
 }
 
-
-/*----------Estilos overall-kids 16 mayo-------*/
-
-.flexRow--container__row__text__desktop{
-background-color: #0000000D;
-margin: 30px auto 0px auto;
+.flexColChild--login-navigation:hover{
+color: #ffffff
 }
 
-/*----------Estilos Test Ab ----------------*/
-
-.flexRow--topbanner__row{
-  background: #FFDA00;
-  max-height: 60px;
-  }
-  .flexRow--richtext__container{
-    width: 90%;
-    margin: 0 auto;
-  }
+.flexRowContent--main-header{
+  background-color: #ffffff;
+}

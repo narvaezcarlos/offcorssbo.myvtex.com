@@ -1,6 +1,7 @@
 {
 	"login": {
 		"props": {
+			"blockclass": "login__block",
 			"optionsTitle": "Elige un método de ingreso",
 			"accessCodeTitle": "Recibir la clave de acceso rápido por email",
 			"emailAndPasswordTitle": "Ingresar con email y contraseña",
