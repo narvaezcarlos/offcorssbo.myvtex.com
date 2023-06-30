@@ -1,16 +1,17 @@
 {
 	"store.home": {
 		"blocks": [
-			//"modal-trigger#home",
-			//"flex-layout.row#topbanner",
-			//"list-context.image-list#banner-principal",
-			//"flex-layout.row#vitrina-basicos",
-			//"flex-layout.row#vitrina-swimwear-home",
-			//"flex-layout.row#vitrina-newborn",
-			"rich-text#ejemplo"
+			
+			"list-context.image-list#banner-principal",
+			"flex-layout.row#topbanner",
+			"flex-layout.row#vitrina-basicos",
+			"flex-layout.row#vitrina-swimwear-home",
+			"flex-layout.row#vitrina-newborn"
 		],
 		"title": "Store init"
+		//"children": ["modal-trigger#home"]
 	},
+
 	"flex-layout.row#topbanner": {
 		"children": [
 			"rich-text#topbanner-dark"
@@ -20,23 +21,14 @@
 			"colGap": 3
 		}
 	},
-
-	"rich-text#ejemplo":{
-		"props": {
-			"text": "esto se va a descontrolar"
-		}
-	},
-
-
 	"rich-text#topbanner-dark": {
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "### **FREE SHIPPING ON ALL ORDERS!** Available for limited time. ",
+			"text": "### **¡Un día divertido se traduce en sonrisas, juegos y un look espectacular!** \n Conoce las tendencias de la moda para niños, prendas auténticas que te permitirán crear outfits versátiles. ",
 			"blockClass": "topbanner__dark"
 		}
 	},
-
 	/*-----------------vitrina basicos Home-------------*/
 	"flex-layout.row#vitrina-basicos": {
 		"children": [
@@ -64,7 +56,7 @@
 		"props": {
 			"textAlignment": "LEFT",
 			"textPosition": "LEFT",
-			"text": "THERE ARE LOOKS INSPIRED BY EVERYDAY ADVENTURES!",
+			"text": "OCASIONES ESPECIALES",
 			"textColor": "black-90",
 			"font": "t-heading-3",
 			"blockClass": "home-title"
@@ -74,7 +66,7 @@
 		"props": {
 			"textAlignment": "RIGHT",
 			"textPosition": "RIGHT",
-			"text": "[SEE ALL](/262?map=productClusterIds)",
+			"text": "[VER TODO](/187?map=productClusterIds)",
 			"textColor": "black-90",
 			"font": "t-heading-3",
 			"blockClass": "home-title__seeall"
@@ -86,7 +78,7 @@
 		"props": {
 			"orderBy": "OrderByPriceDESC",
 			"hideUnavailableItems": true,
-			"collection": "262",
+			"collection": "187",
 			"blockClass": "novedades-contet"
 		}
 	},
@@ -131,7 +123,7 @@
 		"props": {
 			"textAlignment": "LEFT",
 			"textPosition": "LEFT",
-			"text": "SUMMER IS THE MOST FUN SEASON AND DESERVES A COOL WARDROVE!",
+			"text": "PLAYA",
 			"textColor": "black-90",
 			"font": "t-heading-3",
 			"blockClass": "home-title"
@@ -141,7 +133,7 @@
 		"props": {
 			"textAlignment": "RIGHT",
 			"textPosition": "RIGHT",
-			"text": "[SEE ALL](/266?map=productClusterIds)",
+			"text": "[VER TODO](/184?map=productClusterIds)",
 			"textColor": "black-90",
 			"font": "t-heading-3",
 			"blockClass": "home-title__seeall"
@@ -153,7 +145,7 @@
 		"props": {
 			"orderBy": "OrderByPriceDESC",
 			"hideUnavailableItems": true,
-			"collection": "266",
+			"collection": "184",
 			"blockClass": "novedades-contet"
 		}
 	},
@@ -183,7 +175,7 @@
 		"props": {
 			"textAlignment": "LEFT",
 			"textPosition": "LEFT",
-			"text": "DISCOVER HOW WE ENJOY EVERY STAGE OF LIFE!",
+			"text": "NEWBORN",
 			"textColor": "black-90",
 			"font": "t-heading-3",
 			"blockClass": "home-title"
@@ -193,7 +185,7 @@
 		"props": {
 			"textAlignment": "RIGHT",
 			"textPosition": "RIGHT",
-			"text": "[SEE ALL](/261?map=productClusterIds)",
+			"text": "[VER TODO](/193?map=productClusterIds)",
 			"textColor": "black-90",
 			"font": "t-heading-3",
 			"blockClass": "home-title__seeall"
@@ -205,7 +197,7 @@
 		"props": {
 			"orderBy": "OrderByPriceDESC",
 			"hideUnavailableItems": true,
-			"collection": "261",
+			"collection": "193",
 			"blockClass": "novedades-contet"
 		}
 	},

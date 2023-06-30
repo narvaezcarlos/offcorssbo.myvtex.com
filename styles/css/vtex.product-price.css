@@ -14,4 +14,7 @@
 	background-color: #fbd600;
 	padding: 0.2rem;
 	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
 }

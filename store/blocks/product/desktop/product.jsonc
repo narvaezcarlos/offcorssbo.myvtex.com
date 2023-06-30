@@ -234,7 +234,7 @@
 			"blockClass": "shelf-crossselling",
 			"recommendation": "view",
 			"productList": {
-				"titleText": "Shoppers  also viewed",
+				"titleText": "Completa tu compra",
 				"gap": "ph3",
 				"maxItems": 4,
 				"minItemsPerPage": 1,

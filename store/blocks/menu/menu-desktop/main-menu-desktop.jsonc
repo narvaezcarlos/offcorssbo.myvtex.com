@@ -4,7 +4,8 @@
 			"menu-item#sub.menu-femenino",
 			"menu-item#sub.menu-masculino",
 			"menu-item#sub.menu-ocasiones",
-			"menu-item#sub.menu-categorias"
+			"menu-item#sub.menu-categorias",
+			"menu-item#sub.menu-outlet1"
 		],
 		"props": {
 			"blockClass": "menu-principal"
@@ -92,12 +93,26 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "#",
-				"tagTitle": "PARA MAMÁ",
-				"text": "PARA MAMÁ"
+				"href": "/outlet",
+				"tagTitle": "Para mamá",
+				"text": "Para mamá"
 			},
 			"blockClass": "menu-principal-parmama"
 		},
 		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mama"]
+	},
+	"menu-item#sub.menu-outlet1": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet",
+				"tagTitle": "Outlet",
+				"text": "OUTLET"
+			},
+			"blockClass": "menu-principal-outlet"
+		}
 	}
+
 }

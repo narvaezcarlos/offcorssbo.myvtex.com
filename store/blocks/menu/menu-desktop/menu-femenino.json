@@ -996,7 +996,7 @@
 	},
 	"vtex.menu@2.x:menu#menu-recien-nacido-nina-items-2": {
 		"children": [
-			"menu-item#item-recien-nacido-nina-nueva-coleccion",
+			"menu-item#item-recien-nacido-nina-moda",
 			"menu-item#item-recien-nacido-nina-basicos",
 			"menu-item#item-recien-nacido-nina-ocasiones-especiales",
 			"menu-item#item-recien-nacido-nina-ropa-deportiva",
@@ -1006,15 +1006,15 @@
 			"orientation": "vertical"
 		}
 	},
-	"menu-item#item-recien-nacido-nina-nueva-coleccion": {
+	"menu-item#item-recien-nacido-nina-moda": {
 		"props": {
 			"type": "custom",
-			"highlight": false,
+			"highlight": true,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-recien-nacido-nina/nueva-coleccion",
-				"tagTitle": "Nueva Colección",
-				"text": "Nueva Colección"
+				"href": "/moda-nina",
+				"tagTitle": "Moda",
+				"text": "Moda"
 			}
 		}
 	},
@@ -1024,9 +1024,9 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-recien-nacido-nina/tenedencias",
-				"tagTitle": "Tendencias",
-				"text": "Tendencias"
+				"href": "/basicos-nina",
+				"tagTitle": "Básicos",
+				"text": "Básicos"
 			}
 		}
 	},
@@ -1039,18 +1039,6 @@
 				"href": "/ropa-recien-nacido-nina/basicos",
 				"tagTitle": "Básicos",
 				"text": "Básicos"
-			}
-		}
-	},
-	"menu-item#item-recien-nacido-nina-cuidado-personal": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/ropa-recien-nacido-nina/cuidado-personal",
-				"tagTitle": "Cuidado Personal",
-				"text": "Cuidado Personal"
 			}
 		}
 	},

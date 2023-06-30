@@ -6,29 +6,11 @@
 			"height": 848,
 			"images": [
 				{
-					"image": "/arquivos/banner-principal-modaseptiembre-20.jpg",
-					"mobileImage": "/arquivos/p-banner-nmobile-modaseptiembre-20.jpg",
+					"image": "/arquivos/bolivia-23.jpg",
+					"mobileImage": "/arquivos/bolivia-23.jpg",
 					"link": {
-						"url": "/",
-						"title": "Offcorss International"
-					},
-					"description": "descripcion"
-				},
-				{
-					"image": "/arquivos/banner-principal-prendasconproteccion2-20.jpg",
-					"mobileImage": "/arquivos/p-banner-nmobile-prendasconproteccion2-20.gif",
-					"link": {
-						"url": "/",
-						"title": "Offcorss International"
-					},
-					"description": "descripcion"
-				},
-				{
-					"image": "/arquivos/banner-principal-aprende-ventadirecta-20.jpg",
-					"mobileImage": "/arquivos/p-banner-nmobile-aprende-ventadirecta-20.jpg",
-					"link": {
-						"url": "/",
-						"title": "Offcorss International"
+						"url": "/basicos",
+						"title": "Offcorss Bolivia"
 					},
 					"description": "descripcion"
 				}
@@ -45,7 +27,7 @@
 			"infinite": true,
 			"showNavigationArrows": "always",
 			"showPaginationDots": "mobileOnly",
-			"blockClass": "banner-principal",
+			"blockClass": "carousel",
 			"fullWidth": true,
 			"autoplay": {
 				"timeout": 3000,
@@ -64,47 +46,7 @@
 					"mobileImage": "/arquivos/banner-novedades-invernales-20.jpg",
 					"link": {
 						"url": "/",
-						"title": "Offcorss International"
-					}
-				},
-				{
-					"image": "/arquivos/banner-novedades-abc-20.jpg",
-					"mobileImage": "/arquivos/banner-novedades-abc-20.jpg",
-					"link": {
-						"url": "/",
-						"title": "Offcorss International"
-					}
-				},
-				{
-					"image": "/arquivos/banner-novedades-hogar-20.jpg",
-					"mobileImage": "/arquivos/banner-novedades-hogar-20.jpg",
-					"link": {
-						"url": "/",
-						"title": "Offcorss International"
-					}
-				},
-				{
-					"image": "/arquivos/banner-novedades-newborn-20.jpg",
-					"mobileImage": "/arquivos/banner-novedades-newborn-20.jpg",
-					"link": {
-						"url": "/",
-						"title": "Offcorss International"
-					}
-				},
-				{
-					"image": "/arquivos/banner-novedades-disney-20.jpg",
-					"mobileImage": "/arquivos/banner-novedades-disney-20.jpg",
-					"link": {
-						"url": "/",
-						"title": "Offcorss International"
-					}
-				},
-				{
-					"image": "/arquivos/banner-novedades-lineadeportiva2-20.jpg",
-					"mobileImage": "/arquivos/banner-novedades-lineadeportiva2-20.jpg",
-					"link": {
-						"url": "/",
-						"title": "Offcorss International"
+						"title": ""
 					}
 				}
 			]

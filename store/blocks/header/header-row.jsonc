@@ -78,57 +78,6 @@
 			"paddingRight": 5
 		}
 	},
-	"flex-layout.row#header-middle-2": {
-		"props": {
-			"fullWidth": true,
-			"blockClass": "row-header-middle-2"
-		},
-		"children": ["flex-layout.col#header-middle-2"]
-	},
-	"flex-layout.col#header-middle-2": {
-		"props": {
-			"marginLeft": 5,
-			"blockClass": "col-header-middle-2"
-		},
-		"children": ["vtex.menu@2.x:menu#pre-menu"]
-	},
-	"vtex.menu@2.x:menu#pre-menu": {
-		"props": {
-			"blockClass": "pre-menu",
-			"items": [
-				{
-					"id": "menu-item-about-us",
-					"type": "custom",
-					"highlight": false,
-					"itemProps": {
-						"type": "internal",
-						"href": "/about-us",
-						"noFollow": false,
-						"tagTitle": "About us",
-						"text": "About us"
-					},
-					"iconProps": {
-						"id": "nav-home"
-					}
-				},
-				{
-					"id": "menu-item-social-responsibility",
-					"type": "custom",
-					"highlight": false,
-					"itemProps": {
-						"type": "internal",
-						"href": "/social-responsibility",
-						"noFollow": false,
-						"tagTitle": "Social impact",
-						"text": "Social impact"
-					},
-					"iconProps": {
-						"id": "mpa-heart"
-					}
-				}
-			]
-		}
-	},
 	"flex-layout.row#header-bottom": {
 		"props": {
 			"blockClass": "main-header",
@@ -183,8 +132,7 @@
 	"flex-layout.row#header-top-mobile": {
 		"children": [
 			"flex-layout.col#top-mobile-left",
-			"flex-layout.col#top-mobile-center",
-			"flex-layout.col#top-mobile-right"
+			"flex-layout.col#top-mobile-center"
 		],
 		"props": {
 			"blockClass": "main-header-mobile",
@@ -216,18 +164,12 @@
 	},
 	"logo#mobile": {
 		"props": {
-			"title": "Offcorss Internacional",
+			"title": "Offcorss Bolivia",
 			"href": "/",
-			"url": "https://offcorssinter.vteximg.com.br/arquivos/logoOffcorssItsCool-h.png",
+			"url": "https://offcorssbo.vteximg.com.br/arquivos/logoOffcorssItsCool-h.png",
+			"width": "180",
 			"blockClass": "logo-mobile"
 		}
-	},
-	"flex-layout.col#top-mobile-right": {
-		"props": {
-			"horizontalAlign": "center",
-			"verticalAlign": "middle"
-		},
-		"children": ["locale-switcher"]
 	},
 	"flex-layout.row#header-bottom-mobile": {
 		"children": [

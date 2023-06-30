@@ -42,7 +42,7 @@
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "## SUBSCRIBE TO THE COOLEST COMMUNITY",
+			"text": "## HAZ PARTE DE LA COMUNIDAD MÁS COOL",
 			"textColor": "c-on-yellow",
 			"blockClass": "newsletter-title"
 		}
@@ -51,7 +51,7 @@
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "Subscribe here to receive the latest fashion news, trends and outfits for babies, kids and teens. Don’t miss out! We would love to have you here at OFFCORSS.",
+			"text": "Suscríbete y recibe nuestras noticias y eventos más importantes.",
 			"textColor": "c-on-emphasis",
 			"blockClass": "newsletter-subtitle"
 		}
@@ -66,7 +66,7 @@
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "*By subscribing you accept our data treatment policies.",
+			"text": "*Al suscribirte aceptas nuestras políticas de tratamiento de datos. El 20% de descuento aplica solo para la primera compra.",
 			"textColor": "c-on-emphasis",
 			"font": "t-heading-6",
 			"blockClass": "newsletter-message"
@@ -93,7 +93,7 @@
 		"children": [
 			"flex-layout.col#bloque-links-col1",
 			"flex-layout.col#bloque-links-col2",
-			"flex-layout.col#bloque-links-col2-1",
+			//"flex-layout.col#bloque-links-col2-1",
 			"flex-layout.col#bloque-links-col3"
 		],
 		"props": {
@@ -106,13 +106,13 @@
 			"blockClass": "col-1",
 			"verticalAlign": "middle"
 		},
-		"children": ["rich-text#linea-nacional"]
+		"children": ["rich-text#linea-nacional", "rich-text#venta-telefonica"]
 	},
 	"rich-text#linea-nacional": {
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "**Email attention** \n customercare@offcorss.us",
+			"text": "**Línea de atención nacional** \n +591 7 8507077 / +591 3 4023140",
 			"textColor": "black-90",
 			"blockClass": "footer-tel"
 		}
@@ -121,7 +121,7 @@
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "**Telephone Sales** \n +591 78507077",
+			"text": "**Venta Telefónica** \n +591 7 8507077 / +591 3 4023140",
 			"textColor": "black-90",
 			"blockClass": "footer-tel2"
 		}
@@ -192,7 +192,7 @@
 	},
 	"rich-text#content-medios-pago-col-1-tittle": {
 		"props": {
-			"text": "**Secure payments**",
+			"text": "**Este es un sitio seguro**",
 			"textColor": "black-90",
 			"blockClass": "tittle-certificates-item"
 		}
@@ -208,14 +208,14 @@
 	"logo#PciDSS": {
 		"props": {
 			"title": "Pci DSS",
-			"url": "/arquivos/logo-DSS-21.png",
+			"url": "/arquivos/cert1.png",
 			"blockClass": "logos-footer"
 		}
 	},
 	"logo#digicert": {
 		"props": {
 			"title": "digicert",
-			"url": "/arquivos/logo-digicert-21.png",
+			"url": "arquivos/cert2.png",
 			"blockClass": "logos-footer"
 		}
 	},
@@ -229,13 +229,13 @@
 	},
 	"rich-text#content-medios-pago-col-2-tittle": {
 		"props": {
-			"text": "**Payment methods**",
+			"text": "**Nuestros medios de pago**",
 			"textColor": "black-90",
 			"blockClass": "tittle-certificates-item"
 		}
 	},
 	"flex-layout.row#payments": {
-		"children": ["logo#Multipago"],
+		"children": ["logo#Multipago", "logo#Visa", "logo#Bcp-qr", "logo#TigoMonney", "logo#Mastercard"],
 		"props": {
 			"blockClass": "payments-item",
 			"colGap": "0",
@@ -244,8 +244,36 @@
 	},
 	"logo#Multipago": {
 		"props": {
-			"title": "paypal",
-			"url": "/arquivos/logo-stripe.png",
+			"title": "Mastercard",
+			"url": "/arquivos/paymen-Multipago.png",
+			"blockClass": "logos-footer"
+		}
+	},
+	"logo#Visa": {
+		"props": {
+			"title": "Mastercard",
+			"url": "/arquivos/paymen-Visa.png",
+			"blockClass": "logos-footer"
+		}
+	},
+	"logo#Bcp-qr": {
+		"props": {
+			"title": "Mastercard",
+			"url": "/arquivos/paymen-Bcp-qr.png",
+			"blockClass": "logos-footer"
+		}
+	},
+	"logo#TigoMonney": {
+		"props": {
+			"title": "Mastercard",
+			"url": "/arquivos/paymen-TigoMonney.png",
+			"blockClass": "logos-footer"
+		}
+	},
+	"logo#Mastercard": {
+		"props": {
+			"title": "Mastercard",
+			"url": "/arquivos/paymen-Mastercard.png",
 			"blockClass": "logos-footer"
 		}
 	},
@@ -312,7 +340,7 @@
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "Business name: C.I HERMECO S.A. NIT: 890924167-6 Dirección: Carrera 50 # 7 – 35 Medellín, Colombia **Email: customercare@offcorss.us**",
+			"text": "Razón Social: Fast Fashion S.R.L Dirección: Av. 4to anillo esquina Av. San Martín, Centro Comercial Ventura Mall Planta Baja Local 37 Tel: +591 78507077  **Correo: servicioalcliente@offcorss.bo**",
 			"textColor": "c-on-disabled",
 			"font": "t-heading-6",
 			"blockClass": "text-fin"
