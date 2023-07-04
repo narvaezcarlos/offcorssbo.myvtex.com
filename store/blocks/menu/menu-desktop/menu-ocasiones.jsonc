@@ -3,7 +3,7 @@
 		"children": [
 			"menu-item#menu-ocasiones-item-todas",
 			"menu-item#menu-ocasiones-item-playa",
-			"menu-item#menu-ocasiones-item-deportiva",
+			"menu-item#menu-ocasiones-item-abc",
 			"menu-item#menu-ocasiones-item-especiales",
 			"menu-item#menu-ocasiones-item-estimulacion"
 		],
@@ -30,21 +30,21 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/playa",
+				"href": "/playa-nino",
 				"tagTitle": "PLAYA",
 				"text": "PLAYA"
 			}
 		}
 	},
-	"menu-item#menu-ocasiones-item-deportiva": {
+	"menu-item#menu-ocasiones-item-abc": {
 		"props": {
 			"type": "custom",
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/oc-sport",
-				"tagTitle": "DEPORTIVA",
-				"text": "DEPORTIVA"
+				"href": "/abc-nina-nino",
+				"tagTitle": "ABC",
+				"text": "ABC"
 			}
 		}
 	},
@@ -54,7 +54,7 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "ocasiones-especiales",
-				"href": "/ropa-nino",
+				"href": "/special-nina-nino",
 				"tagTitle": "OCASIONES ESPECIALES",
 				"text": "OCASIONES ESPECIALES"
 			}
@@ -66,7 +66,7 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ajuar-recien-nacidos",
+				"href": "/estimulacion-recien-nacido-nina-nino",
 				"tagTitle": "ESTIMULACIÓN",
 				"text": "ESTIMULACIÓN"
 			}

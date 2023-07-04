@@ -3,7 +3,7 @@
 		"children": [
 			"menu-item#menu-ocasiones-item-todas",
 			"menu-item#menu-ocasiones-item-playa",
-			"menu-item#menu-ocasiones-item-deportiva",
+			"menu-item#menu-ocasiones-item-abc",
 			"menu-item#menu-ocasiones-item-especiales",
 			"menu-item#menu-ocasiones-item-estimulacion"
 		],

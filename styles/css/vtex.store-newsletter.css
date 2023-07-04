@@ -36,3 +36,15 @@
         margin: 0 auto;
     }
 }
+
+.newsletterForm--nenewsletterws-form :global(.vtex-store-newsletter-1-x-emailInputContainer){
+width: 178%;
+}
+
+
+@media(max-width: 1000px) {
+    
+}
+.newsletterForm--nenewsletterws-form{
+display: flex;
+    flex-direction: column;}

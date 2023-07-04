@@ -57,7 +57,7 @@
 		}
 	},
 	"newsletter-form": {
-		"children": ["newsletter-input-email", "newsletter-input-name", "newsletter-submit"],
+		"children": ["newsletter-input-email", "newsletter-submit"],
 		"props": {
 			"blockClass": "nenewsletterws-form"
 		}

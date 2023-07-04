@@ -34,9 +34,7 @@
 			"vtex.menu@2.x:menu#menu-nina-items",
 			"rich-text#menu-nina-items-2",
 			"vtex.menu@2.x:menu#menu-nina-items-2",
-			"rich-text#menu-nina-items-3",
 			"image#banner-menu-nina-items-3",
-			"rich-text#menu-nina-items-4",
 			"image#banner-menu-nina-items-4"
 		],
 		"props": {
@@ -65,8 +63,8 @@
 			"itemProps": {
 				"type": "internal",
 				"href": "#",
-				"tagTitle": "BEBÉ NIÑA (2-5 Años)",
-				"text": "BEBÉ NIÑA (2-5 Años)"
+				"tagTitle": "BEBÉ NIÑA (2-6 Años)",
+				"text": "BEBÉ NIÑA (2-6 Años)"
 			},
 			"iconProps": {
 				"id": "mpa-angle--down"
@@ -81,9 +79,7 @@
 			"vtex.menu@2.x:menu#menu-bebe-nina-items",
 			"rich-text#menu-bebe-nina-items-2",
 			"vtex.menu@2.x:menu#menu-bebe-nina-items-2",
-			"rich-text#menu-bebe-nina-items-3",
 			"image#banner-menu-bebe-nina-items-3",
-			"rich-text#menu-bebe-nina-items-4",
 			"image#banner-menu-bebe-nina-items-4"
 		],
 		"props": {
@@ -112,8 +108,8 @@
 			"itemProps": {
 				"type": "internal",
 				"href": "#",
-				"tagTitle": "RECIÉN NACIDA (0-18 Meses)",
-				"text": "RECIÉN NACIDA (0-18 Meses)"
+				"tagTitle": "RECIÉN NACIDA (0-24 Meses)",
+				"text": "RECIÉN NACIDA (0-24 Meses)"
 			},
 			"iconProps": {
 				"id": "mpa-angle--down"
@@ -128,9 +124,7 @@
 			"vtex.menu@2.x:menu#menu-recien-nacido-nina-items",
 			"rich-text#menu-recien-nacido-nina-items-2",
 			"vtex.menu@2.x:menu#menu-recien-nacido-nina-items-2",
-			"rich-text#menu-recien-nacido-nina-items-3",
 			"image#banner-menu-recien-nacido-nina-items-3",
-			"rich-text#menu-recien-nacido-nina-items-4",
 			"image#banner-menu-recien-nacido-nina-items-4"
 		],
 		"props": {

@@ -71,22 +71,6 @@
 		},
 		"blocks": ["vtex.menu@2.x:submenu#sub.menu-categorias"]
 	},
-	"menu-item#sub.menu-outlet": {
-		"props": {
-			"type": "custom",
-			"iconId": null,
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/outlet",
-				"noFollow": true,
-				"tagTitle": "OUTLET",
-				"text": "OUTLET"
-			},
-			"blockClass": "menu-principal-outlet"
-		},
-		"blocks": ["vtex.menu@2.x:submenu#sub.menu-outlet"]
-	},
 	"menu-item#sub.menu-mama": {
 		"props": {
 			"type": "custom",
@@ -110,7 +94,10 @@
 				"href": "/outlet",
 				"tagTitle": "Outlet",
 				"text": "OUTLET"
+			},"iconProps": {
+				"id": "sti-discount"
 			},
+			"iconToTheRight": true,
 			"blockClass": "menu-principal-outlet"
 		}
 	}

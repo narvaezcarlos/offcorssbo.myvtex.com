@@ -5,7 +5,8 @@
 			"menu-item#sub.menu-mobile-masculino",
 			"menu-item#sub.menu-mobile-ocasiones",
 			"menu-item#sub.menu-mobile-categorias",
-			"menu-item#sub.menu-mobile-login"
+			"menu-item#sub.menu-mobile-login",
+			"menu-item#sub.menu-outlet1"
 		],
 		"props": {
 			"orientation": "vertical",
@@ -84,25 +85,7 @@
 		},
 		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-categorias"]
 	},
-	"menu-item#sub.menu-mobile-outlet": {
-		"props": {
-			"type": "custom",
-			"iconId": null,
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "#",
-				"noFollow": true,
-				"tagTitle": "OUTLET",
-				"text": "OUTLET"
-			},
-			"blockClass": "menu-principal-outlet",
-			"iconProps": {
-				"id": "mpa-angle--down"
-			}
-		},
-		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mobile-outlet"]
-	},
+	
 	"menu-item#sub.menu-mobile-mama": {
 		"props": {
 			"type": "custom",

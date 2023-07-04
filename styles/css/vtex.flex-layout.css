@@ -408,3 +408,20 @@ color: #ffffff
 .flexRow--topbanner__row{
   background-color: #ffda00;
 }
+
+.flexRowContent--menu-sub-categorias-content :global(.vtex-flex-layout-0-x-flexColChild) {
+  height: auto!important
+}
+
+/*-----Styles Bolivia New theme   -----*/
+.flexRowContent--row-newsletter :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+width: 50%;
+}
+
+
+@media (max-width: 1000px) {
+  .flexCol--container__vitrinas__col{
+    width: 95%;
+    margin: 0 auto;
+  }
+}

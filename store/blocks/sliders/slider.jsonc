@@ -73,8 +73,8 @@
 		"props": {
 			"orderBy": "OrderByPriceDESC",
 			"hideUnavailableItems": true,
-			"category": "8",
-			"blockClass": "novedades-contet"
+			"collection": "165",
+			"blockClass": "novedades-content"
 		}
 	},
 	"slider-layout#vitrina1-producto-semana": {

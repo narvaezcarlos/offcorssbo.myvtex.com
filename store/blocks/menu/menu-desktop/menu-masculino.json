@@ -13,8 +13,8 @@
 			"itemProps": {
 				"type": "internal",
 				"href": "/ropa-nino?map=departamento",
-				"tagTitle": "NIÑO (5-13 Años)",
-				"text": "NIÑO (5-13 Años)"
+				"tagTitle": "NIÑO (8-13 Años)",
+				"text": "NIÑO (8-13 Años)"
 			},
 			"iconProps": {
 				"id": "mpa-angle--down"
@@ -189,37 +189,25 @@
 	},
 	"vtex.menu@2.x:menu#menu-nino-items-2": {
 		"children": [
-			"menu-item#item-nino-nueva-coleccion",
+			"menu-item#item-nino-moda",
 			"menu-item#item-nino-basicos",
 			"menu-item#item-nino-ocasiones-especiales",
-			"menu-item#item-nino-ropa-deportiva",
+			"menu-item#item-nino-abc",
 			"menu-item#item-nino-playa"
 		],
 		"props": {
 			"orientation": "vertical"
 		}
 	},
-	"menu-item#item-nino-nueva-coleccion": {
+	"menu-item#item-nino-moda": {
 		"props": {
 			"type": "custom",
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-nino/nueva-coleccion",
-				"tagTitle": "Nueva Colección",
-				"text": "Nueva Colección"
-			}
-		}
-	},
-	"menu-item#item-nino-tendencias": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/ropa-nino/tenedencias",
-				"tagTitle": "Tendencias",
-				"text": "Tendencias"
+				"href": "/moda-nino",
+				"tagTitle": "Moda",
+				"text": "Moda"
 			}
 		}
 	},
@@ -229,21 +217,9 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-nino/basicos",
+				"href": "/basicos-nino",
 				"tagTitle": "Básicos",
 				"text": "Básicos"
-			}
-		}
-	},
-	"menu-item#item-nino-cuidado-personal": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/ropa-nino/cuidado-personal",
-				"tagTitle": "Cuidado Personal",
-				"text": "Cuidado Personal"
 			}
 		}
 	},
@@ -253,33 +229,21 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-nino/ocasiones-especiales",
+				"href": "/special-nino",
 				"tagTitle": "Ocasiones Especiales",
 				"text": "Ocasiones Especiales"
 			}
 		}
 	},
-	"menu-item#item-nino-ropa-deportiva": {
+	"menu-item#item-nino-abc": {
 		"props": {
 			"type": "custom",
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
 				"href": "/ropa-nino/ropa-deportiva",
-				"tagTitle": "Ropa Deportiva",
-				"text": "Ropa Deportiva"
-			}
-		}
-	},
-	"menu-item#item-nino-outlet": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/outlet/ropa-nino",
-				"tagTitle": "Outlet",
-				"text": "Outlet"
+				"tagTitle": "Abc",
+				"text": "Abc"
 			}
 		}
 	},
@@ -289,53 +253,41 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-nino/playa",
+				"href": "/playa-nino",
 				"tagTitle": "Playa",
 				"text": "Playa"
 			}
 		}
 	},
-	"menu-item#item-nino-disney": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/ropa-nino/disney",
-				"tagTitle": "Disney",
-				"text": "Disney"
-			}
-		}
-	},
 	"flex-layout.col#menu-nino-items-3": {
-		"children": ["rich-text#menu-nino-items-3", "image#banner-menu-nino-items-3"]
+		"children": ["image#banner-menu-nino-items-3"]
 	},
 	"rich-text#menu-nino-items-3": {
 		"props": {
-			"text": "Niño",
+			"text": "",
 			"blockClass": "menu-sub-categorias-content-nino"
 		}
 	},
 	"image#banner-menu-nino-items-3": {
 		"props": {
-			"src": "https://offcorssbo.vteximg.com.br/arquivos/menu-nino-modamarzo-20.jpg",
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/menu-nino-2023.jpg",
 			"title": "NIÑO",
 			"link": "#"
 		}
 	},
 	"flex-layout.col#menu-nino-items-4": {
-		"children": ["rich-text#menu-nino-items-4", "image#banner-menu-nino-items-4"],
+		"children": ["image#banner-menu-nino-items-4"],
 		"props": { "marginRight": 5 }
 	},
 	"rich-text#menu-nino-items-4": {
 		"props": {
-			"text": "Índigos",
+			"text": "",
 			"blockClass": "menu-sub-categorias-content-nino"
 		}
 	},
 	"image#banner-menu-nino-items-4": {
 		"props": {
-			"src": "https://offcorssbo.vteximg.com.br/arquivos/banners-menu-indigo-nino.jpg",
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/menu-nino-2023-2.jpg",
 			"title": "NIÑO",
 			"link": "#"
 		}
@@ -348,8 +300,8 @@
 			"itemProps": {
 				"type": "internal",
 				"href": "/ropa-bebe-nino?map=departamento",
-				"tagTitle": "BEBÉ NIÑO (2-5 Años)",
-				"text": "BEBÉ NIÑO (2-5 Años)"
+				"tagTitle": "BEBÉ NIÑO (2-6 Años)",
+				"text": "BEBÉ NIÑO (2-6 Años)"
 			},
 			"iconProps": {
 				"id": "mpa-angle--down"
@@ -537,37 +489,25 @@
 	},
 	"vtex.menu@2.x:menu#menu-bebe-nino-items-2": {
 		"children": [
-			"menu-item#item-bebe-nino-nueva-coleccion",
+			"menu-item#item-bebe-nino-moda",
 			"menu-item#item-bebe-nino-basicos",
 			"menu-item#item-bebe-nino-ocasiones-especiales",
-			"menu-item#item-bebe-nino-ropa-deportiva",
+			"menu-item#item-bebe-nino-abc",
 			"menu-item#item-bebe-nino-playa"
 		],
 		"props": {
 			"orientation": "vertical"
 		}
 	},
-	"menu-item#item-bebe-nino-nueva-coleccion": {
+	"menu-item#item-bebe-nino-moda": {
 		"props": {
 			"type": "custom",
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-bebe-nino/nueva-coleccion",
-				"tagTitle": "Nueva Colección",
-				"text": "Nueva Colección"
-			}
-		}
-	},
-	"menu-item#item-bebe-nino-tendencias": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/ropa-bebe-nino/tenedencias",
-				"tagTitle": "Tendencias",
-				"text": "Tendencias"
+				"href": "/moda-bebe-nino",
+				"tagTitle": "Moda",
+				"text": "Moda"
 			}
 		}
 	},
@@ -577,21 +517,9 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-bebe-nino/basicos",
+				"href": "/basicos-bebe-nino",
 				"tagTitle": "Básicos",
 				"text": "Básicos"
-			}
-		}
-	},
-	"menu-item#item-bebe-nino-cuidado-personal": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/ropa-bebe-nino/cuidado-personal",
-				"tagTitle": "Cuidado Personal",
-				"text": "Cuidado Personal"
 			}
 		}
 	},
@@ -601,33 +529,21 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-bebe-nino/ocasiones-especiales",
+				"href": "/special-bebe-nino",
 				"tagTitle": "Ocasiones Especiales",
 				"text": "Ocasiones Especiales"
 			}
 		}
 	},
-	"menu-item#item-bebe-nino-ropa-deportiva": {
+	"menu-item#item-bebe-nino-abc": {
 		"props": {
 			"type": "custom",
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
 				"href": "/ropa-bebe-nino/ropa-deportiva",
-				"tagTitle": "Ropa Deportiva",
-				"text": "Ropa Deportiva"
-			}
-		}
-	},
-	"menu-item#item-bebe-nino-outlet": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/outlet/ropa-bebe-nino",
-				"tagTitle": "Outlet",
-				"text": "Outlet"
+				"tagTitle": "Abc",
+				"text": "Abc"
 			}
 		}
 	},
@@ -637,53 +553,29 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-bebe-nino/playa",
+				"href": "/playa-bebe-nino",
 				"tagTitle": "Playa",
 				"text": "Playa"
 			}
 		}
 	},
-	"menu-item#item-bebe-nino-disney": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/ropa-bebe-nino/disney",
-				"tagTitle": "Disney",
-				"text": "Disney"
-			}
-		}
-	},
 	"flex-layout.col#menu-bebe-nino-items-3": {
-		"children": ["rich-text#menu-bebe-nino-items-3", "image#banner-menu-bebe-nino-items-3"]
-	},
-	"rich-text#menu-bebe-nino-items-3": {
-		"props": {
-			"text": "Bebé Niño",
-			"blockClass": "menu-sub-categorias-content-bbnino"
-		}
+		"children": ["image#banner-menu-bebe-nino-items-3"]
 	},
 	"image#banner-menu-bebe-nino-items-3": {
 		"props": {
-			"src": "https://offcorssbo.vteximg.com.br/arquivos/menu-bbnino-modamarzo-20.jpg",
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/menu-bebe-nino-2023.jpg",
 			"title": "BEBÉ NIÑO",
 			"link": "#"
 		}
 	},
 	"flex-layout.col#menu-bebe-nino-items-4": {
-		"children": ["rich-text#menu-bebe-nino-items-4", "image#banner-menu-bebe-nino-items-4"],
+		"children": ["image#banner-menu-bebe-nino-items-4"],
 		"props": { "marginRight": 5 }
-	},
-	"rich-text#menu-bebe-nino-items-4": {
-		"props": {
-			"text": "Índigos",
-			"blockClass": "menu-sub-categorias-content-bbnino"
-		}
 	},
 	"image#banner-menu-bebe-nino-items-4": {
 		"props": {
-			"src": "https://offcorssbo.vteximg.com.br/arquivos/banners-menu-indigo-bbnino.jpg",
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/menu-bebe-nino-2023-2.jpg",
 			"title": "BEBÉ NIÑO",
 			"link": "#"
 		}
@@ -696,8 +588,8 @@
 			"itemProps": {
 				"type": "internal",
 				"href": "/ropa-recien-nacido-nino?map=departamento",
-				"tagTitle": "RECIÉN NACIDO (0-18 Meses)",
-				"text": "RECIÉN NACIDO (0-18 Meses)"
+				"tagTitle": "RECIÉN NACIDO (0-24 Meses)",
+				"text": "RECIÉN NACIDO (0-24 Meses)"
 			},
 			"iconProps": {
 				"id": "mpa-angle--down"
@@ -917,37 +809,25 @@
 	},
 	"vtex.menu@2.x:menu#menu-recien-nacido-nino-items-2": {
 		"children": [
-			"menu-item#item-recien-nacido-nino-nueva-coleccion",
+			"menu-item#item-recien-nacido-nino-moda",
 			"menu-item#item-recien-nacido-nino-basicos",
 			"menu-item#item-recien-nacido-nino-ocasiones-especiales",
-			"menu-item#item-recien-nacido-nino-ropa-deportiva",
+			"menu-item#item-recien-nacido-nino-abc",
 			"menu-item#item-recien-nacido-nino-playa"
 		],
 		"props": {
 			"orientation": "vertical"
 		}
 	},
-	"menu-item#item-recien-nacido-nino-nueva-coleccion": {
+	"menu-item#item-recien-nacido-nino-moda": {
 		"props": {
 			"type": "custom",
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-recien-nacido-nino/nueva-coleccion",
-				"tagTitle": "Nueva Colección",
-				"text": "Nueva Colección"
-			}
-		}
-	},
-	"menu-item#item-recien-nacido-nino-tendencias": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/ropa-recien-nacido-nino/tenedencias",
-				"tagTitle": "Tendencias",
-				"text": "Tendencias"
+				"href": "/moda-recien-nacido-nino",
+				"tagTitle": "Moda",
+				"text": "Moda"
 			}
 		}
 	},
@@ -957,21 +837,9 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-recien-nacido-nino/basicos",
+				"href": "/basicos-recien-nacido-nino",
 				"tagTitle": "Básicos",
 				"text": "Básicos"
-			}
-		}
-	},
-	"menu-item#item-recien-nacido-nino-cuidado-personal": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/ropa-recien-nacido-nino/cuidado-personal",
-				"tagTitle": "Cuidado Personal",
-				"text": "Cuidado Personal"
 			}
 		}
 	},
@@ -981,33 +849,21 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-recien-nacido-nino/ocasiones-especiales",
+				"href": "/special-recien-nacido-nino",
 				"tagTitle": "Ocasiones Especiales",
 				"text": "Ocasiones Especiales"
 			}
 		}
 	},
-	"menu-item#item-recien-nacido-nino-ropa-deportiva": {
+	"menu-item#item-recien-nacido-nino-abc": {
 		"props": {
 			"type": "custom",
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-recien-nacido-nino/ropa-deportiva",
-				"tagTitle": "Ropa Deportiva",
-				"text": "Ropa Deportiva"
-			}
-		}
-	},
-	"menu-item#item-recien-nacido-nino-outlet": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/ropa-recien-nacido-nino/outlet",
-				"tagTitle": "Outlet",
-				"text": "Outlet"
+				"href": "/abc-recien-nacido-nino",
+				"tagTitle": "Abc",
+				"text": "Abc"
 			}
 		}
 	},
@@ -1023,53 +879,23 @@
 			}
 		}
 	},
-	"menu-item#item-recien-nacido-nino-disney": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/ropa-recien-nacido-nino/disney",
-				"tagTitle": "Disney",
-				"text": "Disney"
-			}
-		}
-	},
 	"flex-layout.col#menu-recien-nacido-nino-items-3": {
-		"children": [
-			"rich-text#menu-recien-nacido-nino-items-3",
-			"image#banner-menu-recien-nacido-nino-items-3"
-		]
-	},
-	"rich-text#menu-recien-nacido-nino-items-3": {
-		"props": {
-			"text": "Recién nacido",
-			"blockClass": "menu-sub-categorias-content-rnnino"
-		}
+		"children": ["image#banner-menu-recien-nacido-nino-items-3"]
 	},
 	"image#banner-menu-recien-nacido-nino-items-3": {
 		"props": {
-			"src": "https://offcorssbo.vteximg.com.br/arquivos/menu-rnnino-modamarzo-20.jpg",
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/rn-menu-nino-2023.jpg",
 			"title": "RECIÉN nacido",
 			"link": "#"
 		}
 	},
 	"flex-layout.col#menu-recien-nacido-nino-items-4": {
-		"children": [
-			"rich-text#menu-recien-nacido-nino-items-4",
-			"image#banner-menu-recien-nacido-nino-items-4"
-		],
+		"children": ["image#banner-menu-recien-nacido-nino-items-4"],
 		"props": { "marginRight": 5 }
-	},
-	"rich-text#menu-recien-nacido-nino-items-4": {
-		"props": {
-			"text": "Índigos",
-			"blockClass": "menu-sub-categorias-content-rnnino"
-		}
 	},
 	"image#banner-menu-recien-nacido-nino-items-4": {
 		"props": {
-			"src": "https://offcorssbo.vteximg.com.br/arquivos/banners-menu-indigo-rnnino.jpg",
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/rn-nino-2023-2.jpg",
 			"title": "RECIÉN nacido",
 			"link": "#"
 		}

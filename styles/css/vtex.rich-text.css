@@ -549,6 +549,8 @@
 	padding: 0;
 }
 
+
+
 /*-------- Estilos 16 mayo overalls-kids -----------*/
 
 .paragraph--paragraph__text__desktop{
@@ -626,3 +628,82 @@ color: #00000080;
 		font-size: 17px;
 	}
 }
+
+/*----------styles bolivia new theme------*/
+.paragraph--menu-sub-categorias-content-nina {
+	margin     : 0;
+	color      : #e70095;
+	font-weight: 500;
+	font-size  : 1rem;
+}
+.paragraph--menu-sub-categorias-content-bbnina {
+    margin: 0;
+    color: #9794d2;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.paragraph--menu-sub-categorias-content-rnnina {
+    margin: 0;
+    color: #ee9bac;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.paragraph--menu-sub-categorias-content-nino {
+    margin: 0;
+    color: #fd4605;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.paragraph--menu-sub-categorias-content-bbnino {
+    margin: 0;
+    color: #82bc00;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.paragraph--menu-sub-categorias-content-rnnino {
+    margin: 0;
+    color: #0ff;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.paragraph--menu-sub-categorias-content-cat{
+	margin: 0;
+    color: #ff3965;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+@media (max-width: 1000px) {
+.wrapper--home-title{
+	width: 90%;
+	margin: 0 auto;
+}
+.container--newsletter-modal-home{
+	width: 50%;
+	margin: 0 auto;
+}
+.paragraph--newsletter-modal-home {
+	margin: 0;}
+
+}
+
+@media (max-width:488px) {
+	.container--newsletter-modal-home{
+		width: 96%;
+		margin: 0 auto;
+	}
+	.paragraph--newsletter-modal-home {
+		margin: 0;}
+	
+	}
+
+	@media (min-width:489px) and (max-width:999px) {
+		.container--newsletter-modal-home{
+			width: 58%;
+			margin: 0 auto;
+		}
+	}

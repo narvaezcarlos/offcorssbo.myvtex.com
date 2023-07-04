@@ -206,7 +206,7 @@
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "## The product you are looking for is not available at this time ## \n ### Try one of our suggestions ###",
+			"text": "## El producto que buscas no está disponible en este momento ## \n ### Intenta con alguna de nuestras sugerencias ###",
 			"font": "t-heading-1"
 		}
 	},

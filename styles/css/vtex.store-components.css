@@ -552,3 +552,24 @@
 .imageElement--content-home-modalimage{
   margin: 0 auto;
 }
+
+.inputGroup--newsletter-modal{
+  padding-top: 222px;
+}
+
+@media (min-width:489px) and (max-width:999px) {
+  .inputGroup--newsletter-modal{
+    padding-top: 188px;
+    width: 55%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+}
+
+@media (max-width:488px) {
+  .inputGroup--newsletter-modal{
+    padding-top: 188px;
+    width: 96%;
+    margin: 0 auto;
+  }
+}

@@ -14,8 +14,8 @@
 			"itemProps": {
 				"type": "internal",
 				"href": "/ropa-nina?map=departamento",
-				"tagTitle": "NIÑA (5-13 Años)",
-				"text": "NIÑA (5-13 Años)"
+				"tagTitle": "NIÑA (8-13 Años)",
+				"text": "NIÑA (8-13 Años)"
 			},
 			"iconProps": {
 				"id": "mpa-angle--down"
@@ -232,7 +232,7 @@
 			"menu-item#nueva-coleccion",
 			"menu-item#basicos",
 			"menu-item#ocasiones-especiales",
-			"menu-item#ropa-deportiva",
+			"menu-item#abc",
 			"menu-item#playa"
 		],
 		"props": {
@@ -245,21 +245,9 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-nina/nueva-coleccion",
-				"tagTitle": "Nueva Colección",
-				"text": "Nueva Colección"
-			}
-		}
-	},
-	"menu-item#tendencias": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/ropa-nina/tenedencias",
-				"tagTitle": "Tendencias",
-				"text": "Tendencias"
+				"href": "/moda-nina",
+				"tagTitle": "Moda",
+				"text": "Moda"
 			}
 		}
 	},
@@ -269,21 +257,9 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-nina/basicos",
+				"href": "/basicos-nina",
 				"tagTitle": "Básicos",
 				"text": "Básicos"
-			}
-		}
-	},
-	"menu-item#cuidado-personal": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/ropa-nina/cuidado-personal",
-				"tagTitle": "Cuidado Personal",
-				"text": "Cuidado Personal"
 			}
 		}
 	},
@@ -293,33 +269,21 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-nina/ocasiones-especiales",
+				"href": "/special-recien-nacido-nina",
 				"tagTitle": "Ocasiones Especiales",
 				"text": "Ocasiones Especiales"
 			}
 		}
 	},
-	"menu-item#ropa-deportiva": {
+	"menu-item#abc": {
 		"props": {
 			"type": "custom",
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-nina/ropa-deportiva",
-				"tagTitle": "Ropa Deportiva",
-				"text": "Ropa Deportiva"
-			}
-		}
-	},
-	"menu-item#outlet": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/outlet/ropa-nina",
-				"tagTitle": "Outlet",
-				"text": "Outlet"
+				"href": "/ropa-nina?map=departamento",
+				"tagTitle": "Abc",
+				"text": "Abc"
 			}
 		}
 	},
@@ -329,53 +293,35 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-nina/playa",
+				"href": "/playa-nina",
 				"tagTitle": "Playa",
 				"text": "Playa"
 			}
 		}
 	},
-	"menu-item#disney": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/ropa-nina/disney",
-				"tagTitle": "Disney",
-				"text": "Disney"
-			}
-		}
-	},
 	"flex-layout.col#menu-nina-items-3": {
-		"children": ["rich-text#menu-nina-items-3", "image#banner-menu-nina-items-3"]
+		"children": ["image#banner-menu-nina-items-3"]
 	},
 	"rich-text#menu-nina-items-3": {
 		"props": {
-			"text": "Niña",
+			"text": "",
 			"blockClass": "menu-sub-categorias-content-nina"
 		}
 	},
 	"image#banner-menu-nina-items-3": {
 		"props": {
-			"src": "https://offcorssbo.vteximg.com.br/arquivos/menu-nina-modamarzo-20.jpg",
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/nina-23.jpg",
 			"title": "NIÑA",
 			"link": "#"
 		}
 	},
 	"flex-layout.col#menu-nina-items-4": {
-		"children": ["rich-text#menu-nina-items-4", "image#banner-menu-nina-items-4"],
+		"children": ["image#banner-menu-nina-items-4"],
 		"props": { "marginRight": 5 }
-	},
-	"rich-text#menu-nina-items-4": {
-		"props": {
-			"text": "Índigos",
-			"blockClass": "menu-sub-categorias-content-nina"
-		}
 	},
 	"image#banner-menu-nina-items-4": {
 		"props": {
-			"src": "https://offcorssbo.vteximg.com.br/arquivos/banners-menu-indigo-nina.jpg",
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/nina-23-2.jpg",
 			"title": "NIÑA",
 			"link": "#"
 		}
@@ -388,8 +334,8 @@
 			"itemProps": {
 				"type": "internal",
 				"href": "/ropa-bebe-nina?map=departamento",
-				"tagTitle": "BEBÉ NIÑA (2-5 Años)",
-				"text": "BEBÉ NIÑA (2-5 Años)"
+				"tagTitle": "BEBÉ NIÑA (2-6 Años)",
+				"text": "BEBÉ NIÑA (2-6 Años)"
 			},
 			"iconProps": {
 				"id": "mpa-angle--down"
@@ -552,7 +498,7 @@
 				"type": "internal",
 				"href": "/ropa-bebe-nina/traje-de-bano",
 				"tagTitle": "Traje de Baño",
-				"text": "Trahe de Baño"
+				"text": "Traje de Baño"
 			}
 		}
 	},
@@ -603,37 +549,25 @@
 	},
 	"vtex.menu@2.x:menu#menu-bebe-nina-items-2": {
 		"children": [
-			"menu-item#item-bebe-nina-nueva-coleccion",
+			"menu-item#item-bebe-nina-moda",
 			"menu-item#item-bebe-nina-basicos",
 			"menu-item#item-bebe-nina-ocasiones-especiales",
-			"menu-item#item-bebe-nina-ropa-deportiva",
+			"menu-item#item-bebe-nina-abc",
 			"menu-item#item-bebe-nina-playa"
 		],
 		"props": {
 			"orientation": "vertical"
 		}
 	},
-	"menu-item#item-bebe-nina-nueva-coleccion": {
+	"menu-item#item-bebe-nina-moda": {
 		"props": {
 			"type": "custom",
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-bebe-nina/nueva-coleccion",
-				"tagTitle": "Nueva Colección",
-				"text": "Nueva Colección"
-			}
-		}
-	},
-	"menu-item#item-bebe-nina-tendencias": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/ropa-bebe-nina/tenedencias",
-				"tagTitle": "Tendencias",
-				"text": "Tendencias"
+				"href": "/moda-bebe-nina",
+				"tagTitle": "Moda",
+				"text": "Moda"
 			}
 		}
 	},
@@ -643,21 +577,9 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-bebe-nina/basicos",
-				"tagTitle": "Basicos",
-				"text": "Basicos"
-			}
-		}
-	},
-	"menu-item#item-bebe-nina-cuidado-personal": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/ropa-bebe-nina/cuidado-personal",
-				"tagTitle": "Cuidado Personal",
-				"text": "Cuidado Personal"
+				"href": "/basicos-bebe-nina",
+				"tagTitle": "Básicos",
+				"text": "Básicos"
 			}
 		}
 	},
@@ -667,33 +589,21 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-bebe-nina/ocasiones-especiales",
+				"href": "/special-bebe-nina",
 				"tagTitle": "Ocasiones Especiales",
 				"text": "Ocasiones Especiales"
 			}
 		}
 	},
-	"menu-item#item-bebe-nina-ropa-deportiva": {
+	"menu-item#item-bebe-nina-abc": {
 		"props": {
 			"type": "custom",
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-bebe-nina/ropa-deportiva",
-				"tagTitle": "Ropa Deportiva",
-				"text": "Ropa Deportiva"
-			}
-		}
-	},
-	"menu-item#item-bebe-nina-outlet": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/outlet/ropa-bebe-nina/outlet",
-				"tagTitle": "Outlet",
-				"text": "Outlet"
+				"href": "/ropa-bebe-nina",
+				"tagTitle": "abc",
+				"text": "Abc"
 			}
 		}
 	},
@@ -703,53 +613,29 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-bebe-nina/playa",
+				"href": "/playa-bebe-nina",
 				"tagTitle": "Playa",
 				"text": "Playa"
 			}
 		}
 	},
-	"menu-item#item-bebe-nina-disney": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/ropa-bebe-nina/disney",
-				"tagTitle": "Disney",
-				"text": "Disney"
-			}
-		}
-	},
 	"flex-layout.col#menu-bebe-nina-items-3": {
-		"children": ["rich-text#menu-bebe-nina-items-3", "image#banner-menu-bebe-nina-items-3"]
-	},
-	"rich-text#menu-bebe-nina-items-3": {
-		"props": {
-			"text": "Bebé Niña",
-			"blockClass": "menu-sub-categorias-content-bbnina"
-		}
+		"children": ["image#banner-menu-bebe-nina-items-3"]
 	},
 	"image#banner-menu-bebe-nina-items-3": {
 		"props": {
-			"src": "https://offcorssbo.vteximg.com.br/arquivos/menu-bbnina-modamarzo-20.jpg",
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/bebe-nina-menu-23.jpg",
 			"title": "BEBÉ NIÑA",
 			"link": "#"
 		}
 	},
 	"flex-layout.col#menu-bebe-nina-items-4": {
-		"children": ["rich-text#menu-bebe-nina-items-4", "image#banner-menu-bebe-nina-items-4"],
+		"children": ["image#banner-menu-bebe-nina-items-4"],
 		"props": { "marginRight": 5 }
-	},
-	"rich-text#menu-bebe-nina-items-4": {
-		"props": {
-			"text": "Índigos",
-			"blockClass": "menu-sub-categorias-content-bbnina"
-		}
 	},
 	"image#banner-menu-bebe-nina-items-4": {
 		"props": {
-			"src": "https://offcorssbo.vteximg.com.br/arquivos/banners-menu-indigo-bbnina.jpg",
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/bebe-nina-menu-23-2.jpg",
 			"title": "BEBÉ NIÑA",
 			"link": "#"
 		}
@@ -762,8 +648,8 @@
 			"itemProps": {
 				"type": "internal",
 				"href": "/ropa-recien-nacido-nina?map=departamento",
-				"tagTitle": "RECIÉN NACIDA (0-18 Meses)",
-				"text": "RECIÉN NACIDA (0-18 Meses)"
+				"tagTitle": "RECIÉN NACIDA (0-24 Meses)",
+				"text": "RECIÉN NACIDA (0-24 Meses)"
 			},
 			"iconProps": {
 				"id": "mpa-angle--down"
@@ -999,7 +885,7 @@
 			"menu-item#item-recien-nacido-nina-moda",
 			"menu-item#item-recien-nacido-nina-basicos",
 			"menu-item#item-recien-nacido-nina-ocasiones-especiales",
-			"menu-item#item-recien-nacido-nina-ropa-deportiva",
+			"menu-item#item-recien-nacido-nina-abc",
 			"menu-item#item-recien-nacido-nina-playa"
 		],
 		"props": {
@@ -1012,21 +898,9 @@
 			"highlight": true,
 			"itemProps": {
 				"type": "internal",
-				"href": "/moda-nina",
+				"href": "/moda-recien-nacido-nina",
 				"tagTitle": "Moda",
 				"text": "Moda"
-			}
-		}
-	},
-	"menu-item#item-recien-nacido-nina-tendencias": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/basicos-nina",
-				"tagTitle": "Básicos",
-				"text": "Básicos"
 			}
 		}
 	},
@@ -1036,7 +910,7 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-recien-nacido-nina/basicos",
+				"href": "/basicos-recien-nacido-nina",
 				"tagTitle": "Básicos",
 				"text": "Básicos"
 			}
@@ -1048,33 +922,21 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-recien-nacido-nina/ocasiones-especiales",
+				"href": "/special-recien-nacido-nina",
 				"tagTitle": "Ocasiones Especiales",
 				"text": "Ocasiones Especiales"
 			}
 		}
 	},
-	"menu-item#item-recien-nacido-nina-ropa-deportiva": {
+	"menu-item#item-recien-nacido-nina-abc": {
 		"props": {
 			"type": "custom",
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/ropa-recien-nacido-nina/ropa-deportiva",
-				"tagTitle": "Ropa Deportiva",
-				"text": "Ropa Deportiva"
-			}
-		}
-	},
-	"menu-item#item-recien-nacido-nina-outlet": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/outlet/ropa-recien-nacido-nina",
-				"tagTitle": "Outlet",
-				"text": "Outlet"
+				"href": "/abc-recien-nacido-nina",
+				"tagTitle": "Abc",
+				"text": "Abc"
 			}
 		}
 	},
@@ -1090,55 +952,29 @@
 			}
 		}
 	},
-	"menu-item#item-recien-nacido-nina-disney": {
-		"props": {
-			"type": "custom",
-			"highlight": false,
-			"itemProps": {
-				"type": "internal",
-				"href": "/ropa-recien-nacido-nina/disney",
-				"tagTitle": "Disney",
-				"text": "Disney"
-			}
-		}
-	},
 	"flex-layout.col#menu-recien-nacido-nina-items-3": {
 		"children": [
-			"rich-text#menu-recien-nacido-nina-items-3",
 			"image#banner-menu-recien-nacido-nina-items-3"
 		]
 	},
-	"rich-text#menu-recien-nacido-nina-items-3": {
-		"props": {
-			"text": "Recién Nacida",
-			"blockClass": "menu-sub-categorias-content-rnnina"
-		}
-	},
 	"image#banner-menu-recien-nacido-nina-items-3": {
 		"props": {
-			"src": "https://offcorssbo.vteximg.com.br/arquivos/menu-rnnina-modamarzo-20.jpg",
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/rn-nina-menu-23.jpg",
 			"title": "RECIÉN NACIDA",
-			"link": "#"
+			"link": "/ropa-recien-nacido-nina?map=departamento"
 		}
 	},
 	"flex-layout.col#menu-recien-nacido-nina-items-4": {
 		"children": [
-			"rich-text#menu-recien-nacido-nina-items-4",
 			"image#banner-menu-recien-nacido-nina-items-4"
 		],
 		"props": { "marginRight": 5 }
 	},
-	"rich-text#menu-recien-nacido-nina-items-4": {
-		"props": {
-			"text": "Índigos",
-			"blockClass": "menu-sub-categorias-content-rnnina"
-		}
-	},
 	"image#banner-menu-recien-nacido-nina-items-4": {
 		"props": {
-			"src": "https://offcorssbo.vteximg.com.br/arquivos/banners-menu-indigo-rnnina.jpg",
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/rn-nina-menu-23-2.jpg",
 			"title": "RECIÉN NACIDA",
-			"link": "#"
+			"link": "/ropa-recien-nacido-nina?map=departamento"
 		}
 	}
 }

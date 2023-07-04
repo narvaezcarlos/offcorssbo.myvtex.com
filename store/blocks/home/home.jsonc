@@ -4,12 +4,30 @@
 			
 			"list-context.image-list#banner-principal",
 			"flex-layout.row#topbanner",
+			"flex-layout.row#container-vitrinas"
+			
+		],
+		"title": "Store init",
+		"children": ["modal-trigger#home"]
+	},
+
+	"flex-layout.row#container-vitrinas":{
+		"children": [
+			"flex-layout.col#container-vitrinas"
+		],
+		"props": {
+			"blockClass": "container__vitrinas__row"
+		}
+	},
+	"flex-layout.col#container-vitrinas":{
+		"children": [
 			"flex-layout.row#vitrina-basicos",
 			"flex-layout.row#vitrina-swimwear-home",
 			"flex-layout.row#vitrina-newborn"
 		],
-		"title": "Store init"
-		//"children": ["modal-trigger#home"]
+		"props": {
+			"blockClass": "container__vitrinas__col"
+		}
 	},
 
 	"flex-layout.row#topbanner": {
@@ -223,7 +241,7 @@
 		"props": {
 			"textAlignment": "RIGHT",
 			"textPosition": "CENTER",
-			"text": "## The coolest products of the weekkkkkk!",
+			"text": "## PRODUCTOS COOL DE LA SEMANA",
 			"textColor": "black-90",
 			"font": "t-heading-2",
 			"blockClass": "home-title"
@@ -233,7 +251,7 @@
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "Most Popular!",
+			"text": "MÁS POPULARES",
 			"textColor": "black-90",
 			"font": "t-heading-5",
 			"blockClass": "home-subtitle"
