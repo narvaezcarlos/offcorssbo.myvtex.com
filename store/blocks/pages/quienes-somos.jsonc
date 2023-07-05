@@ -1,0 +1,236 @@
+{
+	"store.custom#quienes-somos": {
+		"blocks": [
+			"flex-layout.row#quienes-somos-1",
+			"flex-layout.row#quienes-somos-2",
+			"flex-layout.row#quienes-somos-3",
+			"flex-layout.row#quienes-somos-4",
+			"flex-layout.row#quienes-somos-5",
+			"flex-layout.row#quienes-somos-6",
+			"flex-layout.row#quienes-somos-7",
+			"flex-layout.row#quienes-somos-8",
+			"flex-layout.row#quienes-somos-9"
+		]
+	},
+	"flex-layout.row#quienes-somos-1": {
+		"children": ["flex-layout.col#quienes-somos-1"]
+	},
+	"flex-layout.col#quienes-somos-1": {
+		"children": ["info-card#quienes-somos-1"]
+	},
+	"info-card#quienes-somos-1": {
+		"props": {
+			"isFullModeStyle": true,
+			"textPosition": "center",
+			"imageUrl": "arquivos/banner-top-bolivia-20.jpg",
+			"subhead": "Es la marca líder en ropa infantil de COLOMBIA, creada desde el año 1979 con amplia experiencia en el sector textil, ha acompañado a los niños desde que nacen hasta su adolescencia. Una marca de tradición, con lenguaje propio que mensualmente ofrece nuevas propuestas de vestuario.",
+			"textAlignment": "center",
+			"blockClass": "quienes-somos-1"
+		}
+	},
+	"flex-layout.row#quienes-somos-2": {
+		"children": ["flex-layout.col#text-quienes-somos-2"]
+	},
+	"flex-layout.col#text-quienes-somos-2": {
+		"children": ["image#quienes-somos-2"]
+	},
+	"image#quienes-somos-2": {
+		"props": {
+			"src": "https://offcorssbo.myvtex.com//arquivos/historia-bolivia-20.jpg"
+		}
+	},
+	"flex-layout.row#quienes-somos-3": {
+		"props": { "blockClass": "quienes-somos-3", "paddingTop": 10, "paddingBottom": 10 },
+		"children": ["flex-layout.col#text-quienes-somos-3-1", "flex-layout.col#text-quienes-somos-3-2"]
+	},
+	"flex-layout.col#text-quienes-somos-3-1": {
+		"children": ["image#quienes-somos-3-1"]
+	},
+	"image#quienes-somos-3-1": {
+		"props": {
+			"src": "https://offcorssbo.myvtex.com/arquivos/foto1-enoffcorss-bolivia-20.jpg",
+			"maxWidth": "80%"
+		}
+	},
+	"flex-layout.col#text-quienes-somos-3-2": {
+		"children": ["rich-text#quienes-somos-3-2", "image#quienes-somos-3-2"]
+	},
+	"rich-text#quienes-somos-3-2": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "# **En OFFCORSS**\n # **...**\n Somos parte del **estilo de vida** e **imaginación** de los niños, de su crecimiento y de sus sueños, pero lo más importante es que estamos comprometidos en acompañarlos todos los días para asegurarnos de que estaremos en su corazón para toda la vida.",
+			"blockClass": "quienes-somos-3-2"
+		}
+	},
+	"image#quienes-somos-3-2": {
+		"props": {
+			"src": "https://offcorssbo.myvtex.com//arquivos/foto2-enoffcorss-peru-20.jpg"
+		}
+	},
+	"flex-layout.row#quienes-somos-4": {
+		"children": ["flex-layout.col#quienes-somos-4"]
+	},
+	"flex-layout.col#quienes-somos-4": {
+		"children": ["list-context.image-list#quienes-somos-4"]
+	},
+	"flex-layout.row#quienes-somos-5": {
+		"props": { "blockClass": "quienes-somos-5" },
+		"children": ["flex-layout.col#quienes-somos-5"]
+	},
+	"flex-layout.col#quienes-somos-5": {
+		"children": ["info-card#quienes-somos-5"]
+	},
+	"info-card#quienes-somos-5": {
+		"props": {
+			"id": "quienes-somos-5",
+			"isFullModeStyle": false,
+			"textPosition": "right",
+			"imageUrl": "arquivos/foto1-offcorss-bolivia-20.jpg",
+			"headline": "OFFCORSS",
+			"subhead": "Es la marca líder en ropa infantil de Colombia Cuenta con un gran equipo de mercadeo y diseño, que trabaja detrás de cada prenda entendiendo el estilo de vida de los niños y padres de hoy, acompañándolos en su crecimiento. <br/><br/> Somos música, sonrisas, magia y diversión. En Colombia tenemos 106 tiendas, presencia en 8 tiendas por departamento y más de 350 clientes multimarca, ventas por catálogo con más de 23.000 empresarias, OFFCORSS.COM y también contamos con presencia a nivel internacional en 18 paises.",
+			"blockClass": "info-card-quienes-somos-5",
+			"textAlignment": "LEFT"
+		}
+	},
+	"flex-layout.row#quienes-somos-6": {
+		"props": { "blockClass": "row-quienes-somos-6", "horizontalAlign": "center" },
+		"children": ["flex-layout.col#quienes-somos-6-1", "flex-layout.col#quienes-somos-6-2"]
+	},
+	"flex-layout.col#quienes-somos-6-1": {
+		"children": ["info-card#quienes-somos-6-1"]
+	},
+	"info-card#quienes-somos-6-1": {
+		"props": {
+			"isFullModeStyle": true,
+			"textPosition": "center",
+			"imageUrl": "arquivos/btn-basicos-bolivia-20.jpg",
+			"headline": "BÁSICOS",
+			"subhead": "¡Ideales para todo momento! Son prendas básicas, funcionales y de alta calidad que facilitan la vida de todos al momento de elegir el look del día. Opciones cómodas que complementan el estilo de cada uno y que nos permiten explorar, jugar y sentirnos geniales.",
+			"textAlignment": "center",
+			"blockClass": "quienes-somos-6-1",
+			"callToActionText": "DESCUBRIR TODO",
+			"callToActionUrl": "#"
+		}
+	},
+	"flex-layout.col#quienes-somos-6-2": {
+		"children": ["info-card#quienes-somos-6-2"]
+	},
+	"info-card#quienes-somos-6-2": {
+		"props": {
+			"isFullModeStyle": true,
+			"textPosition": "center",
+			"imageUrl": "arquivos/btn-nuevacoleccion-bolivia-20.jpg",
+			"headline": "NUEVA COLECCIÓN",
+			"subhead": "Looks diferentes para cada mes que cuentan historias por medio de prendas inspiradas en las tendencias globales. Prendas llenas de color, diversión, comodidad y versatilidad que se ajustan perfectamente a las aventuras de cada día.",
+			"textAlignment": "center",
+			"blockClass": "quienes-somos-6-2",
+			"callToActionText": "DESCUBRIR TODO",
+			"callToActionUrl": "#"
+		}
+	},
+	"flex-layout.row#quienes-somos-7": {
+		"props": {
+			"blockClass": "row-quienes-somos-7",
+			"paddingBottom": 6
+		},
+		"children": ["flex-layout.col#quienes-somos-7"]
+	},
+	"flex-layout.col#quienes-somos-7": {
+		"children": ["rich-text#quienes-somos-7", "slider-layout#quienes-somos-7"]
+	},
+	"rich-text#quienes-somos-7": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "# OCASIONES ESPECIALES",
+			"blockClass": "text-quienes-somos-7"
+		}
+	},
+	"flex-layout.row#quienes-somos-8": {
+		"props": { "blockClass": "row-quienes-somos-8", "horizontalAlign": "center" },
+		"children": ["flex-layout.col#quienes-somos-8-1", "flex-layout.col#quienes-somos-8-2"]
+	},
+	"flex-layout.col#quienes-somos-8-1": {
+		"props": { "paddingLeft": 6, "paddingRight": 6 },
+		"children": [
+			"image#quienes-somos-8-1",
+			"rich-text#quienes-somos-8-1",
+			"social-networks#quienes-somos-8-1"
+		]
+	},
+	"image#quienes-somos-8-1": {
+		"props": {
+			"src": "arquivos/redessociales-bolivia-20.jpg",
+			"maxHeight": 179,
+			"blockClass": "image-quienes-somos-8-1"
+		}
+	},
+	"rich-text#quienes-somos-8-1": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "Hablamos el lenguaje de los niños, pensamos, vibramos, jugamos y soñamos igual que ellos somos su amigo presente todos los días, vamos juntos al colegio, a fiestas, nos encanta hacer deporte y jugar en las tardes.",
+			"blockClass": "text-quienes-somos-8-1"
+		}
+	},
+	"social-networks#quienes-somos-8-1": {
+		"props": {
+			"socialNetworks": [
+				{ "url": "https://www.facebook.com/Offcorss.boliviaoficial/", "name": "Facebook" },
+				{ "url": "https://www.instagram.com/Offcorss.boliviaoficial/", "name": "Twitter" }
+			]
+		}
+	},
+	"flex-layout.col#quienes-somos-8-2": {
+		"props": { "paddingLeft": 6, "paddingRight": 6 },
+		"children": ["newsletter#quienes-somos-8-2", "rich-text#quienes-somos-8-2"]
+	},
+	"newsletter#quienes-somos-8-2": {
+		"props": {
+			"hideLabel": false,
+			"label": "HAZ PARTE DE LA COMUNIDAD MÁS COOL",
+			"submit": "Enviar",
+			"placeholder": "Introduzca su email ",
+			"blockClass": "newsletter-quienes-somos"
+		}
+	},
+	"rich-text#quienes-somos-8-2": {
+		"props": {
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "*Al suscribirte aceptas nuestras políticas de tratamiento de datos. El 20% de descuento aplica solo para la primera compra.",
+			"blockClass": "newsletter-text-quienes-somos",
+			"font": "t-heading-6"
+		}
+	},
+	"flex-layout.row#quienes-somos-9": {
+		"children": ["flex-layout.col#quienes-somos-9-1", "flex-layout.col#quienes-somos-9-2"]
+	},
+	"flex-layout.col#quienes-somos-9-1": {
+		"children": ["info-card#quienes-somos-9-1"]
+	},
+	"info-card#quienes-somos-9-1": {
+		"props": {
+			"isFullModeStyle": true,
+			"textPosition": "center",
+			"imageUrl": "arquivos/foto-retrovibes-Bolivia-20.jpg",
+			"headline": "RETRO VIBES",
+			"textAlignment": "center",
+			"blockClass": "info-quienes-somos-9"
+		}
+	},
+	"flex-layout.col#quienes-somos-9-2": {
+		"children": ["info-card#quienes-somos-9-2"]
+	},
+	"info-card#quienes-somos-9-2": {
+		"props": {
+			"isFullModeStyle": true,
+			"textPosition": "center",
+			"imageUrl": "arquivos/foto-seaside-Bolivia20.jpg",
+			"headline": "SEA SIDE",
+			"textAlignment": "center",
+			"blockClass": "info-quienes-somos-9"
+		}
+	}
+}

@@ -48,18 +48,17 @@
 	},
 	"flex-layout.col#menufooter1": {
 		"children": [
+			"menu-item#encuentranos",
 			"menu-item#offcorss-marca",
-			"menu-item#social-responsibility",
-			"menu-item#returns-and-refunds",
+			"menu-item#tu-pedido-paso-a-paso",
 			"menu-item#terminos-y-condiciones",
-			"menu-item#tu-pedido-paso-a-paso"
+			"menu-item#preguntas-frecuentes"
 		]
 	},
 	"flex-layout.col#menufooter2": {
 		"children": [
-			"menu-item#encuentranos",
-			"menu-item#wholesale",
-			"menu-item#preguntas-frecuentes"
+			
+
 		]
 	},
 	"menu-item#encuentranos": {
@@ -71,10 +70,10 @@
 			"blockClass": "links-footer",
 			"itemProps": {
 				"type": "internal",
-				"href": "/contact-us",
+				"href": "/contacto",
 				"noFollow": false,
-				"tagTitle": "Contact us",
-				"text": "Contact us"
+				"tagTitle": "Encuentra tu tienda",
+				"text": "Encuentra tu tienda"
 			},
 			"iconProps": {
 				"id": "hpa-pin"
@@ -91,10 +90,10 @@
 			"blockClass": "links-footer",
 			"itemProps": {
 				"type": "internal",
-				"href": "/about-us",
+				"href": "/quienes-somos",
 				"noFollow": false,
-				"tagTitle": "About us",
-				"text": "About us"
+				"tagTitle": "¿Quienes somos?",
+				"text": "¿Quienes somos?"
 			},
 			"iconProps": {
 				"id": "nav-caret--right"
@@ -111,10 +110,10 @@
 			"blockClass": "links-footer",
 			"itemProps": {
 				"type": "internal",
-				"href": "/shopping-guide",
+				"href": "/tu-pedido-paso-a-paso",
 				"noFollow": false,
-				"tagTitle": "Shopping guide",
-				"text": "Shopping guide"
+				"tagTitle": "Tu pedido paso a paso",
+				"text": "Tu pedido paso a paso"
 			},
 			"iconProps": {
 				"id": "nav-caret--right"
@@ -131,10 +130,10 @@
 			"blockClass": "links-footer",
 			"itemProps": {
 				"type": "internal",
-				"href": "/terms-and-conditions",
+				"href": "/terminos-y-condiciones",
 				"noFollow": false,
-				"tagTitle": "Terms and conditions",
-				"text": "Terms and conditions"
+				"tagTitle": "Términos y Condiciones",
+				"text": "Términos y Condiciones"
 			},
 			"iconProps": {
 				"id": "nav-caret--right"
@@ -151,10 +150,10 @@
 			"blockClass": "links-footer",
 			"itemProps": {
 				"type": "internal",
-				"href": "/faqs",
+				"href": "/preguntas-frecuentes",
 				"noFollow": false,
-				"tagTitle": "F.A.Q.s",
-				"text": "F.A.Q.s"
+				"tagTitle": "Preguntas Frecuentes",
+				"text": "Preguntas Frecuentes"
 			},
 			"iconProps": {
 				"id": "nav-caret--right"
@@ -162,66 +161,7 @@
 			"iconToTheRight": true
 		}
 	},
-	"menu-item#returns-and-refunds": {
-		"props": {
-			"id": "menu-item-returns-and-refunds",
-			"type": "custom",
-			"iconId": null,
-			"highlight": false,
-			"blockClass": "links-footer",
-			"itemProps": {
-				"type": "internal",
-				"href": "/returns-and-refunds",
-				"noFollow": false,
-				"tagTitle": "How to return an item?",
-				"text": "How to return an item?"
-			},
-			"iconProps": {
-				"id": "nav-caret--right"
-			},
-			"iconToTheRight": true
-		}
-	},
-	"menu-item#wholesale": {
-		"props": {
-			"id": "menu-item-wholesale",
-			"type": "custom",
-			"iconId": null,
-			"highlight": false,
-			"blockClass": "links-footer",
-			"itemProps": {
-				"type": "internal",
-				"href": "/wholesale",
-				"noFollow": false,
-				"tagTitle": "Wholesale",
-				"text": "Wholesale"
-			},
-			"iconProps": {
-				"id": "nav-caret--right"
-			},
-			"iconToTheRight": true
-		}
-	},
-	"menu-item#social-responsibility": {
-		"props": {
-			"id": "menu-item-social-responsibility",
-			"type": "custom",
-			"highlight": false,
-			"blockClass": "links-footer",
-			"itemProps": {
-				"type": "internal",
-				"href": "/social-responsibility",
-				"noFollow": false,
-				"tagTitle": "Social Responsibility",
-				"text": "Social Responsibility",
-				"iconId": null
-			},
-			"iconProps": {
-				"id": "nav-caret--right"
-			},
-			"iconToTheRight": true
-		}
-	},
+	
 	"vtex.menu@2.x:menu#menu-footer-col3-redes": {
 		"props": {
 			"orientation": "vertical"
@@ -240,16 +180,13 @@
 	"social-networks": {
 		"props": {
 			"socialNetworks": [
-				{ "url": "https://www.facebook.com/offcorss/", "name": "Facebook" },
 				{
-					"url": "https://www.instagram.com/offcorss.us/",
-					"name": "Instagram"
+					"name": "Facebook",
+					"url": "https://www.facebook.com/Offcorss.boliviaoficial/"
 				},
-				{ "url": "https://www.pinterest.es/offcorss/", "name": "Pinterest" },
-				{ "url": "https://twitter.com/OFFCORSS", "name": "Twitter" },
 				{
-					"url": "https://www.youtube.com/user/OFFCORSSenLinea",
-					"name": "Youtube"
+					"name": "Instagram",
+					"url": "https://www.instagram.com/Offcorss.boliviaoficial/"
 				}
 			]
 		}
@@ -273,10 +210,10 @@
 			"blockClass": "links-footer",
 			"itemProps": {
 				"type": "internal",
-				"href": "/terms-and-conditions",
+				"href": "/terminos-y-condiciones",
 				"noFollow": false,
-				"tagTitle": "Terms and conditions",
-				"text": "Terms and conditions"
+				"tagTitle": "Términos y condiciones",
+				"text": "Términos y condiciones"
 			}
 		}
 	},
@@ -289,10 +226,10 @@
 			"blockClass": "links-footer",
 			"itemProps": {
 				"type": "internal",
-				"href": "/data-privacy-policy",
+				"href": "/terminos-y-condiciones",
 				"noFollow": false,
-				"tagTitle": "Data privacy policy",
-				"text": "Data privacy policy"
+				"tagTitle": "Políticas de privacidad",
+				"text": "Políticas de privacidad"
 			}
 		}
 	}

@@ -1,0 +1,16 @@
+{
+	"vtex.menu@2.x:submenu#sub.menu-mobile-ocasiones": {
+		"children": [
+			"menu-item#menu-ocasiones-item-todas",
+			"menu-item#menu-ocasiones-item-playa",
+			"menu-item#menu-ocasiones-item-abc",
+			"menu-item#menu-ocasiones-item-especiales",
+			"menu-item#menu-ocasiones-item-estimulacion"
+		],
+		"props": {
+			"width": "100%",
+			"orientation": "vertical",
+			"blockClass": "submenu-mobile"
+		}
+	}
+}

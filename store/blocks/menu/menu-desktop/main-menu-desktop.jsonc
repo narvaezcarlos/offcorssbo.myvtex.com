@@ -1,16 +1,17 @@
 {
-	"vtex.menu@2.x:menu#nav-principal": {
+	"vtex.menu@2.x:menu#2-navigation": {
 		"children": [
-			//"menu-item#sub.menu-what-is-new",
-			"menu-item#sub.menu-baby",
-			"menu-item#sub.menu-kids",
-			"menu-item#sub.menu-junior"
+			"menu-item#sub.menu-femenino",
+			"menu-item#sub.menu-masculino",
+			"menu-item#sub.menu-ocasiones",
+			"menu-item#sub.menu-categorias",
+			"menu-item#sub.menu-outlet1"
 		],
 		"props": {
 			"blockClass": "menu-principal"
 		}
 	},
-	"menu-item#sub.menu-what-is-new": {
+	"menu-item#sub.menu-femenino": {
 		"props": {
 			"type": "custom",
 			"iconId": null,
@@ -19,28 +20,28 @@
 				"type": "internal",
 				"href": "#",
 				"noFollow": true,
-				"tagTitle": "WHAT'S NEW?",
-				"text": "WHAT'S NEW?"
+				"tagTitle": "FEMENINO",
+				"text": "FEMENINO"
 			},
-			"blockClass": "menu-principal-menu-what-is-new"
+			"blockClass": "menu-principal-femenino"
 		},
-		"blocks": ["vtex.menu@2.x:submenu#sub.menu-what-is-new"]
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-femenino"]
 	},
-	"menu-item#sub.menu-baby": {
+	"menu-item#sub.menu-masculino": {
 		"props": {
 			"type": "custom",
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
 				"href": "#",
-				"tagTitle": "BABY (0-18 Months)",
-				"text": "BABY (0-18 Months)"
+				"tagTitle": "MASCULINO",
+				"text": "MASCULINO"
 			},
-			"blockClass": "menu-principal-baby"
+			"blockClass": "menu-principal-masculino"
 		},
-		"blocks": ["vtex.menu@2.x:submenu#sub.menu-baby"]
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-masculino"]
 	},
-	"menu-item#sub.menu-kids": {
+	"menu-item#sub.menu-ocasiones": {
 		"props": {
 			"type": "custom",
 			"iconId": null,
@@ -49,41 +50,56 @@
 				"type": "internal",
 				"href": "#",
 				"noFollow": true,
-				"tagTitle": "KIDS (4-5 Years)",
-				"text": "KIDS (4-5 Years)"
+				"tagTitle": "OCASIONES DE USO",
+				"text": "OCASIONES DE USO"
 			},
-			"blockClass": "menu-principal-kids"
+			"blockClass": "menu-principal-ocasiones"
 		},
-		"blocks": ["vtex.menu@2.x:submenu#sub.menu-kids"]
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-ocasiones"]
 	},
-	"menu-item#sub.menu-junior": {
+	"menu-item#sub.menu-categorias": {
 		"props": {
 			"type": "custom",
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
 				"href": "#",
-				"tagTitle": "JUNIOR (6-13 Years)",
-				"text": "JUNIOR (6-13 Years)"
+				"tagTitle": "CATEGORÍAS",
+				"text": "CATEGORÍAS"
 			},
-			"blockClass": "menu-principal-junior"
+			"blockClass": "menu-principal-categorias"
 		},
-		"blocks": ["vtex.menu@2.x:submenu#sub.menu-junior"]
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-categorias"]
 	},
-	"menu-item#sub.menu-sale": {
+	"menu-item#sub.menu-mama": {
 		"props": {
 			"type": "custom",
-			"iconId": null,
 			"highlight": false,
 			"itemProps": {
 				"type": "internal",
-				"href": "/sale",
-				"noFollow": true,
-				"tagTitle": "SALE",
-				"text": "SALE"
+				"href": "/outlet",
+				"tagTitle": "Para mamá",
+				"text": "Para mamá"
 			},
-			"blockClass": "menu-principal-sale"
+			"blockClass": "menu-principal-parmama"
 		},
-		"blocks": ["vtex.menu@2.x:submenu#sub.menu-sale"]
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-mama"]
+	},
+	"menu-item#sub.menu-outlet1": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/outlet",
+				"tagTitle": "Outlet",
+				"text": "OUTLET"
+			},"iconProps": {
+				"id": "sti-discount"
+			},
+			"iconToTheRight": true,
+			"blockClass": "menu-principal-outlet"
+		}
 	}
+
 }

@@ -1,0 +1,903 @@
+{
+	"vtex.menu@2.x:submenu#sub.menu-masculino": {
+		"children": ["menu-item#nino", "menu-item#bebe-nino", "menu-item#recien-nacido"],
+		"props": {
+			"width": "100%",
+			"blockClass": "sub-menu"
+		}
+	},
+	"menu-item#nino": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nino?map=departamento",
+				"tagTitle": "NIÑO (8-13 Años)",
+				"text": "NIÑO (8-13 Años)"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			},
+			"iconToTheRight": true
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-nino-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-nino-items": {
+		"children": ["flex-layout.row#menu-nino-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-nino-items": {
+		"children": [
+			"flex-layout.col#menu-nino-items-1",
+			"flex-layout.col#menu-nino-items-2",
+			"flex-layout.col#menu-nino-items-3",
+			"flex-layout.col#menu-nino-items-4"
+		],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-nino-items-1": {
+		"children": ["rich-text#menu-nino-items", "vtex.menu@2.x:menu#menu-nino-items"],
+		"props": { "marginLeft": 5 }
+	},
+	"rich-text#menu-nino-items": {
+		"props": {
+			"text": "Categorías",
+			"blockClass": "menu-sub-categorias-content-nino"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-nino-items": {
+		"children": [
+			"menu-item#item-nino-camisetas",
+			"menu-item#item-nino-camisas",
+			"menu-item#item-nino-jeans-y-pantalones",
+			"menu-item#item-nino-sets-y-conjuntos",
+			"menu-item#item-nino-bermudas-short",
+			"menu-item#item-nino-buzos-y-chaquetas",
+			"menu-item#item-nino-zapatos",
+			"menu-item#item-nino-ropa-interior",
+			"menu-item#item-nino-pijamas"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-nino-camisetas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nino/camisetas",
+				"tagTitle": "Camisetas",
+				"text": "Camisetas"
+			}
+		}
+	},
+	"menu-item#item-nino-camisas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nino/camisas",
+				"tagTitle": "Camisas",
+				"text": "Camisas"
+			}
+		}
+	},
+	"menu-item#item-nino-jeans-y-pantalones": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nino/jeans-y-pantalones",
+				"tagTitle": "Jeans y Pantalones",
+				"text": "Jeans y Pantalones"
+			}
+		}
+	},
+	"menu-item#item-nino-sets-y-conjuntos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nino/sets-y-conjuntos",
+				"tagTitle": "Sets y Conjuntos",
+				"text": "Sets y Conjuntos"
+			}
+		}
+	},
+	"menu-item#item-nino-bermudas-short": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nino/bermudas-y-shorts",
+				"tagTitle": "Bermeudas y Shorts",
+				"text": "Bermeudas y Shorts"
+			}
+		}
+	},
+	"menu-item#item-nino-buzos-y-chaquetas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nino/chamarra-y-chompas",
+				"tagTitle": "Chamarra y Chompas",
+				"text": "Chamarra y Chompas"
+			}
+		}
+	},
+	"menu-item#item-nino-zapatos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nino/zapatos",
+				"tagTitle": "Zapatos",
+				"text": "Zapatos"
+			}
+		}
+	},
+	"menu-item#item-nino-ropa-interior": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nino/ropa-interior",
+				"tagTitle": "Ropa interior",
+				"text": "Ropa interior"
+			}
+		}
+	},
+	"menu-item#item-nino-pijamas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nino/pijamas",
+				"tagTitle": "Pijamas",
+				"text": "Pijamas"
+			}
+		}
+	},
+	"flex-layout.col#menu-nino-items-2": {
+		"children": ["rich-text#menu-nino-items-2", "vtex.menu@2.x:menu#menu-nino-items-2"]
+	},
+	"rich-text#menu-nino-items-2": {
+		"props": {
+			"text": "Ocasiones de Usos",
+			"blockClass": "menu-sub-categorias-content-nino"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-nino-items-2": {
+		"children": [
+			"menu-item#item-nino-moda",
+			"menu-item#item-nino-basicos",
+			"menu-item#item-nino-ocasiones-especiales",
+			"menu-item#item-nino-abc",
+			"menu-item#item-nino-playa"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-nino-moda": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/moda-nino",
+				"tagTitle": "Moda",
+				"text": "Moda"
+			}
+		}
+	},
+	"menu-item#item-nino-basicos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/basicos-nino",
+				"tagTitle": "Básicos",
+				"text": "Básicos"
+			}
+		}
+	},
+	"menu-item#item-nino-ocasiones-especiales": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/special-nino",
+				"tagTitle": "Ocasiones Especiales",
+				"text": "Ocasiones Especiales"
+			}
+		}
+	},
+	"menu-item#item-nino-abc": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nino/ropa-deportiva",
+				"tagTitle": "Abc",
+				"text": "Abc"
+			}
+		}
+	},
+	"menu-item#item-nino-playa": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/playa-nino",
+				"tagTitle": "Playa",
+				"text": "Playa"
+			}
+		}
+	},
+	"flex-layout.col#menu-nino-items-3": {
+		"children": ["image#banner-menu-nino-items-3"]
+	},
+	"rich-text#menu-nino-items-3": {
+		"props": {
+			"text": "",
+			"blockClass": "menu-sub-categorias-content-nino"
+		}
+	},
+	"image#banner-menu-nino-items-3": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/menu-nino-2023.jpg",
+			"title": "NIÑO",
+			"link": "#"
+		}
+	},
+	"flex-layout.col#menu-nino-items-4": {
+		"children": ["image#banner-menu-nino-items-4"],
+		"props": { "marginRight": 5 }
+	},
+	"rich-text#menu-nino-items-4": {
+		"props": {
+			"text": "",
+			"blockClass": "menu-sub-categorias-content-nino"
+		}
+	},
+	"image#banner-menu-nino-items-4": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/menu-nino-2023-2.jpg",
+			"title": "NIÑO",
+			"link": "#"
+		}
+	},
+
+	"menu-item#bebe-nino": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nino?map=departamento",
+				"tagTitle": "BEBÉ NIÑO (2-6 Años)",
+				"text": "BEBÉ NIÑO (2-6 Años)"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			},
+			"iconToTheRight": true
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-bebe-nino-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-bebe-nino-items": {
+		"children": ["flex-layout.row#menu-bebe-nino-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-bebe-nino-items": {
+		"children": [
+			"flex-layout.col#menu-bebe-nino-items-1",
+			"flex-layout.col#menu-bebe-nino-items-2",
+			"flex-layout.col#menu-bebe-nino-items-3",
+			"flex-layout.col#menu-bebe-nino-items-4"
+		],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-bebe-nino-items-1": {
+		"children": ["rich-text#menu-bebe-nino-items", "vtex.menu@2.x:menu#menu-bebe-nino-items"],
+		"props": { "marginLeft": 5 }
+	},
+	"rich-text#menu-bebe-nino-items": {
+		"props": {
+			"text": "Categorías",
+			"blockClass": "menu-sub-categorias-content-bbnino"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-bebe-nino-items": {
+		"children": [
+			"menu-item#item-bebe-nino-camisetas",
+			"menu-item#item-bebe-nino-camisas",
+			"menu-item#item-bebe-nino-jeans-y-pantalones",
+			"menu-item#item-bebe-nino-bermudas-y-shorts",
+			"menu-item#item-bebe-nino-buzos-y-chaquetas",
+			"menu-item#item-bebe-nino-sets-y-conjuntos",
+			"menu-item#item-bebe-nino-overall",
+			"menu-item#item-bebe-nino-zapatos",
+			"menu-item#item-bebe-nino-ropa-interior",
+			"menu-item#item-bebe-nino-pijamas"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-bebe-nino-camisetas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nino/camisetas",
+				"tagTitle": "Camisetas",
+				"text": "Camisetas"
+			}
+		}
+	},
+	"menu-item#item-bebe-nino-camisas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nino/camisas",
+				"tagTitle": "Camisas",
+				"text": "Camisas"
+			}
+		}
+	},
+	"menu-item#item-bebe-nino-jeans-y-pantalones": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nino/jeans-y-pantalones",
+				"tagTitle": "Jeans y Pantalones",
+				"text": "Jeans y Pantalones"
+			}
+		}
+	},
+	"menu-item#item-bebe-nino-bermudas-y-shorts": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nino/bermudas-y-shorts",
+				"tagTitle": "Bermudas y Shorts",
+				"text": "Bermudas y Shorts"
+			}
+		}
+	},
+	"menu-item#item-bebe-nino-buzos-y-chaquetas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nino/chamarra-y-chompas",
+				"tagTitle": "Chamarra y Chompas",
+				"text": "Chamarra y Chompas"
+			}
+		}
+	},
+	"menu-item#item-bebe-nino-sets-y-conjuntos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nino/sets-y-conjuntos",
+				"tagTitle": "Sets y Conjuntos",
+				"text": "Sets y Conjuntos"
+			}
+		}
+	},
+	"menu-item#item-bebe-nino-overall": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nino/overall",
+				"tagTitle": "Overall",
+				"text": "Overall"
+			}
+		}
+	},
+	"menu-item#item-bebe-nino-zapatos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nino/zapatos",
+				"tagTitle": "Zapatos",
+				"text": "Zapatos"
+			}
+		}
+	},
+	"menu-item#item-bebe-nino-ropa-interior": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nino/ropa-interior",
+				"tagTitle": "Ropa interior",
+				"text": "Ropa interior"
+			}
+		}
+	},
+	"menu-item#item-bebe-nino-pijamas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nino/pijamas",
+				"tagTitle": "Pijamas",
+				"text": "Pijamas"
+			}
+		}
+	},
+	"flex-layout.col#menu-bebe-nino-items-2": {
+		"children": ["rich-text#menu-bebe-nino-items-2", "vtex.menu@2.x:menu#menu-bebe-nino-items-2"]
+	},
+	"rich-text#menu-bebe-nino-items-2": {
+		"props": {
+			"text": "Ocasiones de Usos",
+			"blockClass": "menu-sub-categorias-content-bbnino"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-bebe-nino-items-2": {
+		"children": [
+			"menu-item#item-bebe-nino-moda",
+			"menu-item#item-bebe-nino-basicos",
+			"menu-item#item-bebe-nino-ocasiones-especiales",
+			"menu-item#item-bebe-nino-abc",
+			"menu-item#item-bebe-nino-playa"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-bebe-nino-moda": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/moda-bebe-nino",
+				"tagTitle": "Moda",
+				"text": "Moda"
+			}
+		}
+	},
+	"menu-item#item-bebe-nino-basicos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/basicos-bebe-nino",
+				"tagTitle": "Básicos",
+				"text": "Básicos"
+			}
+		}
+	},
+	"menu-item#item-bebe-nino-ocasiones-especiales": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/special-bebe-nino",
+				"tagTitle": "Ocasiones Especiales",
+				"text": "Ocasiones Especiales"
+			}
+		}
+	},
+	"menu-item#item-bebe-nino-abc": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nino/ropa-deportiva",
+				"tagTitle": "Abc",
+				"text": "Abc"
+			}
+		}
+	},
+	"menu-item#item-bebe-nino-playa": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/playa-bebe-nino",
+				"tagTitle": "Playa",
+				"text": "Playa"
+			}
+		}
+	},
+	"flex-layout.col#menu-bebe-nino-items-3": {
+		"children": ["image#banner-menu-bebe-nino-items-3"]
+	},
+	"image#banner-menu-bebe-nino-items-3": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/menu-bebe-nino-2023.jpg",
+			"title": "BEBÉ NIÑO",
+			"link": "#"
+		}
+	},
+	"flex-layout.col#menu-bebe-nino-items-4": {
+		"children": ["image#banner-menu-bebe-nino-items-4"],
+		"props": { "marginRight": 5 }
+	},
+	"image#banner-menu-bebe-nino-items-4": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/menu-bebe-nino-2023-2.jpg",
+			"title": "BEBÉ NIÑO",
+			"link": "#"
+		}
+	},
+
+	"menu-item#recien-nacido": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nino?map=departamento",
+				"tagTitle": "RECIÉN NACIDO (0-24 Meses)",
+				"text": "RECIÉN NACIDO (0-24 Meses)"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			},
+			"iconToTheRight": true
+		},
+		"blocks": ["vtex.menu@2.x:submenu#menu-recien-nacido-nino-items"]
+	},
+	"vtex.menu@2.x:submenu#menu-recien-nacido-nino-items": {
+		"children": ["flex-layout.row#menu-recien-nacido-nino-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-recien-nacido-nino-items": {
+		"children": [
+			"flex-layout.col#menu-recien-nacido-nino-items-1",
+			"flex-layout.col#menu-recien-nacido-nino-items-2",
+			"flex-layout.col#menu-recien-nacido-nino-items-3",
+			"flex-layout.col#menu-recien-nacido-nino-items-4"
+		],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-recien-nacido-nino-items-1": {
+		"children": [
+			"rich-text#menu-recien-nacido-nino-items",
+			"vtex.menu@2.x:menu#menu-recien-nacido-nino-items"
+		],
+		"props": { "marginLeft": 5 }
+	},
+	"rich-text#menu-recien-nacido-nino-items": {
+		"props": {
+			"text": "Categorías",
+			"blockClass": "menu-sub-categorias-content-rnnino"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-recien-nacido-nino-items": {
+		"children": [
+			"menu-item#item-recien-nacido-nino-camisetas",
+			"menu-item#item-recien-nacido-nino-camisas",
+			"menu-item#item-recien-nacido-nino-overall",
+			"menu-item#item-recien-nacido-nino-sets-y-conjuntos",
+			"menu-item#item-recien-nacido-nino-body-one-piece",
+			"menu-item#item-recien-nacido-nino-jeans-y-pantalones",
+			"menu-item#item-recien-nacido-nino-bermudas-y-shorts",
+			"menu-item#item-recien-nacido-nino-buzos-y-chaquetas",
+			"menu-item#item-recien-nacido-nino-zapatos",
+			"menu-item#item-recien-nacido-nino-accesorios",
+			"menu-item#item-recien-nacido-nino-ropa-interior",
+			"menu-item#item-recien-nacido-nino-pijamas"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-recien-nacido-nino-camisetas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nino/camisetas",
+				"tagTitle": "Camisetas",
+				"text": "Camisetas"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nino-camisas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nino/camisas",
+				"tagTitle": "Camisas",
+				"text": "Camisas"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nino-overall": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nino/overall",
+				"tagTitle": "Overall",
+				"text": "Overall"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nino-sets-y-conjuntos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nino/sets-y-conjuntos",
+				"tagTitle": "Sets y Conjuntos",
+				"text": "Sets y Conjuntos"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nino-body-one-piece": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nino/body-y-enterizos",
+				"tagTitle": "Body y Enterizos",
+				"text": "Body y Enterizos"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nino-jeans-y-pantalones": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nino/jeans-y-Pantalones",
+				"tagTitle": "Jeans y Pantalones",
+				"text": "Jeans y Pantalones"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nino-bermudas-y-shorts": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nino/bermudas-y-shorts",
+				"tagTitle": "Bermudas y short",
+				"text": "Bermudas y short"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nino-buzos-y-chaquetas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nino/chamarra-y-chompas",
+				"tagTitle": "Chamarra y Chompas",
+				"text": "Chamarra y Chompas"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nino-zapatos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nino/zapatos",
+				"tagTitle": "Zapatos",
+				"text": "Zapatos"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nino-accesorios": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nino/accesorios",
+				"tagTitle": "Accesorios",
+				"text": "Accesorios"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nino-ropa-interior": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nino/ropa-interior",
+				"tagTitle": "Ropa interior",
+				"text": "Ropa interior"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nino-pijamas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nino/pijamas",
+				"tagTitle": "Pijamas",
+				"text": "Pijamas"
+			}
+		}
+	},
+	"flex-layout.col#menu-recien-nacido-nino-items-2": {
+		"children": [
+			"rich-text#menu-recien-nacido-nino-items-2",
+			"vtex.menu@2.x:menu#menu-recien-nacido-nino-items-2"
+		]
+	},
+	"rich-text#menu-recien-nacido-nino-items-2": {
+		"props": {
+			"text": "Ocasiones de Usos",
+			"blockClass": "menu-sub-categorias-content-rnnino"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-recien-nacido-nino-items-2": {
+		"children": [
+			"menu-item#item-recien-nacido-nino-moda",
+			"menu-item#item-recien-nacido-nino-basicos",
+			"menu-item#item-recien-nacido-nino-ocasiones-especiales",
+			"menu-item#item-recien-nacido-nino-abc",
+			"menu-item#item-recien-nacido-nino-playa"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-recien-nacido-nino-moda": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/moda-recien-nacido-nino",
+				"tagTitle": "Moda",
+				"text": "Moda"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nino-basicos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/basicos-recien-nacido-nino",
+				"tagTitle": "Básicos",
+				"text": "Básicos"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nino-ocasiones-especiales": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/special-recien-nacido-nino",
+				"tagTitle": "Ocasiones Especiales",
+				"text": "Ocasiones Especiales"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nino-abc": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/abc-recien-nacido-nino",
+				"tagTitle": "Abc",
+				"text": "Abc"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nino-playa": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nino/playa",
+				"tagTitle": "Playa",
+				"text": "Playa"
+			}
+		}
+	},
+	"flex-layout.col#menu-recien-nacido-nino-items-3": {
+		"children": ["image#banner-menu-recien-nacido-nino-items-3"]
+	},
+	"image#banner-menu-recien-nacido-nino-items-3": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/rn-menu-nino-2023.jpg",
+			"title": "RECIÉN nacido",
+			"link": "#"
+		}
+	},
+	"flex-layout.col#menu-recien-nacido-nino-items-4": {
+		"children": ["image#banner-menu-recien-nacido-nino-items-4"],
+		"props": { "marginRight": 5 }
+	},
+	"image#banner-menu-recien-nacido-nino-items-4": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/rn-nino-2023-2.jpg",
+			"title": "RECIÉN nacido",
+			"link": "#"
+		}
+	}
+}

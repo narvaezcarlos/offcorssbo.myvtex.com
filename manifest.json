@@ -1,11 +1,12 @@
 {
-  "vendor": "offcorssinter",
-  "name": "minimumtheme",
-  "version": "0.1.109",
+  "vendor": "offcorssbo",
+  "name": "offcorssbo-newtheme",
+  "version": "0.0.1",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
-    "docs": "0.x"
+    "docs": "0.x",
+    "sitemap": "0.x"
   },
   "scripts": {
     "postreleasy": "vtex publish --verbose"
@@ -63,8 +64,7 @@
     "vtex.styleguide": "9.x",
     "vtex.tab-layout": "0.x",
     "vtex.telemarketing": "2.x",
-    "vtex.store-media": "0.x",
-    "offcorssinter.prehome": "0.x"
+    "vtex.store-media": "0.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x"

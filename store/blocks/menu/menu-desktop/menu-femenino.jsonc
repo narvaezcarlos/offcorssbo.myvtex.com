@@ -1,0 +1,980 @@
+{
+	"vtex.menu@2.x:submenu#sub.menu-femenino": {
+		"children": ["menu-item#nina", "menu-item#bebe-nina", "menu-item#recien-nacida"],
+		"props": {
+			"width": "100%",
+			"blockClass": "sub-menu"
+		}
+	},
+
+	"menu-item#nina": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nina?map=departamento",
+				"tagTitle": "NIÑA (8-13 Años)",
+				"text": "NIÑA (8-13 Años)"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			},
+			"iconToTheRight": true
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-nina-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-nina-items": {
+		"children": ["flex-layout.row#menu-nina-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-nina-items": {
+		"children": [
+			"flex-layout.col#menu-nina-items-1",
+			"flex-layout.col#menu-nina-items-2",
+			"flex-layout.col#menu-nina-items-3",
+			"flex-layout.col#menu-nina-items-4"
+		],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-nina-items-1": {
+		"children": ["rich-text#menu-nina-items", "vtex.menu@2.x:menu#menu-nina-items"],
+		"props": { "marginLeft": 5 }
+	},
+	"rich-text#menu-nina-items": {
+		"props": {
+			"text": "Categorías",
+			"blockClass": "menu-sub-categorias-content-nina"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-nina-items": {
+		"children": [
+			"menu-item#camisetas",
+			"menu-item#camisas",
+			"menu-item#faldas-y-shorts",
+			"menu-item#buzos-y-chaquetas",
+			"menu-item#vestidos",
+			"menu-item#jeans-y-pantalones",
+			"menu-item#sets-y-conjuntos",
+			"menu-item#overall",
+			"menu-item#vestidos-de-bano",
+			"menu-item#zapatos",
+			"menu-item#ropa-interior",
+			"menu-item#pijamas"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#camisetas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nina/camisetas",
+				"tagTitle": "Camisetas",
+				"text": "Camisetas"
+			}
+		}
+	},
+	"menu-item#camisas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nina/camisas",
+				"tagTitle": "Camisas",
+				"text": "Camisas"
+			}
+		}
+	},
+	"menu-item#faldas-y-shorts": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nina/faldas-y-shorts",
+				"tagTitle": "Faldas y shorts",
+				"text": "Faldas y shorts"
+			}
+		}
+	},
+	"menu-item#buzos-y-chaquetas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nina/chamarra-y-chompas",
+				"tagTitle": "Chamarra y Chompas",
+				"text": "Chamarra y Chompas"
+			}
+		}
+	},
+	"menu-item#vestidos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nina/vestidos",
+				"tagTitle": "Vestidos",
+				"text": "Vestidos"
+			}
+		}
+	},
+	"menu-item#jeans-y-pantalones": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nina/jeans-y-pantalones",
+				"tagTitle": "Jeans y Pantalones",
+				"text": "Jeans y Pantalones"
+			}
+		}
+	},
+	"menu-item#sets-y-conjuntos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nina/sets-y-conjuntos",
+				"tagTitle": "Sets y Conjuntos",
+				"text": "Sets y Conjuntos"
+			}
+		}
+	},
+	"menu-item#overall": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nina/overall",
+				"tagTitle": "Overall",
+				"text": "Overall"
+			}
+		}
+	},
+	"menu-item#vestidos-de-bano": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nina/traje-de-bano",
+				"tagTitle": "Traje de Baño",
+				"text": "Traje de Baño"
+			}
+		}
+	},
+	"menu-item#zapatos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nina/zapatos",
+				"tagTitle": "Zapatos",
+				"text": "Zapatos"
+			}
+		}
+	},
+	"menu-item#ropa-interior": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nina/ropa-interior",
+				"tagTitle": "Ropa interior",
+				"text": "Ropa interior"
+			}
+		}
+	},
+	"menu-item#pijamas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nina/pijamas",
+				"tagTitle": "Pijamas",
+				"text": "Pijamas"
+			}
+		}
+	},
+	"flex-layout.col#menu-nina-items-2": {
+		"children": ["rich-text#menu-nina-items-2", "vtex.menu@2.x:menu#menu-nina-items-2"]
+	},
+	"rich-text#menu-nina-items-2": {
+		"props": {
+			"text": "Ocasiones de Usos",
+			"blockClass": "menu-sub-categorias-content-nina"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-nina-items-2": {
+		"children": [
+			"menu-item#nueva-coleccion",
+			"menu-item#basicos",
+			"menu-item#ocasiones-especiales",
+			"menu-item#abc",
+			"menu-item#playa"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#nueva-coleccion": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/moda-nina",
+				"tagTitle": "Moda",
+				"text": "Moda"
+			}
+		}
+	},
+	"menu-item#basicos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/basicos-nina",
+				"tagTitle": "Básicos",
+				"text": "Básicos"
+			}
+		}
+	},
+	"menu-item#ocasiones-especiales": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/special-recien-nacido-nina",
+				"tagTitle": "Ocasiones Especiales",
+				"text": "Ocasiones Especiales"
+			}
+		}
+	},
+	"menu-item#abc": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-nina?map=departamento",
+				"tagTitle": "Abc",
+				"text": "Abc"
+			}
+		}
+	},
+	"menu-item#playa": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/playa-nina",
+				"tagTitle": "Playa",
+				"text": "Playa"
+			}
+		}
+	},
+	"flex-layout.col#menu-nina-items-3": {
+		"children": ["image#banner-menu-nina-items-3"]
+	},
+	"rich-text#menu-nina-items-3": {
+		"props": {
+			"text": "",
+			"blockClass": "menu-sub-categorias-content-nina"
+		}
+	},
+	"image#banner-menu-nina-items-3": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/nina-23.jpg",
+			"title": "NIÑA",
+			"link": "#"
+		}
+	},
+	"flex-layout.col#menu-nina-items-4": {
+		"children": ["image#banner-menu-nina-items-4"],
+		"props": { "marginRight": 5 }
+	},
+	"image#banner-menu-nina-items-4": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/nina-23-2.jpg",
+			"title": "NIÑA",
+			"link": "#"
+		}
+	},
+
+	"menu-item#bebe-nina": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nina?map=departamento",
+				"tagTitle": "BEBÉ NIÑA (2-6 Años)",
+				"text": "BEBÉ NIÑA (2-6 Años)"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			},
+			"iconToTheRight": true
+		},
+		"blocks": ["vtex.menu@2.x:submenu#sub.menu-bebe-nina-items"]
+	},
+	"vtex.menu@2.x:submenu#sub.menu-bebe-nina-items": {
+		"children": ["flex-layout.row#menu-bebe-nina-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-bebe-nina-items": {
+		"children": [
+			"flex-layout.col#menu-bebe-nina-items-1",
+			"flex-layout.col#menu-bebe-nina-items-2",
+			"flex-layout.col#menu-bebe-nina-items-3",
+			"flex-layout.col#menu-bebe-nina-items-4"
+		],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-bebe-nina-items-1": {
+		"children": ["rich-text#menu-bebe-nina-items", "vtex.menu@2.x:menu#menu-bebe-nina-items"],
+		"props": { "marginLeft": 5 }
+	},
+	"rich-text#menu-bebe-nina-items": {
+		"props": {
+			"text": "Categorías",
+			"blockClass": "menu-sub-categorias-content-bbnina"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-bebe-nina-items": {
+		"children": [
+			"menu-item#item-bebe-nina-camisetas",
+			"menu-item#item-bebe-nina-camisas",
+			"menu-item#item-bebe-nina-faldas-y-shorts",
+			"menu-item#item-bebe-nina-buzos-y-chaquetas",
+			"menu-item#item-bebe-nina-vestidos",
+			"menu-item#item-bebe-nina-jeans-y-pantalones",
+			"menu-item#item-bebe-nina-sets-y-conjuntos",
+			"menu-item#item-bebe-nina-overall",
+			"menu-item#item-bebe-nina-vestidos-de-bano",
+			"menu-item#item-bebe-nina-zapatos",
+			"menu-item#item-bebe-nina-ropa-interior",
+			"menu-item#item-bebe-nina-pijamas"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-bebe-nina-camisetas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nina/camisetas",
+				"tagTitle": "Camisetas",
+				"text": "Camisetas"
+			}
+		}
+	},
+	"menu-item#item-bebe-nina-camisas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nina/camisas",
+				"tagTitle": "Camisas",
+				"text": "Camisas"
+			}
+		}
+	},
+	"menu-item#item-bebe-nina-faldas-y-shorts": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nina/faldas-y-shorts",
+				"tagTitle": "Faldas y shorts",
+				"text": "Faldas y shorts"
+			}
+		}
+	},
+	"menu-item#item-bebe-nina-buzos-y-chaquetas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nina/chamarra-y-chompas",
+				"tagTitle": "Chamarra y chompas",
+				"text": "Chamarra y chompas"
+			}
+		}
+	},
+	"menu-item#item-bebe-nina-vestidos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nina/vestidos",
+				"tagTitle": "Vestidos",
+				"text": "Vestidos"
+			}
+		}
+	},
+	"menu-item#item-bebe-nina-jeans-y-pantalones": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nina/jeans-y-pantalones",
+				"tagTitle": "Jeans y Pantalones",
+				"text": "Jeans y Pantalones"
+			}
+		}
+	},
+	"menu-item#item-bebe-nina-sets-y-conjuntos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nina/sets-y-conjuntos",
+				"tagTitle": "Sets y Conjuntos",
+				"text": "Sets y Conjuntos"
+			}
+		}
+	},
+	"menu-item#item-bebe-nina-overall": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nina/overall",
+				"tagTitle": "Overall",
+				"text": "Overall"
+			}
+		}
+	},
+	"menu-item#item-bebe-nina-vestidos-de-bano": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nina/traje-de-bano",
+				"tagTitle": "Traje de Baño",
+				"text": "Traje de Baño"
+			}
+		}
+	},
+	"menu-item#item-bebe-nina-zapatos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nina/zapatos",
+				"tagTitle": "Zapatos",
+				"text": "Zapatos"
+			}
+		}
+	},
+	"menu-item#item-bebe-nina-ropa-interior": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nina/ropa-interior",
+				"tagTitle": "Ropa interior",
+				"text": "Ropa interior"
+			}
+		}
+	},
+	"menu-item#item-bebe-nina-pijamas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nina/pijamas",
+				"tagTitle": "Pijamas",
+				"text": "Pijamas"
+			}
+		}
+	},
+	"flex-layout.col#menu-bebe-nina-items-2": {
+		"children": ["rich-text#menu-bebe-nina-items-2", "vtex.menu@2.x:menu#menu-bebe-nina-items-2"]
+	},
+	"rich-text#menu-bebe-nina-items-2": {
+		"props": {
+			"text": "Ocasiones de Usos",
+			"blockClass": "menu-sub-categorias-content-bbnina"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-bebe-nina-items-2": {
+		"children": [
+			"menu-item#item-bebe-nina-moda",
+			"menu-item#item-bebe-nina-basicos",
+			"menu-item#item-bebe-nina-ocasiones-especiales",
+			"menu-item#item-bebe-nina-abc",
+			"menu-item#item-bebe-nina-playa"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-bebe-nina-moda": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/moda-bebe-nina",
+				"tagTitle": "Moda",
+				"text": "Moda"
+			}
+		}
+	},
+	"menu-item#item-bebe-nina-basicos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/basicos-bebe-nina",
+				"tagTitle": "Básicos",
+				"text": "Básicos"
+			}
+		}
+	},
+	"menu-item#item-bebe-nina-ocasiones-especiales": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/special-bebe-nina",
+				"tagTitle": "Ocasiones Especiales",
+				"text": "Ocasiones Especiales"
+			}
+		}
+	},
+	"menu-item#item-bebe-nina-abc": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-bebe-nina",
+				"tagTitle": "abc",
+				"text": "Abc"
+			}
+		}
+	},
+	"menu-item#item-bebe-nina-playa": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/playa-bebe-nina",
+				"tagTitle": "Playa",
+				"text": "Playa"
+			}
+		}
+	},
+	"flex-layout.col#menu-bebe-nina-items-3": {
+		"children": ["image#banner-menu-bebe-nina-items-3"]
+	},
+	"image#banner-menu-bebe-nina-items-3": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/bebe-nina-menu-23.jpg",
+			"title": "BEBÉ NIÑA",
+			"link": "#"
+		}
+	},
+	"flex-layout.col#menu-bebe-nina-items-4": {
+		"children": ["image#banner-menu-bebe-nina-items-4"],
+		"props": { "marginRight": 5 }
+	},
+	"image#banner-menu-bebe-nina-items-4": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/bebe-nina-menu-23-2.jpg",
+			"title": "BEBÉ NIÑA",
+			"link": "#"
+		}
+	},
+
+	"menu-item#recien-nacida": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nina?map=departamento",
+				"tagTitle": "RECIÉN NACIDA (0-24 Meses)",
+				"text": "RECIÉN NACIDA (0-24 Meses)"
+			},
+			"iconProps": {
+				"id": "mpa-angle--down"
+			},
+			"iconToTheRight": true
+		},
+		"blocks": ["vtex.menu@2.x:submenu#menu-recien-nacido-nina-items"]
+	},
+	"vtex.menu@2.x:submenu#menu-recien-nacido-nina-items": {
+		"children": ["flex-layout.row#menu-recien-nacido-nina-items"],
+		"props": {
+			"width": "100%",
+			"blockClass": "menu-sub-categorias"
+		}
+	},
+	"flex-layout.row#menu-recien-nacido-nina-items": {
+		"children": [
+			"flex-layout.col#menu-recien-nacido-nina-items-1",
+			"flex-layout.col#menu-recien-nacido-nina-items-2",
+			"flex-layout.col#menu-recien-nacido-nina-items-3",
+			"flex-layout.col#menu-recien-nacido-nina-items-4"
+		],
+		"props": {
+			"fullWidth": true,
+			"orientation": "horizontal",
+			"horizontalAlign": "left",
+			"blockClass": "menu-sub-categorias-content"
+		}
+	},
+	"flex-layout.col#menu-recien-nacido-nina-items-1": {
+		"children": [
+			"rich-text#menu-recien-nacido-nina-items",
+			"vtex.menu@2.x:menu#menu-recien-nacido-nina-items"
+		],
+		"props": { "marginLeft": 5 }
+	},
+	"rich-text#menu-recien-nacido-nina-items": {
+		"props": {
+			"text": "Categorías",
+			"blockClass": "menu-sub-categorias-content-rnnina"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-recien-nacido-nina-items": {
+		"children": [
+			"menu-item#item-recien-nacido-nina-camisetas",
+			"menu-item#item-recien-nacido-nina-camisas",
+			"menu-item#item-recien-nacido-nina-faldas-y-shorts",
+			"menu-item#item-recien-nacido-nina-vestidos",
+			"menu-item#item-recien-nacido-nina-overall",
+			"menu-item#item-recien-nacido-nina-sets-y-conjuntos",
+			"menu-item#item-recien-nacido-nina-body-one-piece",
+			"menu-item#item-recien-nacido-nina-jeans-y-pantalones",
+			"menu-item#item-recien-nacido-nina-buzos-y-chaquetas",
+			"menu-item#item-recien-nacido-nina-zapatos",
+			"menu-item#item-recien-nacido-nina-accesorios",
+			"menu-item#item-recien-nacido-nina-ropa-interior",
+			"menu-item#item-recien-nacido-nina-pijamas"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-recien-nacido-nina-camisetas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nina/camisetas",
+				"tagTitle": "Camisetas",
+				"text": "Camisetas"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nina-camisas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nina/camisas",
+				"tagTitle": "Camisas",
+				"text": "Camisas"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nina-faldas-y-shorts": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nina/faldas-y-shorts",
+				"tagTitle": "Faldas y shorts",
+				"text": "Faldas y shorts"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nina-vestidos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nina/vestidos",
+				"tagTitle": "Vestidos",
+				"text": "Vestidos"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nina-overall": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nina/overall",
+				"tagTitle": "Overall",
+				"text": "Overall"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nina-sets-y-conjuntos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nina/sets-y-conjuntos",
+				"tagTitle": "Sets y Conjuntos",
+				"text": "Sets y Conjuntos"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nina-body-one-piece": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nina/body-y-enterizos",
+				"tagTitle": "Body y Enterizos",
+				"text": "Body y Enterizos"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nina-jeans-y-pantalones": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nina/jeans-y-Pantalones",
+				"tagTitle": "Jeans y Pantalones",
+				"text": "Jeans y Pantalones"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nina-buzos-y-chaquetas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nina/chamarra-y-chompas",
+				"tagTitle": "Chamarra y Chompas",
+				"text": "Chamarra y Chompas"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nina-zapatos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nina/zapatos",
+				"tagTitle": "Zapatos",
+				"text": "Zapatos"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nina-accesorios": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nina/accesorios",
+				"tagTitle": "Accesorios",
+				"text": "Accesorios"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nina-ropa-interior": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nina/ropa-interior",
+				"tagTitle": "Ropa interior",
+				"text": "Ropa interior"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nina-pijamas": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nina/pijamas",
+				"tagTitle": "Pijamas",
+				"text": "Pijamas"
+			}
+		}
+	},
+	"flex-layout.col#menu-recien-nacido-nina-items-2": {
+		"children": [
+			"rich-text#menu-recien-nacido-nina-items-2",
+			"vtex.menu@2.x:menu#menu-recien-nacido-nina-items-2"
+		]
+	},
+	"rich-text#menu-recien-nacido-nina-items-2": {
+		"props": {
+			"text": "Ocasiones de Usos",
+			"blockClass": "menu-sub-categorias-content-rnnina"
+		}
+	},
+	"vtex.menu@2.x:menu#menu-recien-nacido-nina-items-2": {
+		"children": [
+			"menu-item#item-recien-nacido-nina-moda",
+			"menu-item#item-recien-nacido-nina-basicos",
+			"menu-item#item-recien-nacido-nina-ocasiones-especiales",
+			"menu-item#item-recien-nacido-nina-abc",
+			"menu-item#item-recien-nacido-nina-playa"
+		],
+		"props": {
+			"orientation": "vertical"
+		}
+	},
+	"menu-item#item-recien-nacido-nina-moda": {
+		"props": {
+			"type": "custom",
+			"highlight": true,
+			"itemProps": {
+				"type": "internal",
+				"href": "/moda-recien-nacido-nina",
+				"tagTitle": "Moda",
+				"text": "Moda"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nina-basicos": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/basicos-recien-nacido-nina",
+				"tagTitle": "Básicos",
+				"text": "Básicos"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nina-ocasiones-especiales": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/special-recien-nacido-nina",
+				"tagTitle": "Ocasiones Especiales",
+				"text": "Ocasiones Especiales"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nina-abc": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/abc-recien-nacido-nina",
+				"tagTitle": "Abc",
+				"text": "Abc"
+			}
+		}
+	},
+	"menu-item#item-recien-nacido-nina-playa": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/ropa-recien-nacido-nina/playa",
+				"tagTitle": "Playa",
+				"text": "Playa"
+			}
+		}
+	},
+	"flex-layout.col#menu-recien-nacido-nina-items-3": {
+		"children": [
+			"image#banner-menu-recien-nacido-nina-items-3"
+		]
+	},
+	"image#banner-menu-recien-nacido-nina-items-3": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/rn-nina-menu-23.jpg",
+			"title": "RECIÉN NACIDA",
+			"link": "/ropa-recien-nacido-nina?map=departamento"
+		}
+	},
+	"flex-layout.col#menu-recien-nacido-nina-items-4": {
+		"children": [
+			"image#banner-menu-recien-nacido-nina-items-4"
+		],
+		"props": { "marginRight": 5 }
+	},
+	"image#banner-menu-recien-nacido-nina-items-4": {
+		"props": {
+			"src": "https://offcorssbo.vteximg.com.br/arquivos/rn-nina-menu-23-2.jpg",
+			"title": "RECIÉN NACIDA",
+			"link": "/ropa-recien-nacido-nina?map=departamento"
+		}
+	}
+}

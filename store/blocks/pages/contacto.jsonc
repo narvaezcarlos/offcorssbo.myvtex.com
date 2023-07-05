@@ -1,0 +1,173 @@
+{
+	"store.custom#contacto": {
+		"blocks": ["flex-layout.row#contacto", "flex-layout.row#form"]
+	},
+	"flex-layout.row#contacto": {
+		"children": ["flex-layout.col#contacto"],
+		"props": { "blockClass": "contacto-row" }
+	},
+	"flex-layout.col#contacto": {
+		"children": ["rich-text#contacto"],
+		"props": {
+			"blockclass": "textColumn",
+			"preventVerticalStretch": true
+		}
+	},
+	"rich-text#contacto": {
+		"props": {
+			"text": "## Contacto",
+			"blockClass": "contacto"
+		}
+	},
+	"flex-layout.row#form": {
+		"children": ["flex-layout.col#form-left", "flex-layout.col#form"],
+		"props": {
+			"colGap": 8,
+			"marginBottom": "8",
+			"blockClass": "contacto-row"
+		}
+	},
+	"flex-layout.col#form-left": {
+		"props": {
+			"width": "50%"
+		},
+		"children": [
+			"image#contacto",
+			"flex-layout.row#richtext-contacto"
+		]
+	},
+	"image#contacto": {
+		"props": {
+			"src": "/arquivos/mapa.png?v=1"
+		}
+	},
+
+	"flex-layout.row#richtext-contacto":{
+		"children": [
+			"flex-layout.col#richtext-contacto"
+		], "props": {
+			"blockClass": "richtextrow-contacto"
+		}
+	},
+	"flex-layout.col#richtext-contacto":{
+		"children": [
+			"rich-text#contacto2",
+			"rich-text#contacto3",
+			"rich-text#contacto4",
+			"rich-text#contacto6",
+			"rich-text#contacto5"
+		],"props": {
+			"blockClass": "richtextcol-contacto",
+			"rowGap":1
+		}
+	},
+
+	"rich-text#contacto2": {
+		"props": {
+			"text": "**Dirección:** Av. 4to anillo esquina Av. San Martín, Centro Comercial Ventura Mall Planta Baja Local 37",
+			"blockClass": "contacto-top",
+			"preventVerticalStretch": true
+		}
+	},
+	"rich-text#contacto3": {
+		"props": {
+			"text": "**Teléfono:** +591 78507077 / +591 3 4023140",
+			"blockClass": "contacto"
+		}
+	},
+	"rich-text#contacto4": {
+		"props": {
+			"text": "**Correo:** offcorss@fastfashion.com.bo",
+			"blockClass": "contacto"
+		}
+	},
+	"rich-text#contacto5": {
+		"props": {
+			"text": "**Fast Fashion S.R.L**",
+			"blockClass": "contacto__bottom"
+		}
+	},
+	"rich-text#contacto6":{
+		"props": {
+			"blockClass": "contacto",
+			"text": "**Horarios:** \n Lunes a Sábado de 10:00am a 22:00pm \n Domingos de 11:00am a 22:00pm"
+		}
+	},
+
+	"flex-layout.col#form": {
+		"children": ["rich-text#contacto-title", "form"],
+		"props": {
+			"preventVerticalStretch": true
+		}
+	},
+	"rich-text#contacto-title": {
+		"props": {
+			"text": "**Envíanos tu mensaje y te contactaremos**",
+			"blockClass": "contacto"
+		}
+	},
+	"form": {
+		"props": {
+			"entity": "Contact",
+			"schema": "Formulario"
+		},
+		"children": [
+			"form-input.text#firstNameCL",
+			"form-input.text#lastNameCL",
+			"form-input.text#emailCL",
+			"form-input.text#messageCL",
+			"flex-layout.row#checkbox-contact",
+			"form-submit"
+		],
+		"blocks": ["form-success"]
+	},
+	"form-input.text#firstNameCL": {
+		"props": {
+			"pointer": "#/properties/firstNameCL",
+			"label": "Nombre"
+		}
+	},
+	"form-input.text#lastNameCL": {
+		"props": {
+			"pointer": "#/properties/lastNameCL",
+			"label": "Apellido"
+		}
+	},
+	"form-input.text#emailCL": {
+		"props": {
+			"pointer": "#/properties/emailCL",
+			"label": "Email"
+		}
+	},
+	"form-input.text#messageCL": {
+		"props": {
+			"pointer": "#/properties/messageCL",
+			"label": "Mensaje"
+		}
+	},
+	"flex-layout.row#checkbox-contact": {
+		"children": ["form-input.checkbox#agreement"],
+		"props": { "marginTop": "3", "marginBottom": "4" }
+	},
+	"form-input.checkbox#agreement": {
+		"props": {
+			"pointer": "#/properties/agreement",
+			"label": "Aceptar términos y condiciones"
+		}
+	},
+	"form-submit": {
+		"props": {
+			"label": "Enviar"
+		}
+	},
+	"form-success": {
+		"children": ["rich-text#successSubmit"]
+	},
+	"rich-text#successSubmit": {
+		"props": {
+			"text": "Envió los datos con éxito!",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER"
+		}
+	}
+}

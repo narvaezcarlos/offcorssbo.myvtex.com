@@ -36,3 +36,21 @@
         margin: 0 auto;
     }
 }
+
+/*-----new theme Bolivia---- */ 
+.newsletterForm--nenewsletterws-form :global(.vtex-store-newsletter-1-x-emailInputContainer){
+width: 178%;
+}
+
+.defaultSuccessMessage--nenewsletterws-form{
+    color: #fff;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+@media(max-width: 1000px) {
+    
+}
+.newsletterForm--nenewsletterws-form{
+display: flex;
+    flex-direction: column;}

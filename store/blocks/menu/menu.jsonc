@@ -11,9 +11,9 @@
 			"highlight": false,
 			"itemProps": {
 				"type": "external",
-				"href": "/contact-us",
-				"tagTitle": "Contact us",
-				"text": "Contact us"
+				"href": "/contacto",
+				"tagTitle": "Encuentranos",
+				"text": "Encuentranos"
 			},
 			"blockClass": "link-Encuentranos"
 		}

@@ -12,7 +12,7 @@
     vertical-align: middle;
 	margin-right: 8px;
 	background-size: 100%;
-	background-position: center;
+	background-position: 50%;
 }
 .buttonText:hover::before {
 	background-image: url(/arquivos/icono-cart-hover-21.png);

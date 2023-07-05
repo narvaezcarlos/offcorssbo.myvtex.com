@@ -18,7 +18,7 @@
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "## FREE SHIPPING*",
+			"text": "## ENVÍO A TODO EL PAÍS*",
 			"blockClass": "deals-title1"
 		}
 	},
@@ -26,12 +26,12 @@
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "Free shipping on all orders! Available for limited time!",
+			"text": "De 3 a 6 días",
 			"blockClass": "deals-text"
 		}
 	},
 	"flex-layout.col#deals2": {
-		"children": ["rich-text#deal2-title"],
+		"children": ["rich-text#deal2-title", "rich-text#deal2"],
 		"props": {
 			"blockClass": "deals-col2",
 			"horizontalAlign": "center",
@@ -42,7 +42,7 @@
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "## CREDIT CARD PAYMENTS",
+			"text": "## PAGO EN PUNTO FÍSICO",
 			"blockClass": "deals-title2"
 		}
 	},
@@ -50,7 +50,7 @@
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "El pago contra entrega es aquella modalidad de pago que permite pagar el valor exacto de la compra al momento de la entrega del producto.",
+			"text": "El pago en punto físico es aquella modalidad de pago que permite pagar el valor exacto de la compra el puntos habilitados.",
 			"blockClass": "deals-text"
 		}
 	},
@@ -66,7 +66,7 @@
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "## FREE RETURNS",
+			"text": "## DEVOLUCIONES GRATIS",
 			"blockClass": "deals-title3"
 		}
 	},
@@ -74,7 +74,7 @@
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "If the order presents any inconvenience you can return it free of charge. For more information, consult our exchange and return policies. - pending to define policy ",
+			"text": "Si el pedido presenta algún inconveniente puedes devolverlo sin costo. Para más información consulta nuestras políticas de cambio y devoluciones. ",
 			"blockClass": "deals-text"
 		}
 	},
@@ -103,7 +103,7 @@
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "**FREE SHIPPING** on all orders over $100 USD",
+			"text": "**ENVÍOS A TODO \n EL PAÍS**",
 			"blockClass": "deals-title1-m",
 			"font": "t-heading-5"
 		}
@@ -121,7 +121,7 @@
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "**CREDIT CARD PAYMENTS**",
+			"text": "**PAGO EN PUNTO FÍSICO**",
 			"blockClass": "deals-title2-m",
 			"font": "t-heading-5"
 		}
@@ -139,7 +139,7 @@
 		"props": {
 			"textAlignment": "CENTER",
 			"textPosition": "CENTER",
-			"text": "**FREE RETURNS**",
+			"text": "**DEVOLUCIONES GRATIS**",
 			"blockClass": "deals-title3-m",
 			"font": "t-heading-5"
 		}

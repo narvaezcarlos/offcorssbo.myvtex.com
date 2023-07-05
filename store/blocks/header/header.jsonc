@@ -4,29 +4,6 @@
 	},
 	"header.full": {
 		"blocks": ["header-layout.desktop", "header-layout.mobile"]
-	},
-
-	/*------------Header sin menu y con el logo de offcorss ----------*/
-
-	"header#hidden-custom": {
-		"blocks": ["header-layout.desktop#hidden", "header-layout.mobile#hidden"]
-	},
-	"header.full#hidden-custom": {
-		"blocks": ["header-layout.desktop#hidden", "header-layout.mobile#hidden"]
-	},
-
-	/*------------Header sin menu y con el logo nuevo----------*/
-
-	"header#hidden-custom-new-logo": {
-		"blocks": [
-			"header-layout.desktop#hidden-new-logo",
-			"header-layout.mobile#hidden-new-logo"
-		]
-	},
-	"header.full#hidden-custom-new-logo": {
-		"blocks": [
-			"header-layout.desktop#hidden-new-logo",
-			"header-layout.mobile#hidden-new-logo"
-		]
 	}
+
 }

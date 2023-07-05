@@ -1,0 +1,36 @@
+{
+	"vtex.menu@2.x:submenu#sub.menu-mama": {
+		"children": [
+			"menu-item#menu-ocasiones-item-vhera-lucci",
+			"menu-item#menu-ocasiones-item-espirit"
+		],
+		"props": {
+			"width": "100%",
+			"blockClass": "sub-menu-center"
+		}
+	},
+	"menu-item#menu-ocasiones-item-vhera-lucci": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/vhera-lucci",
+				"tagTitle": "VHERA LUCCI",
+				"text": "VHERA LUCCI"
+			}
+		}
+	},
+	"menu-item#menu-ocasiones-item-espirit": {
+		"props": {
+			"type": "custom",
+			"highlight": false,
+			"itemProps": {
+				"type": "internal",
+				"href": "/espirit",
+				"tagTitle": "ESPIRIT",
+				"text": "ESPIRIT"
+			}
+		}
+	}
+}

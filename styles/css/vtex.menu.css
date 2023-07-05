@@ -9,7 +9,7 @@
 	position: unset !important;
 }
 .menuContainer .submenuWrapper {
-	box-shadow: 1px 1px 4px gray;
+	
 }
 
 .buttonContainer--newsletter-row .styledLinkContainer {
@@ -269,6 +269,7 @@
 	align-items: center;
 	margin-left: unset;
 }
+
 @media (max-width: 600px) {
 	.styledLinkContent--links-footer {
 		justify-content: center !important;
@@ -288,4 +289,11 @@
 	.styledLinkContainer--links-footer {
 		margin-right: 0;
 	}
+}
+
+
+/*------styles Bolivia New theme*/
+
+.vtex-menu-2-x-menuContainer :global(.vtex-menu-2-x-submenuWrapper) {
+ box-shadow: #fbd600 ;
 }
