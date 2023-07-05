@@ -306,7 +306,7 @@
 	},
 	"rich-text#all-right-reserved": {
 		"props": {
-			"text": "All Rights Reserved **OFFCORSS.US**",
+			"text": "All Rights Reserved **OFFCORSS.BO**",
 			"textColor": "black-90",
 			"blockClass": "links-footer4"
 		}

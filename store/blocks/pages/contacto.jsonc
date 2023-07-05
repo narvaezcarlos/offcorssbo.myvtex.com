@@ -33,10 +33,7 @@
 		},
 		"children": [
 			"image#contacto",
-			"rich-text#contacto2",
-			"rich-text#contacto3",
-			"rich-text#contacto4",
-			"rich-text#contacto5"
+			"flex-layout.row#richtext-contacto"
 		]
 	},
 	"image#contacto": {
@@ -44,28 +41,56 @@
 			"src": "/arquivos/mapa.png?v=1"
 		}
 	},
+
+	"flex-layout.row#richtext-contacto":{
+		"children": [
+			"flex-layout.col#richtext-contacto"
+		], "props": {
+			"blockClass": "richtextrow-contacto"
+		}
+	},
+	"flex-layout.col#richtext-contacto":{
+		"children": [
+			"rich-text#contacto2",
+			"rich-text#contacto3",
+			"rich-text#contacto4",
+			"rich-text#contacto6",
+			"rich-text#contacto5"
+		],"props": {
+			"blockClass": "richtextcol-contacto",
+			"rowGap":1
+		}
+	},
+
 	"rich-text#contacto2": {
 		"props": {
 			"text": "**Dirección:** Av. 4to anillo esquina Av. San Martín, Centro Comercial Ventura Mall Planta Baja Local 37",
-			"blockClass": "contacto-top"
+			"blockClass": "contacto-top",
+			"preventVerticalStretch": true
 		}
 	},
 	"rich-text#contacto3": {
 		"props": {
-			"text": "**Teléfono:** +591 78507077",
+			"text": "**Teléfono:** +591 78507077 / +591 3 4023140",
 			"blockClass": "contacto"
 		}
 	},
 	"rich-text#contacto4": {
 		"props": {
-			"text": "**Correo:** servicioalcliente@offcorss.com",
+			"text": "**Correo:** offcorss@fastfashion.com.bo",
 			"blockClass": "contacto"
 		}
 	},
 	"rich-text#contacto5": {
 		"props": {
 			"text": "**Fast Fashion S.R.L**",
-			"blockClass": "contacto"
+			"blockClass": "contacto__bottom"
+		}
+	},
+	"rich-text#contacto6":{
+		"props": {
+			"blockClass": "contacto",
+			"text": "**Horarios:** \n Lunes a Sábado de 10:00am a 22:00pm \n Domingos de 11:00am a 22:00pm"
 		}
 	},
 

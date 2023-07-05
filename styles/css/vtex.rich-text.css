@@ -630,6 +630,17 @@ color: #00000080;
 }
 
 /*----------styles bolivia new theme------*/
+.paragraph--contacto-top{
+	margin: 0;
+}
+
+.paragraph--contacto{
+	margin: 0;
+}
+
+.paragraph--contacto__bottom{
+	margin: 10px 0;
+}
 .paragraph--menu-sub-categorias-content-nina {
 	margin     : 0;
 	color      : #e70095;
@@ -698,6 +709,9 @@ color: #00000080;
 	}
 	.paragraph--newsletter-modal-home {
 		margin: 0;}
+	.headingLevel1--text-quienes-somos-7{
+			font-size: 1rem;
+		}
 	
 	}
 
