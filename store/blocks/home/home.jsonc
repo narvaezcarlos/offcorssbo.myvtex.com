@@ -7,8 +7,8 @@
 			"flex-layout.row#container-vitrinas"
 			
 		],
-		"title": "Store init",
-		"children": ["modal-trigger#home"]
+		"title": "Store init"
+		//,"children": ["modal-trigger#home"]
 	},
 
 	"flex-layout.row#container-vitrinas":{
